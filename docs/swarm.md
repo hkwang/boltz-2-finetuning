@@ -12,7 +12,7 @@ Several agents each try their own way to fine-tune Boltz-2 on the Mac1 crystal s
 | `$SWARM_ROOT/agents/<you>/jobs.jsonl` (laptop) | your job history, written by `iri.py` |
 | Polaris `/eagle/.../boltz2-swarm/agents/<you>/work/<JOB>/` | fresh unpacked copy of the commit a job ran; `experiments/results` there points at `agents/<you>/results/` |
 | Polaris `agents/<you>/results/runs/<NAME>/` | a candidate's logs, weights, exported Boltz checkpoints; `results/mac1_eval/val_<NAME>_seed<S>/` its validation predictions |
-| Polaris `agents/<you>/jobs/<JOB>.out` / `.err` | job stdout and stderr |
+| Polaris `agents/<you>/jobs/<JOB>.log` | the job's combined stdout and stderr, written live (PBS's own `.out`/`.err` appear only after the job ends) |
 
 `SWARM_AGENT` is set. Run everything as `swarm/iri.py ...` from your clone (it is a Python script; `python` on PATH has its dependencies). Never `ssh` or `qsub`.
 

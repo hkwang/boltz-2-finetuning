@@ -142,6 +142,7 @@ async def cmd_run(args) -> None:
 set -eo pipefail
 export AGENT={agent()} NAME={args.name} COMMIT={sha} SWARM_REMOTE={REMOTE}
 work={work}
+exec >>{agent_remote()}/jobs/{args.name}.log 2>&1
 rm -rf "$work" && mkdir -p "$work" && cd "$work"
 tar -xzf {code_dir}/code.tar.gz
 ln -sfn {REMOTE}/shared/structures data/structures
@@ -167,7 +168,7 @@ nvidia-smi -L || true
     result = await client.submit_job(POLARIS, spec)
     job_id = result.get("id") or result.get("job_id")
     record = {"job_id": job_id, "name": args.name, "commit": sha, "minutes": args.minutes, "submitted": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-              "command": command, "stdout": spec["stdout_path"], "stderr": spec["stderr_path"], "workdir": work}
+              "command": command, "stdout": f"{agent_remote()}/jobs/{args.name}.log", "stderr": spec["stderr_path"], "workdir": work}
     with open(jobs_file(), "a") as handle:
         handle.write(json.dumps(record) + "\n")
     print(f"submitted {job_id} ({args.name}, {args.minutes} min, commit {sha[:7]}); workdir {work}")
