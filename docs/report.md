@@ -2,6 +2,16 @@
 
 Status as of 2026-10-15. Built from the running logs in this directory; each section links to the detailed source. Numbers are from the result files under `experiments/results/` (on `/eagle`, linked from the repo).
 
+## Results at a glance
+
+![Results at a glance](figures/results_at_a_glance.png)
+
+**Left, pose (diffusion fine-tuning):** median best-of-5 pocket-aligned ligand RMSD on the 45 held-out entries (lower is better). One marker per prediction seed (2026 / 1 / 2); runs with one marker were predicted at one seed. The dashed line is the stock mean over its 3 seeds (1.37 A).
+
+**Right, affinity (head fine-tuning, step 500):** Spearman (top) and RMSE in log10 uM (bottom) on the measured IC50s, split into val (18) and test (22). Each head is scored on stock poses (blue) and on poses from the `full_lr1e-4` step 1400 structure fine-tune (orange); one prediction seed (2026).
+
+Error bars are 95% bootstrap intervals over entries (2000 resamples); they show the spread from the small held-out set, not seed-to-seed or training-run variation. Step 500 and the runs shown were chosen on the same entries, so the tuned values are optimistic. Regenerate with `python experiments/plot_results_glance.py` (needs matplotlib, which is not in the Boltz environment).
+
 ## 1. Summary
 
 - **Structure (diffusion) fine-tuning works mechanically but barely changes the pose.** On 45 held-out Mac1 complexes, top-1 ligand RMSD improves by 0.02-0.10 A per entry against the stock model at the same prediction seed; most 95% intervals touch zero, and prediction-seed noise on the median (0.2-0.3 A) is larger than any difference between runs. Best-of-5 RMSD improves more (about 1.4 to 0.9-1.2 A), so the tuned model samples better poses that the confidence score does not rank first.
@@ -173,7 +183,7 @@ Paired, over the 40 measured entries (2000 bootstrap resamples):
 - **Selection on the evaluation set.** Steps, learning rates and runs were chosen on the same 45 entries that are reported. The 24 test entries are part of them, so there is no clean test number yet.
 - **Small, homogeneous evaluation.** 45 entries (40 with measured IC50), one protein, chemistry series shared with training. Pose differences under about 0.2 A are noise.
 - **Weak pose reference.** Deposited ligands have median occupancy 0.34; RMSD is against weakly supported coordinates.
-- **Affinity head not scored on stock poses** (no feature cache for them). The zero pose effect makes a difference unlikely, but it is not measured.
+- **Affinity head on stock poses** was scored after the first draft (job 7750393, features cached in `affinity_cache_eval_stockpose`, predictions in `experiments/results/finetune_affinity/stockpose/`): the tuned heads give the same gain on stock poses as on fine-tuned poses (see Results at a glance), so the head can be used without the structure fine-tune. One prediction seed only.
 - **Non-hit labels** are weak negatives on one apo structure and are smaller molecules than the hits (median 13 vs 20 heavy atoms); the binary term may separate by size. Not checked.
 - **Regression set** is three pretraining-era complexes with one seed. It catches gross damage, not subtle changes such as a flipped binding mode.
 - **Hyperparameters** inherited silently from the checkpoint and trainer (weight decay 0.003, AdamW betas 0.9/0.95, gradient clipping 10) were not tuned. Logged runs lack the resolved config, learning rate and gradient norm, and there is no validation loss.
@@ -184,7 +194,7 @@ Paired, over the 40 measured entries (2000 bootstrap resamples):
 In order of value:
 
 1. **Clean affinity estimate.** Pick one head configuration and step using the 21 val entries only, then score the 24 test entries once. Report the test Spearman/RMSE with paired CIs against stock.
-2. **Score the tuned head on stock poses.** Cache trunk features for stock-weight predictions of the 45 entries and rerun the head. This settles whether the affinity head can be used without the structure fine-tune.
+2. **Affinity seed spread.** The affinity rows use one prediction seed; cache features for stock seeds 1 and 2 to get the seed-to-seed spread.
 3. **Find the NCCL timeout.** Check whether the rank-0 held-out evaluation (run between steps while the other ranks wait at a barrier) exceeds the collective timeout as it grows; raise the timeout or move evaluation off the training loop. Then finish the 600-step runs and try 2-3 training seeds.
 4. **Reduce the remaining bias** (+0.6 log10): per-assay offsets or a calibration fit on train, and check censored handling.
 5. **Pose ranking.** Best-of-5 improves more than top-1, so the confidence score, not sampling, limits top-1. Options: rerank samples, or fine-tune the confidence head on the same crystals.
