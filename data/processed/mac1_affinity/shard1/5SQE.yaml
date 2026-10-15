@@ -1,0 +1,12 @@
+version: 1
+sequences:
+- protein:
+    id: A
+    sequence: SMVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFL
+    msa: empty
+- ligand:
+    id: B
+    smiles: O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1ccc(Nn2ccnc2)cc1
+properties:
+- affinity:
+    binder: B
