@@ -103,6 +103,10 @@ Stop `watch` with Ctrl-C, inspect the latest log lines with `tail -n 40 -f boltz
 - For an actual Polaris submission, run `qsub` in an environment that can resolve and reach the configured Polaris PBS server. Sandboxed sessions may lack PBS network access; `/etc/pbs.conf` can identify the configured server. If PBS cannot create its staging file under a read-only `/var/tmp`, set `TMPDIR=/tmp`, for example: `TMPDIR=/tmp qsub -v JOB_SCRIPT="$PWD/testing/dummy_job.pbs" jobs/polaris/run_job.pbs`.
 - After submission, use `qstat -f <job-id>` to check the job state and `Exit_status`, then inspect the PBS output file for the task's success message.
 
+### Reporting results
+
+When you evaluate a model, write results in the standard layout of [`docs/results_reporting.md`](docs/results_reporting.md) (per-entry CSVs, seeds 2026/1/2, pooled held-out set, labelled 95% intervals) so they can be plotted later. You do not need to make plots.
+
 **5. Working style**
 - Implement the simplest correct solution first.
 - Prefer modifying existing code over introducing competing implementations.

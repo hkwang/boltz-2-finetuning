@@ -10,7 +10,7 @@ src/boltz2_finetuning/   reusable data, training, and evaluation code
 experiments/             experiment-specific entry points and run scripts
 jobs/polaris/            Polaris PBS submission templates
 testing/                 local smoke checks and dummy jobs
-docs/                    shared notes; data_schema.md (table layout), datasets.md, mac1_cofold.md, regression_check.md, boltz2_polaris_log.md
+docs/                    shared notes; data_schema.md (table layout), datasets.md, mac1_cofold.md, regression_check.md, boltz2_polaris_log.md, results_reporting.md (standard results layout)
 data/                    raw/ supplements and processed/ tables
 ```
 

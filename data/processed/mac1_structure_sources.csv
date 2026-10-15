@@ -1,0 +1,604 @@
+pdb_id,release_date,source_doi,how,doi,mentioned_in,diffusion,affinity,val,test
+13RI,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RJ,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RK,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RL,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RM,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RN,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RO,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RP,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RQ,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RR,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RS,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx; jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RT,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RU,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RV,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,jmedchem_2026_pmc12788873.xml,False,False,True,False
+13RW,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RX,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,jmedchem_2026_pmc12788873.xml,False,False,False,True
+13RY,2026-01-28,10.1021/acs.jmedchem.5c02933,earliest supplement,,jmedchem_2026_pmc12788873.xml,False,False,False,True
+13VB,2026-09-02,10.7554/elife.110475,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,False,False,False
+14AB,2026-09-16,10.1038/s41586-026-11013-5,PDB citation,10.1038/s41586-026-11013-5,elife110475_supp1.xlsx; elife110475_supp3.xlsx,False,False,True,False
+14AG,2026-09-16,10.7554/elife.110475,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,True,False,False
+14AH,2026-09-16,10.7554/elife.110475,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,False,False,False
+14AK,2026-09-16,10.7554/elife.110475,earliest supplement,,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,False,False,False
+5RS7,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RS8,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RS9,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSB,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSC,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSD,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSE,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSF,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSG,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSH,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSI,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSJ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSK,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSL,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSM,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSN,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSO,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSP,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSQ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSR,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSS,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RST,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSU,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSV,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSW,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RSX,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSY,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RSZ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT0,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RT1,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT2,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT3,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RT4,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT5,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT6,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT7,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RT8,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RT9,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTA,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTB,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTC,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTD,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTE,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTF,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RTG,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTH,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTI,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTJ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTK,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTL,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTM,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTN,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTO,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RTP,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTQ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTR,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTS,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTT,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTU,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTV,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTW,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTX,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RTY,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RTZ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RU0,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RU1,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RU2,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RU3,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RU4,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RU5,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RU6,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RU7,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RU8,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RU9,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUA,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RUC,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUD,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUE,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUF,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUG,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RUH,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RUI,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUJ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUK,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUL,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUM,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUN,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUO,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RUP,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUQ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RUR,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RUS,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUT,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUU,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUV,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RUW,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUX,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RUY,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RUZ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RV0,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RV1,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+5RV2,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RV3,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RV4,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RV5,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RV6,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RV7,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RV8,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RV9,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVA,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVB,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVC,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVD,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVE,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVF,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVG,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVH,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RVI,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVJ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVK,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVL,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RVM,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVN,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVO,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5RVP,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5RVQ,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVR,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVS,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVT,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVU,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5RVV,2020-12-16,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S18,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S1A,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1C,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1E,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S1G,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1I,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1K,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1M,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1O,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S1Q,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S1S,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S1U,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S1W,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S1Y,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S20,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S22,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S24,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S26,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S27,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S28,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S29,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2A,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2B,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2C,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2D,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2E,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S2F,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S2G,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2H,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2I,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2J,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2K,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2L,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2M,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2N,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2O,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S2P,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2Q,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2R,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2S,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2T,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2U,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2V,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2W,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S2X,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2Y,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S2Z,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S30,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S31,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S32,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S33,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S34,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S35,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S36,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S37,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S38,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3A,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3B,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3C,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3D,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3E,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3G,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3H,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3I,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3J,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3K,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3L,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S3M,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3N,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3O,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3P,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3Q,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3R,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3S,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3T,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3U,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3V,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3W,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3X,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S3Y,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S3Z,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5S40,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S41,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S42,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S43,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S44,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S45,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S46,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S47,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S48,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S49,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S4A,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S4B,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S4C,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S4D,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S4F,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S4G,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S4H,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S4I,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5S4J,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,True,False,False
+5S4K,2021-01-13,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx,True,False,False,False
+5SOI,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOJ,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOK,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOL,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOM,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SON,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOO,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOP,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOQ,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOR,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOS,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOT,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOU,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOV,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SOW,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOX,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOY,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SOZ,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SP0,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SP1,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SP2,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SP3,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SP4,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SP6,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SP7,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SP8,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SP9,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPA,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPB,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPC,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPD,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPE,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPF,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPG,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPH,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPI,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPJ,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPK,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPL,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPM,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPN,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPO,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPP,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPQ,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPR,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPS,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPT,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPU,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPV,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPW,2022-07-13,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPX,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SPY,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SPZ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQ0,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQ1,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQ2,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQ3,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQ4,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQ5,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQ6,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQ7,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQ8,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQ9,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQA,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQB,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQC,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQD,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQE,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQF,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQG,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQH,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQI,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQJ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5SQK,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQL,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQM,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQN,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQO,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQP,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQQ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQR,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQS,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQT,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQU,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQV,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SQW,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQX,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQY,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SQZ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SR0,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SR1,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SR2,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SR3,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SR4,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SR5,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SR6,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SR7,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SR8,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SR9,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRA,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRB,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRC,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRD,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRE,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRF,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRG,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRH,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRI,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRJ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRK,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRL,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRM,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRN,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRO,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRP,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRQ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRR,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRS,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRT,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRU,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRV,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRW,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SRX,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SRY,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+5SRZ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SS0,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS1,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS2,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS3,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SS4,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS5,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SS6,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS7,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS8,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SS9,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSA,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSB,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSC,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSD,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSE,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSF,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSG,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSH,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSI,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSJ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSK,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSL,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSM,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSN,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd02.xlsx,True,False,False,False
+5SSO,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSP,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSQ,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+5SSR,2022-07-06,10.1073/pnas.2212931120,PDB citation,10.1073/pnas.2212931120,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+6W02,2020-03-11,10.1107/s2052252520009653,PDB citation,10.1107/S2052252520009653,pnas_2212931120_sd01.xlsx,True,False,False,False
+6YWL,2020-05-06,10.1021/acsmedchemlett.0c00684,PDB citation,10.1021/acsmedchemlett.0c00684,elife110475_supp6.xlsx,True,False,False,False
+6Z6I,2020-12-02,10.1098/rsob.200237,PDB citation,10.1098/rsob.200237,elife110475_supp6.xlsx,True,False,False,False
+6Z72,2020-12-02,10.1098/rsob.200237,PDB citation,10.1098/rsob.200237,elife110475_supp6.xlsx,True,False,False,False
+7BF3,2021-01-13,10.1021/acsmedchemlett.0c00684,PDB citation,10.1021/acsmedchemlett.0c00684,elife110475_supp6.xlsx,True,False,False,False
+7BF4,2021-01-13,10.1021/acsmedchemlett.0c00684,PDB citation,10.1021/acsmedchemlett.0c00684,elife110475_supp6.xlsx,True,False,False,False
+7BF5,2021-01-13,10.1021/acsmedchemlett.0c00684,PDB citation,10.1021/acsmedchemlett.0c00684,elife110475_supp6.xlsx,True,False,False,False
+7FR0,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR1,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR2,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR3,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR4,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR5,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR6,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR7,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR8,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FR9,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FRA,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FRB,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FRC,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7FRD,2022-11-09,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7HC4,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx,False,False,False,True
+7HC5,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx; elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,True,False,False
+7HC6,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx; elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,True,False,False
+7HC7,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx,True,True,False,False
+7HC8,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx; elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,True,False,False
+7HC9,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx,True,False,False,False
+7HCA,2025-08-20,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx,True,False,False,False
+7HCB,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCC,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCD,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCE,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCF,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HCG,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HCH,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HCI,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCJ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HCK,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCL,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCM,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCN,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HCO,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HCP,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HCQ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCR,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCS,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCT,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCU,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCV,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HCW,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HCX,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HCY,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HCZ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD0,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD1,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HD2,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD3,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD4,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HD5,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD6,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HD7,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD8,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HD9,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HDA,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDB,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDC,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDD,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDE,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HDF,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDG,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDH,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDI,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDJ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDK,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDL,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HDM,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDN,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HDO,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDP,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDQ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDR,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDS,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDT,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDU,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDV,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDW,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDX,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDY,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HDZ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HE0,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE1,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE2,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE3,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE4,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE5,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE6,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE7,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HE8,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HE9,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEA,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HEB,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEC,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HED,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HEE,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEF,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEG,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEH,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEI,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEJ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEK,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEL,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEM,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEN,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEO,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEP,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEQ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HER,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HES,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HET,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEU,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HEV,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEW,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HEX,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEY,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HEZ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HF0,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HF1,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HF2,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HF3,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HF4,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HF5,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HF6,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HF7,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,elife110475_supp1.xlsx; elife110475_supp3.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HF8,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HF9,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HFA,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HFB,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFC,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HFD,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HFE,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,True,False
+7HFF,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFG,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFH,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFI,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFJ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFK,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFL,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFM,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFN,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFO,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFP,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFQ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFR,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFS,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFT,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFU,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HFV,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HFW,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,False,False,False
+7HFX,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+7HFY,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7HFZ,2025-06-11,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7IJ0,2025-09-17,10.1038/s41586-026-11013-5,PDB citation,10.1038/s41586-026-11013-5,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,False,False,False
+7IJ2,2025-09-17,10.1038/s41586-026-11013-5,PDB citation,10.1038/s41586-026-11013-5,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,True,False,False
+7IJ3,2025-09-17,10.1038/s41586-026-11013-5,PDB citation,10.1038/s41586-026-11013-5,elife110475_supp1.xlsx; elife110475_supp3.xlsx,True,True,False,False
+7KQO,2020-12-09,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,jmedchem_2026_pmc12788873.xml,True,True,False,False
+7KQP,2020-12-09,10.1126/sciadv.abf8711,PDB citation,10.1126/sciadv.abf8711,elife110475_supp6.xlsx; jmedchem_2026_pmc12788873.xml; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+7LG7,2021-02-17,10.1016/j.pbiomolbio.2021.02.002,PDB citation,10.1016/j.pbiomolbio.2021.02.002,elife110475_supp6.xlsx,True,False,False,False
+7QG7,2021-12-15,10.1016/j.jmb.2022.167720,PDB citation,10.1016/j.jmb.2022.167720,elife110475_supp6.xlsx,True,False,False,False
+7TWT,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TWV,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TWW,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TWX,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TWY,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TX0,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TX1,2022-02-23,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+7TX5,2022-02-23,10.1126/sciadv.abo5083,PDB citation,10.1126/sciadv.abo5083,elife110475_supp6.xlsx,True,False,False,False
+8AZC,2023-09-13,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZD,2023-09-13,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZI,2024-03-20,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZL,2024-03-20,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZM,2024-03-20,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZN,2024-03-20,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZO,2024-03-20,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8AZP,2024-03-20,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+8C1A,2023-03-08,10.3390/pathogens12020324,PDB citation,10.3390/pathogens12020324,elife110475_supp6.xlsx,True,False,False,False
+8ERS,2022-11-09,10.1073/pnas.2212931120,earliest supplement,,elife110475_supp6.xlsx; pnas_2212931120_sd01.xlsx; pnas_2212931120_sd02.xlsx,True,True,False,False
+8GIA,2023-05-17,10.1021/acschembio.3c00092,PDB citation,10.1021/acschembio.3c00092,elife110475_supp6.xlsx,True,False,False,False
+8SH8,2024-05-01,10.7554/elife.110475,earliest supplement,,elife110475_supp6.xlsx,True,False,False,False
+9CXY,2026-04-08,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx,True,True,False,False
+9CXZ,2026-04-08,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx,True,True,False,False
+9CY0,2025-11-12,10.7554/elife.103484,earliest supplement,,elife103484_supp1.xlsx; jmedchem_2026_pmc12788873.xml,False,False,False,True
+9D6B,2025-05-21,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,elife110475_supp1.xlsx; elife110475_supp3.xlsx; scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+9D6G,2025-05-21,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+9D6H,2025-05-21,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,elife110475_supp1.xlsx; elife110475_supp3.xlsx; scienceadv_ads7187_table_s2.xlsx,False,False,False,True
+9D6I,2025-05-21,10.1126/sciadv.ads7187,PDB citation,10.1126/sciadv.ads7187,scienceadv_ads7187_table_s2.xlsx,True,True,False,False
+9YKH,2026-09-16,10.1021/acs.jmedchem.5c02933,PDB citation,10.1021/acs.jmedchem.5c02933,jmedchem_2026_pmc12788873.xml,False,False,False,True

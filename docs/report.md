@@ -2,6 +2,30 @@
 
 Status as of 2026-10-15. Built from the running logs in this directory; each section links to the detailed source. Numbers are from the result files under `experiments/results/` (on `/eagle`, linked from the repo).
 
+## Results at a glance
+
+Both figures show the same numbers with different error bars. Left: diffusion fine-tuning, median best-of-5 pocket-aligned ligand RMSD on the 45 held-out entries (lower is better). Right: affinity-head fine-tuning (step 500), Spearman (top) and RMSE in log10 uM (bottom) on the 40 measured IC50s, with each head scored on stock poses (blue) and on poses from the `full_lr1e-4` step 1400 structure fine-tune (orange). Run labels give the number of prediction seeds; three runs (full 3e-6, full 3e-4 at steps 1000 and 2000) were predicted at one seed only.
+
+**Val and test are pooled** for both pose and affinity. They are built the same way (ligand clusters shuffled into val and test), and checkpoints and runs were chosen on all 45 entries, so neither is an untouched test set; one pooled estimate is less noisy than two on 18 and 22 IC50s. A clean test number would need selection on val only, then a single test evaluation (next steps, item 1).
+
+**Held-out set.** The 45 entries are all Mac1 crystal structures with an IC50 and a deposited ligand pose in the val (21) or test (24) split. None is used in any training. They cover 15 ligand clusters (8 val, 7 test) that the split keeps apart from training clusters, and were released 2025-05 to 2026-09, after the Boltz-2 training cutoff. Sources: Correy et al. *Sci. Adv.* 2025 (24), Jaishankar et al. *J. Med. Chem.* 2025 (18), Suryawanshi et al. *eLife* 2025 (2), Xu et al. *Nature* 2026 (1). Resolution 0.80-1.11 A; IC50 0.02-1000 uM. The pose metric uses all 45 (5 samples each, the median over entries per run). Affinity uses the 40 measured (`=`) IC50s (18 val, 22 test); the 5 censored ones are scored separately. Deposited ligand occupancy is low (median 0.34), so the reference poses are only weakly supported by density.
+
+### Error bars over prediction seeds
+
+![Results at a glance, 95% CI over seeds](figures/results_at_a_glance_seeds.png)
+
+Diamonds are the mean over prediction seeds 2026, 1 and 2; bars are a 95% t-interval over those seeds (n = 3, mean +/- 4.30 x SD / sqrt 3); the small dots are the individual seeds. **This interval is over seeds, not over entries**: it shows how reproducible a number is when only the diffusion sampling seed changes, with the same 45 entries. Single-seed runs have no bar. Affinity bars are very narrow because seeds move affinity predictions by a median of 0.02-0.04 log10 per entry. Some heads give identical Spearman at all three seeds (no bar), because small changes in the predictions did not change the rank order.
+
+### Error bars over entries (bootstrap)
+
+![Results at a glance, 95% bootstrap CI over entries](figures/results_at_a_glance_bootstrap.png)
+
+One marker per prediction seed, each with a 95% bootstrap interval over held-out entries (2000 resamples of the entries, statistic recomputed each time). **This interval is over entries, not seeds**: it shows how much a number could move with a different small set of compounds, the dominant uncertainty here.
+
+Reading both together: seed noise is small, entry-set noise is large. Every run and head is scored on the same entries, so differences between them are better judged by the paired comparisons in section 5. For example, a tuned head minus the stock head on identical entries gives Spearman +0.14 to +0.17, with every 95% interval above zero. Step 500 and the runs shown were chosen on these same entries, so the tuned values are optimistic.
+
+Regenerate with `python experiments/plot_results_glance.py` (needs matplotlib, which is not in the Boltz environment). It also writes the plotted values to `docs/figures/results_at_a_glance_pose.csv` and `results_at_a_glance_affinity.csv`.
+
 ## 1. Summary
 
 - **Structure (diffusion) fine-tuning works mechanically but barely changes the pose.** On 45 held-out Mac1 complexes, top-1 ligand RMSD improves by 0.02-0.10 A per entry against the stock model at the same prediction seed; most 95% intervals touch zero, and prediction-seed noise on the median (0.2-0.3 A) is larger than any difference between runs. Best-of-5 RMSD improves more (about 1.4 to 0.9-1.2 A), so the tuned model samples better poses that the confidence score does not rank first.
@@ -19,6 +43,34 @@ Details: [`datasets.md`](datasets.md), [`data_schema.md`](data_schema.md).
 - **Training records** (`data/processed/mac1_training_records.csv`): 603 crystal entries, of which 557 train the diffusion head (`diffusion_train`); 2346 non-hit ligands (SMILES paired with the apo 7KQO structure, no pose) and 174 fragment hits as binary labels for the affinity head.
 - **Held-out evaluation set:** 45 entries (21 val + 24 test) with an IC50 and a deposited pose, excluded from all training. 40 measured, 5 censored.
 - **Ligand matching** (`src/boltz2_finetuning/ligands.py`): table SMILES are checked against the component actually deposited in each mmCIF; pose scoring uses the deposited SMILES. 96 pairs use 5-character CCD codes missing from Boltz's cache, rebuilt in Boltz's format by `src/boltz2_finetuning/ccd.py`.
+
+### Structure sources
+
+All 603 structures are public RCSB X-ray entries (`data/structures/mac1/`), found by scanning the paper supplements in `data/raw/mac1/` for PDB IDs and keeping entries with at least a 100-residue exact match to the Mac1 sequence of 5SQW (`experiments/fetch_mac1_structures.py`). Each structure is counted under the paper given as the primary citation of its PDB entry; the 62 entries whose citation is still "To be published" are assigned to the earliest paper whose supplement lists them. Publication dates are from Crossref (online date where available). Per-structure assignments: `data/processed/mac1_structure_sources.csv`.
+
+| Published | Paper | DOI | Structures | Assigned via supplement | Diffusion train | Affinity train | Val | Test |
+|---|---|---|--:|--:|--:|--:|--:|--:|
+| 2020-07-17 | Michalska et al., *IUCrJ* | 10.1107/S2052252520009653 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2020-11-18 | Rack et al., *Open Biol.* | 10.1098/rsob.200237 | 2 | 0 | 2 | 0 | 0 | 0 |
+| 2021-03-16 | Ni et al., *ACS Med. Chem. Lett.* | 10.1021/acsmedchemlett.0c00684 | 4 | 0 | 4 | 0 | 0 | 0 |
+| 2021-04-16 | Schuller et al., *Sci. Adv.* (fragment screen) | 10.1126/sciadv.abf8711 | 234 | 0 | 234 | 184 | 0 | 0 |
+| 2021-08-01 | Brosey et al., *Prog. Biophys. Mol. Biol.* | 10.1016/j.pbiomolbio.2021.02.002 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2022-05-27 | Correy et al., *Sci. Adv.* | 10.1126/sciadv.abo5083 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2022-08-01 | Tsika et al., *J. Mol. Biol.* | 10.1016/j.jmb.2022.167720 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2023-01-04 | Gahbauer et al., *PNAS* | 10.1073/pnas.2212931120 | 154 | 1 | 154 | 70 | 0 | 0 |
+| 2023-02-15 | Schuller et al., *Pathogens* | 10.3390/pathogens12020324 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2023-05-01 | Anmangandla et al., *ACS Chem. Biol.* | 10.1021/acschembio.3c00092 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2025-05-30 | Correy et al., *Sci. Adv.* | 10.1126/sciadv.ads7187 | 137 | 0 | 112 | 36 | 13 | 12 |
+| 2025-11-19 | Suryawanshi et al., *eLife* | 10.7554/eLife.103484 | 10 | 10 | 8 | 6 | 0 | 2 |
+| 2025-12-17 | Jaishankar et al., *J. Med. Chem.* | 10.1021/acs.jmedchem.5c02933 | 18 | 17 | 0 | 0 | 7 | 11 |
+| 2026-09-16 | Xu et al., *Nature* | 10.1038/s41586-026-11013-5 | 4 | 0 | 3 | 2 | 1 | 0 |
+| 2026-10-12 | Kim et al., *eLife* | 10.7554/eLife.110475 | 34 | 34 | 34 | 1 | 0 | 0 |
+| | **Total** | | **603** | **62** | **557** | **299** | **21** | **25** |
+
+- Diffusion train + val + test = structures: diffusion training uses every structure except val/test.
+- Affinity train counts structures whose predicted pose is an affinity-head training row: 124 IC50 pairs, 174 fragment hits and the apo structure 7KQO, which all 2,347 non-binder ligands share. All 299 are also in diffusion training.
+- Val/test is 46 structures (an earlier split, before the 8 Schuller 2021 IC50s were added, had 48). 7HFX is a test structure but is not scored, because its deposited ligand does not match the table compound, so the held-out evaluation set is 45.
+- Kim et al. *eLife* Supp. file 6 lists 420 of these structures, but most were first published by Schuller 2021, Gahbauer 2023 or Correy 2025, so it is credited with 34. The 17 J. Med. Chem. entries without a PDB citation are assigned through the paper's text and all sit in val/test.
 
 ## 3. Making it run on Polaris
 
@@ -120,14 +172,14 @@ Details: [`finetuning_plan.md`](finetuning_plan.md). Trainable: `affinity_module
 
 All jobs died just after step 500 on an NCCL all-reduce watchdog timeout (same collective sequence number in all three 4-GPU jobs); step 500 weights and evaluations are complete and step 500 is used.
 
-| Pose | Head | Spearman | RMSE | Bias | MAE | Spearman val / test |
-|---|---|---|---|---|---|---|
-| stock | stock | 0.68 | 1.31 | +0.99 | 1.14 | 0.71 / 0.70 |
-| fine-tuned | stock | 0.67 | 1.30 | +0.98 | 1.14 | 0.72 / 0.69 |
-| fine-tuned | `aff_lr1e-5` | 0.81 | 0.99 | +0.65 | 0.82 | 0.86 / 0.79 |
-| fine-tuned | `aff_lr2e-5` | 0.84 | 0.99 | +0.66 | 0.83 | 0.87 / 0.80 |
-| fine-tuned | `aff_lr5e-5` | 0.84 | 0.95 | +0.60 | 0.81 | 0.84 / 0.87 |
-| fine-tuned | `aff_nopair` (no pairwise term) | 0.81 | 0.95 | +0.61 | 0.79 | 0.83 / 0.79 |
+| Pose | Head | Spearman | RMSE | Bias | MAE |
+|---|---|---|---|---|---|
+| stock | stock | 0.68 | 1.31 | +0.99 | 1.14 |
+| fine-tuned | stock | 0.67 | 1.30 | +0.98 | 1.14 |
+| fine-tuned | `aff_lr1e-5` | 0.81 | 0.99 | +0.65 | 0.82 |
+| fine-tuned | `aff_lr2e-5` | 0.84 | 0.99 | +0.66 | 0.83 |
+| fine-tuned | `aff_lr5e-5` | 0.84 | 0.95 | +0.60 | 0.81 |
+| fine-tuned | `aff_nopair` (no pairwise term) | 0.81 | 0.95 | +0.61 | 0.79 |
 
 Paired, over the 40 measured entries (2000 bootstrap resamples):
 
@@ -145,7 +197,7 @@ Paired, over the 40 measured entries (2000 bootstrap resamples):
 - **Selection on the evaluation set.** Steps, learning rates and runs were chosen on the same 45 entries that are reported. The 24 test entries are part of them, so there is no clean test number yet.
 - **Small, homogeneous evaluation.** 45 entries (40 with measured IC50), one protein, chemistry series shared with training. Pose differences under about 0.2 A are noise.
 - **Weak pose reference.** Deposited ligands have median occupancy 0.34; RMSD is against weakly supported coordinates.
-- **Affinity head not scored on stock poses** (no feature cache for them). The zero pose effect makes a difference unlikely, but it is not measured.
+- **Affinity head on stock poses** was scored after the first draft (job 7750393, features cached in `affinity_cache_eval_stockpose`, predictions in `experiments/results/finetune_affinity/stockpose/`): the tuned heads give the same gain on stock poses as on fine-tuned poses (see Results at a glance), at all three prediction seeds (seeds 1 and 2 of both pose sources: job 7750429, predictions in `experiments/results/finetune_affinity/heads_on_poses/`), so the head can be used without the structure fine-tune.
 - **Non-hit labels** are weak negatives on one apo structure and are smaller molecules than the hits (median 13 vs 20 heavy atoms); the binary term may separate by size. Not checked.
 - **Regression set** is three pretraining-era complexes with one seed. It catches gross damage, not subtle changes such as a flipped binding mode.
 - **Hyperparameters** inherited silently from the checkpoint and trainer (weight decay 0.003, AdamW betas 0.9/0.95, gradient clipping 10) were not tuned. Logged runs lack the resolved config, learning rate and gradient norm, and there is no validation loss.
@@ -156,7 +208,7 @@ Paired, over the 40 measured entries (2000 bootstrap resamples):
 In order of value:
 
 1. **Clean affinity estimate.** Pick one head configuration and step using the 21 val entries only, then score the 24 test entries once. Report the test Spearman/RMSE with paired CIs against stock.
-2. **Score the tuned head on stock poses.** Cache trunk features for stock-weight predictions of the 45 entries and rerun the head. This settles whether the affinity head can be used without the structure fine-tune.
+2. **Paired-difference figure.** Plot each tuned head minus the stock head on identical entries, with bootstrap intervals, so the figure shows the gain directly rather than through overlapping intervals.
 3. **Find the NCCL timeout.** Check whether the rank-0 held-out evaluation (run between steps while the other ranks wait at a barrier) exceeds the collective timeout as it grows; raise the timeout or move evaluation off the training loop. Then finish the 600-step runs and try 2-3 training seeds.
 4. **Reduce the remaining bias** (+0.6 log10): per-assay offsets or a calibration fit on train, and check censored handling.
 5. **Pose ranking.** Best-of-5 improves more than top-1, so the confidence score, not sampling, limits top-1. Options: rerank samples, or fine-tune the confidence head on the same crystals.
