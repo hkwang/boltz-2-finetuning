@@ -47,7 +47,7 @@ for agent in "$@"; do
         echo "tmux session swarm-$agent already exists; leaving it running"
         continue
     fi
-    SWARM_ROOT="$root" SWARM_AGENT="$agent" "$py" "$here/iri.py" board register --agent "$agent" --deadline "$(date -u -d "+${SWARM_HOURS:-7.5} hours" +%FT%TZ)" >/dev/null
+    SWARM_ROOT="$root" SWARM_AGENT="$agent" "$py" "$here/iri.py" board register --agent "$agent" --deadline "$(date -u -d "@$(( $(date +%s) + $(awk "BEGIN{printf \"%d\", ${SWARM_HOURS:-7.5}*3600}") ))" +%FT%TZ)" >/dev/null
     tmux new-session -d -s "swarm-$agent" -c "$work" \
         "export PATH='$(dirname "$py")':\$PATH SWARM_ROOT='$root' SWARM_AGENT='$agent' SWARM_HOURS='${SWARM_HOURS:-7.5}' CODEX_ARGS='$CODEX_ARGS' IRI_REPO='${IRI_REPO:-$HOME/Documents/codex/myproject/gm_hackathon_agentic_ai}'; bash '$here/agent_loop.sh'; echo; echo 'agent loop ended; press enter'; read"
     echo "started $agent (tmux attach -t swarm-$agent; log $root/$agent/.swarm-logs/$agent.log)"
