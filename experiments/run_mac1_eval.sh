@@ -3,6 +3,7 @@
 # LABEL names the run (output: experiments/results/mac1_eval/$LABEL). CKPT_DIR, if set, holds boltz2_conf.ckpt and
 # boltz2_aff.ckpt written by experiments/make_finetuned_checkpoint.py; otherwise the pretrained weights in the Boltz cache are used.
 # INPUTS_DIR and ENTRIES (defaults: all 45 held-out YAMLs and eval_entries.csv) select a subset, e.g. for smoke tests.
+# SEED overrides the predict seed of configs/mac1_cofold.yaml (used to measure sampling noise of the same weights).
 # DEVICES=N (default 4) runs Boltz data-parallel over entries. Predict settings follow configs/mac1_cofold.yaml except 5 structure samples.
 set -euo pipefail
 
@@ -52,7 +53,7 @@ boltz predict "${INPUTS_DIR:-data/processed/mac1_eval/inputs}" \
     --diffusion_samples_affinity "$diffusion_aff" \
     --num_workers 0 \
     --preprocessing-threads 4 \
-    --seed "$seed" \
+    --seed "${SEED:-$seed}" \
     --override
 echo "boltz predict wall time: ${SECONDS}s on ${devices} GPU(s)"
 
