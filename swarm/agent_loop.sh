@@ -13,10 +13,11 @@ log_dir="$PWD/../.swarm-logs"
 mkdir -p "$log_dir"
 log="$log_dir/$agent.log"
 
-prompt="$(python3 - "$here/agent_prompt.md" "$agent" "$deadline" "$buffer" <<'PY'
+prompt="$(python3 - "$here/agent_prompt.md" "$agent" "$deadline" "$buffer" "${SWARM_TASK:-}" <<'PY'
 import sys
-template, agent, deadline, buffer = sys.argv[1:]
-print(open(template).read().replace("{AGENT}", agent).replace("{DEADLINE}", deadline).replace("{BUFFER}", buffer))
+template, agent, deadline, buffer, task = sys.argv[1:]
+prompt = open(template).read().replace("{AGENT}", agent).replace("{DEADLINE}", deadline).replace("{BUFFER}", buffer)
+print(prompt + (f"\nOperator instruction for this run (takes precedence over the defaults above): {task}\n" if task else ""))
 PY
 )"
 

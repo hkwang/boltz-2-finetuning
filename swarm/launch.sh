@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Start N persistent agents on this laptop, one tmux session and one git clone each. Polaris is reached through swarm/iri.py (IRI + Globus).
 # Usage: swarm/launch.sh [N | AGENT ...]     (default 9 agents named agent1..agent9)
-# Env: SWARM_ROOT (default ~/boltz2-swarm: hub repo, board, clones), SWARM_PY (python with pandas/scipy/httpx/globus-sdk, default
+# Env: SWARM_TASK (optional extra instruction appended to every agent's prompt, e.g. a short trial), SWARM_BUFFER_HOURS (default 1),
+#      SWARM_ROOT (default ~/boltz2-swarm: hub repo, board, clones), SWARM_PY (python with pandas/scipy/httpx/globus-sdk, default
 #      ~/boltz2-swarm-tools/.venv/bin/python), IRI_REPO (gm_hackathon_agentic_ai clone holding mcp/ and .env), CODEX_ARGS, SWARM_HOURS (default 7.5).
 # Needs: tmux, git, codex (AMSC_TOKEN exported), Globus Connect Personal running, valid ALCF IRI + Globus tokens in $IRI_REPO/.env.
 set -euo pipefail
@@ -19,7 +20,7 @@ command -v tmux >/dev/null || { echo "tmux is required" >&2; exit 1; }
 if [[ "${SKIP_E2E:-0}" != 1 ]]; then
     tested="$(cat "$root/e2e_passed" 2>/dev/null || true)"
     [[ -n "$tested" ]] || { echo "run swarm/e2e_test.sh first (or SKIP_E2E=1): no passing end-to-end check recorded" >&2; exit 1; }
-    git -C "$repo_root" diff --quiet "$tested" HEAD -- swarm experiments src configs jobs ||
+    git -C "$repo_root" diff --quiet "$tested" HEAD -- swarm/iri.py experiments src configs jobs ||
         { echo "pipeline code changed since the last passing swarm/e2e_test.sh (${tested:0:7}); rerun it (or SKIP_E2E=1)" >&2; exit 1; }
 fi
 if [[ ! -d "$root/repo.git" ]]; then
@@ -49,7 +50,7 @@ for agent in "$@"; do
     fi
     SWARM_ROOT="$root" SWARM_AGENT="$agent" "$py" "$here/iri.py" board register --agent "$agent" --deadline "$(date -u -d "@$(( $(date +%s) + $(awk "BEGIN{printf \"%d\", ${SWARM_HOURS:-7.5}*3600}") ))" +%FT%TZ)" >/dev/null
     tmux new-session -d -s "swarm-$agent" -c "$work" \
-        "export PATH='$(dirname "$py")':\$PATH SWARM_ROOT='$root' SWARM_AGENT='$agent' SWARM_HOURS='${SWARM_HOURS:-7.5}' CODEX_ARGS='$CODEX_ARGS' IRI_REPO='${IRI_REPO:-$HOME/Documents/codex/myproject/gm_hackathon_agentic_ai}'; bash '$here/agent_loop.sh'; echo; echo 'agent loop ended; press enter'; read"
+        "export PATH='$(dirname "$py")':\$PATH SWARM_ROOT='$root' SWARM_AGENT='$agent' SWARM_HOURS='${SWARM_HOURS:-7.5}' SWARM_BUFFER_HOURS='${SWARM_BUFFER_HOURS:-1}' SWARM_TASK=$(printf %q "${SWARM_TASK:-}") CODEX_ARGS='$CODEX_ARGS' IRI_REPO='${IRI_REPO:-$HOME/Documents/codex/myproject/gm_hackathon_agentic_ai}'; bash '$here/agent_loop.sh'; echo; echo 'agent loop ended; press enter'; read"
     echo "started $agent (tmux attach -t swarm-$agent; log $root/$agent/.swarm-logs/$agent.log)"
 done
 echo "watch the team: swarm/watch.sh"
