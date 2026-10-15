@@ -93,3 +93,6 @@ Shared state on `/eagle/GenesisHackathonOct26/hkwang/boltz2-swarm`: `repo.git` (
 - 15:41 to 15:48: worker + full candidate pipeline verified on a node (jobs 7748880).
 - 15:50: real board initialised. 15:52: proxy probe (job 7748920) shows the proxy works again.
 - 15:50: agent-loop resume test run and stopped; no stray processes left.
+- 15:53: operator board calls (`swarm/watch.sh`) verified through the stand-in ssh against the real board; `remote.sh` now creates the operator clone on first use (`fe97f63`).
+- 15:55: `run_candidate.sh` now writes `run_info.json` (commit, config text, overrides, job id) per attempt, and `experiments/run_test_eval.sh` (operator only, 24 test + 21 val entries, 3 seeds) was added (`9f085f9`). `check-frozen` still passes on master, so these did not invalidate the board's frozen hashes.
+- Cleanup left to the operator: scratch roots `boltz2-swarm-test`, `boltz2-swarm-t2` on `/eagle` and `/tmp/*_ops*`, `/tmp/looptest`, `/tmp/fakessh` (the sandbox here blocks `rm -rf`).
