@@ -86,7 +86,7 @@ Reading:
 - **Prediction-seed noise is 0.2 to 0.3 A on the top-1 median** (stock: 1.61, 1.86, 1.84 for the same weights). It is larger than any difference between my checkpoints, so only same-seed paired changes and best-of-5 are interpretable.
 - Every fine-tune is slightly better than stock at the same seed (paired change -0.02 to -0.10 A, most CIs touching zero) and best-of-5 improves from 1.3-1.4 to 0.9-1.2 A. Learning rate (3e-6 to 3e-4), method (full vs LoRA) and step count are not separable. Full 3e-4 at 2000 steps is no better than 1e-4 at 1400, so larger rates stop helping.
 - Affinity is unchanged (Spearman 0.66-0.70, bias +0.97 to +1.01), as the affinity head was not trained.
-- Candidates for downstream use: `full_lr1e-4` step 1400 and `lora_r16_lr3e-4` step 2000. Neither is adopted until the pretrain regression check (other agent, `docs/regression_check.md`) passes.
+- Candidates for downstream use: `full_lr1e-4` step 1400 and `lora_r16_lr3e-4` step 2000. Both pass the pretrain regression check (jobs 7749932, 7749933; CA RMSD +0.01 to +0.09 A, ligand RMSD unchanged or slightly better, all samples within 2 A; see `docs/regression_check.md`).
 
 ## Affinity-head fine-tuning
 

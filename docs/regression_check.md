@@ -129,3 +129,18 @@ Reading it:
   so call a change real only when it is well above 0.1-0.2 A in CA RMSD until that is measured.
 - **Limits.** Random noise is not what training does. A fine-tune can degrade specific features (for example flipping a binding mode) without moving the fold, which this
   three-system set may not catch. It also cannot say whether a Mac1 fine-tune helps Mac1.
+
+## Result: candidate fine-tunes (jobs 7749932, 7749933)
+
+Tags `full_lr1e-4_step1400` (`finetune_diffusion/full_lr1e-4/weights/step1400.pt`, 779 tensors) and `lora_r16_lr3e-4_step2000`
+(`finetune_diffusion/lora_r16_lr3e-4/weights/step2000.pt`, merged LoRA weights). Top-ranked sample; in A; stock -> tuned.
+
+| System | CA RMSD, full | ligand pocket, full | CA RMSD, LoRA | ligand pocket, LoRA | iPTM stock / full / LoRA | samples ok |
+|---|---|---|---|---|---|---|
+| `abl_imatinib` | 0.70 -> 0.71 | 0.25 -> 0.20 | 0.70 -> 0.76 | 0.25 -> 0.20 | 0.99 / 0.98 / 0.99 | 5/5 all |
+| `cdk2_staurosporine` | 0.51 -> 0.56 | 0.32 -> 0.25 | 0.51 -> 0.60 | 0.32 -> 0.27 | 0.99 / 0.99 / 0.99 | 5/5 all |
+| `streptavidin_biotin` | 1.03 -> 1.05 | 0.81 -> 0.81 | 1.03 -> 1.04 | 0.81 -> 0.79 | 0.97 / 0.97 / 0.96 | 5/5 all |
+
+**Both pass.** CA RMSD moves by +0.01 to +0.09 A (0.1 x noise moved it by 2.3-3.1 A), ligand pocket RMSD is unchanged or 0.02-0.07 A better,
+iPTM moves by at most 0.01, and every sample is within 2 A. The changes are below the tolerance set above (0.1-0.2 A CA) and seed-to-seed spread is
+still unmeasured, so read this as "no detectable regression", not as an improvement. LoRA moves CA slightly more than full fine-tuning on two systems.
