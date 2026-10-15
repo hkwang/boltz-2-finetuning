@@ -1,7 +1,7 @@
 """Shared results board and message channel for fine-tuning agents that run in separate PBS jobs.
 
-Everything lives in $SWARM_ROOT/board (default /eagle/GenesisHackathonOct26/hkwang/boltz2-swarm/board) as append-only JSON lines
-written under a file lock, so agents on different nodes can use it at the same time:
+Everything lives in $SWARM_ROOT/board (default ~/boltz2-swarm/board, on the laptop that runs the agents) as append-only JSON lines
+written under a file lock, so agents in different processes can use it at the same time:
   results.jsonl   one scored candidate per line (written only by `post-result`)
   messages.jsonl  notes, claims, questions and warnings between agents
   agents.jsonl    agent registrations
@@ -26,7 +26,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-SWARM_ROOT = Path(os.environ.get("SWARM_ROOT", "/eagle/GenesisHackathonOct26/hkwang/boltz2-swarm"))
+SWARM_ROOT = Path(os.environ.get("SWARM_ROOT", Path.home() / "boltz2-swarm"))
 BOARD = SWARM_ROOT / "board"
 FROZEN_FILES = [
     "data/processed/mac1_splits.csv",
@@ -198,25 +198,35 @@ def command_read(args) -> None:
 
 def command_post_result(args) -> None:
     repo = Path.cwd()
-    dirty = bool(git(repo, "status", "--porcelain", "--untracked-files=no"))
+    dirty = False if args.commit else bool(git(repo, "status", "--porcelain", "--untracked-files=no"))
     if dirty and not args.allow_dirty:
         raise SystemExit("tracked files have uncommitted changes: commit them first so the result can be reproduced (or pass --allow-dirty)")
-    command_check_frozen(argparse.Namespace(repo=repo))
+    if args.commit:
+        frozen = json.loads((BOARD / "frozen.json").read_text())["files"]
+        changed = []
+        for name, digest in frozen.items():
+            shown = subprocess.run(["git", "-C", str(repo), "show", f"{args.commit}:{name}"], capture_output=True)
+            if shown.returncode != 0 or hashlib.sha256(shown.stdout).hexdigest() != digest:
+                changed.append(name)
+        if changed:
+            raise SystemExit(f"commit {args.commit[:7]} changes frozen files: " + ", ".join(changed))
+    else:
+        command_check_frozen(argparse.Namespace(repo=repo))
     tables = {}
     for spec in args.eval:
         seed, directory = spec.split(":", 1)
         tables[int(seed)] = val_table(Path(directory) / "eval_per_entry.csv")
     result = score(tables)
     record = append("results.jsonl", "r", {
-        "agent": args.agent, "label": args.label, "method": args.method, "notes": args.notes, "job": os.environ.get("PBS_JOBID"),
-        "branch": git(repo, "rev-parse", "--abbrev-ref", "HEAD"), "commit": git(repo, "rev-parse", "HEAD"), "dirty": dirty,
+        "agent": args.agent, "label": args.label, "method": args.method, "notes": args.notes, "job": args.job or os.environ.get("PBS_JOBID"),
+        "branch": args.branch or git(repo, "rev-parse", "--abbrev-ref", "HEAD"), "commit": args.commit or git(repo, "rev-parse", "HEAD"), "dirty": dirty,
         "ckpt": args.ckpt, "train_run": args.train_run, "eval_dirs": [spec.split(":", 1)[1] for spec in args.eval], **result})
     delta = "" if result["delta_top1"] is None else f", delta vs stock {result['delta_top1']:+.3f} A [{result['delta_top1_ci95'][0]:+.3f}, {result['delta_top1_ci95'][1]:+.3f}]"
     text = f"{record['id']} {args.label}: val_rmsd_top1 {result['val_rmsd_top1']:.3f} A over seeds {result['seeds']}{delta}; {args.method}"
     append("messages.jsonl", "m", {"agent": args.agent, "kind": "result", "reply_to": None, "text": text})
     print(text)
     if not dirty:
-        pushed = subprocess.run(["git", "-C", str(repo), "push", "-q", "origin", f"HEAD:refs/heads/{record['branch']}"], capture_output=True, text=True)
+        pushed = subprocess.run(["git", "-C", str(repo), "push", "-q", "origin", f"{record['commit']}:refs/heads/{record['branch']}"], capture_output=True, text=True)
         print("pushed code to the hub" if pushed.returncode == 0 else f"warning: could not push to the hub: {pushed.stderr.strip()}")
 
 
@@ -284,6 +294,9 @@ def main() -> None:
     post.add_argument("--train-run", dest="train_run", default=None)
     post.add_argument("--notes", default="")
     post.add_argument("--allow-dirty", action="store_true")
+    post.add_argument("--commit", default="", help="commit that produced the result (default HEAD of the current checkout)")
+    post.add_argument("--branch", default="")
+    post.add_argument("--job", default="", help="PBS job id of the run")
     post.set_defaults(run=command_post_result)
 
     leaderboard = commands.add_parser("leaderboard")

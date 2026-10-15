@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
-# Operator view of the whole team: leaderboard, latest messages, agents and worker jobs. Run from your laptop (needs the open ssh connection).
+# Operator view of the whole team: leaderboard, latest messages, agents and each agent's latest Polaris jobs.
 set -euo pipefail
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-export SWARM_AGENT=operator
-echo "=== leaderboard"; bash "$here/polaris.sh" board leaderboard --top 15
-echo; echo "=== latest messages"; bash "$here/polaris.sh" board read --tail 15
-echo; echo "=== agents"; bash "$here/polaris.sh" board agents
-echo; echo "=== your PBS jobs"; ssh -o ControlMaster=auto -o "ControlPath=$HOME/.ssh/swarm-%C" "${POLARIS_USER:-hkwang}@${POLARIS_HOST:-polaris.alcf.anl.gov}" 'export PATH=$PATH:/opt/pbs/bin; qstat -u $USER | tail -n +4'
+root="${SWARM_ROOT:-$HOME/boltz2-swarm}"
+py="${SWARM_PY:-$HOME/boltz2-swarm-tools/.venv/bin/python}"
+export SWARM_ROOT="$root"
+echo "=== leaderboard"; SWARM_AGENT=operator "$py" "$here/iri.py" board leaderboard --top 15 || true
+echo; echo "=== latest messages"; SWARM_AGENT=operator "$py" "$here/iri.py" board read --tail 15 || true
+echo; echo "=== jobs"
+for jobs in "$root"/agents/*/jobs.jsonl; do
+    [[ -e "$jobs" ]] || continue
+    agent="$(basename "$(dirname "$jobs")")"
+    echo "-- $agent"; SWARM_AGENT="$agent" "$py" "$here/iri.py" status | tail -n 2 || true
+done

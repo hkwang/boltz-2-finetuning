@@ -1,46 +1,49 @@
 #!/usr/bin/env bash
-# Start the agents on this machine, one tmux session each, plus a Polaris worker node per agent.
-# Usage: swarm/launch.sh [AGENT ...]     (default: every agent in swarm/briefs.tsv; names are the first column)
-# Env: LOCAL_ROOT (default ~/boltz2-swarm), POLARIS_USER (default hkwang), CODEX_ARGS (default selects model gpt-6.1-sol via provider mag),
-#      SWARM_HOURS (agent working time, default 7.5), WALLTIME (worker job, default 08:00:00), NO_WORKER=1 to skip qsub.
-# First run swarm/connect.sh in another terminal. Needs: ssh, git, tmux, python3, codex (logged in / AMSC_TOKEN set in the environment).
+# Start N persistent agents on this laptop, one tmux session and one git clone each. Polaris is reached through swarm/iri.py (IRI + Globus).
+# Usage: swarm/launch.sh [N | AGENT ...]     (default 9 agents named agent1..agent9)
+# Env: SWARM_ROOT (default ~/boltz2-swarm: hub repo, board, clones), SWARM_PY (python with pandas/scipy/httpx/globus-sdk, default
+#      ~/boltz2-swarm-tools/.venv/bin/python), IRI_REPO (gm_hackathon_agentic_ai clone holding mcp/ and .env), CODEX_ARGS, SWARM_HOURS (default 7.5).
+# Needs: tmux, git, codex (AMSC_TOKEN exported), Globus Connect Personal running, valid ALCF IRI + Globus tokens in $IRI_REPO/.env.
 set -euo pipefail
 
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-user="${POLARIS_USER:-hkwang}"
-host="${POLARIS_HOST:-polaris.alcf.anl.gov}"
-root_remote="${SWARM_ROOT:-/eagle/GenesisHackathonOct26/hkwang/boltz2-swarm}"
-local_root="${LOCAL_ROOT:-$HOME/boltz2-swarm}"
+repo_root="$(dirname "$here")"
+root="${SWARM_ROOT:-$HOME/boltz2-swarm}"
+py="${SWARM_PY:-$HOME/boltz2-swarm-tools/.venv/bin/python}"
 export CODEX_ARGS="${CODEX_ARGS:--c model_provider=mag -m gpt-6.1-sol}"
-ssh_options=(-o ControlMaster=auto -o "ControlPath=$HOME/.ssh/swarm-%C" -o ControlPersist=12h)
-export GIT_SSH_COMMAND="ssh ${ssh_options[*]}"
-
-ssh -O check -o "ControlPath=$HOME/.ssh/swarm-%C" "$user@$host" 2>/dev/null || { echo "no open ssh connection: run swarm/connect.sh first" >&2; exit 1; }
 command -v tmux >/dev/null || { echo "tmux is required" >&2; exit 1; }
-[[ -n "${AMSC_TOKEN:-}" ]] || echo "warning: AMSC_TOKEN is not set in this shell; agents need whatever credentials your codex uses" >&2
+[[ -x "$py" ]] || { echo "no python at $py (set SWARM_PY)" >&2; exit 1; }
+[[ -n "${AMSC_TOKEN:-}" ]] || echo "warning: AMSC_TOKEN is not set in this shell; agents need it to reach the model" >&2
+[[ -f "$root/board/frozen.json" ]] || { echo "no board at $root/board (see swarm/README.md, 'Before the first launch')" >&2; exit 1; }
 
-mkdir -p "$local_root"
-selected=("$@")
-while IFS=$'\t' read -r agent brief; do
-    [[ -z "$agent" || "$agent" == \#* ]] && continue
-    if [[ ${#selected[@]} -gt 0 && ! " ${selected[*]} " =~ " $agent " ]]; then continue; fi
-    work="$local_root/$agent/repo"
+if [[ ! -d "$root/repo.git" ]]; then
+    git clone -q --bare "$repo_root" "$root/repo.git"
+fi
+git -C "$repo_root" push -q "$root/repo.git" HEAD:refs/heads/master
+
+if [[ $# -eq 0 ]]; then set -- 9; fi
+if [[ $# -eq 1 && "$1" =~ ^[0-9]+$ ]]; then
+    count="$1"; set --
+    for index in $(seq 1 "$count"); do set -- "$@" "agent$index"; done
+fi
+
+for agent in "$@"; do
+    [[ "$agent" =~ ^[A-Za-z0-9_-]+$ ]] || { echo "bad agent name $agent" >&2; exit 1; }
+    work="$root/$agent/repo"
     if [[ ! -d "$work/.git" ]]; then
-        mkdir -p "$local_root/$agent"
-        git clone -q "ssh://$user@$host$root_remote/repo.git" "$work"
+        mkdir -p "$root/$agent"
+        git clone -q "$root/repo.git" "$work"
         git -C "$work" config user.name "$agent"
         git -C "$work" config user.email "$agent@swarm.local"
         git -C "$work" checkout -q -b "agent/$agent"
-    fi
-    if [[ "${NO_WORKER:-0}" != 1 ]]; then
-        SWARM_AGENT="$agent" bash "$here/polaris.sh" restart "${WALLTIME:-08:00:00}" || echo "warning: could not submit the worker for $agent" >&2
     fi
     if tmux has-session -t "swarm-$agent" 2>/dev/null; then
         echo "tmux session swarm-$agent already exists; leaving it running"
         continue
     fi
+    SWARM_ROOT="$root" SWARM_AGENT="$agent" "$py" "$here/iri.py" board register --agent "$agent" --deadline "$(date -u -d "+${SWARM_HOURS:-7.5} hours" +%FT%TZ)" >/dev/null
     tmux new-session -d -s "swarm-$agent" -c "$work" \
-        "SWARM_AGENT='$agent' SWARM_BRIEF=$(printf %q "$brief") SWARM_HOURS='${SWARM_HOURS:-7.5}' CODEX_ARGS='$CODEX_ARGS' bash '$here/agent_loop.sh'; echo; echo 'agent loop ended; press enter'; read"
-    echo "started $agent (tmux attach -t swarm-$agent; log $local_root/$agent/.swarm-logs/$agent.log)"
-done <"$here/briefs.tsv"
+        "export PATH='$(dirname "$py")':\$PATH SWARM_ROOT='$root' SWARM_AGENT='$agent' SWARM_HOURS='${SWARM_HOURS:-7.5}' CODEX_ARGS='$CODEX_ARGS' IRI_REPO='${IRI_REPO:-$HOME/Documents/codex/myproject/gm_hackathon_agentic_ai}'; bash '$here/agent_loop.sh'; echo; echo 'agent loop ended; press enter'; read"
+    echo "started $agent (tmux attach -t swarm-$agent; log $root/$agent/.swarm-logs/$agent.log)"
+done
 echo "watch the team: swarm/watch.sh"

@@ -17,12 +17,16 @@ method="${METHOD:?Set METHOD}"
 runs="$project_root/experiments/results/runs"
 run_dir="$runs/$name"
 
-python experiments/board.py check-frozen
-if [[ -n "$(git status --porcelain --untracked-files=no)" ]]; then
-    echo "commit your tracked changes before running a candidate" >&2
-    exit 1
+# Under swarm/iri.py the job runs from a `git archive` of a committed HEAD (no .git, COMMIT set) and the board is on the laptop:
+# the laptop checks the frozen files and posts the result (swarm/iri.py post-result), so skip the in-job board and git steps.
+if [[ -z "${SWARM_REMOTE:-}" ]]; then
+    python experiments/board.py check-frozen
+    if [[ -n "$(git status --porcelain --untracked-files=no)" ]]; then
+        echo "commit your tracked changes before running a candidate" >&2
+        exit 1
+    fi
+    git push -q origin "HEAD:refs/heads/$(git rev-parse --abbrev-ref HEAD)"
 fi
-git push -q origin "HEAD:refs/heads/$(git rev-parse --abbrev-ref HEAD)"
 
 mkdir -p "$run_dir"
 python - "$run_dir/run_info.json" <<'PY'
@@ -33,11 +37,11 @@ import sys
 import time
 
 config = os.environ.get("CONFIG", "configs/finetune_diffusion.yaml")
-git = lambda *args: subprocess.run(["git", *args], capture_output=True, text=True).stdout.strip()
+git = lambda *args: os.environ.get("COMMIT", "") if args[0] == "rev-parse" and args[-1] == "HEAD" and os.environ.get("COMMIT") else subprocess.run(["git", *args], capture_output=True, text=True).stdout.strip()
 info = {
     "agent": os.environ["AGENT"], "name": os.environ["NAME"], "method": os.environ["METHOD"], "notes": os.environ.get("NOTES", ""),
     "started": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "pbs_job": os.environ.get("PBS_JOBID"),
-    "commit": git("rev-parse", "HEAD"), "branch": git("rev-parse", "--abbrev-ref", "HEAD"), "config": config,
+    "commit": git("rev-parse", "HEAD"), "branch": f"agent/{os.environ['AGENT']}" if os.environ.get("COMMIT") else git("rev-parse", "--abbrev-ref", "HEAD"), "config": config,
     "config_text": open(config).read(), "overrides": os.environ.get("OVERRIDES", ""), "weights": os.environ.get("WEIGHTS", "trainable_weights.pt"),
     "eval_seeds": os.environ.get("SEEDS", "2026 1 2"),
 }
@@ -51,6 +55,10 @@ DMON_LOG="$runs/dmon_$name.log" CONFIG="${CONFIG:-configs/finetune_diffusion.yam
 python experiments/make_finetuned_checkpoint.py "$run_dir/${WEIGHTS:-trainable_weights.pt}" "$run_dir/boltz_ckpt/final"
 eval_output="$(LABEL="$name" CKPT_DIR="$run_dir/boltz_ckpt/final" SEEDS="${SEEDS:-2026 1 2}" bash experiments/run_val_eval.sh | tee /dev/stderr)"
 eval_args="$(sed -n 's/^post-result args: //p' <<<"$eval_output")"
+if [[ -n "${SWARM_REMOTE:-}" ]]; then
+    echo "CANDIDATE DONE $name: post it from the laptop with: swarm/iri.py post-result $name --job \$PBS_JOBID --method \"$method\""
+    exit 0
+fi
 
 # shellcheck disable=SC2086
 python experiments/board.py post-result --agent "$agent" --label "$name" --method "$method" --notes "${NOTES:-}" \
