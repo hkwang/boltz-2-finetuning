@@ -4,7 +4,9 @@ Status as of 2026-10-15. Built from the running logs in this directory; each sec
 
 ## Results at a glance
 
-Both figures show the same numbers with different error bars. Left: diffusion fine-tuning, median best-of-5 pocket-aligned ligand RMSD (lower is better). Right: affinity-head fine-tuning (step 500), Spearman (top) and RMSE in log10 uM (bottom) on measured IC50s, by split, with each head scored on stock poses (blue) and on poses from the `full_lr1e-4` step 1400 structure fine-tune (orange). Run labels give the number of prediction seeds; three runs (full 3e-6, full 3e-4 at steps 1000 and 2000) were predicted at one seed only.
+Both figures show the same numbers with different error bars. Left: diffusion fine-tuning, median best-of-5 pocket-aligned ligand RMSD on the 45 held-out entries (lower is better). Right: affinity-head fine-tuning (step 500), Spearman (top) and RMSE in log10 uM (bottom) on the 40 measured IC50s, with each head scored on stock poses (blue) and on poses from the `full_lr1e-4` step 1400 structure fine-tune (orange). Run labels give the number of prediction seeds; three runs (full 3e-6, full 3e-4 at steps 1000 and 2000) were predicted at one seed only.
+
+**Val and test are pooled** for both pose and affinity. They are built the same way (ligand clusters shuffled into val and test), and checkpoints and runs were chosen on all 45 entries, so neither is an untouched test set; one pooled estimate is less noisy than two on 18 and 22 IC50s. A clean test number would need selection on val only, then a single test evaluation (next steps, item 1).
 
 **Held-out set.** The 45 entries are all Mac1 crystal structures with an IC50 and a deposited ligand pose in the val (21) or test (24) split. None is used in any training. They cover 15 ligand clusters (8 val, 7 test) that the split keeps apart from training clusters, and were released 2025-05 to 2026-09, after the Boltz-2 training cutoff. Sources: Correy et al. *Sci. Adv.* 2025 (24), Jaishankar et al. *J. Med. Chem.* 2025 (18), Suryawanshi et al. *eLife* 2025 (2), Xu et al. *Nature* 2026 (1). Resolution 0.80-1.11 A; IC50 0.02-1000 uM. The pose metric uses all 45 (5 samples each, the median over entries per run). Affinity uses the 40 measured (`=`) IC50s (18 val, 22 test); the 5 censored ones are scored separately. Deposited ligand occupancy is low (median 0.34), so the reference poses are only weakly supported by density.
 
@@ -170,14 +172,14 @@ Details: [`finetuning_plan.md`](finetuning_plan.md). Trainable: `affinity_module
 
 All jobs died just after step 500 on an NCCL all-reduce watchdog timeout (same collective sequence number in all three 4-GPU jobs); step 500 weights and evaluations are complete and step 500 is used.
 
-| Pose | Head | Spearman | RMSE | Bias | MAE | Spearman val / test |
-|---|---|---|---|---|---|---|
-| stock | stock | 0.68 | 1.31 | +0.99 | 1.14 | 0.71 / 0.70 |
-| fine-tuned | stock | 0.67 | 1.30 | +0.98 | 1.14 | 0.72 / 0.69 |
-| fine-tuned | `aff_lr1e-5` | 0.81 | 0.99 | +0.65 | 0.82 | 0.86 / 0.79 |
-| fine-tuned | `aff_lr2e-5` | 0.84 | 0.99 | +0.66 | 0.83 | 0.87 / 0.80 |
-| fine-tuned | `aff_lr5e-5` | 0.84 | 0.95 | +0.60 | 0.81 | 0.84 / 0.87 |
-| fine-tuned | `aff_nopair` (no pairwise term) | 0.81 | 0.95 | +0.61 | 0.79 | 0.83 / 0.79 |
+| Pose | Head | Spearman | RMSE | Bias | MAE |
+|---|---|---|---|---|---|
+| stock | stock | 0.68 | 1.31 | +0.99 | 1.14 |
+| fine-tuned | stock | 0.67 | 1.30 | +0.98 | 1.14 |
+| fine-tuned | `aff_lr1e-5` | 0.81 | 0.99 | +0.65 | 0.82 |
+| fine-tuned | `aff_lr2e-5` | 0.84 | 0.99 | +0.66 | 0.83 |
+| fine-tuned | `aff_lr5e-5` | 0.84 | 0.95 | +0.60 | 0.81 |
+| fine-tuned | `aff_nopair` (no pairwise term) | 0.81 | 0.95 | +0.61 | 0.79 |
 
 Paired, over the 40 measured entries (2000 bootstrap resamples):
 

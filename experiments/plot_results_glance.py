@@ -1,4 +1,6 @@
-"""Results-at-a-glance figures for docs/report.md: pose (best-of-5 ligand RMSD) and affinity (Spearman, RMSE by split).
+"""Results-at-a-glance figures for docs/report.md: pose (best-of-5 ligand RMSD) and affinity (Spearman, RMSE).
+
+Val and test are pooled for both: the held-out set is 45 entries for pose and its 40 measured IC50s for affinity.
 
 Run: python experiments/plot_results_glance.py [--out-dir docs/figures]
 Writes two figures with the same layout and different error bars:
@@ -100,18 +102,17 @@ def pose_values(rng: np.random.Generator) -> list[dict]:
 
 def affinity_values(rng: np.random.Generator) -> list[dict]:
     reference = pd.read_csv(EVAL / "stock" / "eval_per_entry.csv").set_index("pdb_id")
+    entries = reference.index[reference["ic50_qualifier"] == "="]
+    truth = reference.loc[entries, "log10_ic50_uM"].to_numpy()
     rows = []
-    for split in ("val", "test"):
-        entries = reference.index[(reference["ic50_qualifier"] == "=") & (reference["split"] == split)]
-        truth = reference.loc[entries, "log10_ic50_uM"].to_numpy()
-        for pose, pose_run in POSES.items():
-            for head in HEADS:
-                for seed in SEEDS:
-                    pred = head_predictions(pose_run, seed, head).loc[entries].to_numpy()
-                    for metric, statistic in (("spearman", spearman), ("rmse", rmse)):
-                        low, high = bootstrap(statistic, (pred, truth), rng)
-                        rows.append({"split": split, "n": len(entries), "pose": pose, "head": head, "seed": seed, "metric": metric,
-                                     "value": statistic(pred, truth), "low": low, "high": high})
+    for pose, pose_run in POSES.items():
+        for head in HEADS:
+            for seed in SEEDS:
+                pred = head_predictions(pose_run, seed, head).loc[entries].to_numpy()
+                for metric, statistic in (("spearman", spearman), ("rmse", rmse)):
+                    low, high = bootstrap(statistic, (pred, truth), rng)
+                    rows.append({"n": len(entries), "pose": pose, "head": head, "seed": seed, "metric": metric,
+                                 "value": statistic(pred, truth), "low": low, "high": high})
     return rows
 
 
@@ -152,21 +153,19 @@ def plot_pose(axis: plt.Axes, rows: list[dict], mode: str) -> None:
 
 def plot_affinity(axes, rows: list[dict], mode: str) -> None:
     width = 0.2
-    for column, split in enumerate(("val", "test")):
-        for row_index, metric in enumerate(("spearman", "rmse")):
-            axis = axes[row_index][column]
-            for pose_index, pose in enumerate(POSES):
-                for head_index, head in enumerate(HEADS):
-                    selected = [row for row in rows if (row["split"], row["metric"], row["pose"], row["head"]) == (split, metric, pose, head)]
-                    draw(axis, head_index + (pose_index - 0.5) * 2 * width, selected, mode, POSE_COLORS[pose], False, 0.07)
-            count = next(row["n"] for row in rows if row["split"] == split)
-            axis.set_xticks(range(len(HEADS)), ["stock" if head == "stock" else head.replace("aff_", "") for head in HEADS])
-            axis.set_xlim(-0.6, len(HEADS) - 0.4)
-            axis.grid(axis="y", alpha=0.3)
-            axis.set_title(f"{split} ({count} IC50s)")
-            axis.set_ylabel("Spearman ρ" if metric == "spearman" else "RMSE (log10 µM)")
-            if row_index == 1:
-                axis.set_xlabel("Affinity head (step 500)")
+    count = rows[0]["n"]
+    for row_index, metric in enumerate(("spearman", "rmse")):
+        axis = axes[row_index]
+        for pose_index, pose in enumerate(POSES):
+            for head_index, head in enumerate(HEADS):
+                selected = [row for row in rows if (row["metric"], row["pose"], row["head"]) == (metric, pose, head)]
+                draw(axis, head_index + (pose_index - 0.5) * 2 * width, selected, mode, POSE_COLORS[pose], False, 0.07)
+        axis.set_xticks(range(len(HEADS)), ["stock" if head == "stock" else head.replace("aff_", "") for head in HEADS])
+        axis.set_xlim(-0.6, len(HEADS) - 0.4)
+        axis.grid(axis="y", alpha=0.3)
+        axis.set_title(f"{'Spearman' if metric == 'spearman' else 'RMSE'} ({count} measured IC50s, val + test)")
+        axis.set_ylabel("Spearman ρ" if metric == "spearman" else "RMSE (log10 µM)")
+    axes[1].set_xlabel("Affinity head (step 500)")
 
 
 def legend_handles(mode: str) -> list:
@@ -181,17 +180,17 @@ def legend_handles(mode: str) -> list:
 
 
 def make_figure(pose_rows: list[dict], affinity_rows: list[dict], mode: str, path: Path) -> None:
-    figure = plt.figure(figsize=(15, 8.2), layout="constrained")
+    figure = plt.figure(figsize=(14, 8.2), layout="constrained")
     if mode == "seeds":
         figure.suptitle("Error bars: 95% CI over prediction seeds (2026, 1, 2), not over entries; small dots are the individual seeds",
                         fontsize=13, color="0.25")
     else:
         figure.suptitle("Error bars: 95% bootstrap CI over held-out entries (2000 resamples), one bar per prediction seed",
                         fontsize=13, color="0.25")
-    left, right = figure.subfigures(1, 2, width_ratios=[1, 1.35])
+    left, right = figure.subfigures(1, 2, width_ratios=[1.15, 1])
     plot_pose(left.subplots(), pose_rows, mode)
-    right.suptitle("Affinity: head fine-tuning on stock vs fine-tuned (full 1e-4, s1400) poses", fontsize=13)
-    plot_affinity(right.subplots(2, 2, sharex=True), affinity_rows, mode)
+    right.suptitle("Affinity: head fine-tuning\non stock vs fine-tuned (full 1e-4, s1400) poses", fontsize=13)
+    plot_affinity(right.subplots(2, 1, sharex=True), affinity_rows, mode)
     figure.legend(handles=legend_handles(mode), loc="outside lower center", ncol=7 if mode == "bootstrap" else 4, frameon=False)
     figure.savefig(path, dpi=150)
     print(f"wrote {path}")
