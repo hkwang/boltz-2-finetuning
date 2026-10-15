@@ -16,6 +16,12 @@ command -v tmux >/dev/null || { echo "tmux is required" >&2; exit 1; }
 [[ -n "${AMSC_TOKEN:-}" ]] || echo "warning: AMSC_TOKEN is not set in this shell; agents need it to reach the model" >&2
 [[ -f "$root/board/frozen.json" ]] || { echo "no board at $root/board (see swarm/README.md, 'Before the first launch')" >&2; exit 1; }
 
+if [[ "${SKIP_E2E:-0}" != 1 ]]; then
+    tested="$(cat "$root/e2e_passed" 2>/dev/null || true)"
+    [[ -n "$tested" ]] || { echo "run swarm/e2e_test.sh first (or SKIP_E2E=1): no passing end-to-end check recorded" >&2; exit 1; }
+    git -C "$repo_root" diff --quiet "$tested" HEAD -- swarm experiments src configs jobs ||
+        { echo "pipeline code changed since the last passing swarm/e2e_test.sh (${tested:0:7}); rerun it (or SKIP_E2E=1)" >&2; exit 1; }
+fi
 if [[ ! -d "$root/repo.git" ]]; then
     git clone -q --bare "$repo_root" "$root/repo.git"
 fi

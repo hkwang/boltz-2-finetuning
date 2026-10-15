@@ -12,6 +12,13 @@ N persistent agents (default 9: `agent1`..`agent9`), each in its own tmux sessio
    `mkdir -p ~/boltz2-swarm/board/cursors` and copy `frozen.json`, `results.jsonl` (the stock row) and `baseline/` from `/eagle/GenesisHackathonOct26/hkwang/boltz2-swarm/board/` (e.g. `SWARM_AGENT=operator swarm/iri.py get /eagle/.../board ~/boltz2-swarm/board`), then `SWARM_AGENT=operator swarm/iri.py board refreeze --repo .` from this clone.
    Polaris-side shared data (`/eagle/.../boltz2-swarm/shared/{structures,boltz_inputs}`), the venv `/home/hkwang/venvs/boltz2` and `~/.cache/boltz` already exist.
 
+## Check the pipeline first
+
+```bash
+swarm/e2e_test.sh             # about 35-45 min: 50 training steps, export, 3-seed validation, post-result on a scratch board
+```
+It runs the exact commands an agent runs, through `swarm/iri.py`, with a fixed seed and no LLM, and writes `~/boltz2-swarm/e2e_passed`. `launch.sh` refuses to start agents until it has passed, and again whenever `swarm/`, `experiments/`, `src/`, `configs/` or `jobs/` change after the tested commit (`SKIP_E2E=1` overrides).
+
 ## Run
 
 ```bash
