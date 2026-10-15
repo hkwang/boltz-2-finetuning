@@ -97,7 +97,7 @@ run_pid=$!
 watch -n 5 nvidia-smi
 ```
 
-Stop `watch` with Ctrl-C, inspect the latest log lines with `tail -n 40 -f boltz2.log` (Ctrl-C exits `tail`), and use `wait "$run_pid"` to get the run's exit status. For a batch run, check queue and job details from a login node with `qstat -u "$USER"` and `qstat -f <job-id>`, then follow the PBS output file in the submission directory, for example `tail -f boltz2-job.o<job-id>`. Check `Exit_status` and the final log lines after the job finishes.
+Stop `watch` with Ctrl-C, inspect the latest log lines with `tail -n 40 -f boltz2.log` (Ctrl-C exits `tail`), and use `wait "$run_pid"` to get the run's exit status. For a batch run, check queue and job details from a login node with `qstat -u "$USER"` and `qstat -f <job-id>`, then follow the PBS output file in `logs/` under the submission directory, for example `tail -f logs/boltz2-job.o<job-id>`. Check `Exit_status` and the final log lines after the job finishes.
 
 - Run the local PBS wrapper smoke check with `bash testing/test_pbs_scripts.sh`; test helpers and dummy jobs belong in `testing/`.
 - For an actual Polaris submission, run `qsub` in an environment that can resolve and reach the configured Polaris PBS server. Sandboxed sessions may lack PBS network access; `/etc/pbs.conf` can identify the configured server. If PBS cannot create its staging file under a read-only `/var/tmp`, set `TMPDIR=/tmp`, for example: `TMPDIR=/tmp qsub -v JOB_SCRIPT="$PWD/testing/dummy_job.pbs" jobs/polaris/run_job.pbs`.

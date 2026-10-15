@@ -6,12 +6,17 @@
 #PBS -l walltime=00:30:00
 #PBS -l filesystems=home:eagle
 #PBS -j oe
+#PBS -o /dev/null
 
 set -euo pipefail
 
 # PBS starts jobs from the submission directory, but set this explicitly so
 # relative JOB_SCRIPT paths behave the same in local smoke checks.
 cd "${PBS_O_WORKDIR:-$PWD}"
+mkdir -p logs
+if [[ -n "${PBS_JOBID:-}" ]]; then
+    exec >"logs/${PBS_JOBNAME:-job}.o${PBS_JOBID%%.*}" 2>&1
+fi
 
 if [[ -n "${VENV_DIR:-}" ]]; then
     module load cray-python/3.12.12
@@ -29,7 +34,7 @@ if [[ ! -f "$JOB_SCRIPT" ]]; then
 fi
 
 if [[ -n "${PBS_JOBID:-}" && "${GPU_MONITOR_INTERVAL:-30}" != 0 ]] && command -v nvidia-smi > /dev/null; then
-    monitor_prefix="$PWD/gpu-monitor.${PBS_JOBID%%.*}"
+    monitor_prefix="$PWD/logs/gpu-monitor.${PBS_JOBID%%.*}"
     bash jobs/polaris/gpu_monitor.sh "$monitor_prefix" &
     monitor_pid=$!
     trap 'kill "$monitor_pid" 2>/dev/null || true' EXIT

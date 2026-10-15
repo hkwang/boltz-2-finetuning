@@ -36,7 +36,7 @@ TMPDIR=/tmp qsub -l select=1:ngpus=1 -l walltime=01:00:00 -N mac1-cofold \
 ```
 
 The Boltz cache (`boltz2_conf.ckpt`, `boltz2_aff.ckpt`, `mols.tar`) must already be staged; see `jobs/polaris/README.md`.
-Output: `mac1-cofold.o<jobid>` in the submission directory and `experiments/results/mac1_cofold/`
+Output: `logs/mac1-cofold.o<jobid>` under the submission directory and `experiments/results/mac1_cofold/`
 (CIFs, confidence and affinity JSONs per ligand, `summary.csv`).
 
 ## Verification: CUDA kernels

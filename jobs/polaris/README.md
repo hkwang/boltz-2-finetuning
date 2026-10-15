@@ -35,8 +35,9 @@ qsub -v JOB_SCRIPT="$PWD/experiments/run_training.sh",VENV_DIR="$HOME/venvs/bolt
 
 `VENV_DIR` is optional if `JOB_SCRIPT` activates another environment itself.
 The script path can be absolute or relative to `PBS_O_WORKDIR` (the submission
-directory). Polaris job output is joined and written by PBS in the submission
-directory.
+directory). Polaris job output is joined and written by the wrapper (not
+PBS) to `logs/<jobname>.o<jobid>` under the submission directory, so it can be
+followed live with `tail -f`; `logs/` is git-ignored and created at job start.
 
 Polaris compute nodes do not have outbound network access. Before Boltz's first
 prediction, download its two Boltz-2 checkpoints and CCD archive from a login
@@ -71,12 +72,12 @@ the cuEquivariance kernels. Mac1 co-folding is documented in [`docs/mac1_cofold.
 ## GPU load monitoring
 
 `run_job.pbs` starts `jobs/polaris/gpu_monitor.sh` in the background before `JOB_SCRIPT` and stops it when the job ends. It samples
-`nvidia-smi` every 30 s (override with `-v GPU_MONITOR_INTERVAL=<seconds>`; `0` disables it) and writes two CSVs to the submission directory:
+`nvidia-smi` every 30 s (override with `-v GPU_MONITOR_INTERVAL=<seconds>`; `0` disables it) and writes two CSVs to `logs/` under the submission directory:
 `gpu-monitor.<jobid>.gpu.csv` (per GPU: utilization, memory, power, temperature) and `gpu-monitor.<jobid>.apps.csv` (compute processes per GPU).
 Both can be read from the login node while the job runs. Summarize them with:
 
 ```bash
-~/venvs/boltz2/bin/python experiments/summarize_gpu_monitor.py gpu-monitor.<jobid>
+~/venvs/boltz2/bin/python experiments/summarize_gpu_monitor.py logs/gpu-monitor.<jobid>
 ```
 
 It prints mean/max utilization, peak memory, mean power and PIDs per GPU. It exits 1 and prints a warning if a GPU with a process averaged below

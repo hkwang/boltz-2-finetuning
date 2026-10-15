@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 core.*
 # PBS stdout/stderr and wrapper GPU monitor output
+logs/
 *.o[0-9]*
 *.e[0-9]*
 gpu-monitor.*.csv
