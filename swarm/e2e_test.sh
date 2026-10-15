@@ -6,6 +6,14 @@
 # Usage: swarm/e2e_test.sh   (from a clean checkout; MINUTES=walltime, default 60)
 set -euo pipefail
 
+if [[ -z "${E2E_DETACHED:-}" ]]; then
+    mkdir -p "${E2E_ROOT:-$HOME/boltz2-swarm-e2e}"
+    log="${E2E_ROOT:-$HOME/boltz2-swarm-e2e}/run_$(date -u +%Y%m%dT%H%M%S).log"
+    E2E_DETACHED=1 setsid nohup bash "$0" "$@" >"$log" 2>&1 </dev/null &
+    echo "e2e test running detached (pid $!); follow it with: tail -f $log"
+    exit 0
+fi
+
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 repo_root="$(dirname "$here")"
 real_root="${SWARM_ROOT:-$HOME/boltz2-swarm}"
@@ -34,7 +42,7 @@ echo "== $(date -u +%T) e2e $name at commit ${commit:0:7}"
 python swarm/iri.py run "$name" --minutes "${MINUTES:-60}" \
     "AGENT=\$AGENT NAME=$name METHOD=e2e CONFIG=configs/finetune_diffusion.yaml OVERRIDES=\"seed=0 trainer.max_steps=50 trainer.checkpoint_every_n_steps=50 trainer.save_weights_every_n_steps=50\" bash experiments/run_candidate.sh"
 python swarm/iri.py wait "$name" --every 60 --max 7200 --lines 20
-python swarm/iri.py log "$name" --lines 200 >"$test_root/$name/job.log"
+python swarm/iri.py log "$name" --lines 200 --raw >"$test_root/$name/job.log"
 if ! grep -q "CANDIDATE DONE $name" "$test_root/$name/job.log"; then
     echo "FAIL: the job did not reach CANDIDATE DONE; log: $test_root/$name/job.log" >&2
     exit 1

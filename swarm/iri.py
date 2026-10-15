@@ -101,14 +101,27 @@ async def job_state(job_id: str) -> tuple[str, object]:
     return str(state.get("state", "unknown")).lower(), state.get("exit_code")
 
 
-async def tail(path: str, lines: int) -> str:
+NOISE = ("Warning", "warn(", "warn_eager_only", "warnings.warn", "deprecated", "return func(", "Predicting:", "it/s]", "does not have many workers",
+         "LOCAL_RANK", "Initializing distributed", "Tensor Cores", "GPU available", "TPU available", "HPU available", "-----", "distributed_backend", "processes registered", "Consider increasing")
+
+
+def useful(text: str, lines: int) -> str:
+    """Drop library warnings and progress-bar redraws so the training steps and errors are what an agent sees."""
+    kept = []
+    for line in text.splitlines():
+        if (line.strip() and not any(marker in line for marker in NOISE) or "Error" in line) and (not kept or line != kept[-1]):
+            kept.append(line)
+    return "\n".join(line[:400] for line in kept[-lines:])
+
+
+async def tail(path: str, lines: int, raw: bool = False) -> str:
     try:
-        result = await client.fs_tail(EAGLE, path, lines)
+        result = await client.fs_tail(EAGLE, path, lines if raw else max(400, lines * 20))
         if isinstance(result, dict) and "task_id" in result:
             result = (await client.wait_for_task(result["task_id"])).get("result", {})
         output = result.get("output", result) if isinstance(result, dict) else result
         if isinstance(output, dict) and "content" in output:
-            return str(output["content"])
+            return str(output["content"]) if raw else useful(str(output["content"]), lines)
         if isinstance(result, dict) and result.get("error"):
             return f"({result['error']})"
         return str(output)
@@ -204,7 +217,7 @@ async def cmd_wait(args) -> None:
             await record_final(record, state)
             print((await tail(record["stdout"], args.lines)).rstrip())
             err = (await tail(record["stderr"], 15)).rstrip()
-            if err:
+            if err and "does not exist" not in err:
                 print("-- stderr\n" + err)
             return
         if state != "queued":
@@ -217,8 +230,10 @@ async def cmd_wait(args) -> None:
 
 async def cmd_log(args) -> None:
     record = find_job(args.id)
-    print((await tail(record["stdout"], args.lines)).rstrip())
-    print("-- stderr\n" + (await tail(record["stderr"], min(args.lines, 40))).rstrip())
+    print((await tail(record["stdout"], args.lines, args.raw)).rstrip())
+    err = (await tail(record["stderr"], min(args.lines, 40), args.raw)).rstrip()
+    if err and "does not exist" not in err:
+        print("-- PBS stderr (written when the job ends)\n" + err)
 
 
 async def cmd_cancel(args) -> None:
@@ -238,7 +253,7 @@ async def cmd_ls(args) -> None:
 
 
 async def cmd_cat(args) -> None:
-    print((await tail(resolve(args.path), args.lines)).rstrip())
+    print((await tail(resolve(args.path), args.lines, raw=True)).rstrip())
 
 
 async def cmd_get(args) -> None:
@@ -303,6 +318,7 @@ def main() -> None:
     log = commands.add_parser("log")
     log.add_argument("id")
     log.add_argument("--lines", type=int, default=60)
+    log.add_argument("--raw", action="store_true", help="do not filter warnings and progress bars")
     log.set_defaults(run=cmd_log)
     cancel = commands.add_parser("cancel")
     cancel.add_argument("id")
