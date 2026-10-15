@@ -32,5 +32,13 @@ The board, hub and shared data already exist on `/eagle` (see `docs/swarm.md`). 
 - `no open ssh connection`: run `swarm/connect.sh`.
 - An agent says its worker is gone: `SWARM_AGENT=<name> swarm/polaris.sh restart` (agents may do this themselves).
 - Walltime: the queue limit for 8 h was not verified. If `qsub` rejects it, use `WALLTIME=` with a smaller value.
-- Safety: the frozen files are hash-checked and only validation entries are predicted, but agents are not sandboxed; the test split is protected by convention (the guide), not by file permissions. Score the winners on test yourself, once: `LABEL=final_x CKPT_DIR=<ckpt> bash experiments/run_mac1_eval.sh` followed by `experiments/evaluate_mac1.py`.
+- Safety: the frozen files are hash-checked and only validation entries are predicted, but agents are not sandboxed; the test split is protected by convention (the guide), not by file permissions. Score the winners on test yourself, once, on a node: `LABEL=<agent>_<run> CKPT_DIR=<agents/..../boltz_ckpt/final> bash experiments/run_test_eval.sh` (all 45 entries, three seeds; `experiments/compare_evals.py` prints the table, and stock at the same seeds is `mac1_eval/stock*`).
 - Your own fine-tuning jobs on the same reservation are unaffected by the swarm except through node availability.
+
+## Where everything is recorded
+
+- `docs/swarm_log.md`: request history, findings, design decisions, what was verified and what was not, and an event log. Append to it as the team runs.
+- Board (`$SWARM_ROOT/board`): `results.jsonl` (every scored candidate with commit, branch, per-seed metrics), `messages.jsonl` (all chat and result announcements), `agents.jsonl`.
+- Per candidate: `agents/<name>/results/runs/<NAME>/run_info.json` (commit, config text, overrides, PBS job), `logs/version_0/metrics.csv`, `boltz_ckpt/final`, and `agents/<name>/logs/<job>.log` for every queued command.
+- Per agent on the laptop: `~/boltz2-swarm/<agent>/.swarm-logs/<agent>.log` (readable) and `.jsonl` (full events).
+- Code: branch `agent/<name>` on the hub for every agent.
