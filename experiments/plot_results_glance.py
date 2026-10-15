@@ -127,15 +127,15 @@ def draw(axis: plt.Axes, position: float, rows: list[dict], mode: str, color: st
 
     if mode == "seeds":
         mean, low, high = seed_interval([row["value"] for row in rows])
-        errorbar(position, mean, low, high, fmt="D", color=color, markersize=7, capsize=4, linewidth=2)
+        errorbar(position, mean, low, high, fmt="D", color=color, markersize=6, capsize=3, linewidth=1.8)
         for row in rows:
             point = (row["value"], position) if horizontal else (position, row["value"])
-            axis.plot(*point, SEED_MARKERS[row["seed"]], color=color, markersize=4, alpha=0.55, markeredgewidth=0)
+            axis.plot(*point, SEED_MARKERS[row["seed"]], color=color, markersize=3.5, alpha=0.55, markeredgewidth=0)
     else:
         offsets = {2026: -spacing, 1: 0.0, 2: spacing}
         for row in rows:
             errorbar(position + offsets[row["seed"]], row["value"], row["low"], row["high"], fmt=SEED_MARKERS[row["seed"]], color=color,
-                     markersize=6, capsize=2.5, linewidth=1.3)
+                     markersize=4.5, capsize=2, linewidth=1.1)
 
 
 def plot_pose(axis: plt.Axes, rows: list[dict], mode: str) -> None:
@@ -144,10 +144,10 @@ def plot_pose(axis: plt.Axes, rows: list[dict], mode: str) -> None:
     axis.axvline(stock_mean, color="0.6", linestyle="--", linewidth=1.2, zorder=0)
     for index, label in enumerate(labels):
         draw(axis, index, [row for row in rows if row["label"] == label], mode, "#4c72b0" if label == "stock" else "#55a868", True, 0.22)
-    axis.set_yticks(range(len(labels)), [f"{label} ({sum(row['label'] == label for row in rows)} seed{'s' if sum(row['label'] == label for row in rows) > 1 else ''})" for label in labels])
+    axis.set_yticks(range(len(labels)), [f"{label} (×{sum(row['label'] == label for row in rows)})" for label in labels])
     axis.invert_yaxis()
-    axis.set_xlabel("Median best-of-5 ligand RMSD (Å)")
-    axis.set_title("Pose: diffusion fine-tuning (45 held-out entries)")
+    axis.set_xlabel("Best-of-5 ligand RMSD, median (Å)")
+    axis.set_title("Pose: diffusion fine-tuning (n = 45)")
     axis.grid(axis="x", alpha=0.3)
 
 
@@ -163,36 +163,35 @@ def plot_affinity(axes, rows: list[dict], mode: str) -> None:
         axis.set_xticks(range(len(HEADS)), ["stock" if head == "stock" else head.replace("aff_", "") for head in HEADS])
         axis.set_xlim(-0.6, len(HEADS) - 0.4)
         axis.grid(axis="y", alpha=0.3)
-        axis.set_title(f"{'Spearman' if metric == 'spearman' else 'RMSE'} ({count} measured IC50s, val + test)")
-        axis.set_ylabel("Spearman ρ" if metric == "spearman" else "RMSE (log10 µM)")
+        axis.set_ylabel("Spearman ρ" if metric == "spearman" else "RMSE (log₁₀ µM)")
     axes[1].set_xlabel("Affinity head (step 500)")
+    axes[0].set_title(f"Affinity: head fine-tuning (n = {count} IC50s)")
 
 
 def legend_handles(mode: str) -> list:
-    handles = [plt.Line2D([], [], color=color, marker="s", linestyle="none", markersize=9, label=pose) for pose, color in POSE_COLORS.items()]
-    handles.append(plt.Line2D([], [], color="0.6", linestyle="--", label="stock pose RMSD, mean of seeds"))
+    handles = [plt.Line2D([], [], color=color, marker="s", linestyle="none", markersize=8, label=pose) for pose, color in POSE_COLORS.items()]
+    handles.append(plt.Line2D([], [], color="0.6", linestyle="--", label="stock RMSD"))
     if mode == "seeds":
-        handles.append(plt.Line2D([], [], color="0.3", marker="D", linestyle="-", markersize=7, label="mean of seeds, 95% CI over seeds (t, n = 3)"))
+        handles.append(plt.Line2D([], [], color="0.3", marker="D", linestyle="-", markersize=6, label="seed mean ± 95% CI"))
     for seed, marker in SEED_MARKERS.items():
-        size = 5 if mode == "seeds" else 7
+        size = 4 if mode == "seeds" else 6
         handles.append(plt.Line2D([], [], color="0.3", marker=marker, linestyle="none", markersize=size, label=f"seed {seed}"))
+    if mode == "seeds":
+        handles = [handles[0], handles[4], handles[1], handles[5], handles[2], handles[6], handles[3]]
     return handles
 
 
 def make_figure(pose_rows: list[dict], affinity_rows: list[dict], mode: str, path: Path) -> None:
-    figure = plt.figure(figsize=(14, 8.2), layout="constrained")
+    figure = plt.figure(figsize=(10, 5.625), layout="constrained")
     if mode == "seeds":
-        figure.suptitle("Error bars: 95% CI over prediction seeds (2026, 1, 2), not over entries; small dots are the individual seeds",
-                        fontsize=13, color="0.25")
+        figure.suptitle("95% CI over prediction seeds (n = 3), not entries", fontsize=13, color="0.25")
     else:
-        figure.suptitle("Error bars: 95% bootstrap CI over held-out entries (2000 resamples), one bar per prediction seed",
-                        fontsize=13, color="0.25")
-    left, right = figure.subfigures(1, 2, width_ratios=[1.15, 1])
+        figure.suptitle("95% bootstrap CI over held-out entries, one bar per seed", fontsize=13, color="0.25")
+    left, right = figure.subfigures(1, 2, width_ratios=[1.2, 1])
     plot_pose(left.subplots(), pose_rows, mode)
-    right.suptitle("Affinity: head fine-tuning\non stock vs fine-tuned (full 1e-4, s1400) poses", fontsize=13)
     plot_affinity(right.subplots(2, 1, sharex=True), affinity_rows, mode)
-    figure.legend(handles=legend_handles(mode), loc="outside lower center", ncol=7 if mode == "bootstrap" else 4, frameon=False)
-    figure.savefig(path, dpi=150)
+    figure.legend(handles=legend_handles(mode), loc="outside lower center", ncol=4 if mode == "seeds" else 6, frameon=False, handlelength=1.4, columnspacing=1.0, handletextpad=0.4)
+    figure.savefig(path)
     print(f"wrote {path}")
 
 
@@ -200,7 +199,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--out-dir", type=Path, default=Path("docs/figures"))
     args = parser.parse_args()
-    plt.rcParams.update({"font.size": 12, "axes.titlesize": 13, "axes.labelsize": 12, "xtick.labelsize": 11, "ytick.labelsize": 11, "legend.fontsize": 11})
+    plt.rcParams.update({"font.size": 12, "axes.titlesize": 13, "axes.labelsize": 12, "xtick.labelsize": 11, "ytick.labelsize": 11, "legend.fontsize": 11,
+                         "savefig.dpi": 200})
     rng = np.random.default_rng(0)
     pose_rows, affinity_rows = pose_values(rng), affinity_values(rng)
     args.out_dir.mkdir(parents=True, exist_ok=True)
