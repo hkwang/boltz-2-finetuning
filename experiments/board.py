@@ -37,6 +37,7 @@ FROZEN_FILES = [
     "configs/mac1_cofold.yaml",
     "experiments/run_mac1_eval.sh",
     "experiments/run_val_eval.sh",
+    "experiments/board.py",
 ]
 FROZEN_DIRS = ["data/processed/mac1_eval/inputs"]
 BOOTSTRAPS = 2000
