@@ -1,0 +1,181 @@
+data_QRC
+# 
+_chem_comp.id                                    QRC 
+_chem_comp.name                                  "(1S,2S)-4-hydroxy-1-[4-(methylcarbamamido)benzamido]-2,3-dihydro-1H-indene-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H19 N3 O5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        369.371 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QRC 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SQI 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QRC C18  C1  C 0 1 Y N N -43.927 -32.520 -0.370 -5.186 1.348  0.703  C18  QRC 1  
+QRC C16  C2  C 0 1 N N N -43.566 -30.098 0.588  -4.705 -0.947 -0.501 C16  QRC 2  
+QRC C17  C3  C 0 1 Y N N -44.335 -31.404 0.329  -4.398 0.450  -0.006 C17  QRC 3  
+QRC C13  C4  C 0 1 N N N -43.673 -29.884 3.090  -2.800 -2.320 0.389  C13  QRC 4  
+QRC C12  C5  C 0 1 N N S -44.293 -29.485 1.750  -3.331 -1.577 -0.811 C12  QRC 5  
+QRC C11  C6  C 0 1 N N S -45.690 -29.950 1.593  -2.461 -0.340 -1.119 C11  QRC 6  
+QRC C20  C7  C 0 1 Y N N -44.782 -33.605 -0.474 -4.681 2.591  1.053  C20  QRC 7  
+QRC C01  C8  C 0 1 N N N -53.395 -29.332 9.899  8.380  1.113  0.737  C01  QRC 8  
+QRC C03  C9  C 0 1 N N N -51.683 -29.137 8.106  6.115  0.252  0.484  C03  QRC 9  
+QRC C05  C10 C 0 1 Y N N -49.672 -29.009 6.567  3.910  -0.545 0.111  C05  QRC 10 
+QRC C06  C11 C 0 1 Y N N -48.295 -29.090 6.559  3.671  0.296  -0.972 C06  QRC 11 
+QRC C07  C12 C 0 1 Y N N -47.626 -29.125 5.358  2.385  0.497  -1.418 C07  QRC 12 
+QRC C08  C13 C 0 1 Y N N -48.362 -29.088 4.184  1.318  -0.145 -0.783 C08  QRC 13 
+QRC C09  C14 C 0 1 N N N -47.664 -29.181 2.850  -0.063 0.068  -1.260 C09  QRC 14 
+QRC C21  C15 C 0 1 Y N N -46.039 -33.563 0.127  -3.392 2.935  0.696  C21  QRC 15 
+QRC C22  C16 C 0 1 Y N N -46.448 -32.435 0.832  -2.608 2.041  -0.009 C22  QRC 16 
+QRC C23  C17 C 0 1 Y N N -45.577 -31.348 0.951  -3.109 0.799  -0.361 C23  QRC 17 
+QRC C25  C18 C 0 1 Y N N -49.742 -29.059 4.196  1.561  -0.989 0.304  C25  QRC 18 
+QRC C26  C19 C 0 1 Y N N -50.414 -29.029 5.398  2.851  -1.190 0.742  C26  QRC 19 
+QRC N02  N1  N 0 1 N N N -52.015 -29.273 9.492  7.401  0.027  0.821  N02  QRC 20 
+QRC N04  N2  N 0 1 N N N -50.267 -29.058 7.867  5.214  -0.747 0.561  N04  QRC 21 
+QRC N10  N3  N 0 1 N N N -46.364 -29.809 2.856  -1.091 -0.552 -0.646 N10  QRC 22 
+QRC O14  O1  O 0 1 N N N -43.033 -29.004 3.721  -3.031 -1.912 1.502  O14  QRC 23 
+QRC O15  O2  O 0 1 N N N -43.812 -31.051 3.558  -2.071 -3.434 0.219  O15  QRC 24 
+QRC O19  O3  O 0 1 N N N -42.653 -32.486 -0.948 -6.456 1.010  1.048  O19  QRC 25 
+QRC O24  O4  O 0 1 N N N -48.193 -28.874 1.835  -0.273 0.802  -2.206 O24  QRC 26 
+QRC O27  O5  O 0 1 N N N -52.514 -29.052 7.265  5.769  1.356  0.110  O27  QRC 27 
+QRC H161 H1  H 0 0 N N N -43.604 -29.438 -0.292 -5.218 -1.518 0.273  H161 QRC 28 
+QRC H162 H2  H 0 0 N N N -42.517 -30.305 0.846  -5.314 -0.904 -1.405 H162 QRC 29 
+QRC H121 H3  H 0 0 N N N -44.260 -28.389 1.658  -3.393 -2.237 -1.676 H121 QRC 30 
+QRC H111 H4  H 0 0 N N N -46.184 -29.295 0.860  -2.463 -0.133 -2.189 H111 QRC 31 
+QRC H201 H5  H 0 0 N N N -44.474 -34.484 -1.021 -5.295 3.289  1.603  H201 QRC 32 
+QRC H011 H6  H 0 0 N N N -53.451 -29.436 10.993 8.437  1.474  -0.290 H011 QRC 33 
+QRC H012 H7  H 0 0 N N N -53.907 -28.408 9.592  8.075  1.929  1.392  H012 QRC 34 
+QRC H013 H8  H 0 0 N N N -53.881 -30.196 9.423  9.358  0.745  1.047  H013 QRC 35 
+QRC H061 H9  H 0 0 N N N -47.747 -29.126 7.489  4.496  0.791  -1.462 H061 QRC 36 
+QRC H071 H10 H 0 0 N N N -46.548 -29.180 5.330  2.200  1.150  -2.258 H071 QRC 37 
+QRC H211 H11 H 0 0 N N N -46.701 -34.413 0.045  -2.997 3.903  0.967  H211 QRC 38 
+QRC H221 H12 H 0 0 N N N -47.429 -32.400 1.283  -1.601 2.313  -0.287 H221 QRC 39 
+QRC H251 H13 H 0 0 N N N -50.293 -29.060 3.267  0.739  -1.486 0.797  H251 QRC 40 
+QRC H261 H14 H 0 0 N N N -51.494 -29.021 5.428  3.040  -1.846 1.579  H261 QRC 41 
+QRC H021 H15 H 0 0 N N N -51.289 -29.327 10.177 7.677  -0.853 1.118  H021 QRC 42 
+QRC H041 H16 H 0 0 N N N -49.659 -29.036 8.661  5.473  -1.606 0.929  H041 QRC 43 
+QRC H101 H17 H 0 0 N N N -45.948 -30.134 3.706  -0.923 -1.137 0.109  H101 QRC 44 
+QRC H1   H18 H 0 1 N N N -43.374 -31.110 4.399  -1.752 -3.876 1.018  H1   QRC 45 
+QRC H191 H19 H 0 0 N N N -42.487 -33.306 -1.399 -6.527 0.574  1.908  H191 QRC 46 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QRC N02 C01  SING N N 1  
+QRC C03 N02  SING N N 2  
+QRC C05 N04  SING N N 3  
+QRC C06 C05  DOUB Y N 4  
+QRC C07 C06  SING Y N 5  
+QRC C08 C07  DOUB Y N 6  
+QRC C11 N10  SING N N 7  
+QRC C12 C11  SING N N 8  
+QRC O14 C13  DOUB N N 9  
+QRC O15 C13  SING N N 10 
+QRC C13 C12  SING N N 11 
+QRC C16 C12  SING N N 12 
+QRC C17 C16  SING N N 13 
+QRC C18 C17  DOUB Y N 14 
+QRC O19 C18  SING N N 15 
+QRC C20 C18  SING Y N 16 
+QRC C21 C20  DOUB Y N 17 
+QRC C22 C21  SING Y N 18 
+QRC C23 C22  DOUB Y N 19 
+QRC N10 C09  SING N N 20 
+QRC O24 C09  DOUB N N 21 
+QRC C09 C08  SING N N 22 
+QRC C25 C08  SING Y N 23 
+QRC C26 C25  DOUB Y N 24 
+QRC N04 C03  SING N N 25 
+QRC O27 C03  DOUB N N 26 
+QRC C05 C26  SING Y N 27 
+QRC C11 C23  SING N N 28 
+QRC C17 C23  SING Y N 29 
+QRC C16 H161 SING N N 30 
+QRC C16 H162 SING N N 31 
+QRC C12 H121 SING N N 32 
+QRC C11 H111 SING N N 33 
+QRC C20 H201 SING N N 34 
+QRC C01 H011 SING N N 35 
+QRC C01 H012 SING N N 36 
+QRC C01 H013 SING N N 37 
+QRC C06 H061 SING N N 38 
+QRC C07 H071 SING N N 39 
+QRC C21 H211 SING N N 40 
+QRC C22 H221 SING N N 41 
+QRC C25 H251 SING N N 42 
+QRC C26 H261 SING N N 43 
+QRC N02 H021 SING N N 44 
+QRC N04 H041 SING N N 45 
+QRC N10 H101 SING N N 46 
+QRC O15 H1   SING N N 47 
+QRC O19 H191 SING N N 48 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QRC SMILES           ACDLabs              12.01 "CNC(=O)Nc1ccc(cc1)C(=O)NC1c2cccc(O)c2CC1C(=O)O"                                                                                                                              
+QRC InChI            InChI                1.03  "InChI=1S/C19H19N3O5/c1-20-19(27)21-11-7-5-10(6-8-11)17(24)22-16-12-3-2-4-15(23)13(12)9-14(16)18(25)26/h2-8,14,16,23H,9H2,1H3,(H,22,24)(H,25,26)(H2,20,21,27)/t14-,16+/m0/s1" 
+QRC InChIKey         InChI                1.03  AIAOTJWQHRPTHB-GOEBONIOSA-N                                                                                                                                                   
+QRC SMILES_CANONICAL CACTVS               3.385 "CNC(=O)Nc1ccc(cc1)C(=O)N[C@H]2[C@H](Cc3c(O)cccc23)C(O)=O"                                                                                                                    
+QRC SMILES           CACTVS               3.385 "CNC(=O)Nc1ccc(cc1)C(=O)N[CH]2[CH](Cc3c(O)cccc23)C(O)=O"                                                                                                                      
+QRC SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CNC(=O)Nc1ccc(cc1)C(=O)N[C@@H]2c3cccc(c3C[C@@H]2C(=O)O)O"                                                                                                                    
+QRC SMILES           "OpenEye OEToolkits" 2.0.7 "CNC(=O)Nc1ccc(cc1)C(=O)NC2c3cccc(c3CC2C(=O)O)O"                                                                                                                              
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QRC "SYSTEMATIC NAME" ACDLabs              12.01 "(1S,2S)-4-hydroxy-1-[4-(methylcarbamamido)benzamido]-2,3-dihydro-1H-indene-2-carboxylic acid"                          
+QRC "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{S},2~{S})-1-[[4-(methylcarbamoylamino)phenyl]carbonylamino]-4-oxidanyl-2,3-dihydro-1~{H}-indene-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QRC "Create component" 2022-06-14 RCSB 
+QRC "Initial release"  2022-07-06 RCSB 
+# 

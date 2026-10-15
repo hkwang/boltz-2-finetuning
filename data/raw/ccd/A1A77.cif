@@ -1,0 +1,163 @@
+data_A1A77
+# 
+_chem_comp.id                                    A1A77 
+_chem_comp.name                                  "[(2R)-4-methyl-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperazin-2-yl]methanol" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C12 H17 N5 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-09-18 
+_chem_comp.pdbx_modified_date                    2025-06-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        247.296 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1A77 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7HDF 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1A77 O1  O1  O 0 1 N N N N N N 10.826 1.332  3.316  -3.067 2.052  -0.363 O1  A1A77 1  
+A1A77 C1  C1  C 0 1 N N N N N N 13.582 -2.106 -0.737 -3.491 -0.595 -1.132 C1  A1A77 2  
+A1A77 C2  C2  C 0 1 N N N N N N 14.538 -0.052 0.207  -2.011 -2.182 -0.058 C2  A1A77 3  
+A1A77 C3  C3  C 0 1 N N N N N N 14.570 0.961  1.366  -0.765 -1.378 -0.435 C3  A1A77 4  
+A1A77 C4  C4  C 0 1 Y N N N N N 14.343 0.750  3.840  0.684  0.301  0.351  C4  A1A77 5  
+A1A77 C5  C5  C 0 1 Y N N N N N 14.696 0.007  6.014  1.791  2.300  0.039  C5  A1A77 6  
+A1A77 C6  C6  C 0 1 Y N N N N N 15.308 2.106  5.574  3.050  0.382  -0.133 C6  A1A77 7  
+A1A77 C7  C7  C 0 1 Y N N N N N 14.886 2.011  4.217  1.894  -0.374 0.134  C7  A1A77 8  
+A1A77 C8  C8  C 0 1 Y N N N N N 15.156 3.281  3.591  2.309  -1.776 0.111  C8  A1A77 9  
+A1A77 C10 C9  C 0 1 N N R N N N 12.532 -0.098 2.388  -1.613 0.518  0.809  C10 A1A77 10 
+A1A77 C11 C10 C 0 1 N N N N N N 11.471 0.986  2.109  -1.871 1.281  -0.492 C11 A1A77 11 
+A1A77 C12 C11 C 0 1 N N N N N N 12.549 -1.209 1.308  -2.859 -0.287 1.185  C12 A1A77 12 
+A1A77 C9  C12 C 0 1 Y N N N N N 15.714 4.091  4.549  3.625  -1.786 -0.156 C9  A1A77 13 
+A1A77 N1  N1  N 0 1 N N N N N N 13.864 0.483  2.545  -0.479 -0.398 0.623  N1  A1A77 14 
+A1A77 N2  N2  N 0 1 Y N N N N N 14.260 -0.230 4.773  0.683  1.629  0.294  N2  A1A77 15 
+A1A77 N3  N3  N 0 1 Y N N N N N 15.232 1.123  6.514  2.948  1.710  -0.170 N3  A1A77 16 
+A1A77 N4  N4  N 0 1 Y N N N N N 15.803 3.383  5.737  4.080  -0.502 -0.305 N4  A1A77 17 
+A1A77 N5  N5  N 0 1 N N N N N N 13.799 -1.314 0.495  -3.145 -1.266 0.128  N5  A1A77 18 
+A1A77 H15 H1  H 0 1 N N N N N N 10.172 2.000  3.146  -3.234 2.646  -1.107 H15 A1A77 19 
+A1A77 H2  H2  H 0 1 N N N N N N 13.036 -3.028 -0.489 -4.320 -1.118 -1.607 H2  A1A77 20 
+A1A77 H3  H3  H 0 1 N N N N N N 12.995 -1.514 -1.455 -3.781 0.436  -0.927 H3  A1A77 21 
+A1A77 H4  H4  H 0 1 N N N N N N 14.554 -2.364 -1.183 -2.627 -0.603 -1.797 H4  A1A77 22 
+A1A77 H5  H5  H 0 1 N N N N N N 15.576 -0.314 -0.046 -2.241 -2.890 -0.855 H5  A1A77 23 
+A1A77 H6  H6  H 0 1 N N N N N N 14.061 0.433  -0.657 -1.826 -2.725 0.869  H6  A1A77 24 
+A1A77 H7  H7  H 0 1 N N N N N N 15.619 1.154  1.637  0.085  -2.052 -0.545 H7  A1A77 25 
+A1A77 H8  H8  H 0 1 N N N N N N 14.100 1.897  1.029  -0.939 -0.856 -1.376 H8  A1A77 26 
+A1A77 H9  H9  H 0 1 N N N N N N 14.602 -0.816 6.707  1.747  3.379  0.001  H9  A1A77 27 
+A1A77 H10 H10 H 0 1 N N N N N N 14.957 3.545  2.563  1.679  -2.637 0.276  H10 A1A77 28 
+A1A77 H1  H11 H 0 1 N N N N N N 12.258 -0.579 3.338  -1.382 1.225  1.605  H1  A1A77 29 
+A1A77 H14 H12 H 0 1 N N N N N N 11.959 1.876  1.685  -1.982 0.572  -1.313 H14 A1A77 30 
+A1A77 H13 H13 H 0 1 N N N N N N 10.730 0.599  1.395  -1.031 1.945  -0.697 H13 A1A77 31 
+A1A77 H17 H14 H 0 1 N N N N N N 11.714 -1.020 0.618  -2.684 -0.808 2.126  H17 A1A77 32 
+A1A77 H16 H15 H 0 1 N N N N N N 12.395 -2.173 1.815  -3.708 0.388  1.296  H16 A1A77 33 
+A1A77 H11 H16 H 0 1 N N N N N N 16.032 5.113  4.401  4.235  -2.674 -0.241 H11 A1A77 34 
+A1A77 H12 H17 H 0 1 N N N N N N 16.174 3.747  6.592  4.997  -0.255 -0.502 H12 A1A77 35 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1A77 C1  N5  SING N N 1  
+A1A77 C2  N5  SING N N 2  
+A1A77 C2  C3  SING N N 3  
+A1A77 N5  C12 SING N N 4  
+A1A77 C12 C10 SING N N 5  
+A1A77 C3  N1  SING N N 6  
+A1A77 C11 C10 SING N N 7  
+A1A77 C11 O1  SING N N 8  
+A1A77 C10 N1  SING N N 9  
+A1A77 N1  C4  SING N N 10 
+A1A77 C8  C7  SING Y N 11 
+A1A77 C8  C9  DOUB Y N 12 
+A1A77 C4  C7  DOUB Y N 13 
+A1A77 C4  N2  SING Y N 14 
+A1A77 C7  C6  SING Y N 15 
+A1A77 C9  N4  SING Y N 16 
+A1A77 N2  C5  DOUB Y N 17 
+A1A77 C6  N4  SING Y N 18 
+A1A77 C6  N3  DOUB Y N 19 
+A1A77 C5  N3  SING Y N 20 
+A1A77 O1  H15 SING N N 21 
+A1A77 C1  H2  SING N N 22 
+A1A77 C1  H3  SING N N 23 
+A1A77 C1  H4  SING N N 24 
+A1A77 C2  H5  SING N N 25 
+A1A77 C2  H6  SING N N 26 
+A1A77 C3  H7  SING N N 27 
+A1A77 C3  H8  SING N N 28 
+A1A77 C5  H9  SING N N 29 
+A1A77 C8  H10 SING N N 30 
+A1A77 C10 H1  SING N N 31 
+A1A77 C11 H14 SING N N 32 
+A1A77 C11 H13 SING N N 33 
+A1A77 C12 H17 SING N N 34 
+A1A77 C12 H16 SING N N 35 
+A1A77 C9  H11 SING N N 36 
+A1A77 N4  H12 SING N N 37 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1A77 SMILES           ACDLabs              14.52   "CN1CC(CO)N(CC1)c1ncnc2[NH]ccc12"                                                                                         
+A1A77 InChI            InChI                1.06    "InChI=1S/C12H17N5O/c1-16-4-5-17(9(6-16)7-18)12-10-2-3-13-11(10)14-8-15-12/h2-3,8-9,18H,4-7H2,1H3,(H,13,14,15)/t9-/m1/s1" 
+A1A77 InChIKey         InChI                1.06    AHSJKXMQYAVIME-SECBINFHSA-N                                                                                               
+A1A77 SMILES_CANONICAL CACTVS               3.385   "CN1CCN([C@@H](CO)C1)c2ncnc3[nH]ccc23"                                                                                    
+A1A77 SMILES           CACTVS               3.385   "CN1CCN([CH](CO)C1)c2ncnc3[nH]ccc23"                                                                                      
+A1A77 SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "CN1CCN([C@H](C1)CO)c2c3cc[nH]c3ncn2"                                                                                     
+A1A77 SMILES           "OpenEye OEToolkits" 3.1.0.0 "CN1CCN(C(C1)CO)c2c3cc[nH]c3ncn2"                                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1A77 "SYSTEMATIC NAME" ACDLabs              14.52   "[(2R)-4-methyl-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperazin-2-yl]methanol"       
+A1A77 "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "[(2~{R})-4-methyl-1-(7~{H}-pyrrolo[2,3-d]pyrimidin-4-yl)piperazin-2-yl]methanol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1A77 "Create component" 2024-09-18 RCSB 
+A1A77 "Initial release"  2025-06-11 RCSB 
+# 

@@ -1,0 +1,175 @@
+data_RY6
+# 
+_chem_comp.id                                    RY6 
+_chem_comp.name                                  "(1S,2S)-1-(4-carbamamidobenzamido)-4-hydroxy-2,3-dihydro-1H-indene-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C18 H17 N3 O5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        355.345 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RY6 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SPA 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RY6 C16  C1  C 0 1 Y N N -44.399 -31.442 0.241  -4.002 0.132  0.145  C16  RY6 1  
+RY6 C17  C2  C 0 1 Y N N -43.965 -32.541 -0.462 -4.826 0.723  1.095  C17  RY6 2  
+RY6 C15  C3  C 0 1 N N N -43.656 -30.135 0.507  -4.179 -1.144 -0.649 C15  RY6 3  
+RY6 C12  C4  C 0 1 N N N -43.750 -29.874 2.998  -2.047 -2.402 -0.225 C12  RY6 4  
+RY6 C11  C5  C 0 1 N N S -44.386 -29.525 1.661  -2.772 -1.488 -1.180 C11  RY6 5  
+RY6 C10  C6  C 0 1 N N S -45.781 -30.033 1.498  -2.092 -0.104 -1.237 C10  RY6 6  
+RY6 C20  C7  C 0 1 Y N N -46.046 -33.653 0.013  -3.252 2.510  1.354  C20  RY6 7  
+RY6 C19  C8  C 0 1 Y N N -44.791 -33.650 -0.579 -4.449 1.913  1.699  C19  RY6 8  
+RY6 C02  C9  C 0 1 N N N -51.811 -29.057 7.944  6.052  -0.276 1.133  C02  RY6 9  
+RY6 C04  C10 C 0 1 Y N N -49.772 -29.047 6.428  4.318  0.398  -0.344 C04  RY6 10 
+RY6 C05  C11 C 0 1 Y N N -48.390 -29.126 6.420  3.858  1.505  -1.049 C05  RY6 11 
+RY6 C06  C12 C 0 1 Y N N -47.710 -29.171 5.220  2.521  1.620  -1.358 C06  RY6 12 
+RY6 C07  C13 C 0 1 Y N N -48.444 -29.126 4.045  1.626  0.622  -0.962 C07  RY6 13 
+RY6 C08  C14 C 0 1 N N N -47.754 -29.230 2.710  0.193  0.741  -1.292 C08  RY6 14 
+RY6 C21  C15 C 0 1 Y N N -46.474 -32.542 0.724  -2.430 1.918  0.414  C21  RY6 15 
+RY6 C22  C16 C 0 1 Y N N -45.634 -31.432 0.857  -2.804 0.730  -0.193 C22  RY6 16 
+RY6 C24  C17 C 0 1 Y N N -49.820 -29.084 4.043  2.092  -0.489 -0.254 C24  RY6 17 
+RY6 C25  C18 C 0 1 Y N N -50.497 -29.044 5.243  3.431  -0.600 0.047  C25  RY6 18 
+RY6 N01  N1  N 0 1 N N N -52.194 -29.110 9.326  7.356  -0.308 1.472  N01  RY6 19 
+RY6 N03  N2  N 0 1 N N N -50.389 -29.051 7.729  5.673  0.285  -0.033 N03  RY6 20 
+RY6 N09  N3  N 0 1 N N N -46.465 -29.874 2.735  -0.669 -0.222 -0.910 N09  RY6 21 
+RY6 O13  O1  O 0 1 N N N -43.823 -31.037 3.485  -2.213 -2.285 0.966  O13  RY6 22 
+RY6 O14  O2  O 0 1 N N N -43.152 -28.948 3.603  -1.218 -3.345 -0.698 O14  RY6 23 
+RY6 O18  O3  O 0 1 N N N -42.692 -32.453 -1.035 -6.003 0.134  1.434  O18  RY6 24 
+RY6 O23  O4  O 0 1 N N N -48.284 -28.924 1.694  -0.211 1.708  -1.909 O23  RY6 25 
+RY6 O26  O5  O 0 1 N N N -52.618 -28.991 7.080  5.218  -0.752 1.878  O26  RY6 26 
+RY6 H151 H1  H 0 0 N N N -42.606 -30.330 0.769  -4.546 -1.943 -0.004 H151 RY6 27 
+RY6 H152 H2  H 0 0 N N N -43.698 -29.476 -0.373 -4.867 -0.981 -1.479 H152 RY6 28 
+RY6 H111 H3  H 0 0 N N N -44.387 -28.431 1.546  -2.830 -1.936 -2.172 H111 RY6 29 
+RY6 H101 H4  H 0 0 N N N -46.274 -29.395 0.750  -2.217 0.339  -2.225 H101 RY6 30 
+RY6 H201 H5  H 0 0 N N N -46.687 -34.517 -0.080 -2.955 3.437  1.823  H201 RY6 31 
+RY6 H191 H6  H 0 0 N N N -44.456 -34.514 -1.133 -5.090 2.372  2.437  H191 RY6 32 
+RY6 H051 H7  H 0 0 N N N -47.845 -29.152 7.352  4.550  2.276  -1.355 H051 RY6 33 
+RY6 H061 H8  H 0 0 N N N -46.632 -29.240 5.197  2.165  2.480  -1.905 H061 RY6 34 
+RY6 H211 H9  H 0 0 N N N -47.455 -32.534 1.175  -1.492 2.385  0.150  H211 RY6 35 
+RY6 H241 H10 H 0 0 N N N -50.364 -29.082 3.110  1.403  -1.262 0.054  H241 RY6 36 
+RY6 H251 H11 H 0 0 N N N -51.576 -29.011 5.262  3.791  -1.459 0.595  H251 RY6 37 
+RY6 H012 H12 H 0 0 N N N -53.162 -29.091 9.578  8.022  0.072  0.877  H012 RY6 38 
+RY6 H011 H13 H 0 0 N N N -51.493 -29.165 10.037 7.629  -0.711 2.311  H011 RY6 39 
+RY6 H031 H14 H 0 0 N N N -49.793 -29.050 8.532  6.342  0.609  -0.656 H031 RY6 40 
+RY6 H091 H15 H 0 0 N N N -46.065 -30.198 3.592  -0.347 -0.993 -0.417 H091 RY6 41 
+RY6 H1   H16 H 0 1 N N N -42.802 -29.278 4.422  -0.776 -3.908 -0.047 H1   RY6 42 
+RY6 H181 H17 H 0 0 N N N -42.309 -31.609 -0.828 -5.933 -0.490 2.169  H181 RY6 43 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RY6 O18 C17  SING N N 1  
+RY6 C19 C17  DOUB Y N 2  
+RY6 C19 C20  SING Y N 3  
+RY6 C17 C16  SING Y N 4  
+RY6 C20 C21  DOUB Y N 5  
+RY6 C16 C15  SING N N 6  
+RY6 C16 C22  DOUB Y N 7  
+RY6 C15 C11  SING N N 8  
+RY6 C21 C22  SING Y N 9  
+RY6 C22 C10  SING N N 10 
+RY6 C10 C11  SING N N 11 
+RY6 C10 N09  SING N N 12 
+RY6 C11 C12  SING N N 13 
+RY6 O23 C08  DOUB N N 14 
+RY6 C08 N09  SING N N 15 
+RY6 C08 C07  SING N N 16 
+RY6 C12 O13  DOUB N N 17 
+RY6 C12 O14  SING N N 18 
+RY6 C24 C07  DOUB Y N 19 
+RY6 C24 C25  SING Y N 20 
+RY6 C07 C06  SING Y N 21 
+RY6 C06 C05  DOUB Y N 22 
+RY6 C25 C04  DOUB Y N 23 
+RY6 C05 C04  SING Y N 24 
+RY6 C04 N03  SING N N 25 
+RY6 O26 C02  DOUB N N 26 
+RY6 N03 C02  SING N N 27 
+RY6 C02 N01  SING N N 28 
+RY6 C15 H151 SING N N 29 
+RY6 C15 H152 SING N N 30 
+RY6 C11 H111 SING N N 31 
+RY6 C10 H101 SING N N 32 
+RY6 C20 H201 SING N N 33 
+RY6 C19 H191 SING N N 34 
+RY6 C05 H051 SING N N 35 
+RY6 C06 H061 SING N N 36 
+RY6 C21 H211 SING N N 37 
+RY6 C24 H241 SING N N 38 
+RY6 C25 H251 SING N N 39 
+RY6 N01 H012 SING N N 40 
+RY6 N01 H011 SING N N 41 
+RY6 N03 H031 SING N N 42 
+RY6 N09 H091 SING N N 43 
+RY6 O14 H1   SING N N 44 
+RY6 O18 H181 SING N N 45 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RY6 SMILES           ACDLabs              12.01 "NC(=O)Nc1ccc(cc1)C(=O)NC1c2cccc(O)c2CC1C(=O)O"                                                                                                                        
+RY6 InChI            InChI                1.06  "InChI=1S/C18H17N3O5/c19-18(26)20-10-6-4-9(5-7-10)16(23)21-15-11-2-1-3-14(22)12(11)8-13(15)17(24)25/h1-7,13,15,22H,8H2,(H,21,23)(H,24,25)(H3,19,20,26)/t13-,15+/m0/s1" 
+RY6 InChIKey         InChI                1.06  UYUBQOHPPHHZPI-DZGCQCFKSA-N                                                                                                                                            
+RY6 SMILES_CANONICAL CACTVS               3.385 "NC(=O)Nc1ccc(cc1)C(=O)N[C@H]2[C@H](Cc3c(O)cccc23)C(O)=O"                                                                                                              
+RY6 SMILES           CACTVS               3.385 "NC(=O)Nc1ccc(cc1)C(=O)N[CH]2[CH](Cc3c(O)cccc23)C(O)=O"                                                                                                                
+RY6 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(c(c1)O)C[C@@H]([C@@H]2NC(=O)c3ccc(cc3)NC(=O)N)C(=O)O"                                                                                                          
+RY6 SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(c(c1)O)CC(C2NC(=O)c3ccc(cc3)NC(=O)N)C(=O)O"                                                                                                                    
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RY6 "SYSTEMATIC NAME" ACDLabs              12.01 "(1S,2S)-1-(4-carbamamidobenzamido)-4-hydroxy-2,3-dihydro-1H-indene-2-carboxylic acid"                                
+RY6 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{S},2~{S})-1-[[4-(aminocarbonylamino)phenyl]carbonylamino]-4-oxidanyl-2,3-dihydro-1~{H}-indene-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RY6 "Create component" 2022-06-23 RCSB 
+RY6 "Initial release"  2022-07-13 RCSB 
+# 

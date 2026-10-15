@@ -1,0 +1,21 @@
+# Boltz-2 co-folding of Mac1 (SARS-CoV-2 NSP3 macrodomain) with ligands from
+# data/processed/mac1_splits.csv. Consumed by experiments/prepare_mac1_cofold.py.
+name: mac1_cofold
+
+# RCSB 5RS7 / 7HC4 / 13RI entity 1 (identical in all three), chain A only.
+protein_sequence: SMVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFL
+
+# `empty` = single-sequence mode, no MSA server call and no MSA files.
+msa: empty
+
+# Held-out `test` split ligands (see docs/datasets.md), spanning ~0.02-1000 uM.
+ligands: [9CY0, 13RR, 7HC4, 7HEC, 7HCF, 7HCO]
+
+# Passed to `boltz predict` by experiments/run_mac1_cofold.sh.
+predict:
+  seed: 2026
+  recycling_steps: 3
+  sampling_steps: 200
+  diffusion_samples: 1
+  sampling_steps_affinity: 200
+  diffusion_samples_affinity: 3

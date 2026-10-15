@@ -1,0 +1,54 @@
+# Boltz-2 diffusion fine-tuning on Mac1 crystal structures. Consumed by experiments/train_diffusion.py.
+# Long run: 1400 steps on 4 GPUs is about 10 epochs of the 557 crystal records (about 140 steps per epoch). Timing and smoke runs override name/devices/max_steps.
+name: diffusion_full
+seed: 0
+output_dir: experiments/results/finetune_diffusion
+
+checkpoint: ~/.cache/boltz/boltz2_conf.ckpt
+mol_dir: ~/.cache/boltz/mols
+inputs_dir: data/processed/boltz_inputs
+records_csv: data/processed/mac1_training_records.csv
+
+# Both are True in the pretrained checkpoint. With them off, peak memory is 31-38 GB per A100 (OOM at step 2 on 4 GPUs);
+# with them on it is 8.7 GB. Reentrant checkpointing under DDP needs static_graph (see trainer.ddp_static_graph).
+checkpoint_diffusion_conditioning: true
+score_activation_checkpointing: true
+
+# Only these top-level modules receive gradients; everything else is frozen and verified bit-identical after the run.
+trainable_modules: [structure_module, diffusion_conditioning]
+
+data:
+  max_tokens: 512
+  max_atoms: 4608
+  max_seqs: 2048
+  pocket_prob: 0.3
+  pocket_geometric_p: 0.3
+  pad_to_max: false
+  num_workers: 4
+
+# Overrides of the checkpoint's training_args. lr/warmup are fine-tuning choices, not Boltz's pretraining values.
+training_args:
+  recycling_steps: 3
+  sampling_steps: 2
+  diffusion_multiplicity: 16
+  diffusion_samples: 1
+  symmetry_correction: false
+  diffusion_loss_weight: 4.0
+  distogram_loss_weight: 0.0
+  confidence_loss_weight: 0.0
+  bfactor_loss_weight: 0.0
+  base_lr: 0.0
+  max_lr: 1.0e-5
+  lr_warmup_no_steps: 50
+  lr_start_decay_after_n_steps: 1000000
+
+trainer:
+  devices: 4
+  precision: bf16-mixed
+  max_steps: 1400
+  accumulate_grad_batches: 1
+  ddp_static_graph: true
+  gradient_clip_val: 10.0
+  log_every_n_steps: 1
+  checkpoint_every_n_steps: 200
+  save_weights_every_n_steps: 200

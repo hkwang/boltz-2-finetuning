@@ -1,0 +1,159 @@
+data_A1A6N
+# 
+_chem_comp.id                                    A1A6N 
+_chem_comp.name                                  "(3R)-3-ethyl-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)pyrrolidin-3-ol" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C12 H16 N4 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-09-13 
+_chem_comp.pdbx_modified_date                    2025-06-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        232.282 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1A6N 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7HCT 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1A6N N2  N1  N 0 1 Y N N N N N 14.796 -0.101 4.160  -0.871 -1.709 0.110  N2  A1A6N 1  
+A1A6N C3  C1  C 0 1 N N R N N N 14.594 0.174  -0.160 2.814  0.027  0.252  C3  A1A6N 2  
+A1A6N C6  C2  C 0 1 Y N N N N N 14.920 1.062  3.474  -0.785 -0.387 0.227  C6  A1A6N 3  
+A1A6N C9  C3  C 0 1 Y N N N N N 15.193 2.284  4.136  -1.960 0.370  0.112  C9  A1A6N 4  
+A1A6N C12 C4  C 0 1 N N N N N N 15.171 -0.062 1.266  1.527  -0.776 0.540  C12 A1A6N 5  
+A1A6N C1  C5  C 0 1 N N N N N N 13.213 -2.022 -0.162 5.027  0.026  -0.908 C1  A1A6N 6  
+A1A6N C10 C6  C 0 1 Y N N N N N 15.394 3.657  3.767  -2.286 1.794  0.176  C10 A1A6N 7  
+A1A6N C11 C7  C 0 1 Y N N N N N 15.631 4.372  4.937  -3.612 1.897  -0.012 C11 A1A6N 8  
+A1A6N C2  C8  C 0 1 N N N N N N 14.201 -1.130 -0.898 3.791  -0.812 -0.573 C2  A1A6N 9  
+A1A6N C4  C9  C 0 1 N N N N N N 13.426 1.171  0.044  2.348  1.256  -0.555 C4  A1A6N 10 
+A1A6N C5  C10 C 0 1 N N N N N N 13.517 1.643  1.504  0.818  1.092  -0.688 C5  A1A6N 11 
+A1A6N C7  C11 C 0 1 Y N N N N N 14.936 -0.018 5.523  -2.033 -2.298 -0.108 C7  A1A6N 12 
+A1A6N C8  C12 C 0 1 Y N N N N N 15.316 2.219  5.544  -3.175 -0.301 -0.120 C8  A1A6N 13 
+A1A6N N1  N2  N 0 1 N N N N N N 14.797 1.130  2.045  0.434  0.227  0.457  N1  A1A6N 14 
+A1A6N N3  N3  N 0 1 Y N N N N N 15.189 1.068  6.259  -3.159 -1.629 -0.223 N3  A1A6N 15 
+A1A6N N4  N4  N 0 1 Y N N N N N 15.582 3.491  6.038  -4.155 0.651  -0.191 N4  A1A6N 16 
+A1A6N O1  O1  O 0 1 N N N N N N 15.518 0.874  -0.927 3.425  0.441  1.476  O1  A1A6N 17 
+A1A6N H15 H1  H 0 1 N N N N N N 14.733 -0.966 1.713  1.388  -1.553 -0.212 H15 A1A6N 18 
+A1A6N H16 H2  H 0 1 N N N N N N 16.265 -0.167 1.225  1.567  -1.213 1.537  H16 A1A6N 19 
+A1A6N H3  H3  H 0 1 N N N N N N 13.002 -2.915 -0.768 4.726  0.903  -1.482 H3  A1A6N 20 
+A1A6N H2  H4  H 0 1 N N N N N N 13.643 -2.327 0.803  5.511  0.344  0.015  H2  A1A6N 21 
+A1A6N H1  H5  H 0 1 N N N N N N 12.279 -1.468 0.012  5.722  -0.572 -1.497 H1  A1A6N 22 
+A1A6N H12 H6  H 0 1 N N N N N N 15.366 4.061  2.766  -1.594 2.606  0.343  H12 A1A6N 23 
+A1A6N H13 H7  H 0 1 N N N N N N 15.822 5.433  4.993  -4.167 2.824  -0.021 H13 A1A6N 24 
+A1A6N H4  H8  H 0 1 N N N N N N 15.118 -1.711 -1.073 4.091  -1.689 0.000  H4  A1A6N 25 
+A1A6N H5  H9  H 0 1 N N N N N N 13.754 -0.852 -1.864 3.306  -1.130 -1.497 H5  A1A6N 26 
+A1A6N H8  H10 H 0 1 N N N N N N 13.530 2.026  -0.641 2.585  2.174  -0.018 H8  A1A6N 27 
+A1A6N H7  H11 H 0 1 N N N N N N 12.462 0.672  -0.136 2.815  1.261  -1.540 H7  A1A6N 28 
+A1A6N H9  H12 H 0 1 N N N N N N 13.502 2.742  1.548  0.324  2.061  -0.615 H9  A1A6N 29 
+A1A6N H10 H13 H 0 1 N N N N N N 12.673 1.241  2.084  0.568  0.607  -1.632 H10 A1A6N 30 
+A1A6N H11 H14 H 0 1 N N N N N N 14.828 -0.945 6.067  -2.059 -3.374 -0.197 H11 A1A6N 31 
+A1A6N H14 H15 H 0 1 N N N N N N 15.714 3.737  6.998  -5.095 0.471  -0.345 H14 A1A6N 32 
+A1A6N H6  H16 H 0 1 N N N N N N 15.762 1.675  -0.478 4.214  0.987  1.357  H6  A1A6N 33 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1A6N O1  C3  SING N N 1  
+A1A6N C2  C1  SING N N 2  
+A1A6N C2  C3  SING N N 3  
+A1A6N C3  C4  SING N N 4  
+A1A6N C3  C12 SING N N 5  
+A1A6N C4  C5  SING N N 6  
+A1A6N C12 N1  SING N N 7  
+A1A6N C5  N1  SING N N 8  
+A1A6N N1  C6  SING N N 9  
+A1A6N C6  C9  DOUB Y N 10 
+A1A6N C6  N2  SING Y N 11 
+A1A6N C10 C9  SING Y N 12 
+A1A6N C10 C11 DOUB Y N 13 
+A1A6N C9  C8  SING Y N 14 
+A1A6N N2  C7  DOUB Y N 15 
+A1A6N C11 N4  SING Y N 16 
+A1A6N C7  N3  SING Y N 17 
+A1A6N C8  N4  SING Y N 18 
+A1A6N C8  N3  DOUB Y N 19 
+A1A6N C12 H15 SING N N 20 
+A1A6N C12 H16 SING N N 21 
+A1A6N C1  H3  SING N N 22 
+A1A6N C1  H2  SING N N 23 
+A1A6N C1  H1  SING N N 24 
+A1A6N C10 H12 SING N N 25 
+A1A6N C11 H13 SING N N 26 
+A1A6N C2  H4  SING N N 27 
+A1A6N C2  H5  SING N N 28 
+A1A6N C4  H8  SING N N 29 
+A1A6N C4  H7  SING N N 30 
+A1A6N C5  H9  SING N N 31 
+A1A6N C5  H10 SING N N 32 
+A1A6N C7  H11 SING N N 33 
+A1A6N N4  H14 SING N N 34 
+A1A6N O1  H6  SING N N 35 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1A6N SMILES           ACDLabs              14.52   "CCC1(O)CCN(C1)c1ncnc2[NH]ccc12"                                                                                         
+A1A6N InChI            InChI                1.06    "InChI=1S/C12H16N4O/c1-2-12(17)4-6-16(7-12)11-9-3-5-13-10(9)14-8-15-11/h3,5,8,17H,2,4,6-7H2,1H3,(H,13,14,15)/t12-/m1/s1" 
+A1A6N InChIKey         InChI                1.06    ZIDJMGDKZSTBBG-GFCCVEGCSA-N                                                                                              
+A1A6N SMILES_CANONICAL CACTVS               3.385   "CC[C@@]1(O)CCN(C1)c2ncnc3[nH]ccc23"                                                                                     
+A1A6N SMILES           CACTVS               3.385   "CC[C]1(O)CCN(C1)c2ncnc3[nH]ccc23"                                                                                       
+A1A6N SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "CC[C@]1(CCN(C1)c2c3cc[nH]c3ncn2)O"                                                                                      
+A1A6N SMILES           "OpenEye OEToolkits" 3.1.0.0 "CCC1(CCN(C1)c2c3cc[nH]c3ncn2)O"                                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1A6N "SYSTEMATIC NAME" ACDLabs              14.52   "(3R)-3-ethyl-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)pyrrolidin-3-ol"       
+A1A6N "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "(3~{R})-3-ethyl-1-(7~{H}-pyrrolo[2,3-d]pyrimidin-4-yl)pyrrolidin-3-ol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1A6N "Create component" 2024-09-13 RCSB 
+A1A6N "Initial release"  2025-06-11 RCSB 
+# 

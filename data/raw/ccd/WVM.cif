@@ -1,0 +1,177 @@
+data_WVM
+# 
+_chem_comp.id                                    WVM 
+_chem_comp.name                                  "(8S)-8-fluoro-6-(6-{[(2R)-2-hydroxypropyl]amino}pyrimidin-4-yl)-6-azaspiro[3.4]octane-8-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C15 H21 F N4 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2020-11-17 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        324.351 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     WVM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5S6B 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+WVM C10  C1  C 0 1 Y N N -44.588 -29.221 6.063  -1.500 3.086  -0.465 C10  WVM 1  
+WVM N12  N1  N 0 1 N N N -45.258 -29.042 2.482  0.747  0.477  0.485  N12  WVM 2  
+WVM C13  C2  C 0 1 N N N -44.112 -28.536 1.958  1.913  1.401  0.471  C13  WVM 3  
+WVM C15  C3  C 0 1 N N N -44.467 -26.207 0.901  4.427  1.102  -0.104 C15  WVM 4  
+WVM C17  C4  C 0 1 N N N -43.502 -27.688 -0.423 3.781  -0.014 1.587  C17  WVM 5  
+WVM C20  C5  C 0 1 N N N -46.538 -28.558 1.646  1.052  -0.582 -0.503 C20  WVM 6  
+WVM C21  C6  C 0 1 N N N -45.990 -29.512 -0.461 3.089  -2.001 -0.174 C21  WVM 7  
+WVM C01  C7  C 0 1 N N N -50.398 -30.778 6.829  -5.693 -2.807 0.218  C01  WVM 8  
+WVM C02  C8  C 0 1 N N R -50.131 -29.966 5.528  -5.581 -1.315 -0.102 C02  WVM 9  
+WVM C04  C9  C 0 1 N N N -49.254 -28.675 5.793  -4.121 -0.875 0.024  C04  WVM 10 
+WVM C06  C10 C 0 1 Y N N -46.813 -29.132 5.888  -2.779 1.182  -0.233 C06  WVM 11 
+WVM C07  C11 C 0 1 Y N N -46.732 -29.093 4.514  -1.635 0.466  0.106  C07  WVM 12 
+WVM C08  C12 C 0 1 Y N N -45.483 -29.092 3.961  -0.421 1.145  0.153  C08  WVM 13 
+WVM C14  C13 C 0 1 N N N -44.569 -27.736 0.685  3.109  0.451  0.299  C14  WVM 14 
+WVM C16  C14 C 0 1 N N N -43.414 -26.168 -0.194 4.753  1.166  1.400  C16  WVM 15 
+WVM C18  C15 C 0 1 N N S -46.064 -28.251 0.460  2.588  -0.654 -0.629 C18  WVM 16 
+WVM F19  F1  F 0 1 N N N -46.896 -27.318 -0.120 2.983  -0.408 -1.948 F19  WVM 17 
+WVM N05  N2  N 0 1 N N N -48.075 -29.081 6.513  -4.013 0.554  -0.282 N05  WVM 18 
+WVM N09  N3  N 0 1 Y N N -44.441 -29.159 4.752  -0.396 2.444  -0.143 N09  WVM 19 
+WVM N11  N4  N 0 1 Y N N -45.739 -29.176 6.616  -2.670 2.481  -0.509 N11  WVM 20 
+WVM O03  O1  O 0 1 N N N -51.312 -29.516 5.016  -6.384 -0.570 0.815  O03  WVM 21 
+WVM O22  O2  O 0 1 N N N -45.313 -30.446 -0.017 4.377  -2.332 -0.352 O22  WVM 22 
+WVM O23  O3  O 0 1 N N N -46.681 -29.546 -1.486 2.330  -2.782 0.350  O23  WVM 23 
+WVM H101 H1  H 0 0 N N N -43.710 -29.312 6.686  -1.446 4.140  -0.694 H101 WVM 24 
+WVM H131 H2  H 0 0 N N N -43.423 -29.347 1.679  1.846  2.092  -0.370 H131 WVM 25 
+WVM H132 H3  H 0 0 N N N -43.619 -27.867 2.679  1.983  1.947  1.411  H132 WVM 26 
+WVM H151 H4  H 0 0 N N N -44.102 -25.911 1.895  5.087  0.443  -0.668 H151 WVM 27 
+WVM H152 H5  H 0 0 N N N -45.387 -25.652 0.668  4.307  2.081  -0.570 H152 WVM 28 
+WVM H172 H6  H 0 0 N N N -43.864 -27.980 -1.420 3.147  0.076  2.469  H172 WVM 29 
+WVM H171 H7  H 0 0 N N N -42.578 -28.239 -0.193 4.258  -0.991 1.503  H171 WVM 30 
+WVM H202 H8  H 0 0 N N N -47.000 -27.679 2.119  0.662  -1.538 -0.155 H202 WVM 31 
+WVM H201 H9  H 0 0 N N N -47.280 -29.366 1.570  0.609  -0.329 -1.467 H201 WVM 32 
+WVM H011 H10 H 0 0 N N N -49.443 -31.139 7.239  -6.733 -3.121 0.127  H011 WVM 33 
+WVM H012 H11 H 0 0 N N N -50.894 -30.132 7.569  -5.080 -3.375 -0.482 H012 WVM 34 
+WVM H013 H12 H 0 0 N N N -51.046 -31.636 6.599  -5.345 -2.988 1.235  H013 WVM 35 
+WVM H021 H13 H 0 0 N N N -49.598 -30.609 4.812  -5.928 -1.134 -1.119 H021 WVM 36 
+WVM H041 H14 H 0 0 N N N -48.967 -28.215 4.836  -3.773 -1.055 1.041  H041 WVM 37 
+WVM H042 H15 H 0 0 N N N -49.826 -27.951 6.391  -3.508 -1.443 -0.675 H042 WVM 38 
+WVM H071 H16 H 0 0 N N N -47.619 -29.064 3.899  -1.689 -0.588 0.336  H071 WVM 39 
+WVM H161 H17 H 0 0 N N N -42.427 -25.833 0.157  5.788  0.919  1.632  H161 WVM 40 
+WVM H162 H18 H 0 0 N N N -43.713 -25.574 -1.070 4.418  2.086  1.880  H162 WVM 41 
+WVM H051 H19 H 0 0 N N N -47.983 -28.450 7.283  -4.806 1.060  -0.519 H051 WVM 42 
+WVM H031 H20 H 0 0 N N N -51.882 -30.255 4.837  -7.323 -0.797 0.790  H031 WVM 43 
+WVM H1   H21 H 0 1 N N N -45.403 -31.201 -0.586 4.652  -3.207 -0.044 H1   WVM 44 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+WVM O23 C21  DOUB N N 1  
+WVM C21 O22  SING N N 2  
+WVM C21 C18  SING N N 3  
+WVM C17 C16  SING N N 4  
+WVM C17 C14  SING N N 5  
+WVM C16 C15  SING N N 6  
+WVM F19 C18  SING N N 7  
+WVM C18 C14  SING N N 8  
+WVM C18 C20  SING N N 9  
+WVM C14 C15  SING N N 10 
+WVM C14 C13  SING N N 11 
+WVM C20 N12  SING N N 12 
+WVM C13 N12  SING N N 13 
+WVM N12 C08  SING N N 14 
+WVM C08 C07  DOUB Y N 15 
+WVM C08 N09  SING Y N 16 
+WVM C07 C06  SING Y N 17 
+WVM N09 C10  DOUB Y N 18 
+WVM O03 C02  SING N N 19 
+WVM C02 C04  SING N N 20 
+WVM C02 C01  SING N N 21 
+WVM C04 N05  SING N N 22 
+WVM C06 N05  SING N N 23 
+WVM C06 N11  DOUB Y N 24 
+WVM C10 N11  SING Y N 25 
+WVM C10 H101 SING N N 26 
+WVM C13 H131 SING N N 27 
+WVM C13 H132 SING N N 28 
+WVM C15 H151 SING N N 29 
+WVM C15 H152 SING N N 30 
+WVM C17 H172 SING N N 31 
+WVM C17 H171 SING N N 32 
+WVM C20 H202 SING N N 33 
+WVM C20 H201 SING N N 34 
+WVM C01 H011 SING N N 35 
+WVM C01 H012 SING N N 36 
+WVM C01 H013 SING N N 37 
+WVM C02 H021 SING N N 38 
+WVM C04 H041 SING N N 39 
+WVM C04 H042 SING N N 40 
+WVM C07 H071 SING N N 41 
+WVM C16 H161 SING N N 42 
+WVM C16 H162 SING N N 43 
+WVM N05 H051 SING N N 44 
+WVM O03 H031 SING N N 45 
+WVM O22 H1   SING N N 46 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+WVM SMILES           ACDLabs              12.01 "c3nc(NCC(C)O)cc(N2CC1(CCC1)C(C2)(C(O)=O)F)n3"                                                                                                              
+WVM InChI            InChI                1.03  "InChI=1S/C15H21FN4O3/c1-10(21)6-17-11-5-12(19-9-18-11)20-7-14(3-2-4-14)15(16,8-20)13(22)23/h5,9-10,21H,2-4,6-8H2,1H3,(H,22,23)(H,17,18,19)/t10-,15+/m1/s1" 
+WVM InChIKey         InChI                1.03  VUGBTOAPDMYPIQ-BMIGLBTASA-N                                                                                                                                 
+WVM SMILES_CANONICAL CACTVS               3.385 "C[C@@H](O)CNc1cc(ncn1)N2CC3(CCC3)[C@](F)(C2)C(O)=O"                                                                                                        
+WVM SMILES           CACTVS               3.385 "C[CH](O)CNc1cc(ncn1)N2CC3(CCC3)[C](F)(C2)C(O)=O"                                                                                                           
+WVM SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C[C@H](CNc1cc(ncn1)N2C[C@@](C3(C2)CCC3)(C(=O)O)F)O"                                                                                                        
+WVM SMILES           "OpenEye OEToolkits" 2.0.7 "CC(CNc1cc(ncn1)N2CC3(CCC3)C(C2)(C(=O)O)F)O"                                                                                                                
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+WVM "SYSTEMATIC NAME" ACDLabs              12.01 "(8S)-8-fluoro-6-(6-{[(2R)-2-hydroxypropyl]amino}pyrimidin-4-yl)-6-azaspiro[3.4]octane-8-carboxylic acid"           
+WVM "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(8~{S})-8-fluoranyl-6-[6-[[(2~{R})-2-oxidanylpropyl]amino]pyrimidin-4-yl]-6-azaspiro[3.4]octane-8-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+WVM "Create component" 2020-11-17 RCSB 
+WVM "Initial release"  2022-07-13 RCSB 
+# 

@@ -1,0 +1,20 @@
+# Regression check for fine-tuned Boltz-2: co-fold deposited protein-ligand complexes and score them against the crystal
+# structures. Consumed by experiments/regression_check.py. Sequences come from the SEQRES of the CIF, ligands from CCD codes.
+msa: empty # single-sequence mode: no MSA server call, and the same input before and after fine-tuning
+
+# All entries were released before Boltz-2's 2023-06-01 training cutoff, so this measures retained accuracy on structures the
+# model has probably seen, not generalisation.
+systems:
+  - {name: streptavidin_biotin, pdb_id: 3RY2, chain: A, ligand_ccd: BTN} # 0.95 A; one subunit of the dimer in the asymmetric unit
+  - {name: cdk2_staurosporine, pdb_id: 1AQ1, chain: A, ligand_ccd: STU} # 2.0 A; kinase, ATP-site inhibitor
+  - {name: abl_imatinib, pdb_id: 1IEP, chain: A, ligand_ccd: STI} # 2.1 A; kinase, DFG-out inhibitor
+
+# Passed to `boltz predict` by experiments/run_regression.sh. model_0 is the top-ranked sample by confidence.
+predict:
+  seed: 2026
+  recycling_steps: 3
+  sampling_steps: 200
+  diffusion_samples: 5
+
+# A ligand counts as correctly placed when its pocket-aligned heavy-atom RMSD is below this (Angstrom).
+success_rmsd: 2.0

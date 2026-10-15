@@ -1,0 +1,186 @@
+data_QMF
+# 
+_chem_comp.id                                    QMF 
+_chem_comp.name                                  "3-{[4-(cyclopropylcarbamamido)benzamido]methyl}-1-benzothiophene-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C21 H19 N3 O4 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        409.458 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QMF 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SQ8 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QMF C18  C1  C 0 1 Y N N -45.842 -29.101 3.755  -1.953 2.544  -1.269 C18  QMF 1  
+QMF C17  C2  C 0 1 Y N N -46.241 -29.005 2.444  -0.988 1.618  -0.863 C17  QMF 2  
+QMF C15  C3  C 0 1 N N N -45.080 -28.887 1.446  0.437  2.001  -0.831 C15  QMF 3  
+QMF C13  C4  C 0 1 N N N -42.670 -29.419 0.871  2.781  1.487  -0.407 C13  QMF 4  
+QMF C12  C5  C 0 1 Y N N -41.937 -30.723 0.481  3.605  0.316  0.063  C12  QMF 5  
+QMF C11  C6  C 0 1 Y N N -40.973 -30.725 -0.598 4.138  -0.630 -0.827 C11  QMF 6  
+QMF C10  C7  C 0 1 Y N N -40.612 -29.617 -1.377 4.025  -0.684 -2.237 C10  QMF 7  
+QMF C20  C8  C 0 1 Y N N -48.113 -29.137 4.470  -3.664 0.903  -0.912 C20  QMF 8  
+QMF C19  C9  C 0 1 Y N N -46.770 -29.169 4.770  -3.282 2.185  -1.292 C19  QMF 9  
+QMF C02  C10 C 0 1 N N N -42.987 -32.379 2.256  3.432  0.977  2.453  C02  QMF 10 
+QMF C04  C11 C 0 1 Y N N -42.087 -31.984 1.096  3.882  0.112  1.355  C04  QMF 11 
+QMF C06  C12 C 0 1 Y N N -40.391 -31.975 -0.838 4.869  -1.631 -0.175 C06  QMF 12 
+QMF C07  C13 C 0 1 Y N N -39.447 -32.092 -1.861 5.465  -2.655 -0.918 C07  QMF 13 
+QMF C08  C14 C 0 1 Y N N -39.089 -30.985 -2.639 5.335  -2.681 -2.286 C08  QMF 14 
+QMF C09  C15 C 0 1 Y N N -39.675 -29.742 -2.395 4.615  -1.688 -2.939 C09  QMF 15 
+QMF C22  C16 C 0 1 N N N -50.436 -29.171 5.597  -5.494 -0.323 -0.024 C22  QMF 16 
+QMF C25  C17 C 0 1 N N N -52.545 -29.185 7.093  -7.293 -1.696 0.881  C25  QMF 17 
+QMF C26  C18 C 0 1 N N N -53.302 -30.501 7.242  -8.694 -1.430 1.435  C26  QMF 18 
+QMF C27  C19 C 0 1 N N N -53.009 -29.657 8.479  -8.464 -2.586 0.459  C27  QMF 19 
+QMF C28  C20 C 0 1 Y N N -48.529 -29.014 3.150  -2.705 -0.025 -0.518 C28  QMF 20 
+QMF C29  C21 C 0 1 Y N N -47.595 -28.936 2.123  -1.375 0.329  -0.487 C29  QMF 21 
+QMF N14  N1  N 0 1 N N N -43.824 -29.578 1.768  1.367  1.107  -0.439 N14  QMF 22 
+QMF N21  N2  N 0 1 N N N -48.984 -29.185 5.632  -5.011 0.543  -0.936 N21  QMF 23 
+QMF N24  N3  N 0 1 N N N -51.086 -29.223 6.903  -6.768 -0.754 -0.111 N24  QMF 24 
+QMF O01  O1  O 0 1 N N N -43.665 -33.426 2.156  2.757  1.960  2.214  O01  QMF 25 
+QMF O03  O2  O 0 1 N N N -43.013 -31.677 3.310  3.767  0.682  3.725  O03  QMF 26 
+QMF O16  O3  O 0 1 N N N -45.177 -28.152 0.504  0.773  3.123  -1.157 O16  QMF 27 
+QMF O23  O4  O 0 1 N N N -51.041 -29.148 4.576  -4.780 -0.716 0.879  O23  QMF 28 
+QMF S05  S1  S 0 1 Y N N -41.066 -33.081 0.288  4.858  -1.332 1.560  S05  QMF 29 
+QMF H181 H1  H 0 0 N N N -44.789 -29.123 3.992  -1.657 3.541  -1.560 H181 QMF 30 
+QMF H132 H2  H 0 0 N N N -41.944 -28.759 1.369  2.917  2.325  0.277  H132 QMF 31 
+QMF H131 H3  H 0 0 N N N -43.025 -28.942 -0.054 3.102  1.779  -1.407 H131 QMF 32 
+QMF H101 H4  H 0 0 N N N -41.067 -28.657 -1.184 3.466  0.078  -2.760 H101 QMF 33 
+QMF H191 H5  H 0 0 N N N -46.445 -29.247 5.797  -4.028 2.901  -1.605 H191 QMF 34 
+QMF H071 H6  H 0 0 N N N -38.987 -33.050 -2.054 6.029  -3.427 -0.416 H071 QMF 35 
+QMF H081 H7  H 0 0 N N N -38.359 -31.093 -3.428 5.797  -3.474 -2.856 H081 QMF 36 
+QMF H091 H8  H 0 0 N N N -39.402 -28.885 -2.993 4.520  -1.716 -4.014 H091 QMF 37 
+QMF H251 H9  H 0 0 N N N -53.098 -28.344 6.650  -6.555 -2.122 1.560  H251 QMF 38 
+QMF H262 H10 H 0 0 N N N -54.333 -30.587 6.868  -8.879 -1.682 2.479  H262 QMF 39 
+QMF H261 H11 H 0 0 N N N -52.777 -31.456 7.092  -9.226 -0.555 1.061  H261 QMF 40 
+QMF H272 H12 H 0 0 N N N -53.827 -29.132 8.994  -8.843 -2.471 -0.556 H272 QMF 41 
+QMF H271 H13 H 0 0 N N N -52.271 -30.002 9.219  -8.496 -3.599 0.862  H271 QMF 42 
+QMF H281 H14 H 0 0 N N N -49.584 -28.979 2.920  -3.006 -1.019 -0.223 H281 QMF 43 
+QMF H291 H15 H 0 0 N N N -47.913 -28.824 1.097  -0.632 -0.389 -0.173 H291 QMF 44 
+QMF H141 H16 H 0 0 N N N -43.755 -30.149 2.586  1.099  0.212  -0.178 H141 QMF 45 
+QMF H211 H17 H 0 0 N N N -48.548 -29.232 6.531  -5.601 0.917  -1.610 H211 QMF 46 
+QMF H241 H18 H 0 0 N N N -50.507 -29.288 7.715  -7.338 -0.440 -0.831 H241 QMF 47 
+QMF H1   H19 H 0 1 N N N -43.598 -32.076 3.943  3.447  1.281  4.414  H1   QMF 48 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QMF C02 O01  DOUB N N 1  
+QMF O03 C02  SING N N 2  
+QMF C04 C02  SING N N 3  
+QMF S05 C04  SING Y N 4  
+QMF C06 S05  SING Y N 5  
+QMF C07 C06  DOUB Y N 6  
+QMF C08 C07  SING Y N 7  
+QMF C09 C08  DOUB Y N 8  
+QMF C10 C09  SING Y N 9  
+QMF C11 C10  DOUB Y N 10 
+QMF C12 C11  SING Y N 11 
+QMF C13 C12  SING N N 12 
+QMF N14 C13  SING N N 13 
+QMF C15 N14  SING N N 14 
+QMF O16 C15  DOUB N N 15 
+QMF C17 C15  SING N N 16 
+QMF C18 C17  DOUB Y N 17 
+QMF C19 C18  SING Y N 18 
+QMF C20 C19  DOUB Y N 19 
+QMF C22 N21  SING N N 20 
+QMF O23 C22  DOUB N N 21 
+QMF N24 C22  SING N N 22 
+QMF C25 N24  SING N N 23 
+QMF C26 C25  SING N N 24 
+QMF C27 C26  SING N N 25 
+QMF N21 C20  SING N N 26 
+QMF C28 C20  SING Y N 27 
+QMF C29 C28  DOUB Y N 28 
+QMF C04 C12  DOUB Y N 29 
+QMF C06 C11  SING Y N 30 
+QMF C17 C29  SING Y N 31 
+QMF C25 C27  SING N N 32 
+QMF C18 H181 SING N N 33 
+QMF C13 H132 SING N N 34 
+QMF C13 H131 SING N N 35 
+QMF C10 H101 SING N N 36 
+QMF C19 H191 SING N N 37 
+QMF C07 H071 SING N N 38 
+QMF C08 H081 SING N N 39 
+QMF C09 H091 SING N N 40 
+QMF C25 H251 SING N N 41 
+QMF C26 H262 SING N N 42 
+QMF C26 H261 SING N N 43 
+QMF C27 H272 SING N N 44 
+QMF C27 H271 SING N N 45 
+QMF C28 H281 SING N N 46 
+QMF C29 H291 SING N N 47 
+QMF N14 H141 SING N N 48 
+QMF N21 H211 SING N N 49 
+QMF N24 H241 SING N N 50 
+QMF O03 H1   SING N N 51 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QMF SMILES           ACDLabs              12.01 "O=C(NC1CC1)Nc1ccc(cc1)C(=O)NCc1c2ccccc2sc1C(=O)O"                                                                                                                
+QMF InChI            InChI                1.03  "InChI=1S/C21H19N3O4S/c25-19(12-5-7-13(8-6-12)23-21(28)24-14-9-10-14)22-11-16-15-3-1-2-4-17(15)29-18(16)20(26)27/h1-8,14H,9-11H2,(H,22,25)(H,26,27)(H2,23,24,28)" 
+QMF InChIKey         InChI                1.03  QEXGILIVIRXXHM-UHFFFAOYSA-N                                                                                                                                       
+QMF SMILES_CANONICAL CACTVS               3.385 "OC(=O)c1sc2ccccc2c1CNC(=O)c3ccc(NC(=O)NC4CC4)cc3"                                                                                                                
+QMF SMILES           CACTVS               3.385 "OC(=O)c1sc2ccccc2c1CNC(=O)c3ccc(NC(=O)NC4CC4)cc3"                                                                                                                
+QMF SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc2c(c1)c(c(s2)C(=O)O)CNC(=O)c3ccc(cc3)NC(=O)NC4CC4"                                                                                                          
+QMF SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc2c(c1)c(c(s2)C(=O)O)CNC(=O)c3ccc(cc3)NC(=O)NC4CC4"                                                                                                          
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QMF "SYSTEMATIC NAME" ACDLabs              12.01 "3-{[4-(cyclopropylcarbamamido)benzamido]methyl}-1-benzothiophene-2-carboxylic acid"                
+QMF "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "3-[[[4-(cyclopropylcarbamoylamino)phenyl]carbonylamino]methyl]-1-benzothiophene-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QMF "Create component" 2022-06-14 RCSB 
+QMF "Initial release"  2022-07-06 RCSB 
+# 

@@ -1,0 +1,165 @@
+data_WYY
+# 
+_chem_comp.id                                    WYY 
+_chem_comp.name                                  "3-[(3S)-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperidin-3-yl]propanoic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H18 N4 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2020-11-18 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        274.318 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     WYY 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5S68 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+WYY C20  C1  C 0 1 Y N N -46.822 -29.062 4.852  -2.520 -0.516 0.076  C20  WYY 1  
+WYY C02  C2  C 0 1 N N N -47.557 -25.252 -1.433 4.598  -0.933 -0.709 C02  WYY 2  
+WYY C04  C3  C 0 1 N N N -46.939 -26.105 -0.269 3.984  0.299  -0.095 C04  WYY 3  
+WYY C05  C4  C 0 1 N N N -46.043 -27.221 -0.880 2.490  0.341  -0.422 C05  WYY 4  
+WYY C06  C5  C 0 1 N N S -45.410 -28.132 0.179  1.867  1.592  0.202  C06  WYY 5  
+WYY C07  C6  C 0 1 N N N -45.034 -29.466 -0.386 1.941  1.493  1.728  C07  WYY 6  
+WYY C08  C7  C 0 1 N N N -45.148 -30.551 0.619  1.124  0.284  2.193  C08  WYY 7  
+WYY C09  C8  C 0 1 N N N -44.609 -29.953 1.902  -0.319 0.431  1.706  C09  WYY 8  
+WYY C11  C9  C 0 1 N N N -46.266 -28.203 1.474  0.403  1.701  -0.228 C11  WYY 9  
+WYY C12  C10 C 0 1 Y N N -45.706 -29.099 3.983  -1.632 0.524  -0.241 C12  WYY 10 
+WYY C14  C11 C 0 1 Y N N -44.413 -29.302 5.929  -3.306 1.518  -1.480 C14  WYY 11 
+WYY C16  C12 C 0 1 Y N N -46.635 -29.117 6.233  -3.828 -0.467 -0.439 C16  WYY 12 
+WYY C18  C13 C 0 1 Y N N -48.750 -28.908 5.926  -3.639 -2.339 0.784  C18  WYY 13 
+WYY C19  C14 C 0 1 Y N N -48.195 -28.911 4.666  -2.437 -1.744 0.864  C19  WYY 14 
+WYY N10  N1  N 0 1 N N N -45.631 -29.081 2.504  -0.336 0.521  0.241  N10  WYY 15 
+WYY N13  N2  N 0 1 Y N N -44.557 -29.221 4.624  -2.069 1.511  -1.017 N13  WYY 16 
+WYY N15  N3  N 0 1 Y N N -45.419 -29.225 6.737  -4.172 0.565  -1.208 N15  WYY 17 
+WYY N17  N4  N 0 1 Y N N -47.809 -29.062 6.838  -4.481 -1.581 0.011  N17  WYY 18 
+WYY O01  O1  O 0 1 N N N -48.550 -24.474 -1.369 5.908  -1.180 -0.551 O01  WYY 19 
+WYY O03  O2  O 0 1 N N N -47.066 -25.256 -2.592 3.911  -1.699 -1.343 O03  WYY 20 
+WYY H042 H1  H 0 0 N N N -46.331 -25.458 0.380  4.119  0.271  0.986  H042 WYY 21 
+WYY H041 H2  H 0 0 N N N -47.746 -26.562 0.322  4.470  1.186  -0.499 H041 WYY 22 
+WYY H052 H3  H 0 0 N N N -46.660 -27.838 -1.549 2.356  0.368  -1.503 H052 WYY 23 
+WYY H051 H4  H 0 0 N N N -45.238 -26.745 -1.459 2.005  -0.547 -0.017 H051 WYY 24 
+WYY H061 H5  H 0 0 N N N -44.468 -27.644 0.472  2.412  2.475  -0.133 H061 WYY 25 
+WYY H071 H6  H 0 0 N N N -45.701 -29.694 -1.231 2.979  1.372  2.035  H071 WYY 26 
+WYY H072 H7  H 0 0 N N N -43.994 -29.420 -0.742 1.533  2.401  2.172  H072 WYY 27 
+WYY H082 H8  H 0 0 N N N -46.198 -30.853 0.744  1.557  -0.627 1.781  H082 WYY 28 
+WYY H081 H9  H 0 0 N N N -44.549 -31.423 0.317  1.138  0.234  3.282  H081 WYY 29 
+WYY H092 H10 H 0 0 N N N -44.356 -30.760 2.605  -0.900 -0.435 2.024  H092 WYY 30 
+WYY H091 H11 H 0 0 N N N -43.707 -29.363 1.681  -0.755 1.336  2.130  H091 WYY 31 
+WYY H112 H12 H 0 0 N N N -46.375 -27.189 1.887  -0.037 2.600  0.205  H112 WYY 32 
+WYY H111 H13 H 0 0 N N N -47.259 -28.605 1.224  0.346  1.757  -1.315 H111 WYY 33 
+WYY H141 H14 H 0 0 N N N -43.423 -29.437 6.338  -3.620 2.339  -2.107 H141 WYY 34 
+WYY H181 H15 H 0 0 N N N -49.803 -28.796 6.137  -3.904 -3.270 1.262  H181 WYY 35 
+WYY H191 H16 H 0 0 N N N -48.717 -28.816 3.725  -1.575 -2.105 1.405  H191 WYY 36 
+WYY H171 H17 H 0 0 N N N -47.959 -29.126 7.825  -5.403 -1.806 -0.191 H171 WYY 37 
+WYY H1   H18 H 0 1 N N N -48.693 -24.072 -2.218 6.256  -1.983 -0.964 H1   WYY 38 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+WYY O03 C02  DOUB N N 1  
+WYY C02 O01  SING N N 2  
+WYY C02 C04  SING N N 3  
+WYY C05 C04  SING N N 4  
+WYY C05 C06  SING N N 5  
+WYY C07 C06  SING N N 6  
+WYY C07 C08  SING N N 7  
+WYY C06 C11  SING N N 8  
+WYY C08 C09  SING N N 9  
+WYY C11 N10  SING N N 10 
+WYY C09 N10  SING N N 11 
+WYY N10 C12  SING N N 12 
+WYY C12 N13  DOUB Y N 13 
+WYY C12 C20  SING Y N 14 
+WYY N13 C14  SING Y N 15 
+WYY C19 C20  SING Y N 16 
+WYY C19 C18  DOUB Y N 17 
+WYY C20 C16  DOUB Y N 18 
+WYY C18 N17  SING Y N 19 
+WYY C14 N15  DOUB Y N 20 
+WYY C16 N15  SING Y N 21 
+WYY C16 N17  SING Y N 22 
+WYY C04 H042 SING N N 23 
+WYY C04 H041 SING N N 24 
+WYY C05 H052 SING N N 25 
+WYY C05 H051 SING N N 26 
+WYY C06 H061 SING N N 27 
+WYY C07 H071 SING N N 28 
+WYY C07 H072 SING N N 29 
+WYY C08 H082 SING N N 30 
+WYY C08 H081 SING N N 31 
+WYY C09 H092 SING N N 32 
+WYY C09 H091 SING N N 33 
+WYY C11 H112 SING N N 34 
+WYY C11 H111 SING N N 35 
+WYY C14 H141 SING N N 36 
+WYY C18 H181 SING N N 37 
+WYY C19 H191 SING N N 38 
+WYY N17 H171 SING N N 39 
+WYY O01 H1   SING N N 40 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+WYY SMILES           ACDLabs              12.01 "c13c(ncnc1N2CCCC(CCC(O)=O)C2)ncc3"                                                                                                      
+WYY InChI            InChI                1.03  "InChI=1S/C14H18N4O2/c19-12(20)4-3-10-2-1-7-18(8-10)14-11-5-6-15-13(11)16-9-17-14/h5-6,9-10H,1-4,7-8H2,(H,19,20)(H,15,16,17)/t10-/m0/s1" 
+WYY InChIKey         InChI                1.03  ADFCTPSWZLLXQI-JTQLQIEISA-N                                                                                                              
+WYY SMILES_CANONICAL CACTVS               3.385 "OC(=O)CC[C@@H]1CCCN(C1)c2ncnc3[nH]ccc23"                                                                                                
+WYY SMILES           CACTVS               3.385 "OC(=O)CC[CH]1CCCN(C1)c2ncnc3[nH]ccc23"                                                                                                  
+WYY SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)N3CCC[C@H](C3)CCC(=O)O"                                                                                               
+WYY SMILES           "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)N3CCCC(C3)CCC(=O)O"                                                                                                   
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+WYY "SYSTEMATIC NAME" ACDLabs              12.01 "3-[(3S)-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperidin-3-yl]propanoic acid"       
+WYY "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "3-[(3~{S})-1-(7~{H}-pyrrolo[2,3-d]pyrimidin-4-yl)piperidin-3-yl]propanoic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+WYY "Create component" 2020-11-18 RCSB 
+WYY "Initial release"  2022-07-13 RCSB 
+# 

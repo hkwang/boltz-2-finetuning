@@ -1,0 +1,202 @@
+data_A1A55
+# 
+_chem_comp.id                                    A1A55 
+_chem_comp.name                                  "N-{4-[(2,2-dimethyl-5-oxopyrrolidin-1-yl)amino]-9H-pyrimido[4,5-b]indol-8-yl}-N'-ethylurea" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H23 N7 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         AVI-4206 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-09-10 
+_chem_comp.pdbx_modified_date                    2025-11-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        381.432 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1A55 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        9CY0 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1A55 N1  N1  N 0 1 N N N N N N -10.100 9.942  -33.812 6.403  0.294  0.120  N1  A1A55 1  
+A1A55 N3  N2  N 0 1 N N N N N N -10.065 17.989 -29.453 -2.633 -0.493 -0.207 N3  A1A55 2  
+A1A55 C4  C1  C 0 1 Y N N N N N -10.741 12.760 -31.547 2.910  -0.377 -0.526 C4  A1A55 3  
+A1A55 C5  C2  C 0 1 Y N N N N N -9.996  13.953 -31.396 1.734  0.346  -0.322 C5  A1A55 4  
+A1A55 C6  C3  C 0 1 Y N N N N N -10.422 15.019 -30.581 0.501  -0.322 -0.368 C6  A1A55 5  
+A1A55 C7  C4  C 0 1 Y N N N N N -9.406  16.024 -30.677 -0.529 0.698  -0.118 C7  A1A55 6  
+A1A55 C8  C5  C 0 1 Y N N N N N -9.178  17.333 -30.248 -1.926 0.684  -0.035 C8  A1A55 7  
+A1A55 C10 C6  C 0 1 N N N N N N -11.412 20.029 -27.536 -4.853 -2.532 0.974  C10 A1A55 8  
+A1A55 C13 C7  C 0 1 N N N N N N -10.327 21.621 -30.176 -6.292 -0.157 -0.645 C13 A1A55 9  
+A1A55 C15 C8  C 0 1 Y N N N N N -7.142  17.331 -31.343 -1.887 2.952  0.377  C15 A1A55 10 
+A1A55 C17 C9  C 0 1 Y N N N N N -11.635 14.909 -29.895 0.459  -1.693 -0.616 C17 A1A55 11 
+A1A55 C1  C10 C 0 1 N N N N N N -10.807 10.628 -32.882 5.232  -0.362 -0.000 C1  A1A55 12 
+A1A55 C11 C11 C 0 1 N N N N N N -8.938  19.620 -27.303 -4.155 -0.543 2.336  C11 A1A55 13 
+A1A55 C12 C12 C 0 1 N N N N N N -9.764  21.575 -28.739 -6.210 -0.408 0.879  C12 A1A55 14 
+A1A55 C14 C13 C 0 1 N N N N N N -10.286 20.160 -30.599 -4.849 -0.012 -1.076 C14 A1A55 15 
+A1A55 C16 C14 C 0 1 Y N N N N N -8.401  15.497 -31.523 0.146  1.916  0.063  C16 A1A55 16 
+A1A55 C18 C15 C 0 1 Y N N N N N -12.386 13.742 -30.046 1.630  -2.392 -0.816 C18 A1A55 17 
+A1A55 C19 C16 C 0 1 Y N N N N N -11.954 12.690 -30.878 2.851  -1.739 -0.772 C19 A1A55 18 
+A1A55 C2  C17 C 0 1 N N N N N N -10.527 8.655  -34.399 7.581  -0.400 0.646  C2  A1A55 19 
+A1A55 C3  C18 C 0 1 N N N N N N -9.392  8.018  -35.226 8.769  0.564  0.678  C3  A1A55 20 
+A1A55 C9  C19 C 0 1 N N N N N N -10.037 20.145 -28.218 -4.792 -1.004 1.023  C9  A1A55 21 
+A1A55 N2  N3  N 0 1 N N N N N N -10.217 11.790 -32.430 4.149  0.275  -0.489 N2  A1A55 22 
+A1A55 N4  N4  N 0 1 N N N N N N -10.070 19.394 -29.475 -4.032 -0.489 -0.121 N4  A1A55 23 
+A1A55 N5  N5  N 0 1 Y N N N N N -8.041  17.988 -30.578 -2.559 1.829  0.213  N5  A1A55 24 
+A1A55 N6  N6  N 0 1 Y N N N N N -7.254  16.104 -31.886 -0.574 3.010  0.307  N6  A1A55 25 
+A1A55 N7  N7  N 0 1 Y N N N N N -8.781  14.267 -31.939 1.494  1.686  -0.062 N7  A1A55 26 
+A1A55 O1  O1  O 0 1 N N N N N N -11.864 10.213 -32.399 5.152  -1.529 0.333  O1  A1A55 27 
+A1A55 O2  O2  O 0 1 N N N N N N -10.407 19.724 -31.741 -4.483 0.465  -2.129 O2  A1A55 28 
+A1A55 H1  H1  H 0 1 N N N N N N -9.233  10.332 -34.121 6.467  1.225  -0.146 H1  A1A55 29 
+A1A55 H8  H2  H 0 1 N N N N N N -10.980 17.686 -29.718 -2.161 -1.321 -0.388 H8  A1A55 30 
+A1A55 H10 H3  H 0 1 N N N N N N -11.401 20.589 -26.589 -5.277 -2.848 0.020  H10 A1A55 31 
+A1A55 H11 H4  H 0 1 N N N N N N -12.186 20.444 -28.198 -3.847 -2.939 1.077  H11 A1A55 32 
+A1A55 H9  H5  H 0 1 N N N N N N -11.632 18.971 -27.333 -5.478 -2.898 1.788  H9  A1A55 33 
+A1A55 H18 H6  H 0 1 N N N N N N -9.696  22.241 -30.830 -6.756 -1.005 -1.147 H18 A1A55 34 
+A1A55 H17 H7  H 0 1 N N N N N N -11.357 22.008 -30.186 -6.848 0.758  -0.851 H17 A1A55 35 
+A1A55 H19 H8  H 0 1 N N N N N N -6.219  17.855 -31.544 -2.436 3.860  0.576  H19 A1A55 36 
+A1A55 H21 H9  H 0 1 N N N N N N -11.984 15.711 -29.261 -0.490 -2.207 -0.651 H21 A1A55 37 
+A1A55 H14 H10 H 0 1 N N N N N N -8.932  20.198 -26.367 -4.769 -0.874 3.174  H14 A1A55 38 
+A1A55 H13 H11 H 0 1 N N N N N N -9.124  18.559 -27.078 -3.157 -0.970 2.425  H13 A1A55 39 
+A1A55 H12 H12 H 0 1 N N N N N N -7.964  19.723 -27.804 -4.087 0.545  2.344  H12 A1A55 40 
+A1A55 H16 H13 H 0 1 N N N N N N -8.683  21.779 -28.746 -6.299 0.526  1.433  H16 A1A55 41 
+A1A55 H15 H14 H 0 1 N N N N N N -10.273 22.316 -28.105 -6.968 -1.123 1.198  H15 A1A55 42 
+A1A55 H22 H15 H 0 1 N N N N N N -13.320 13.643 -29.513 1.595  -3.454 -1.008 H22 A1A55 43 
+A1A55 H23 H16 H 0 1 N N N N N N -12.577 11.816 -30.997 3.763  -2.295 -0.930 H23 A1A55 44 
+A1A55 H3  H17 H 0 1 N N N N N N -11.394 8.829  -35.053 7.373  -0.755 1.655  H3  A1A55 45 
+A1A55 H2  H18 H 0 1 N N N N N N -10.811 7.967  -33.589 7.819  -1.249 0.004  H2  A1A55 46 
+A1A55 H4  H19 H 0 1 N N N N N N -9.738  7.064  -35.650 8.977  0.918  -0.331 H4  A1A55 47 
+A1A55 H6  H20 H 0 1 N N N N N N -9.106  8.699  -36.041 8.531  1.412  1.319  H6  A1A55 48 
+A1A55 H5  H21 H 0 1 N N N N N N -8.522  7.837  -34.577 9.645  0.047  1.069  H5  A1A55 49 
+A1A55 H7  H22 H 0 1 N N N N N N -9.295  11.970 -32.773 4.229  1.185  -0.816 H7  A1A55 50 
+A1A55 H20 H23 H 0 1 N N N N N N -8.254  13.677 -32.551 2.181  2.366  0.021  H20 A1A55 51 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1A55 C3  C2  SING N N 1  
+A1A55 C2  N1  SING N N 2  
+A1A55 N1  C1  SING N N 3  
+A1A55 C1  N2  SING N N 4  
+A1A55 C1  O1  DOUB N N 5  
+A1A55 N2  C4  SING N N 6  
+A1A55 N7  C16 SING Y N 7  
+A1A55 N7  C5  SING Y N 8  
+A1A55 N6  C16 DOUB Y N 9  
+A1A55 N6  C15 SING Y N 10 
+A1A55 O2  C14 DOUB N N 11 
+A1A55 C4  C5  DOUB Y N 12 
+A1A55 C4  C19 SING Y N 13 
+A1A55 C16 C7  SING Y N 14 
+A1A55 C5  C6  SING Y N 15 
+A1A55 C15 N5  DOUB Y N 16 
+A1A55 C19 C18 DOUB Y N 17 
+A1A55 C7  C6  SING Y N 18 
+A1A55 C7  C8  DOUB Y N 19 
+A1A55 C14 C13 SING N N 20 
+A1A55 C14 N4  SING N N 21 
+A1A55 C6  C17 DOUB Y N 22 
+A1A55 N5  C8  SING Y N 23 
+A1A55 C8  N3  SING N N 24 
+A1A55 C13 C12 SING N N 25 
+A1A55 C18 C17 SING Y N 26 
+A1A55 N4  N3  SING N N 27 
+A1A55 N4  C9  SING N N 28 
+A1A55 C12 C9  SING N N 29 
+A1A55 C9  C10 SING N N 30 
+A1A55 C9  C11 SING N N 31 
+A1A55 N1  H1  SING N N 32 
+A1A55 N3  H8  SING N N 33 
+A1A55 C10 H10 SING N N 34 
+A1A55 C10 H11 SING N N 35 
+A1A55 C10 H9  SING N N 36 
+A1A55 C13 H18 SING N N 37 
+A1A55 C13 H17 SING N N 38 
+A1A55 C15 H19 SING N N 39 
+A1A55 C17 H21 SING N N 40 
+A1A55 C11 H14 SING N N 41 
+A1A55 C11 H13 SING N N 42 
+A1A55 C11 H12 SING N N 43 
+A1A55 C12 H16 SING N N 44 
+A1A55 C12 H15 SING N N 45 
+A1A55 C18 H22 SING N N 46 
+A1A55 C19 H23 SING N N 47 
+A1A55 C2  H3  SING N N 48 
+A1A55 C2  H2  SING N N 49 
+A1A55 C3  H4  SING N N 50 
+A1A55 C3  H6  SING N N 51 
+A1A55 C3  H5  SING N N 52 
+A1A55 N2  H7  SING N N 53 
+A1A55 N7  H20 SING N N 54 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1A55 SMILES           ACDLabs              14.52 "CCNC(=O)Nc1cccc2c3c(ncnc3[NH]c21)NN1C(=O)CCC1(C)C"                                                                                                                
+A1A55 InChI            InChI                1.06  "InChI=1S/C19H23N7O2/c1-4-20-18(28)23-12-7-5-6-11-14-16(24-15(11)12)21-10-22-17(14)25-26-13(27)8-9-19(26,2)3/h5-7,10H,4,8-9H2,1-3H3,(H2,20,23,28)(H2,21,22,24,25)" 
+A1A55 InChIKey         InChI                1.06  HBWCYQWGCNBURO-UHFFFAOYSA-N                                                                                                                                        
+A1A55 SMILES_CANONICAL CACTVS               3.385 "CCNC(=O)Nc1cccc2c1[nH]c3ncnc(NN4C(=O)CCC4(C)C)c23"                                                                                                                
+A1A55 SMILES           CACTVS               3.385 "CCNC(=O)Nc1cccc2c1[nH]c3ncnc(NN4C(=O)CCC4(C)C)c23"                                                                                                                
+A1A55 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CCNC(=O)Nc1cccc2c1[nH]c3c2c(ncn3)NN4C(=O)CCC4(C)C"                                                                                                                
+A1A55 SMILES           "OpenEye OEToolkits" 2.0.7 "CCNC(=O)Nc1cccc2c1[nH]c3c2c(ncn3)NN4C(=O)CCC4(C)C"                                                                                                                
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1A55 "SYSTEMATIC NAME" ACDLabs              14.52 "N-{4-[(2,2-dimethyl-5-oxopyrrolidin-1-yl)amino]-9H-pyrimido[4,5-b]indol-8-yl}-N'-ethylurea"               
+A1A55 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "1-[4-[(2,2-dimethyl-5-oxidanylidene-pyrrolidin-1-yl)amino]-9~{H}-pyrimido[4,5-b]indol-8-yl]-3-ethyl-urea" 
+# 
+_pdbx_chem_comp_synonyms.ordinal      1 
+_pdbx_chem_comp_synonyms.comp_id      A1A55 
+_pdbx_chem_comp_synonyms.name         AVI-4206 
+_pdbx_chem_comp_synonyms.provenance   AUTHOR 
+_pdbx_chem_comp_synonyms.type         ? 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1A55 "Create component" 2024-09-10 RCSB 
+A1A55 "Initial release"  2025-11-12 RCSB 
+# 

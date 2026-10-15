@@ -1,0 +1,174 @@
+data_RIK
+# 
+_chem_comp.id                                    RIK 
+_chem_comp.name                                  "3-[(2R)-4-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)morpholin-2-yl]propanoic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C17 H17 F N4 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        344.340 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RIK 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SRX 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RIK C18  C1  C 0 1 Y N N -46.512 -29.104 6.401  -3.008 -1.802 0.682  C18  RIK 1  
+RIK C15  C2  C 0 1 Y N N -48.743 -28.783 3.539  -2.060 1.577  -0.439 C15  RIK 2  
+RIK C14  C3  C 0 1 Y N N -50.132 -28.785 3.601  -2.859 2.700  -0.420 C14  RIK 3  
+RIK C13  C4  C 0 1 Y N N -50.758 -28.921 4.830  -4.161 2.623  0.056  C13  RIK 4  
+RIK C12  C5  C 0 1 Y N N -50.036 -29.052 5.997  -4.667 1.427  0.523  C12  RIK 5  
+RIK C11  C6  C 0 1 Y N N -48.645 -29.041 5.933  -3.876 0.283  0.508  C11  RIK 6  
+RIK C10  C7  C 0 1 Y N N -47.984 -28.914 4.720  -2.562 0.361  0.021  C10  RIK 7  
+RIK C20  C8  C 0 1 Y N N -44.211 -29.103 6.324  -1.567 -3.596 0.589  C20  RIK 8  
+RIK C02  C9  C 0 1 N N N -44.515 -26.417 -1.801 6.008  1.043  0.871  C02  RIK 9  
+RIK C03  C10 C 0 1 N N N -43.754 -25.970 -0.547 4.789  1.074  -0.014 C03  RIK 10 
+RIK C04  C11 C 0 1 N N N -43.212 -27.112 0.315  3.750  0.082  0.514  C04  RIK 11 
+RIK C05  C12 C 0 1 N N R -44.384 -27.775 1.005  2.512  0.114  -0.384 C05  RIK 12 
+RIK C06  C13 C 0 1 N N N -44.046 -28.348 2.377  1.425  -0.785 0.213  C06  RIK 13 
+RIK C08  C14 C 0 1 Y N N -45.347 -28.900 4.341  -0.760 -1.572 -0.163 C08  RIK 14 
+RIK C09  C15 C 0 1 Y N N -46.580 -28.962 5.028  -1.998 -0.992 0.138  C09  RIK 15 
+RIK C22  C16 C 0 1 N N N -45.911 -29.750 2.098  0.656  -1.305 -2.022 C22  RIK 16 
+RIK C23  C17 C 0 1 N N N -46.080 -29.277 0.652  1.751  -0.401 -2.596 C23  RIK 17 
+RIK F16  F1  F 0 1 N N N -52.107 -28.920 4.883  -4.936 3.730  0.070  F16  RIK 18 
+RIK N07  N1  N 0 1 N N N -45.310 -28.733 2.903  0.267  -0.811 -0.693 N07  RIK 19 
+RIK N17  N2  N 0 1 Y N N -47.742 -29.155 6.905  -4.121 -1.025 0.892  N17  RIK 20 
+RIK N19  N3  N 0 1 Y N N -45.327 -29.176 6.996  -2.746 -3.093 0.885  N19  RIK 21 
+RIK N21  N4  N 0 1 Y N N -44.202 -28.963 5.009  -0.589 -2.868 0.083  N21  RIK 22 
+RIK O01  O1  O 0 1 N N N -45.753 -26.658 -1.742 7.056  1.837  0.598  O01  RIK 23 
+RIK O24  O2  O 0 1 N N N -44.856 -28.789 0.138  2.855  -0.363 -1.688 O24  RIK 24 
+RIK O25  O3  O 0 1 N N N -43.910 -26.532 -2.901 6.044  0.303  1.826  O25  RIK 25 
+RIK H151 H1  H 0 0 N N N -48.245 -28.681 2.586  -1.048 1.640  -0.810 H151 RIK 26 
+RIK H141 H2  H 0 0 N N N -50.718 -28.682 2.700  -2.471 3.642  -0.777 H141 RIK 27 
+RIK H121 H3  H 0 0 N N N -50.541 -29.161 6.945  -5.681 1.377  0.891  H121 RIK 28 
+RIK H201 H4  H 0 0 N N N -43.272 -29.158 6.854  -1.392 -4.647 0.768  H201 RIK 29 
+RIK H031 H5  H 0 0 N N N -42.904 -25.349 -0.866 4.365  2.079  -0.013 H031 RIK 30 
+RIK H032 H6  H 0 0 N N N -44.437 -25.369 0.071  5.070  0.800  -1.030 H032 RIK 31 
+RIK H042 H7  H 0 0 N N N -42.690 -27.843 -0.320 4.174  -0.922 0.513  H042 RIK 32 
+RIK H041 H8  H 0 0 N N N -42.514 -26.714 1.066  3.469  0.357  1.531  H041 RIK 33 
+RIK H051 H9  H 0 0 N N N -45.171 -27.018 1.141  2.140  1.136  -0.455 H051 RIK 34 
+RIK H061 H10 H 0 0 N N N -43.378 -29.217 2.285  1.815  -1.795 0.335  H061 RIK 35 
+RIK H062 H11 H 0 0 N N N -43.572 -27.587 3.014  1.120  -0.392 1.182  H062 RIK 36 
+RIK H221 H12 H 0 0 N N N -46.899 -30.000 2.512  -0.210 -1.292 -2.683 H221 RIK 37 
+RIK H222 H13 H 0 0 N N N -45.271 -30.644 2.111  1.033  -2.324 -1.936 H222 RIK 38 
+RIK H232 H14 H 0 0 N N N -46.831 -28.473 0.621  2.083  -0.796 -3.556 H232 RIK 39 
+RIK H231 H15 H 0 0 N N N -46.420 -30.121 0.034  1.357  0.606  -2.733 H231 RIK 40 
+RIK H171 H16 H 0 0 N N N -47.958 -29.263 7.875  -4.960 -1.347 1.257  H171 RIK 41 
+RIK H1   H17 H 0 1 N N N -46.068 -26.910 -2.602 7.815  1.782  1.194  H1   RIK 42 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RIK O25 C02  DOUB N N 1  
+RIK C02 O01  SING N N 2  
+RIK C02 C03  SING N N 3  
+RIK C03 C04  SING N N 4  
+RIK O24 C23  SING N N 5  
+RIK O24 C05  SING N N 6  
+RIK C04 C05  SING N N 7  
+RIK C23 C22  SING N N 8  
+RIK C05 C06  SING N N 9  
+RIK C22 N07  SING N N 10 
+RIK C06 N07  SING N N 11 
+RIK N07 C08  SING N N 12 
+RIK C15 C14  DOUB Y N 13 
+RIK C15 C10  SING Y N 14 
+RIK C14 C13  SING Y N 15 
+RIK C08 N21  DOUB Y N 16 
+RIK C08 C09  SING Y N 17 
+RIK C10 C09  SING Y N 18 
+RIK C10 C11  DOUB Y N 19 
+RIK C13 F16  SING N N 20 
+RIK C13 C12  DOUB Y N 21 
+RIK N21 C20  SING Y N 22 
+RIK C09 C18  DOUB Y N 23 
+RIK C11 C12  SING Y N 24 
+RIK C11 N17  SING Y N 25 
+RIK C20 N19  DOUB Y N 26 
+RIK C18 N17  SING Y N 27 
+RIK C18 N19  SING Y N 28 
+RIK C15 H151 SING N N 29 
+RIK C14 H141 SING N N 30 
+RIK C12 H121 SING N N 31 
+RIK C20 H201 SING N N 32 
+RIK C03 H031 SING N N 33 
+RIK C03 H032 SING N N 34 
+RIK C04 H042 SING N N 35 
+RIK C04 H041 SING N N 36 
+RIK C05 H051 SING N N 37 
+RIK C06 H061 SING N N 38 
+RIK C06 H062 SING N N 39 
+RIK C22 H221 SING N N 40 
+RIK C22 H222 SING N N 41 
+RIK C23 H232 SING N N 42 
+RIK C23 H231 SING N N 43 
+RIK N17 H171 SING N N 44 
+RIK O01 H1   SING N N 45 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RIK SMILES           ACDLabs              12.01 "O=C(O)CCC1CN(CCO1)c1ncnc2[NH]c3cc(F)ccc3c12"                                                                                                                 
+RIK InChI            InChI                1.06  "InChI=1S/C17H17FN4O3/c18-10-1-3-12-13(7-10)21-16-15(12)17(20-9-19-16)22-5-6-25-11(8-22)2-4-14(23)24/h1,3,7,9,11H,2,4-6,8H2,(H,23,24)(H,19,20,21)/t11-/m1/s1" 
+RIK InChIKey         InChI                1.06  USMUUUCYHOVMGT-LLVKDONJSA-N                                                                                                                                   
+RIK SMILES_CANONICAL CACTVS               3.385 "OC(=O)CC[C@@H]1CN(CCO1)c2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                            
+RIK SMILES           CACTVS               3.385 "OC(=O)CC[CH]1CN(CCO1)c2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                              
+RIK SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCO[C@@H](C4)CCC(=O)O"                                                                                                          
+RIK SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCOC(C4)CCC(=O)O"                                                                                                               
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RIK "SYSTEMATIC NAME" ACDLabs              12.01 "3-[(2R)-4-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)morpholin-2-yl]propanoic acid"          
+RIK "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "3-[(2~{R})-4-(7-fluoranyl-9~{H}-pyrimido[4,5-b]indol-4-yl)morpholin-2-yl]propanoic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RIK "Create component" 2022-06-23 RCSB 
+RIK "Initial release"  2022-07-06 RCSB 
+# 

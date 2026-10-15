@@ -1,0 +1,172 @@
+data_RTI
+# 
+_chem_comp.id                                    RTI 
+_chem_comp.name                                  "(1S,2S)-4-hydroxy-1-[(1H-indole-5-carbonyl)amino]-2,3-dihydro-1H-indene-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H16 N2 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        336.341 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RTI 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SSP 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RTI C18  C1  C 0 1 Y N N -49.442 -29.205 6.636  -4.630 0.729  -0.775 C18  RTI 1  
+RTI C16  C2  C 0 1 Y N N -49.636 -29.441 4.239  -3.388 -0.300 1.038  C16  RTI 2  
+RTI C17  C3  C 0 1 Y N N -50.219 -29.412 5.510  -4.606 0.033  0.450  C17  RTI 3  
+RTI C15  C4  C 0 1 Y N N -48.270 -29.245 4.128  -2.203 0.061  0.404  C15  RTI 4  
+RTI C14  C5  C 0 1 N N N -47.659 -29.331 2.748  -0.904 -0.286 1.015  C14  RTI 5  
+RTI C12  C6  C 0 1 N N S -45.727 -30.110 1.424  1.532  -0.281 1.009  C12  RTI 6  
+RTI C11  C7  C 0 1 Y N N -46.112 -31.518 0.888  2.598  0.700  0.571  C11  RTI 7  
+RTI C10  C8  C 0 1 Y N N -47.326 -32.195 0.905  2.559  2.081  0.467  C10  RTI 8  
+RTI C20  C9  C 0 1 Y N N -51.499 -29.443 7.342  -6.757 0.369  -0.146 C20  RTI 9  
+RTI C02  C10 C 0 1 N N N -43.612 -30.123 2.776  1.453  -1.949 -0.867 C02  RTI 10 
+RTI C03  C11 C 0 1 N N S -44.223 -30.034 1.363  2.013  -1.657 0.501  C03  RTI 11 
+RTI C04  C12 C 0 1 N N N -43.815 -31.126 0.437  3.544  -1.471 0.439  C04  RTI 12 
+RTI C05  C13 C 0 1 Y N N -44.997 -32.091 0.280  3.754  0.018  0.243  C05  RTI 13 
+RTI C06  C14 C 0 1 Y N N -45.105 -33.355 -0.300 4.872  0.720  -0.191 C06  RTI 14 
+RTI C08  C15 C 0 1 Y N N -46.319 -34.027 -0.276 4.828  2.102  -0.294 C08  RTI 15 
+RTI C09  C16 C 0 1 Y N N -47.432 -33.449 0.327  3.670  2.780  0.037  C09  RTI 16 
+RTI C21  C17 C 0 1 Y N N -51.541 -29.564 5.960  -6.007 -0.181 0.822  C21  RTI 17 
+RTI C22  C18 C 0 1 Y N N -48.055 -29.030 6.512  -3.431 1.086  -1.389 C22  RTI 18 
+RTI C23  C19 C 0 1 Y N N -47.472 -29.062 5.255  -2.240 0.758  -0.812 C23  RTI 19 
+RTI N13  N1  N 0 1 N N N -46.343 -29.926 2.688  0.244  0.063  0.402  N13  RTI 20 
+RTI N19  N2  N 0 1 Y N N -50.244 -29.231 7.711  -5.950 0.916  -1.107 N19  RTI 21 
+RTI O01  O1  O 0 1 N N N -43.140 -29.068 3.294  2.025  -1.547 -1.852 O01  RTI 22 
+RTI O07  O2  O 0 1 N N N -44.021 -33.969 -0.930 6.009  0.051  -0.517 O07  RTI 23 
+RTI O24  O3  O 0 1 N N N -48.237 -29.012 1.769  -0.871 -0.887 2.072  O24  RTI 24 
+RTI O25  O4  O 0 1 N N N -43.609 -31.226 3.392  0.318  -2.655 -0.991 O25  RTI 25 
+RTI H161 H1  H 0 0 N N N -50.240 -29.613 3.361  -3.364 -0.834 1.976  H161 RTI 26 
+RTI H121 H2  H 0 0 N N N -46.131 -29.370 0.718  1.448  -0.288 2.096  H121 RTI 27 
+RTI H101 H3  H 0 0 N N N -48.189 -31.742 1.370  1.655  2.613  0.723  H101 RTI 28 
+RTI H201 H4  H 0 0 N N N -52.348 -29.510 8.006  -7.836 0.378  -0.164 H201 RTI 29 
+RTI H031 H5  H 0 0 N N N -43.936 -29.067 0.924  1.744  -2.446 1.204  H031 RTI 30 
+RTI H041 H6  H 0 0 N N N -42.950 -31.663 0.853  4.003  -1.797 1.372  H041 RTI 31 
+RTI H042 H7  H 0 0 N N N -43.548 -30.703 -0.542 3.959  -2.028 -0.401 H042 RTI 32 
+RTI H081 H8  H 0 0 N N N -46.400 -35.004 -0.728 5.698  2.647  -0.632 H081 RTI 33 
+RTI H091 H9  H 0 0 N N N -48.374 -33.976 0.344  3.633  3.857  -0.042 H091 RTI 34 
+RTI H211 H10 H 0 0 N N N -52.416 -29.740 5.352  -6.368 -0.684 1.707  H211 RTI 35 
+RTI H221 H11 H 0 0 N N N -47.446 -28.872 7.390  -3.445 1.623  -2.326 H221 RTI 36 
+RTI H231 H12 H 0 0 N N N -46.403 -28.946 5.150  -1.317 1.035  -1.298 H231 RTI 37 
+RTI H131 H13 H 0 0 N N N -45.874 -30.204 3.526  0.218  0.542  -0.440 H131 RTI 38 
+RTI H191 H14 H 0 0 N N N -49.939 -29.108 8.655  -6.264 1.370  -1.905 H191 RTI 39 
+RTI H071 H15 H 0 0 N N N -43.259 -33.404 -0.873 6.619  -0.071 0.224  H071 RTI 40 
+RTI H1   H16 H 0 1 N N N -43.214 -31.110 4.248  -0.003 -2.816 -1.889 H1   RTI 41 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RTI O07 C06  SING N N 1  
+RTI C06 C08  DOUB Y N 2  
+RTI C06 C05  SING Y N 3  
+RTI C08 C09  SING Y N 4  
+RTI C05 C04  SING N N 5  
+RTI C05 C11  DOUB Y N 6  
+RTI C09 C10  DOUB Y N 7  
+RTI C04 C03  SING N N 8  
+RTI C11 C10  SING Y N 9  
+RTI C11 C12  SING N N 10 
+RTI C03 C12  SING N N 11 
+RTI C03 C02  SING N N 12 
+RTI C12 N13  SING N N 13 
+RTI O24 C14  DOUB N N 14 
+RTI N13 C14  SING N N 15 
+RTI C14 C15  SING N N 16 
+RTI C02 O01  DOUB N N 17 
+RTI C02 O25  SING N N 18 
+RTI C15 C16  DOUB Y N 19 
+RTI C15 C23  SING Y N 20 
+RTI C16 C17  SING Y N 21 
+RTI C23 C22  DOUB Y N 22 
+RTI C17 C21  SING Y N 23 
+RTI C17 C18  DOUB Y N 24 
+RTI C21 C20  DOUB Y N 25 
+RTI C22 C18  SING Y N 26 
+RTI C18 N19  SING Y N 27 
+RTI C20 N19  SING Y N 28 
+RTI C16 H161 SING N N 29 
+RTI C12 H121 SING N N 30 
+RTI C10 H101 SING N N 31 
+RTI C20 H201 SING N N 32 
+RTI C03 H031 SING N N 33 
+RTI C04 H041 SING N N 34 
+RTI C04 H042 SING N N 35 
+RTI C08 H081 SING N N 36 
+RTI C09 H091 SING N N 37 
+RTI C21 H211 SING N N 38 
+RTI C22 H221 SING N N 39 
+RTI C23 H231 SING N N 40 
+RTI N13 H131 SING N N 41 
+RTI N19 H191 SING N N 42 
+RTI O07 H071 SING N N 43 
+RTI O25 H1   SING N N 44 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RTI SMILES           ACDLabs              12.01 "O=C(O)C1Cc2c(cccc2O)C1NC(=O)c1cc2cc[NH]c2cc1"                                                                                                               
+RTI InChI            InChI                1.06  "InChI=1S/C19H16N2O4/c22-16-3-1-2-12-13(16)9-14(19(24)25)17(12)21-18(23)11-4-5-15-10(8-11)6-7-20-15/h1-8,14,17,20,22H,9H2,(H,21,23)(H,24,25)/t14-,17+/m0/s1" 
+RTI InChIKey         InChI                1.06  DEQJMLORKTWBPR-WMLDXEAASA-N                                                                                                                                  
+RTI SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@H]1Cc2c(O)cccc2[C@H]1NC(=O)c3ccc4[nH]ccc4c3"                                                                                                       
+RTI SMILES           CACTVS               3.385 "OC(=O)[CH]1Cc2c(O)cccc2[CH]1NC(=O)c3ccc4[nH]ccc4c3"                                                                                                         
+RTI SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(c(c1)O)C[C@@H]([C@@H]2NC(=O)c3ccc4c(c3)cc[nH]4)C(=O)O"                                                                                               
+RTI SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(c(c1)O)CC(C2NC(=O)c3ccc4c(c3)cc[nH]4)C(=O)O"                                                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RTI "SYSTEMATIC NAME" ACDLabs              12.01 "(1S,2S)-4-hydroxy-1-[(1H-indole-5-carbonyl)amino]-2,3-dihydro-1H-indene-2-carboxylic acid"             
+RTI "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{S},2~{S})-1-(1~{H}-indol-5-ylcarbonylamino)-4-oxidanyl-2,3-dihydro-1~{H}-indene-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RTI "Create component" 2022-06-23 RCSB 
+RTI "Initial release"  2022-07-06 RCSB 
+# 

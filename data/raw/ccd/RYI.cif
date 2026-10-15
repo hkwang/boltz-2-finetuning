@@ -1,0 +1,168 @@
+data_RYI
+# 
+_chem_comp.id                                    RYI 
+_chem_comp.name                                  "(5R)-7-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)-2lambda~6~-thia-7-azaspiro[4.5]decane-2,2-dione" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H18 N4 O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        306.383 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RYI 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SOP 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RYI C17  C1  C 0 1 Y N N -44.252 -29.386 5.865  -3.312 2.319  -0.044 C17  RYI 1  
+RYI C15  C2  C 0 1 Y N N -46.538 -29.093 6.120  -4.291 0.287  0.412  C15  RYI 2  
+RYI C13  C3  C 0 1 Y N N -48.759 -28.805 5.795  -4.557 -1.916 0.745  C13  RYI 3  
+RYI C12  C4  C 0 1 Y N N -48.157 -28.885 4.502  -3.254 -1.759 0.460  C12  RYI 4  
+RYI C11  C5  C 0 1 Y N N -46.709 -29.078 4.716  -3.039 -0.331 0.236  C11  RYI 5  
+RYI C10  C6  C 0 1 Y N N -45.535 -29.220 3.886  -1.936 0.468  -0.101 C10  RYI 6  
+RYI C20  C7  C 0 1 N N N -44.887 -31.643 0.872  2.063  -0.287 0.685  C20  RYI 7  
+RYI C19  C8  C 0 1 N N N -44.250 -29.317 1.702  0.309  0.936  -0.621 C19  RYI 8  
+RYI C03  C9  C 0 1 N N N -42.231 -31.435 0.463  4.131  0.756  -0.785 C03  RYI 9  
+RYI C04  C10 C 0 1 N N N -43.031 -30.413 -0.360 2.736  1.373  -1.063 C04  RYI 10 
+RYI C05  C11 C 0 1 N N R -44.422 -30.210 0.414  1.698  0.302  -0.690 C05  RYI 11 
+RYI C06  C12 C 0 1 N N N -45.498 -29.570 -0.486 1.710  -0.810 -1.740 C06  RYI 12 
+RYI C07  C13 C 0 1 N N N -46.799 -29.360 0.279  0.630  -1.839 -1.395 C07  RYI 13 
+RYI C08  C14 C 0 1 N N N -46.597 -28.595 1.623  -0.729 -1.140 -1.319 C08  RYI 14 
+RYI N09  N1  N 0 1 N N N -45.529 -29.255 2.459  -0.686 -0.093 -0.290 N09  RYI 15 
+RYI N14  N2  N 0 1 Y N N -47.747 -28.945 6.727  -5.188 -0.699 0.719  N14  RYI 16 
+RYI N16  N3  N 0 1 Y N N -45.298 -29.260 6.699  -4.376 1.608  0.262  N16  RYI 17 
+RYI N18  N4  N 0 1 Y N N -44.332 -29.378 4.492  -2.120 1.779  -0.223 N18  RYI 18 
+RYI O01  O1  O 0 1 N N N -43.247 -32.797 2.530  4.182  0.797  1.879  O01  RYI 19 
+RYI O21  O2  O 0 1 N N N -43.454 -33.810 0.322  4.490  -1.378 0.771  O21  RYI 20 
+RYI S02  S1  S 0 1 N N N -43.422 -32.618 1.118  3.878  -0.097 0.817  S02  RYI 21 
+RYI H171 H1  H 0 0 N N N -43.273 -29.502 6.307  -3.419 3.388  -0.157 H171 RYI 22 
+RYI H131 H2  H 0 0 N N N -49.809 -28.662 6.005  -5.036 -2.859 0.962  H131 RYI 23 
+RYI H121 H3  H 0 0 N N N -48.664 -28.817 3.551  -2.508 -2.538 0.407  H121 RYI 24 
+RYI H202 H4  H 0 0 N N N -45.455 -31.572 1.811  1.565  0.269  1.480  H202 RYI 25 
+RYI H201 H5  H 0 0 N N N -45.518 -32.100 0.096  1.788  -1.341 0.732  H201 RYI 26 
+RYI H191 H6  H 0 0 N N N -43.469 -29.751 2.343  0.300  1.710  0.147  H191 RYI 27 
+RYI H192 H7  H 0 0 N N N -43.955 -28.300 1.403  0.064  1.380  -1.586 H192 RYI 28 
+RYI H032 H8  H 0 0 N N N -41.500 -31.949 -0.178 4.400  0.043  -1.565 H032 RYI 29 
+RYI H031 H9  H 0 0 N N N -41.706 -30.930 1.287  4.890  1.532  -0.695 H031 RYI 30 
+RYI H042 H10 H 0 0 N N N -43.211 -30.797 -1.375 2.592  2.263  -0.449 H042 RYI 31 
+RYI H041 H11 H 0 0 N N N -42.485 -29.460 -0.420 2.645  1.630  -2.119 H041 RYI 32 
+RYI H062 H12 H 0 0 N N N -45.689 -30.231 -1.344 1.507  -0.385 -2.723 H062 RYI 33 
+RYI H061 H13 H 0 0 N N N -45.132 -28.597 -0.847 2.686  -1.295 -1.746 H061 RYI 34 
+RYI H072 H14 H 0 0 N N N -47.489 -28.782 -0.354 0.601  -2.609 -2.166 H072 RYI 35 
+RYI H071 H15 H 0 0 N N N -47.240 -30.344 0.498  0.858  -2.297 -0.432 H071 RYI 36 
+RYI H082 H16 H 0 0 N N N -46.297 -27.559 1.407  -0.960 -0.690 -2.285 H082 RYI 37 
+RYI H081 H17 H 0 0 N N N -47.544 -28.593 2.183  -1.499 -1.868 -1.065 H081 RYI 38 
+RYI H141 H18 H 0 0 N N N -47.885 -28.938 7.717  -6.131 -0.558 0.894  H141 RYI 39 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RYI C06 C07  SING N N 1  
+RYI C06 C05  SING N N 2  
+RYI C04 C05  SING N N 3  
+RYI C04 C03  SING N N 4  
+RYI C07 C08  SING N N 5  
+RYI O21 S02  DOUB N N 6  
+RYI C05 C20  SING N N 7  
+RYI C05 C19  SING N N 8  
+RYI C03 S02  SING N N 9  
+RYI C20 S02  SING N N 10 
+RYI S02 O01  DOUB N N 11 
+RYI C08 N09  SING N N 12 
+RYI C19 N09  SING N N 13 
+RYI N09 C10  SING N N 14 
+RYI C10 N18  DOUB Y N 15 
+RYI C10 C11  SING Y N 16 
+RYI N18 C17  SING Y N 17 
+RYI C12 C11  SING Y N 18 
+RYI C12 C13  DOUB Y N 19 
+RYI C11 C15  DOUB Y N 20 
+RYI C13 N14  SING Y N 21 
+RYI C17 N16  DOUB Y N 22 
+RYI C15 N16  SING Y N 23 
+RYI C15 N14  SING Y N 24 
+RYI C17 H171 SING N N 25 
+RYI C13 H131 SING N N 26 
+RYI C12 H121 SING N N 27 
+RYI C20 H202 SING N N 28 
+RYI C20 H201 SING N N 29 
+RYI C19 H191 SING N N 30 
+RYI C19 H192 SING N N 31 
+RYI C03 H032 SING N N 32 
+RYI C03 H031 SING N N 33 
+RYI C04 H042 SING N N 34 
+RYI C04 H041 SING N N 35 
+RYI C06 H062 SING N N 36 
+RYI C06 H061 SING N N 37 
+RYI C07 H072 SING N N 38 
+RYI C07 H071 SING N N 39 
+RYI C08 H082 SING N N 40 
+RYI C08 H081 SING N N 41 
+RYI N14 H141 SING N N 42 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RYI SMILES           ACDLabs              12.01 "O=S1(=O)CCC2(CCCN(C2)c2ncnc3[NH]ccc32)C1"                                                                                             
+RYI InChI            InChI                1.06  "InChI=1S/C14H18N4O2S/c19-21(20)7-4-14(9-21)3-1-6-18(8-14)13-11-2-5-15-12(11)16-10-17-13/h2,5,10H,1,3-4,6-9H2,(H,15,16,17)/t14-/m1/s1" 
+RYI InChIKey         InChI                1.06  CIGPPCNTUJESTR-CQSZACIVSA-N                                                                                                            
+RYI SMILES_CANONICAL CACTVS               3.385 "O=[S]1(=O)CC[C@@]2(CCCN(C2)c3ncnc4[nH]ccc34)C1"                                                                                       
+RYI SMILES           CACTVS               3.385 "O=[S]1(=O)CC[C]2(CCCN(C2)c3ncnc4[nH]ccc34)C1"                                                                                         
+RYI SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)N3CCC[C@]4(C3)CCS(=O)(=O)C4"                                                                                        
+RYI SMILES           "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)N3CCCC4(C3)CCS(=O)(=O)C4"                                                                                           
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RYI "SYSTEMATIC NAME" ACDLabs              12.01 "(5R)-7-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)-2lambda~6~-thia-7-azaspiro[4.5]decane-2,2-dione"      
+RYI "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(5~{R})-9-(7~{H}-pyrrolo[2,3-d]pyrimidin-4-yl)-2$l^{6}-thia-9-azaspiro[4.5]decane 2,2-dioxide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RYI "Create component" 2022-06-23 RCSB 
+RYI "Initial release"  2022-07-13 RCSB 
+# 

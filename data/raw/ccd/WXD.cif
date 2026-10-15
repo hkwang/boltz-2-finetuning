@@ -1,0 +1,171 @@
+data_WXD
+# 
+_chem_comp.id                                    WXD 
+_chem_comp.name                                  "5-ethyl-4-[(3S)-3-(methylsulfonyl)piperidin-1-yl]-7H-pyrrolo[2,3-d]pyrimidine" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H20 N4 O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2020-11-17 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        308.399 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     WXD 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5S6N 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+WXD C10  C1  C 0 1 Y N N -50.763 -29.314 5.246  1.339  -0.689 0.422  C10  WXD 1  
+WXD C13  C2  C 0 1 N N N -51.796 -30.890 8.491  -1.310 0.928  2.410  C13  WXD 2  
+WXD C15  C3  C 0 1 N N S -53.437 -29.239 7.935  -2.170 0.397  0.128  C15  WXD 3  
+WXD C20  C4  C 0 1 N N N -55.406 -28.586 9.657  -4.883 0.933  -0.414 C20  WXD 4  
+WXD C21  C5  C 0 1 Y N N -49.343 -29.274 5.201  2.435  -0.071 -0.199 C21  WXD 5  
+WXD C01  C6  C 0 1 N N N -48.793 -28.376 8.283  1.928  3.165  0.697  C01  WXD 6  
+WXD C02  C7  C 0 1 N N N -48.257 -29.644 7.599  1.795  2.463  -0.655 C02  WXD 7  
+WXD C03  C8  C 0 1 Y N N -48.215 -29.443 6.102  2.720  1.274  -0.697 C03  WXD 8  
+WXD C04  C9  C 0 1 Y N N -47.064 -29.389 5.355  3.967  1.246  -1.197 C04  WXD 9  
+WXD C06  C10 C 0 1 Y N N -48.755 -29.124 3.972  3.588  -0.836 -0.452 C06  WXD 10 
+WXD C08  C11 C 0 1 Y N N -50.788 -28.884 3.008  2.542  -2.657 0.490  C08  WXD 11 
+WXD C12  C12 C 0 1 N N N -51.320 -30.977 7.051  -0.113 0.016  2.131  C12  WXD 12 
+WXD C14  C13 C 0 1 N N N -53.180 -30.519 8.546  -2.522 0.428  1.618  C14  WXD 13 
+WXD C16  C14 C 0 1 N N N -52.905 -29.134 6.546  -0.948 -0.499 -0.085 C16  WXD 14 
+WXD N05  N1  N 0 1 Y N N -47.431 -29.170 4.114  4.496  -0.011 -1.056 N05  WXD 15 
+WXD N07  N2  N 0 1 Y N N -49.510 -28.911 2.915  3.592  -2.119 -0.091 N07  WXD 16 
+WXD N09  N3  N 0 1 Y N N -51.441 -29.133 4.128  1.442  -1.974 0.750  N09  WXD 17 
+WXD N11  N4  N 0 1 N N N -51.450 -29.572 6.440  0.183  0.021  0.693  N11  WXD 18 
+WXD O18  O1  O 0 1 N N N -55.989 -29.963 7.286  -3.279 -0.160 -2.199 O18  WXD 19 
+WXD O19  O2  O 0 1 N N N -55.411 -27.823 7.035  -3.934 -1.523 -0.269 O19  WXD 20 
+WXD S17  S1  S 0 1 N N N -55.228 -28.925 7.886  -3.576 -0.260 -0.813 S17  WXD 21 
+WXD H132 H1  H 0 0 N N N -51.665 -31.869 8.974  -1.540 0.911  3.475  H132 WXD 22 
+WXD H131 H2  H 0 0 N N N -51.199 -30.136 9.024  -1.071 1.946  2.105  H131 WXD 23 
+WXD H151 H3  H 0 0 N N N -53.009 -28.434 8.551  -1.944 1.408  -0.214 H151 WXD 24 
+WXD H203 H4  H 0 0 N N N -55.243 -29.513 10.226 -5.802 0.649  -0.927 H203 WXD 25 
+WXD H201 H5  H 0 0 N N N -54.664 -27.833 9.962  -5.054 0.939  0.662  H201 WXD 26 
+WXD H202 H6  H 0 0 N N N -56.418 -28.206 9.857  -4.579 1.928  -0.739 H202 WXD 27 
+WXD H012 H7  H 0 0 N N N -48.821 -28.530 9.372  1.196  3.971  0.761  H012 WXD 28 
+WXD H011 H8  H 0 0 N N N -48.134 -27.527 8.049  1.750  2.448  1.498  H011 WXD 29 
+WXD H013 H9  H 0 0 N N N -49.808 -28.163 7.917  2.932  3.578  0.795  H013 WXD 30 
+WXD H022 H10 H 0 0 N N N -48.917 -30.492 7.835  0.767  2.127  -0.791 H022 WXD 31 
+WXD H021 H11 H 0 0 N N N -47.242 -29.856 7.967  2.059  3.157  -1.453 H021 WXD 32 
+WXD H041 H12 H 0 0 N N N -46.053 -29.504 5.718  4.475  2.088  -1.643 H041 WXD 33 
+WXD H081 H13 H 0 0 N N N -51.361 -28.645 2.124  2.584  -3.698 0.772  H081 WXD 34 
+WXD H122 H14 H 0 0 N N N -51.943 -31.690 6.491  0.755  0.377  2.682  H122 WXD 35 
+WXD H121 H15 H 0 0 N N N -50.270 -31.305 7.021  -0.349 -1.000 2.449  H121 WXD 36 
+WXD H141 H16 H 0 0 N N N -53.491 -30.475 9.600  -2.786 -0.576 1.950  H141 WXD 37 
+WXD H142 H17 H 0 0 N N N -53.771 -31.284 8.021  -3.365 1.100  1.779  H142 WXD 38 
+WXD H162 H18 H 0 0 N N N -52.982 -28.087 6.218  -1.180 -1.512 0.244  H162 WXD 39 
+WXD H161 H19 H 0 0 N N N -53.513 -29.771 5.887  -0.687 -0.512 -1.143 H161 WXD 40 
+WXD H051 H20 H 0 0 N N N -46.787 -29.051 3.358  5.383  -0.276 -1.344 H051 WXD 41 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+WXD N07 C08  DOUB Y N 1  
+WXD N07 C06  SING Y N 2  
+WXD C08 N09  SING Y N 3  
+WXD C06 N05  SING Y N 4  
+WXD C06 C21  DOUB Y N 5  
+WXD N05 C04  SING Y N 6  
+WXD N09 C10  DOUB Y N 7  
+WXD C21 C10  SING Y N 8  
+WXD C21 C03  SING Y N 9  
+WXD C10 N11  SING N N 10 
+WXD C04 C03  DOUB Y N 11 
+WXD C03 C02  SING N N 12 
+WXD N11 C16  SING N N 13 
+WXD N11 C12  SING N N 14 
+WXD C16 C15  SING N N 15 
+WXD O19 S17  DOUB N N 16 
+WXD C12 C13  SING N N 17 
+WXD O18 S17  DOUB N N 18 
+WXD C02 C01  SING N N 19 
+WXD S17 C15  SING N N 20 
+WXD S17 C20  SING N N 21 
+WXD C15 C14  SING N N 22 
+WXD C13 C14  SING N N 23 
+WXD C13 H132 SING N N 24 
+WXD C13 H131 SING N N 25 
+WXD C15 H151 SING N N 26 
+WXD C20 H203 SING N N 27 
+WXD C20 H201 SING N N 28 
+WXD C20 H202 SING N N 29 
+WXD C01 H012 SING N N 30 
+WXD C01 H011 SING N N 31 
+WXD C01 H013 SING N N 32 
+WXD C02 H022 SING N N 33 
+WXD C02 H021 SING N N 34 
+WXD C04 H041 SING N N 35 
+WXD C08 H081 SING N N 36 
+WXD C12 H122 SING N N 37 
+WXD C12 H121 SING N N 38 
+WXD C14 H141 SING N N 39 
+WXD C14 H142 SING N N 40 
+WXD C16 H162 SING N N 41 
+WXD C16 H161 SING N N 42 
+WXD N05 H051 SING N N 43 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+WXD SMILES           ACDLabs              12.01 "c3(N1CCCC(C1)S(C)(=O)=O)c2c(CC)cnc2ncn3"                                                                                             
+WXD InChI            InChI                1.03  "InChI=1S/C14H20N4O2S/c1-3-10-7-15-13-12(10)14(17-9-16-13)18-6-4-5-11(8-18)21(2,19)20/h7,9,11H,3-6,8H2,1-2H3,(H,15,16,17)/t11-/m0/s1" 
+WXD InChIKey         InChI                1.03  KOOLXXAPHSXXFR-NSHDSACASA-N                                                                                                           
+WXD SMILES_CANONICAL CACTVS               3.385 "CCc1c[nH]c2ncnc(N3CCC[C@@H](C3)[S](C)(=O)=O)c12"                                                                                     
+WXD SMILES           CACTVS               3.385 "CCc1c[nH]c2ncnc(N3CCC[CH](C3)[S](C)(=O)=O)c12"                                                                                       
+WXD SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CCc1c[nH]c2c1c(ncn2)N3CCC[C@@H](C3)S(=O)(=O)C"                                                                                       
+WXD SMILES           "OpenEye OEToolkits" 2.0.7 "CCc1c[nH]c2c1c(ncn2)N3CCCC(C3)S(=O)(=O)C"                                                                                            
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+WXD "SYSTEMATIC NAME" ACDLabs              12.01 "5-ethyl-4-[(3S)-3-(methylsulfonyl)piperidin-1-yl]-7H-pyrrolo[2,3-d]pyrimidine"     
+WXD "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "5-ethyl-4-[(3~{S})-3-methylsulfonylpiperidin-1-yl]-7~{H}-pyrrolo[2,3-d]pyrimidine" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+WXD "Create component" 2020-11-17 RCSB 
+WXD "Initial release"  2022-07-13 RCSB 
+# 

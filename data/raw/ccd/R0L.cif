@@ -1,0 +1,162 @@
+data_R0L
+# 
+_chem_comp.id                                    R0L 
+_chem_comp.name                                  "(2R)-4-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)morpholine-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C15 H13 F N4 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        316.287 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     R0L 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SRA 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+R0L C18  C1  C 0 1 Y N N -44.015 -29.498 5.888  0.040  3.788  -0.269 C18  R0L 1  
+R0L C16  C2  C 0 1 Y N N -46.314 -29.335 6.144  -1.718 2.300  -0.209 C16  R0L 2  
+R0L C13  C3  C 0 1 Y N N -48.668 -28.995 3.401  -1.250 -1.322 0.273  C13  R0L 3  
+R0L C12  C4  C 0 1 Y N N -50.048 -28.893 3.524  -2.243 -2.275 0.329  C12  R0L 4  
+R0L C11  C5  C 0 1 Y N N -50.639 -28.926 4.780  -3.575 -1.905 0.200  C11  R0L 5  
+R0L C10  C6  C 0 1 Y N N -49.852 -29.053 5.909  -3.920 -0.581 0.015  C10  R0L 6  
+R0L C20  C7  C 0 1 N N N -46.024 -30.412 2.039  2.227  0.745  1.481  C20  R0L 7  
+R0L C02  C8  C 0 1 N N N -45.907 -27.920 0.060  2.690  -1.940 -0.701 C02  R0L 8  
+R0L C03  C9  C 0 1 N N R -44.670 -28.775 0.346  3.437  -0.632 -0.705 C03  R0L 9  
+R0L C04  C10 C 0 1 N N N -44.337 -28.743 1.836  2.451  0.520  -0.917 C04  R0L 10 
+R0L C06  C11 C 0 1 Y N N -45.303 -29.291 3.995  0.567  1.563  0.029  C06  R0L 11 
+R0L C07  C12 C 0 1 Y N N -46.465 -29.245 4.778  -0.798 1.257  -0.018 C07  R0L 12 
+R0L C08  C13 C 0 1 Y N N -47.869 -29.125 4.548  -1.584 0.018  0.086  C08  R0L 13 
+R0L C09  C14 C 0 1 Y N N -48.466 -29.150 5.793  -2.930 0.394  -0.043 C09  R0L 14 
+R0L C21  C15 C 0 1 N N N -45.242 -31.029 0.883  3.215  -0.409 1.670  C21  R0L 15 
+R0L F14  F1  F 0 1 N N N -51.992 -28.833 4.902  -4.541 -2.848 0.256  F14  R0L 16 
+R0L N05  N1  N 0 1 N N N -45.473 -29.203 2.556  1.509  0.566  0.211  N05  R0L 17 
+R0L N15  N2  N 0 1 Y N N -47.515 -29.279 6.723  -2.983 1.766  -0.231 N15  R0L 18 
+R0L N17  N3  N 0 1 Y N N -45.085 -29.461 6.649  -1.252 3.543  -0.328 N17  R0L 19 
+R0L N19  N4  N 0 1 Y N N -44.107 -29.415 4.564  0.937  2.835  -0.095 N19  R0L 20 
+R0L O01  O1  O 0 1 N N N -47.060 -28.404 0.196  2.647  -2.609 0.305  O01  R0L 21 
+R0L O22  O2  O 0 1 N N N -44.877 -30.101 -0.132 4.103  -0.458 0.549  O22  R0L 22 
+R0L O23  O3  O 0 1 N N N -45.779 -26.726 -0.317 2.071  -2.363 -1.814 O23  R0L 23 
+R0L H181 H1  H 0 0 N N N -43.042 -29.598 6.346  0.380  4.808  -0.370 H181 R0L 24 
+R0L H131 H2  H 0 0 N N N -48.210 -28.974 2.423  -0.214 -1.612 0.373  H131 R0L 25 
+R0L H121 H3  H 0 0 N N N -50.662 -28.788 2.642  -1.984 -3.314 0.473  H121 R0L 26 
+R0L H101 H4  H 0 0 N N N -50.313 -29.077 6.885  -4.958 -0.303 -0.084 H101 R0L 27 
+R0L H201 H5  H 0 0 N N N -46.063 -31.147 2.856  1.513  0.750  2.305  H201 R0L 28 
+R0L H202 H6  H 0 0 N N N -47.044 -30.200 1.687  2.769  1.690  1.463  H202 R0L 29 
+R0L H031 H7  H 0 0 N N N -43.823 -28.327 -0.195 4.173  -0.635 -1.510 H031 R0L 30 
+R0L H041 H8  H 0 0 N N N -43.477 -29.398 2.039  2.998  1.461  -0.974 H041 R0L 31 
+R0L H042 H9  H 0 0 N N N -44.094 -27.714 2.141  1.901  0.362  -1.845 H042 R0L 32 
+R0L H212 H10 H 0 0 N N N -44.323 -31.477 1.288  3.790  -0.251 2.582  H212 R0L 33 
+R0L H211 H11 H 0 0 N N N -45.862 -31.814 0.426  2.668  -1.349 1.742  H211 R0L 34 
+R0L H151 H12 H 0 0 N N N -47.679 -29.327 7.708  -3.798 2.277  -0.350 H151 R0L 35 
+R0L H1   H13 H 0 1 N N N -46.638 -26.342 -0.452 1.604  -3.208 -1.763 H1   R0L 36 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+R0L C02 O01  DOUB N N 1  
+R0L C04 C03  SING N N 2  
+R0L N05 C04  SING N N 3  
+R0L C07 C06  DOUB Y N 4  
+R0L C08 C07  SING Y N 5  
+R0L C09 C08  DOUB Y N 6  
+R0L C11 C10  DOUB Y N 7  
+R0L C13 C12  DOUB Y N 8  
+R0L C12 C11  SING Y N 9  
+R0L F14 C11  SING N N 10 
+R0L C10 C09  SING Y N 11 
+R0L N15 C09  SING Y N 12 
+R0L C16 N15  SING Y N 13 
+R0L N17 C16  DOUB Y N 14 
+R0L C18 N17  SING Y N 15 
+R0L N19 C18  DOUB Y N 16 
+R0L C06 N05  SING N N 17 
+R0L C20 N05  SING N N 18 
+R0L C21 C20  SING N N 19 
+R0L O22 C21  SING N N 20 
+R0L C03 C02  SING N N 21 
+R0L O23 C02  SING N N 22 
+R0L C03 O22  SING N N 23 
+R0L C06 N19  SING Y N 24 
+R0L C07 C16  SING Y N 25 
+R0L C08 C13  SING Y N 26 
+R0L C18 H181 SING N N 27 
+R0L C13 H131 SING N N 28 
+R0L C12 H121 SING N N 29 
+R0L C10 H101 SING N N 30 
+R0L C20 H201 SING N N 31 
+R0L C20 H202 SING N N 32 
+R0L C03 H031 SING N N 33 
+R0L C04 H041 SING N N 34 
+R0L C04 H042 SING N N 35 
+R0L C21 H212 SING N N 36 
+R0L C21 H211 SING N N 37 
+R0L N15 H151 SING N N 38 
+R0L O23 H1   SING N N 39 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+R0L SMILES           ACDLabs              12.01 "O=C(O)C1CN(CCO1)c1ncnc2[NH]c3cc(F)ccc3c12"                                                                                                         
+R0L InChI            InChI                1.03  "InChI=1S/C15H13FN4O3/c16-8-1-2-9-10(5-8)19-13-12(9)14(18-7-17-13)20-3-4-23-11(6-20)15(21)22/h1-2,5,7,11H,3-4,6H2,(H,21,22)(H,17,18,19)/t11-/m1/s1" 
+R0L InChIKey         InChI                1.03  LNMHSQWGJNVQMD-LLVKDONJSA-N                                                                                                                         
+R0L SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@H]1CN(CCO1)c2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                     
+R0L SMILES           CACTVS               3.385 "OC(=O)[CH]1CN(CCO1)c2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                      
+R0L SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCO[C@H](C4)C(=O)O"                                                                                                   
+R0L SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCOC(C4)C(=O)O"                                                                                                       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+R0L "SYSTEMATIC NAME" ACDLabs              12.01 "(2R)-4-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)morpholine-2-carboxylic acid"          
+R0L "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(2~{R})-4-(7-fluoranyl-9~{H}-pyrimido[4,5-b]indol-4-yl)morpholine-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+R0L "Create component" 2022-06-14 RCSB 
+R0L "Initial release"  2022-07-06 RCSB 
+# 

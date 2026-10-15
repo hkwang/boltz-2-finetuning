@@ -1,0 +1,169 @@
+data_QZO
+# 
+_chem_comp.id                                    QZO 
+_chem_comp.name                                  "(1S,6R,7S)-3-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)-3-azabicyclo[4.1.0]heptane-7-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C17 H15 F N4 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        326.325 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QZO 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SR7 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QZO N1  N1  N 0 1 N N N -45.394 -29.126 2.614  0.836  0.549  0.485  N1  QZO 1  
+QZO C16 C1  C 0 1 N N N -46.217 -30.022 1.796  2.155  1.175  0.637  C16 QZO 2  
+QZO C17 C2  C 0 1 N N S -45.281 -30.914 1.023  3.220  0.106  0.876  C17 QZO 3  
+QZO C15 C3  C 0 1 Y N N -44.168 -29.378 5.912  -0.763 3.704  -0.020 C15 QZO 4  
+QZO C14 C4  C 0 1 Y N N -46.387 -29.320 6.148  -2.437 2.126  -0.144 C14 QZO 5  
+QZO C13 C5  C 0 1 Y N N -48.814 -29.048 3.400  -1.807 -1.482 0.240  C13 QZO 6  
+QZO O2  O1  O 0 1 N N N -43.987 -33.398 0.431  5.759  -1.685 0.385  O2  QZO 7  
+QZO C12 C6  C 0 1 Y N N -50.185 -29.009 3.549  -2.746 -2.489 0.181  C12 QZO 8  
+QZO C11 C7  C 0 1 Y N N -50.743 -29.082 4.817  -4.082 -2.185 -0.044 C11 QZO 9  
+QZO C10 C8  C 0 1 Y N N -49.981 -29.186 5.950  -4.485 -0.875 -0.209 C10 QZO 10 
+QZO C9  C9  C 0 1 Y N N -48.601 -29.222 5.801  -3.550 0.153  -0.152 C9  QZO 11 
+QZO C8  C10 C 0 1 Y N N -48.000 -29.157 4.529  -2.200 -0.157 0.075  C8  QZO 12 
+QZO C7  C11 C 0 1 Y N N -46.573 -29.227 4.755  -1.479 1.126  0.080  C7  QZO 13 
+QZO C6  C12 C 0 1 Y N N -45.402 -29.199 3.966  -0.142 1.500  0.255  C6  QZO 14 
+QZO C5  C13 C 0 1 N N N -44.490 -28.260 1.859  0.866  -0.449 -0.597 C5  QZO 15 
+QZO C4  C14 C 0 1 N N N -43.460 -29.060 1.087  1.577  -1.703 -0.085 C4  QZO 16 
+QZO C3  C15 C 0 1 N N R -43.862 -30.477 0.723  2.958  -1.332 0.445  C3  QZO 17 
+QZO C2  C16 C 0 1 N N S -44.124 -31.521 1.789  3.887  -0.475 -0.380 C2  QZO 18 
+QZO C1  C17 C 0 1 N N N -43.784 -32.945 1.525  5.361  -0.781 -0.312 C1  QZO 19 
+QZO O1  O2  O 0 1 N N N -43.312 -33.584 2.422  6.232  -0.050 -1.025 O1  QZO 20 
+QZO F1  F1  F 0 1 N N N -52.101 -29.043 4.932  -4.995 -3.179 -0.101 F1  QZO 21 
+QZO N2  N2  N 0 1 Y N N -47.602 -29.322 6.756  -3.666 1.528  -0.279 N2  QZO 22 
+QZO N3  N3  N 0 1 Y N N -45.195 -29.401 6.755  -2.032 3.395  -0.185 N3  QZO 23 
+QZO N4  N4  N 0 1 Y N N -44.215 -29.284 4.576  0.168  2.794  0.192  N4  QZO 24 
+QZO H13 H1  H 0 1 N N N -46.867 -30.630 2.442  2.397  1.731  -0.269 H13 QZO 25 
+QZO H12 H2  H 0 1 N N N -46.836 -29.435 1.102  2.134  1.860  1.484  H12 QZO 26 
+QZO H14 H3  H 0 1 N N N -45.750 -31.565 0.270  3.850  0.260  1.752  H14 QZO 27 
+QZO H11 H4  H 0 1 N N N -43.184 -29.442 6.353  -0.472 4.743  -0.064 H11 QZO 28 
+QZO H9  H5  H 0 1 N N N -48.373 -28.995 2.416  -0.768 -1.721 0.415  H9  QZO 29 
+QZO H8  H6  H 0 1 N N N -50.822 -28.922 2.681  -2.442 -3.517 0.309  H8  QZO 30 
+QZO H7  H7  H 0 1 N N N -50.438 -29.238 6.927  -5.526 -0.648 -0.384 H7  QZO 31 
+QZO H5  H8  H 0 1 N N N -43.969 -27.591 2.560  -0.153 -0.700 -0.891 H5  QZO 32 
+QZO H6  H9  H 0 1 N N N -45.080 -27.661 1.150  1.404  -0.043 -1.454 H6  QZO 33 
+QZO H4  H10 H 0 1 N N N -42.547 -29.115 1.699  0.983  -2.158 0.707  H4  QZO 34 
+QZO H3  H11 H 0 1 N N N -43.244 -28.520 0.153  1.692  -2.413 -0.904 H3  QZO 35 
+QZO H2  H12 H 0 1 N N N -43.440 -30.859 -0.218 3.445  -2.104 1.041  H2  QZO 36 
+QZO H1  H13 H 0 1 N N N -44.009 -31.180 2.828  3.523  -0.123 -1.345 H1  QZO 37 
+QZO H15 H14 H 0 1 N N N -43.137 -34.469 2.123  7.167  -0.284 -0.949 H15 QZO 38 
+QZO H10 H15 H 0 1 N N N -47.752 -29.386 7.743  -4.497 2.000  -0.441 H10 QZO 39 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QZO O1  C1  SING N N 1  
+QZO C1  C2  SING N N 2  
+QZO C2  C3  SING N N 3  
+QZO C3  C4  SING N N 4  
+QZO C4  C5  SING N N 5  
+QZO C5  N1  SING N N 6  
+QZO N1  C6  SING N N 7  
+QZO C6  C7  DOUB Y N 8  
+QZO C7  C8  SING Y N 9  
+QZO C8  C9  SING Y N 10 
+QZO C9  C10 DOUB Y N 11 
+QZO C10 C11 SING Y N 12 
+QZO C11 C12 DOUB Y N 13 
+QZO C12 C13 SING Y N 14 
+QZO C11 F1  SING N N 15 
+QZO C9  N2  SING Y N 16 
+QZO N2  C14 SING Y N 17 
+QZO C14 N3  DOUB Y N 18 
+QZO N3  C15 SING Y N 19 
+QZO C15 N4  DOUB Y N 20 
+QZO N1  C16 SING N N 21 
+QZO C16 C17 SING N N 22 
+QZO C1  O2  DOUB N N 23 
+QZO C2  C17 SING N N 24 
+QZO C3  C17 SING N N 25 
+QZO C6  N4  SING Y N 26 
+QZO C7  C14 SING Y N 27 
+QZO C8  C13 DOUB Y N 28 
+QZO C16 H13 SING N N 29 
+QZO C16 H12 SING N N 30 
+QZO C17 H14 SING N N 31 
+QZO C15 H11 SING N N 32 
+QZO C13 H9  SING N N 33 
+QZO C12 H8  SING N N 34 
+QZO C10 H7  SING N N 35 
+QZO C5  H5  SING N N 36 
+QZO C5  H6  SING N N 37 
+QZO C4  H4  SING N N 38 
+QZO C4  H3  SING N N 39 
+QZO C3  H2  SING N N 40 
+QZO C2  H1  SING N N 41 
+QZO O1  H15 SING N N 42 
+QZO N2  H10 SING N N 43 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QZO SMILES           ACDLabs              12.01 "O=C(O)C1C2CCN(CC12)c1ncnc2[NH]c3cc(F)ccc3c12"                                                                                                                        
+QZO InChI            InChI                1.03  "InChI=1S/C17H15FN4O2/c18-8-1-2-10-12(5-8)21-15-14(10)16(20-7-19-15)22-4-3-9-11(6-22)13(9)17(23)24/h1-2,5,7,9,11,13H,3-4,6H2,(H,23,24)(H,19,20,21)/t9-,11+,13+/m1/s1" 
+QZO InChIKey         InChI                1.03  FZCZCOHJHKTFMC-CDMKHQONSA-N                                                                                                                                           
+QZO SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@H]1[C@@H]2CCN(C[C@H]12)c3ncnc4[nH]c5cc(F)ccc5c34"                                                                                                           
+QZO SMILES           CACTVS               3.385 "OC(=O)[CH]1[CH]2CCN(C[CH]12)c3ncnc4[nH]c5cc(F)ccc5c34"                                                                                                               
+QZO SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CC[C@@H]5[C@H](C4)[C@H]5C(=O)O"                                                                                                         
+QZO SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCC5C(C4)C5C(=O)O"                                                                                                                      
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QZO "SYSTEMATIC NAME" ACDLabs              12.01 "(1S,6R,7S)-3-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)-3-azabicyclo[4.1.0]heptane-7-carboxylic acid"                
+QZO "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{S},6~{R},7~{S})-3-(7-fluoranyl-9~{H}-pyrimido[4,5-b]indol-4-yl)-3-azabicyclo[4.1.0]heptane-7-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QZO "Create component" 2022-06-14 RCSB 
+QZO "Initial release"  2022-07-06 RCSB 
+# 

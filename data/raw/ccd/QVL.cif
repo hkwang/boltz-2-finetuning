@@ -1,0 +1,149 @@
+data_QVL
+# 
+_chem_comp.id                                    QVL 
+_chem_comp.name                                  "N,3-dimethyl-N-(1H-tetrazol-5-yl)-1H-pyrrolo[2,3-b]pyridine-5-carboxamide" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C11 H11 N7 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        257.251 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QVL 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SQU 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QVL C15  C1  C 0 1 Y N N -43.739 -31.973 2.778 3.079  -0.298 -0.100 C15  QVL 1  
+QVL C14  C2  C 0 1 Y N N -46.066 -29.309 4.084 -1.190 -0.364 0.229  C14  QVL 2  
+QVL C13  C3  C 0 1 Y N N -47.158 -29.135 5.002 -2.578 -0.310 0.130  C13  QVL 3  
+QVL C12  C4  C 0 1 N N N -49.462 -28.787 3.702 -3.492 -2.755 0.613  C12  QVL 4  
+QVL C11  C5  C 0 1 Y N N -48.571 -28.919 4.942 -3.652 -1.294 0.280  C11  QVL 5  
+QVL C10  C6  C 0 1 Y N N -49.041 -28.842 6.248 -4.807 -0.645 0.065  C10  QVL 6  
+QVL C01  C7  C 0 1 N N N -41.559 -30.686 2.575 1.023  -1.373 -0.948 C01  QVL 7  
+QVL C03  C8  C 0 1 N N N -43.415 -29.696 3.889 1.002  0.822  0.111  C03  QVL 8  
+QVL C05  C9  C 0 1 Y N N -44.770 -29.521 4.611 -0.471 0.816  0.020  C05  QVL 9  
+QVL C06  C10 C 0 1 Y N N -44.615 -29.520 5.989 -1.168 1.994  -0.278 C06  QVL 10 
+QVL C08  C11 C 0 1 Y N N -46.878 -29.174 6.344 -3.207 0.914  -0.179 C08  QVL 11 
+QVL N02  N1  N 0 1 N N N -42.919 -30.812 3.094 1.706  -0.253 -0.297 N02  QVL 12 
+QVL N07  N2  N 0 1 Y N N -45.629 -29.364 6.799 -2.479 2.009  -0.363 N07  QVL 13 
+QVL N09  N3  N 0 1 Y N N -48.018 -28.994 7.072 -4.557 0.673  -0.211 N09  QVL 14 
+QVL N16  N4  N 0 1 Y N N -44.259 -32.860 3.573 3.816  0.627  0.473  N16  QVL 15 
+QVL N17  N5  N 0 1 Y N N -44.987 -33.746 2.852 5.049  0.270  0.495  N17  QVL 16 
+QVL N18  N6  N 0 1 Y N N -44.899 -33.486 1.587 5.190  -0.889 -0.052 N18  QVL 17 
+QVL N19  N7  N 0 1 Y N N -44.141 -32.394 1.592 3.909  -1.305 -0.455 N19  QVL 18 
+QVL O04  O1  O 0 1 N N N -42.627 -28.830 4.060 1.580  1.795  0.554  O04  QVL 19 
+QVL H141 H1  H 0 0 N N N -46.231 -29.279 3.017 -0.685 -1.289 0.465  H141 QVL 20 
+QVL H123 H2  H 0 0 N N N -49.518 -27.730 3.401 -3.516 -2.887 1.694  H123 QVL 21 
+QVL H121 H3  H 0 0 N N N -49.036 -29.380 2.879 -4.305 -3.322 0.160  H121 QVL 22 
+QVL H122 H4  H 0 0 N N N -50.472 -29.156 3.935 -2.539 -3.114 0.224  H122 QVL 23 
+QVL H101 H5  H 0 0 N N N -50.069 -28.685 6.540 -5.787 -1.095 0.102  H101 QVL 24 
+QVL H012 H6  H 0 0 N N N -41.302 -31.585 1.996 0.782  -2.133 -0.205 H012 QVL 25 
+QVL H013 H7  H 0 0 N N N -41.495 -29.801 1.925 0.104  -1.016 -1.414 H013 QVL 26 
+QVL H011 H8  H 0 0 N N N -40.855 -30.577 3.413 1.673  -1.802 -1.710 H011 QVL 27 
+QVL H061 H9  H 0 0 N N N -43.627 -29.652 6.405 -0.617 2.908  -0.440 H061 QVL 28 
+QVL H091 H10 H 0 0 N N N -48.071 -28.979 8.070 -5.236 1.339  -0.401 H091 QVL 29 
+QVL H191 H11 H 0 0 N N N -43.890 -31.919 0.748 3.671  -2.136 -0.896 H191 QVL 30 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QVL N02 C01  SING N N 1  
+QVL O04 C03  DOUB N N 2  
+QVL C05 C03  SING N N 3  
+QVL C06 C05  DOUB Y N 4  
+QVL N07 C06  SING Y N 5  
+QVL C08 N07  DOUB Y N 6  
+QVL N09 C08  SING Y N 7  
+QVL C10 N09  SING Y N 8  
+QVL C11 C10  DOUB Y N 9  
+QVL C12 C11  SING N N 10 
+QVL C13 C11  SING Y N 11 
+QVL C14 C13  DOUB Y N 12 
+QVL C03 N02  SING N N 13 
+QVL C15 N02  SING N N 14 
+QVL N16 C15  DOUB Y N 15 
+QVL N17 N16  SING Y N 16 
+QVL N18 N17  DOUB Y N 17 
+QVL N19 N18  SING Y N 18 
+QVL C05 C14  SING Y N 19 
+QVL C08 C13  SING Y N 20 
+QVL C15 N19  SING Y N 21 
+QVL C14 H141 SING N N 22 
+QVL C12 H123 SING N N 23 
+QVL C12 H121 SING N N 24 
+QVL C12 H122 SING N N 25 
+QVL C10 H101 SING N N 26 
+QVL C01 H012 SING N N 27 
+QVL C01 H013 SING N N 28 
+QVL C01 H011 SING N N 29 
+QVL C06 H061 SING N N 30 
+QVL N09 H091 SING N N 31 
+QVL N19 H191 SING N N 32 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QVL SMILES           ACDLabs              12.01 "O=C(N(C)c1nnn[NH]1)c1cc2c(C)c[NH]c2nc1"                                                                          
+QVL InChI            InChI                1.03  "InChI=1S/C11H11N7O/c1-6-4-12-9-8(6)3-7(5-13-9)10(19)18(2)11-14-16-17-15-11/h3-5H,1-2H3,(H,12,13)(H,14,15,16,17)" 
+QVL InChIKey         InChI                1.03  CHQWAWHCQBTQEW-UHFFFAOYSA-N                                                                                       
+QVL SMILES_CANONICAL CACTVS               3.385 "CN(C(=O)c1cnc2[nH]cc(C)c2c1)c3[nH]nnn3"                                                                          
+QVL SMILES           CACTVS               3.385 "CN(C(=O)c1cnc2[nH]cc(C)c2c1)c3[nH]nnn3"                                                                          
+QVL SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "Cc1c[nH]c2c1cc(cn2)C(=O)N(C)c3[nH]nnn3"                                                                          
+QVL SMILES           "OpenEye OEToolkits" 2.0.7 "Cc1c[nH]c2c1cc(cn2)C(=O)N(C)c3[nH]nnn3"                                                                          
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QVL "SYSTEMATIC NAME" ACDLabs              12.01 "N,3-dimethyl-N-(1H-tetrazol-5-yl)-1H-pyrrolo[2,3-b]pyridine-5-carboxamide"                     
+QVL "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "~{N},3-dimethyl-~{N}-(1~{H}-1,2,3,4-tetrazol-5-yl)-1~{H}-pyrrolo[2,3-b]pyridine-5-carboxamide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QVL "Create component" 2022-06-14 RCSB 
+QVL "Initial release"  2022-07-06 RCSB 
+# 

@@ -1,0 +1,151 @@
+data_RQR
+# 
+_chem_comp.id                                    RQR 
+_chem_comp.name                                  "(1S,4R)-4-[(thieno[2,3-d]pyrimidine-4-carbonyl)amino]cyclopent-2-ene-1-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H11 N3 O3 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        289.310 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RQR 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SSK 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RQR N1  N1  N 0 1 N N N -44.245 -29.467 2.161  0.885  0.085  0.325  N1  RQR 1  
+RQR S1  S1  S 0 1 Y N N -48.246 -28.761 6.952  -5.417 -0.203 -0.181 S1  RQR 2  
+RQR C13 C1  C 0 1 Y N N -44.535 -29.349 6.138  -2.453 2.492  -0.192 C13 RQR 3  
+RQR O2  O1  O 0 1 N N N -43.876 -33.731 2.264  5.308  1.604  0.337  O2  RQR 4  
+RQR C12 C2  C 0 1 Y N N -46.720 -28.991 6.205  -3.917 0.712  -0.143 C12 RQR 5  
+RQR C11 C3  C 0 1 Y N N -49.023 -28.588 5.407  -4.573 -1.724 0.039  C11 RQR 6  
+RQR O3  O2  O 0 1 N N N -42.760 -32.011 3.075  6.561  0.123  -0.722 O3  RQR 7  
+RQR C10 C4  C 0 1 Y N N -48.102 -28.701 4.349  -3.267 -1.544 0.132  C10 RQR 8  
+RQR C9  C5  C 0 1 Y N N -46.803 -28.937 4.832  -2.834 -0.168 0.035  C9  RQR 9  
+RQR C8  C6  C 0 1 Y N N -45.579 -29.088 4.165  -1.535 0.398  0.090  C8  RQR 10 
+RQR C7  C7  C 0 1 N N N -45.524 -29.106 2.659  -0.345 -0.465 0.275  C7  RQR 11 
+RQR C6  C8  C 0 1 N N N -42.049 -31.063 0.510  3.848  -1.177 -0.931 C6  RQR 12 
+RQR C5  C9  C 0 1 N N N -42.449 -29.715 0.528  2.549  -1.276 -0.835 C5  RQR 13 
+RQR C4  C10 C 0 1 N N R -43.988 -29.688 0.764  2.062  -0.768 0.502  C4  RQR 14 
+RQR C3  C11 C 0 1 N N N -44.468 -31.071 0.538  3.244  0.054  1.065  C3  RQR 15 
+RQR C2  C12 C 0 1 N N S -43.306 -31.966 0.705  4.442  -0.588 0.327  C2  RQR 16 
+RQR C1  C13 C 0 1 N N N -43.305 -32.614 2.105  5.468  0.460  -0.019 C1  RQR 17 
+RQR O1  O3  O 0 1 N N N -46.468 -28.905 1.948  -0.477 -1.668 0.380  O1  RQR 18 
+RQR N2  N2  N 0 1 Y N N -45.594 -29.198 6.894  -3.679 2.019  -0.250 N2  RQR 19 
+RQR N3  N3  N 0 1 Y N N -44.456 -29.322 4.835  -1.404 1.713  -0.027 N3  RQR 20 
+RQR H7  H1  H 0 1 N N N -43.491 -29.572 2.809  0.990  1.046  0.241  H7  RQR 21 
+RQR H10 H2  H 0 1 N N N -43.605 -29.518 6.661  -2.301 3.558  -0.283 H10 RQR 22 
+RQR H9  H3  H 0 1 N N N -50.081 -28.415 5.275  -5.060 -2.687 0.092  H9  RQR 23 
+RQR H11 H4  H 0 1 N N N -42.862 -32.526 3.867  7.191  0.830  -0.920 H11 RQR 24 
+RQR H8  H5  H 0 1 N N N -48.359 -28.617 3.303  -2.576 -2.363 0.270  H8  RQR 25 
+RQR H6  H6  H 0 1 N N N -41.036 -31.416 0.382  4.422  -1.481 -1.793 H6  RQR 26 
+RQR H5  H7  H 0 1 N N N -41.807 -28.856 0.401  1.908  -1.668 -1.611 H5  RQR 27 
+RQR H2  H8  H 0 1 N N N -44.483 -28.956 0.109  1.829  -1.603 1.163  H2  RQR 28 
+RQR H3  H9  H 0 1 N N N -44.876 -31.168 -0.479 3.145  1.108  0.807  H3  RQR 29 
+RQR H4  H10 H 0 1 N N N -45.248 -31.324 1.271  3.333  -0.077 2.143  H4  RQR 30 
+RQR H1  H11 H 0 1 N N N -43.312 -32.752 -0.064 4.890  -1.371 0.939  H1  RQR 31 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RQR C6  C5  DOUB N N 1  
+RQR C6  C2  SING N N 2  
+RQR C5  C4  SING N N 3  
+RQR C3  C2  SING N N 4  
+RQR C3  C4  SING N N 5  
+RQR C2  C1  SING N N 6  
+RQR C4  N1  SING N N 7  
+RQR O1  C7  DOUB N N 8  
+RQR C1  O2  DOUB N N 9  
+RQR C1  O3  SING N N 10 
+RQR N1  C7  SING N N 11 
+RQR C7  C8  SING N N 12 
+RQR C8  C9  DOUB Y N 13 
+RQR C8  N3  SING Y N 14 
+RQR C10 C9  SING Y N 15 
+RQR C10 C11 DOUB Y N 16 
+RQR C9  C12 SING Y N 17 
+RQR N3  C13 DOUB Y N 18 
+RQR C11 S1  SING Y N 19 
+RQR C13 N2  SING Y N 20 
+RQR C12 N2  DOUB Y N 21 
+RQR C12 S1  SING Y N 22 
+RQR N1  H7  SING N N 23 
+RQR C13 H10 SING N N 24 
+RQR C11 H9  SING N N 25 
+RQR O3  H11 SING N N 26 
+RQR C10 H8  SING N N 27 
+RQR C6  H6  SING N N 28 
+RQR C5  H5  SING N N 29 
+RQR C4  H2  SING N N 30 
+RQR C3  H3  SING N N 31 
+RQR C3  H4  SING N N 32 
+RQR C2  H1  SING N N 33 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RQR SMILES           ACDLabs              12.01 "O=C(O)C1C=CC(C1)NC(=O)c1ncnc2sccc12"                                                                                           
+RQR InChI            InChI                1.06  "InChI=1S/C13H11N3O3S/c17-11(16-8-2-1-7(5-8)13(18)19)10-9-3-4-20-12(9)15-6-14-10/h1-4,6-8H,5H2,(H,16,17)(H,18,19)/t7-,8+/m1/s1" 
+RQR InChIKey         InChI                1.06  QXCOOMUNLBGYCR-SFYZADRCSA-N                                                                                                     
+RQR SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@H]1C[C@@H](NC(=O)c2ncnc3sccc23)C=C1"                                                                                  
+RQR SMILES           CACTVS               3.385 "OC(=O)[CH]1C[CH](NC(=O)c2ncnc3sccc23)C=C1"                                                                                     
+RQR SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1csc2c1c(ncn2)C(=O)N[C@@H]3C[C@@H](C=C3)C(=O)O"                                                                               
+RQR SMILES           "OpenEye OEToolkits" 2.0.7 "c1csc2c1c(ncn2)C(=O)NC3CC(C=C3)C(=O)O"                                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RQR "SYSTEMATIC NAME" ACDLabs              12.01 "(1S,4R)-4-[(thieno[2,3-d]pyrimidine-4-carbonyl)amino]cyclopent-2-ene-1-carboxylic acid"      
+RQR "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{S},4~{R})-4-(thieno[2,3-d]pyrimidin-4-ylcarbonylamino)cyclopent-2-ene-1-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RQR "Create component" 2022-06-23 RCSB 
+RQR "Initial release"  2022-07-06 RCSB 
+# 

@@ -1,0 +1,160 @@
+data_WX7
+# 
+_chem_comp.id                                    WX7 
+_chem_comp.name                                  "5-[(3R)-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperidin-3-yl]-1,3,4-oxadiazol-2(3H)-one" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H14 N6 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2020-11-17 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        286.289 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     WX7 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5S6M 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+WX7 C10  C1  C 0 1 N N N -46.118 -29.067 1.888  0.363  -1.613 1.097  C10  WX7 1  
+WX7 C13  C2  C 0 1 Y N N -45.195 -29.462 4.336  1.468  -0.320 -0.525 C13  WX7 2  
+WX7 C15  C3  C 0 1 Y N N -44.253 -29.516 6.450  2.986  -0.141 -2.254 C15  WX7 3  
+WX7 C17  C4  C 0 1 Y N N -46.474 -29.115 6.300  3.646  0.678  -0.207 C17  WX7 4  
+WX7 C20  C5  C 0 1 Y N N -47.723 -29.024 4.465  2.422  0.679  1.734  C20  WX7 5  
+WX7 C21  C6  C 0 1 Y N N -46.424 -29.213 4.944  2.400  0.296  0.323  C21  WX7 6  
+WX7 C02  C7  C 0 1 N N N -43.723 -32.551 -2.044 -3.742 1.573  -0.291 C02  WX7 7  
+WX7 C05  C8  C 0 1 N N N -44.552 -32.301 0.076  -2.638 -0.314 -0.184 C05  WX7 8  
+WX7 C07  C9  C 0 1 N N R -45.155 -31.766 1.364  -1.985 -1.607 -0.600 C07  WX7 9  
+WX7 C08  C10 C 0 1 N N N -46.266 -31.124 0.722  -1.900 -2.548 0.605  C08  WX7 10 
+WX7 C09  C11 C 0 1 N N N -45.947 -29.730 0.542  -1.021 -1.906 1.682  C09  WX7 11 
+WX7 C12  C12 C 0 1 N N N -44.361 -30.865 2.315  -0.574 -1.323 -1.119 C12  WX7 12 
+WX7 C19  C13 C 0 1 Y N N -48.510 -28.800 5.547  3.619  1.243  1.964  C19  WX7 13 
+WX7 N03  N1  N 0 1 N N N -43.590 -33.817 -1.372 -3.358 1.376  0.988  N03  WX7 14 
+WX7 N04  N2  N 0 1 N N N -44.107 -33.664 -0.088 -2.656 0.162  1.017  N04  WX7 15 
+WX7 N11  N3  N 0 1 N N N -45.085 -29.600 2.881  0.228  -0.709 -0.052 N11  WX7 16 
+WX7 N14  N4  N 0 1 Y N N -44.145 -29.565 5.155  1.805  -0.516 -1.797 N14  WX7 17 
+WX7 N16  N5  N 0 1 Y N N -45.380 -29.256 7.041  3.890  0.440  -1.495 N16  WX7 18 
+WX7 N18  N6  N 0 1 Y N N -47.762 -28.887 6.612  4.360  1.248  0.811  N18  WX7 19 
+WX7 O01  O1  O 0 1 N N N -43.363 -32.362 -3.129 -4.372 2.523  -0.718 O01  WX7 20 
+WX7 O06  O2  O 0 1 N N N -44.333 -31.634 -1.151 -3.295 0.528  -1.007 O06  WX7 21 
+WX7 H101 H1  H 0 0 N N N -45.986 -27.981 1.776  0.987  -1.144 1.857  H101 WX7 22 
+WX7 H102 H2  H 0 0 N N N -47.128 -29.276 2.269  0.825  -2.546 0.773  H102 WX7 23 
+WX7 H151 H3  H 0 0 N N N -43.376 -29.698 7.054  3.219  -0.318 -3.293 H151 WX7 24 
+WX7 H201 H4  H 0 0 N N N -48.039 -29.051 3.433  1.628  0.536  2.452  H201 WX7 25 
+WX7 H071 H5  H 0 0 N N N -45.525 -32.623 1.945  -2.575 -2.076 -1.388 H071 WX7 26 
+WX7 H082 H6  H 0 0 N N N -47.164 -31.221 1.350  -2.900 -2.718 1.005  H082 WX7 27 
+WX7 H081 H7  H 0 0 N N N -46.450 -31.592 -0.256 -1.464 -3.498 0.296  H081 WX7 28 
+WX7 H091 H8  H 0 0 N N N -44.909 -29.621 0.195  -0.922 -2.590 2.526  H091 WX7 29 
+WX7 H092 H9  H 0 0 N N N -46.629 -29.277 -0.193 -1.478 -0.976 2.019  H092 WX7 30 
+WX7 H121 H10 H 0 0 N N N -44.054 -31.481 3.173  -0.107 -2.257 -1.433 H121 WX7 31 
+WX7 H122 H11 H 0 0 N N N -43.468 -30.519 1.773  -0.629 -0.642 -1.969 H122 WX7 32 
+WX7 H191 H12 H 0 0 N N N -49.569 -28.587 5.530  3.948  1.634  2.915  H191 WX7 33 
+WX7 H031 H13 H 0 0 N N N -43.198 -34.653 -1.757 -3.534 1.961  1.742  H031 WX7 34 
+WX7 H181 H14 H 0 0 N N N -48.105 -28.795 7.547  5.259  1.604  0.729  H181 WX7 35 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+WX7 O01 C02  DOUB N N 1  
+WX7 C02 N03  SING N N 2  
+WX7 C02 O06  SING N N 3  
+WX7 N03 N04  SING N N 4  
+WX7 O06 C05  SING N N 5  
+WX7 N04 C05  DOUB N N 6  
+WX7 C05 C07  SING N N 7  
+WX7 C09 C08  SING N N 8  
+WX7 C09 C10  SING N N 9  
+WX7 C08 C07  SING N N 10 
+WX7 C07 C12  SING N N 11 
+WX7 C10 N11  SING N N 12 
+WX7 C12 N11  SING N N 13 
+WX7 N11 C13  SING N N 14 
+WX7 C13 C21  DOUB Y N 15 
+WX7 C13 N14  SING Y N 16 
+WX7 C20 C21  SING Y N 17 
+WX7 C20 C19  DOUB Y N 18 
+WX7 C21 C17  SING Y N 19 
+WX7 N14 C15  DOUB Y N 20 
+WX7 C19 N18  SING Y N 21 
+WX7 C17 N18  SING Y N 22 
+WX7 C17 N16  DOUB Y N 23 
+WX7 C15 N16  SING Y N 24 
+WX7 C10 H101 SING N N 25 
+WX7 C10 H102 SING N N 26 
+WX7 C15 H151 SING N N 27 
+WX7 C20 H201 SING N N 28 
+WX7 C07 H071 SING N N 29 
+WX7 C08 H082 SING N N 30 
+WX7 C08 H081 SING N N 31 
+WX7 C09 H091 SING N N 32 
+WX7 C09 H092 SING N N 33 
+WX7 C12 H121 SING N N 34 
+WX7 C12 H122 SING N N 35 
+WX7 C19 H191 SING N N 36 
+WX7 N03 H031 SING N N 37 
+WX7 N18 H181 SING N N 38 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+WX7 SMILES           ACDLabs              12.01 "C4N(c2c1c(ncc1)ncn2)CC(C3=NNC(O3)=O)CC4"                                                                                                  
+WX7 InChI            InChI                1.03  "InChI=1S/C13H14N6O2/c20-13-18-17-12(21-13)8-2-1-5-19(6-8)11-9-3-4-14-10(9)15-7-16-11/h3-4,7-8H,1-2,5-6H2,(H,18,20)(H,14,15,16)/t8-/m1/s1" 
+WX7 InChIKey         InChI                1.03  FSJZPCQWTVULBE-MRVPVSSYSA-N                                                                                                                
+WX7 SMILES_CANONICAL CACTVS               3.385 "O=C1NN=C(O1)[C@@H]2CCCN(C2)c3ncnc4[nH]ccc34"                                                                                              
+WX7 SMILES           CACTVS               3.385 "O=C1NN=C(O1)[CH]2CCCN(C2)c3ncnc4[nH]ccc34"                                                                                                
+WX7 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)N3CCC[C@H](C3)C4=NNC(=O)O4"                                                                                             
+WX7 SMILES           "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)N3CCCC(C3)C4=NNC(=O)O4"                                                                                                 
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+WX7 "SYSTEMATIC NAME" ACDLabs              12.01 "5-[(3R)-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperidin-3-yl]-1,3,4-oxadiazol-2(3H)-one"         
+WX7 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "5-[(3~{R})-1-(7~{H}-pyrrolo[2,3-d]pyrimidin-4-yl)piperidin-3-yl]-3~{H}-1,3,4-oxadiazol-2-one" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+WX7 "Create component" 2020-11-17 RCSB 
+WX7 "Initial release"  2022-07-13 RCSB 
+# 

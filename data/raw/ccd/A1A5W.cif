@@ -1,0 +1,155 @@
+data_A1A5W
+# 
+_chem_comp.id                                    A1A5W 
+_chem_comp.name                                  "(2S)-(3-oxo-1,2-benzothiazol-2(3H)-yl)(phenyl)acetic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C15 H11 N O3 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-09-10 
+_chem_comp.pdbx_modified_date                    2025-06-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        285.318 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1A5W 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7HCN 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1A5W C3  C1  C 0 1 Y N N N N N 13.724 -0.337 0.154  2.165  -0.277 0.307  C3  A1A5W 1  
+A1A5W C6  C2  C 0 1 Y N N N N N 16.373 0.715  -0.025 3.876  -2.397 -0.165 C6  A1A5W 2  
+A1A5W C9  C3  C 0 1 Y N N N N N 10.011 1.197  -2.116 -2.398 -0.289 -0.729 C9  A1A5W 3  
+A1A5W C12 C4  C 0 1 Y N N N N N 9.710  1.196  -4.877 -4.753 -0.669 0.658  C12 A1A5W 4  
+A1A5W C14 C5  C 0 1 Y N N N N N 10.761 0.319  -2.889 -2.426 -0.063 0.658  C14 A1A5W 5  
+A1A5W C1  C6  C 0 1 N N N N N N 11.838 -0.756 1.706  1.612  2.036  -0.323 C1  A1A5W 6  
+A1A5W C10 C7  C 0 1 Y N N N N N 9.102  2.104  -2.679 -3.538 -0.707 -1.405 C10 A1A5W 7  
+A1A5W C11 C8  C 0 1 Y N N N N N 8.959  2.090  -4.076 -4.713 -0.896 -0.711 C11 A1A5W 8  
+A1A5W C13 C9  C 0 1 Y N N N N N 10.632 0.300  -4.290 -3.644 -0.267 1.337  C13 A1A5W 9  
+A1A5W C15 C10 C 0 1 N N N N N N 11.640 -0.548 -2.065 -1.128 0.363  1.165  C15 A1A5W 10 
+A1A5W C2  C11 C 0 1 N N S N N N 12.318 -0.897 0.253  1.233  0.879  0.564  C2  A1A5W 11 
+A1A5W C4  C12 C 0 1 Y N N N N N 14.850 -1.187 0.083  3.092  -0.644 1.265  C4  A1A5W 12 
+A1A5W C5  C13 C 0 1 Y N N N N N 16.153 -0.670 0.001  3.947  -1.704 1.029  C5  A1A5W 13 
+A1A5W C7  C14 C 0 1 Y N N N N N 15.279 1.583  0.042  2.945  -2.034 -1.121 C7  A1A5W 14 
+A1A5W C8  C15 C 0 1 Y N N N N N 13.974 1.056  0.129  2.090  -0.974 -0.885 C8  A1A5W 15 
+A1A5W N1  N1  N 0 1 N N N N N N 11.492 -0.248 -0.775 -0.143 0.470  0.273  N1  A1A5W 16 
+A1A5W O1  O1  O 0 1 N N N N N N 12.646 -1.078 2.605  2.835  2.580  -0.231 O1  A1A5W 17 
+A1A5W O2  O2  O 0 1 N N N N N N 12.398 -1.396 -2.508 -0.951 0.608  2.346  O2  A1A5W 18 
+A1A5W O3  O3  O 0 1 N N N N N N 10.669 -0.357 1.904  0.814  2.475  -1.117 O3  A1A5W 19 
+A1A5W S1  S1  S 0 1 N N N N N N 10.332 0.995  -0.425 -0.748 0.055  -1.253 S1  A1A5W 20 
+A1A5W H4  H1  H 0 1 N N N N N N 17.377 1.107  -0.096 4.544  -3.225 -0.350 H4  A1A5W 21 
+A1A5W H9  H2  H 0 1 N N N N N N 9.577  1.199  -5.949 -5.679 -0.820 1.194  H9  A1A5W 22 
+A1A5W H7  H3  H 0 1 N N N N N N 8.535  2.786  -2.063 -3.503 -0.882 -2.470 H7  A1A5W 23 
+A1A5W H8  H4  H 0 1 N N N N N N 8.266  2.771  -4.546 -5.603 -1.215 -1.233 H8  A1A5W 24 
+A1A5W H10 H5  H 0 1 N N N N N N 11.217 -0.376 -4.896 -3.700 -0.096 2.402  H10 A1A5W 25 
+A1A5W H1  H6  H 0 1 N N N N N N 12.370 -1.972 0.026  1.309  1.181  1.609  H1  A1A5W 26 
+A1A5W H2  H7  H 0 1 N N N N N N 14.706 -2.257 0.092  3.148  -0.103 2.198  H2  A1A5W 27 
+A1A5W H3  H8  H 0 1 N N N N N N 16.994 -1.346 -0.042 4.671  -1.991 1.777  H3  A1A5W 28 
+A1A5W H5  H9  H 0 1 N N N N N N 15.433 2.652  0.027  2.889  -2.576 -2.053 H5  A1A5W 29 
+A1A5W H6  H10 H 0 1 N N N N N N 13.138 1.738  0.178  1.363  -0.690 -1.631 H6  A1A5W 30 
+A1A5W H11 H11 H 0 1 N N N N N N 12.234 -0.972 3.454  3.032  3.321  -0.821 H11 A1A5W 31 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1A5W C12 C13 DOUB Y N 1  
+A1A5W C12 C11 SING Y N 2  
+A1A5W C13 C14 SING Y N 3  
+A1A5W C11 C10 DOUB Y N 4  
+A1A5W C14 C9  DOUB Y N 5  
+A1A5W C14 C15 SING N N 6  
+A1A5W C10 C9  SING Y N 7  
+A1A5W O2  C15 DOUB N N 8  
+A1A5W C9  S1  SING N N 9  
+A1A5W C15 N1  SING N N 10 
+A1A5W N1  S1  SING N N 11 
+A1A5W N1  C2  SING N N 12 
+A1A5W C6  C5  DOUB Y N 13 
+A1A5W C6  C7  SING Y N 14 
+A1A5W C5  C4  SING Y N 15 
+A1A5W C7  C8  DOUB Y N 16 
+A1A5W C4  C3  DOUB Y N 17 
+A1A5W C8  C3  SING Y N 18 
+A1A5W C3  C2  SING N N 19 
+A1A5W C2  C1  SING N N 20 
+A1A5W C1  O3  DOUB N N 21 
+A1A5W C1  O1  SING N N 22 
+A1A5W C6  H4  SING N N 23 
+A1A5W C12 H9  SING N N 24 
+A1A5W C10 H7  SING N N 25 
+A1A5W C11 H8  SING N N 26 
+A1A5W C13 H10 SING N N 27 
+A1A5W C2  H1  SING N N 28 
+A1A5W C4  H2  SING N N 29 
+A1A5W C5  H3  SING N N 30 
+A1A5W C7  H5  SING N N 31 
+A1A5W C8  H6  SING N N 32 
+A1A5W O1  H11 SING N N 33 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1A5W SMILES           ACDLabs              14.52   "O=C(O)C(N1Sc2ccccc2C1=O)c1ccccc1"                                                                               
+A1A5W InChI            InChI                1.06    "InChI=1S/C15H11NO3S/c17-14-11-8-4-5-9-12(11)20-16(14)13(15(18)19)10-6-2-1-3-7-10/h1-9,13H,(H,18,19)/t13-/m0/s1" 
+A1A5W InChIKey         InChI                1.06    RLULBIWQZOAADG-ZDUSSCGKSA-N                                                                                      
+A1A5W SMILES_CANONICAL CACTVS               3.385   "OC(=O)[C@@H](N1Sc2ccccc2C1=O)c3ccccc3"                                                                          
+A1A5W SMILES           CACTVS               3.385   "OC(=O)[CH](N1Sc2ccccc2C1=O)c3ccccc3"                                                                            
+A1A5W SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "c1ccc(cc1)[C@@H](C(=O)O)N2C(=O)c3ccccc3S2"                                                                      
+A1A5W SMILES           "OpenEye OEToolkits" 3.1.0.0 "c1ccc(cc1)C(C(=O)O)N2C(=O)c3ccccc3S2"                                                                           
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1A5W "SYSTEMATIC NAME" ACDLabs              14.52   "(2S)-(3-oxo-1,2-benzothiazol-2(3H)-yl)(phenyl)acetic acid"                
+A1A5W "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "(2~{S})-2-(3-oxidanylidene-1,2-benzothiazol-2-yl)-2-phenyl-ethanoic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1A5W "Create component" 2024-09-10 RCSB 
+A1A5W "Initial release"  2025-06-11 RCSB 
+# 

@@ -1,0 +1,141 @@
+data_QJ0
+# 
+_chem_comp.id                                    QJ0 
+_chem_comp.name                                  "1-(5-bromo-1H-pyrrolo[2,3-b]pyridin-3-yl)-2-[(1H-tetrazol-5-yl)sulfanyl]ethan-1-one" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H7 Br N6 O S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        339.171 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QJ0 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SPY 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QJ0 C18  C1  C  0 1 Y N N -47.170 -29.170 4.478 1.351  -0.893 0.001  C18  QJ0 1  
+QJ0 C13  C2  C  0 1 Y N N -43.695 -31.336 1.496 -5.117 0.651  -0.001 C13  QJ0 2  
+QJ0 C11  C3  C  0 1 N N N -44.806 -28.650 1.299 -2.538 -0.262 0.000  C11  QJ0 3  
+QJ0 C19  C4  C  0 1 Y N N -48.574 -29.271 4.377 2.236  0.181  0.001  C19  QJ0 4  
+QJ0 C02  C5  C  0 1 Y N N -49.306 -29.373 5.567 3.594  -0.093 0.001  C02  QJ0 5  
+QJ0 C03  C6  C  0 1 Y N N -48.680 -29.372 6.814 4.018  -1.413 0.002  C03  QJ0 6  
+QJ0 C05  C7  C  0 1 Y N N -46.619 -29.178 5.736 1.851  -2.206 -0.004 C05  QJ0 7  
+QJ0 C07  C8  C  0 1 Y N N -44.935 -28.997 4.315 -0.391 -2.367 0.002  C07  QJ0 8  
+QJ0 C08  C9  C  0 1 Y N N -46.087 -29.055 3.567 -0.119 -1.015 0.001  C08  QJ0 9  
+QJ0 C09  C10 C  0 1 N N N -46.105 -28.993 2.041 -1.062 0.043  0.000  C09  QJ0 10 
+QJ0 N04  N1  N  0 1 Y N N -47.363 -29.278 6.872 3.161  -2.412 0.002  N04  QJ0 11 
+QJ0 N06  N2  N  0 1 Y N N -45.266 -29.071 5.589 0.770  -3.062 -0.006 N06  QJ0 12 
+QJ0 N14  N3  N  0 1 Y N N -44.038 -32.628 1.393 -5.464 -0.618 0.005  N14  QJ0 13 
+QJ0 N15  N4  N  0 1 Y N N -43.495 -33.270 2.447 -6.743 -0.735 0.004  N15  QJ0 14 
+QJ0 N16  N5  N  0 1 Y N N -42.829 -32.371 3.179 -7.299 0.428  -0.004 N16  QJ0 15 
+QJ0 N17  N6  N  0 1 Y N N -42.949 -31.158 2.599 -6.261 1.376  -0.001 N17  QJ0 16 
+QJ0 O10  O1  O  0 1 N N N -47.107 -29.200 1.442 -0.680 1.196  -0.000 O10  QJ0 17 
+QJ0 S12  S1  S  0 1 N N N -44.175 -30.044 0.335 -3.474 1.287  -0.001 S12  QJ0 18 
+QJ0 BR1  BR1 BR 0 0 N N N -51.228 -29.525 5.526 4.854  1.317  -0.000 BR1  QJ0 19 
+QJ0 H112 H1  H  0 0 N N N -45.000 -27.808 0.618 -2.789 -0.839 -0.890 H112 QJ0 20 
+QJ0 H111 H2  H  0 0 N N N -44.044 -28.357 2.037 -2.789 -0.839 0.890  H111 QJ0 21 
+QJ0 H191 H3  H  0 0 N N N -49.067 -29.270 3.416 1.875  1.199  -0.001 H191 QJ0 22 
+QJ0 H031 H4  H  0 0 N N N -49.264 -29.447 7.720 5.077  -1.626 0.003  H031 QJ0 23 
+QJ0 H071 H5  H  0 0 N N N -43.932 -28.906 3.926 -1.378 -2.804 0.002  H071 QJ0 24 
+QJ0 H061 H6  H  0 0 N N N -44.613 -29.051 6.346 0.833  -4.029 -0.007 H061 QJ0 25 
+QJ0 H171 H7  H  0 0 N N N -42.560 -30.297 2.926 -6.345 2.342  -0.002 H171 QJ0 26 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QJ0 C02 BR1  SING N N 1  
+QJ0 C03 C02  DOUB Y N 2  
+QJ0 N04 C03  SING Y N 3  
+QJ0 C05 N04  DOUB Y N 4  
+QJ0 N06 C05  SING Y N 5  
+QJ0 C07 N06  SING Y N 6  
+QJ0 C08 C07  DOUB Y N 7  
+QJ0 O10 C09  DOUB N N 8  
+QJ0 C11 C09  SING N N 9  
+QJ0 S12 C11  SING N N 10 
+QJ0 C13 S12  SING N N 11 
+QJ0 N14 C13  DOUB Y N 12 
+QJ0 N15 N14  SING Y N 13 
+QJ0 N16 N15  DOUB Y N 14 
+QJ0 N17 N16  SING Y N 15 
+QJ0 C09 C08  SING N N 16 
+QJ0 C18 C08  SING Y N 17 
+QJ0 C19 C18  DOUB Y N 18 
+QJ0 C02 C19  SING Y N 19 
+QJ0 C05 C18  SING Y N 20 
+QJ0 C13 N17  SING Y N 21 
+QJ0 C11 H112 SING N N 22 
+QJ0 C11 H111 SING N N 23 
+QJ0 C19 H191 SING N N 24 
+QJ0 C03 H031 SING N N 25 
+QJ0 C07 H071 SING N N 26 
+QJ0 N06 H061 SING N N 27 
+QJ0 N17 H171 SING N N 28 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QJ0 SMILES           ACDLabs              12.01 "O=C(CSc1nnn[NH]1)c1c[NH]c2ncc(Br)cc21"                                                                           
+QJ0 InChI            InChI                1.03  "InChI=1S/C10H7BrN6OS/c11-5-1-6-7(3-13-9(6)12-2-5)8(18)4-19-10-14-16-17-15-10/h1-3H,4H2,(H,12,13)(H,14,15,16,17)" 
+QJ0 InChIKey         InChI                1.03  QXNLGIPKEFPOOU-UHFFFAOYSA-N                                                                                       
+QJ0 SMILES_CANONICAL CACTVS               3.385 "Brc1cnc2[nH]cc(C(=O)CSc3[nH]nnn3)c2c1"                                                                           
+QJ0 SMILES           CACTVS               3.385 "Brc1cnc2[nH]cc(C(=O)CSc3[nH]nnn3)c2c1"                                                                           
+QJ0 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1c(cnc2c1c(c[nH]2)C(=O)CSc3[nH]nnn3)Br"                                                                         
+QJ0 SMILES           "OpenEye OEToolkits" 2.0.7 "c1c(cnc2c1c(c[nH]2)C(=O)CSc3[nH]nnn3)Br"                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QJ0 "SYSTEMATIC NAME" ACDLabs              12.01 "1-(5-bromo-1H-pyrrolo[2,3-b]pyridin-3-yl)-2-[(1H-tetrazol-5-yl)sulfanyl]ethan-1-one"             
+QJ0 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "1-(5-bromanyl-1~{H}-pyrrolo[2,3-b]pyridin-3-yl)-2-(1~{H}-1,2,3,4-tetrazol-5-ylsulfanyl)ethanone" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QJ0 "Create component" 2022-06-14 RCSB 
+QJ0 "Initial release"  2022-07-06 RCSB 
+# 

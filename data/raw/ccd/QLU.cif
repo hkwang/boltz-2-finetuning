@@ -1,0 +1,180 @@
+data_QLU
+# 
+_chem_comp.id                                    QLU 
+_chem_comp.name                                  "(1R,2R)-4-hydroxy-1-[(5,6,7,8-tetrahydro-1,8-naphthyridine-3-carbonyl)amino]-2,3-dihydro-1H-indene-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H19 N3 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-14 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        353.372 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QLU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SPC 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QLU C02  C1  C 0 1 N N N -43.848 -30.825 2.470  1.975  -2.796 -0.244 C02  QLU 1  
+QLU C03  C2  C 0 1 N N R -44.336 -30.099 1.203  2.856  -1.638 -0.637 C03  QLU 2  
+QLU C04  C3  C 0 1 N N N -43.385 -29.036 0.753  3.632  -1.101 0.583  C04  QLU 3  
+QLU C05  C4  C 0 1 Y N N -44.202 -27.747 0.537  3.716  0.396  0.372  C05  QLU 4  
+QLU C06  C5  C 0 1 Y N N -43.846 -26.478 0.052  4.546  1.343  0.958  C06  QLU 5  
+QLU C08  C6  C 0 1 Y N N -44.803 -25.467 -0.024 4.438  2.679  0.600  C08  QLU 6  
+QLU C09  C7  C 0 1 Y N N -46.108 -25.711 0.387  3.503  3.066  -0.340 C09  QLU 7  
+QLU C10  C8  C 0 1 Y N N -46.461 -26.957 0.866  2.678  2.123  -0.922 C10  QLU 8  
+QLU C11  C9  C 0 1 Y N N -45.517 -27.968 0.951  2.782  0.788  -0.568 C11  QLU 9  
+QLU C12  C10 C 0 1 N N R -45.692 -29.435 1.418  2.007  -0.419 -1.053 C12  QLU 10 
+QLU C14  C11 C 0 1 N N N -47.833 -29.269 2.544  -0.372 0.107  -1.000 C14  QLU 11 
+QLU C15  C12 C 0 1 Y N N -48.826 -29.294 3.700  -1.696 0.054  -0.351 C15  QLU 12 
+QLU C16  C13 C 0 1 Y N N -48.401 -29.348 5.020  -2.812 0.646  -0.959 C16  QLU 13 
+QLU C17  C14 C 0 1 Y N N -49.402 -29.382 6.002  -4.025 0.573  -0.323 C17  QLU 14 
+QLU C18  C15 C 0 1 Y N N -50.741 -29.367 5.640  -4.114 -0.083 0.900  C18  QLU 15 
+QLU C20  C16 C 0 1 N N N -51.452 -29.689 7.991  -6.448 0.670  1.132  C20  QLU 16 
+QLU C21  C17 C 0 1 N N N -50.139 -29.050 8.397  -6.515 0.617  -0.400 C21  QLU 17 
+QLU C22  C18 C 0 1 N N N -48.988 -29.438 7.489  -5.226 1.210  -0.969 C22  QLU 18 
+QLU C24  C19 C 0 1 Y N N -50.191 -29.285 3.401  -1.859 -0.591 0.877  C24  QLU 19 
+QLU N13  N1  N 0 1 N N N -46.388 -29.485 2.679  0.692  -0.471 -0.408 N13  QLU 20 
+QLU N19  N2  N 0 1 N N N -51.840 -29.415 6.627  -5.330 -0.178 1.564  N19  QLU 21 
+QLU N23  N3  N 0 1 Y N N -51.089 -29.323 4.359  -3.039 -0.634 1.456  N23  QLU 22 
+QLU O01  O1  O 0 1 N N N -43.850 -32.084 2.506  1.699  -2.978 0.918  O01  QLU 23 
+QLU O07  O2  O 0 1 N N N -42.541 -26.207 -0.380 5.465  0.961  1.883  O07  QLU 24 
+QLU O25  O3  O 0 1 N N N -48.289 -29.097 1.464  -0.241 0.671  -2.069 O25  QLU 25 
+QLU O26  O4  O 0 1 N N N -43.449 -30.169 3.468  1.492  -3.622 -1.186 O26  QLU 26 
+QLU H031 H1  H 0 0 N N N -44.439 -30.843 0.400  3.538  -1.927 -1.438 H031 QLU 27 
+QLU H042 H2  H 0 0 N N N -42.616 -28.869 1.522  3.092  -1.323 1.503  H042 QLU 28 
+QLU H041 H3  H 0 0 N N N -42.903 -29.337 -0.188 4.631  -1.535 0.618  H041 QLU 29 
+QLU H081 H4  H 0 0 N N N -44.530 -24.493 -0.403 5.084  3.415  1.056  H081 QLU 30 
+QLU H091 H5  H 0 0 N N N -46.847 -24.925 0.332  3.417  4.105  -0.620 H091 QLU 31 
+QLU H101 H6  H 0 0 N N N -47.478 -27.145 1.176  1.947  2.428  -1.656 H101 QLU 32 
+QLU H121 H7  H 0 0 N N N -46.363 -29.894 0.677  1.896  -0.386 -2.137 H121 QLU 33 
+QLU H161 H8  H 0 0 N N N -47.352 -29.363 5.278  -2.718 1.150  -1.910 H161 QLU 34 
+QLU H201 H9  H 0 0 N N N -52.241 -29.312 8.658  -6.280 1.697  1.458  H201 QLU 35 
+QLU H202 H10 H 0 0 N N N -51.359 -30.778 8.112  -7.380 0.297  1.556  H202 QLU 36 
+QLU H212 H11 H 0 0 N N N -50.257 -27.957 8.367  -6.616 -0.418 -0.726 H212 QLU 37 
+QLU H211 H12 H 0 0 N N N -49.898 -29.365 9.423  -7.371 1.195  -0.749 H211 QLU 38 
+QLU H221 H13 H 0 0 N N N -48.151 -28.743 7.654  -5.209 2.284  -0.781 H221 QLU 39 
+QLU H222 H14 H 0 0 N N N -48.668 -30.462 7.734  -5.192 1.035  -2.045 H222 QLU 40 
+QLU H241 H15 H 0 0 N N N -50.511 -29.246 2.370  -1.009 -1.055 1.356  H241 QLU 41 
+QLU H131 H16 H 0 0 N N N -45.934 -29.650 3.554  0.588  -0.921 0.444  H131 QLU 42 
+QLU H191 H17 H 0 0 N N N -52.478 -30.130 6.341  -5.439 -0.797 2.303  H191 QLU 43 
+QLU H071 H18 H 0 0 N N N -42.485 -25.305 -0.672 6.326  0.726  1.508  H071 QLU 44 
+QLU H1   H19 H 0 1 N N N -43.187 -30.768 4.157  0.928  -4.348 -0.886 H1   QLU 45 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QLU C02 O01  DOUB N N 1  
+QLU C04 C03  SING N N 2  
+QLU C05 C04  SING N N 3  
+QLU C06 C05  DOUB Y N 4  
+QLU O07 C06  SING N N 5  
+QLU C08 C06  SING Y N 6  
+QLU C09 C08  DOUB Y N 7  
+QLU C10 C09  SING Y N 8  
+QLU C11 C10  DOUB Y N 9  
+QLU C12 C11  SING N N 10 
+QLU N13 C12  SING N N 11 
+QLU C14 N13  SING N N 12 
+QLU C16 C15  DOUB Y N 13 
+QLU C17 C16  SING Y N 14 
+QLU C18 C17  DOUB Y N 15 
+QLU C20 N19  SING N N 16 
+QLU C21 C20  SING N N 17 
+QLU C22 C21  SING N N 18 
+QLU N19 C18  SING N N 19 
+QLU N23 C18  SING Y N 20 
+QLU C24 N23  DOUB Y N 21 
+QLU C15 C14  SING N N 22 
+QLU O25 C14  DOUB N N 23 
+QLU C03 C02  SING N N 24 
+QLU O26 C02  SING N N 25 
+QLU C03 C12  SING N N 26 
+QLU C05 C11  SING Y N 27 
+QLU C15 C24  SING Y N 28 
+QLU C17 C22  SING N N 29 
+QLU C03 H031 SING N N 30 
+QLU C04 H042 SING N N 31 
+QLU C04 H041 SING N N 32 
+QLU C08 H081 SING N N 33 
+QLU C09 H091 SING N N 34 
+QLU C10 H101 SING N N 35 
+QLU C12 H121 SING N N 36 
+QLU C16 H161 SING N N 37 
+QLU C20 H201 SING N N 38 
+QLU C20 H202 SING N N 39 
+QLU C21 H212 SING N N 40 
+QLU C21 H211 SING N N 41 
+QLU C22 H221 SING N N 42 
+QLU C22 H222 SING N N 43 
+QLU C24 H241 SING N N 44 
+QLU N13 H131 SING N N 45 
+QLU N19 H191 SING N N 46 
+QLU O07 H071 SING N N 47 
+QLU O26 H1   SING N N 48 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QLU SMILES           ACDLabs              12.01 "O=C(O)C1Cc2c(cccc2O)C1NC(=O)c1cnc2NCCCc2c1"                                                                                                                                      
+QLU InChI            InChI                1.03  "InChI=1S/C19H19N3O4/c23-15-5-1-4-12-13(15)8-14(19(25)26)16(12)22-18(24)11-7-10-3-2-6-20-17(10)21-9-11/h1,4-5,7,9,14,16,23H,2-3,6,8H2,(H,20,21)(H,22,24)(H,25,26)/t14-,16+/m1/s1" 
+QLU InChIKey         InChI                1.03  FYBAGYYARXHEJD-ZBFHGGJFSA-N                                                                                                                                                       
+QLU SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@@H]1Cc2c(O)cccc2[C@@H]1NC(=O)c3cnc4NCCCc4c3"                                                                                                                            
+QLU SMILES           CACTVS               3.385 "OC(=O)[CH]1Cc2c(O)cccc2[CH]1NC(=O)c3cnc4NCCCc4c3"                                                                                                                                
+QLU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(c(c1)O)C[C@H]([C@H]2NC(=O)c3cc4c(nc3)NCCC4)C(=O)O"                                                                                                                        
+QLU SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(c(c1)O)CC(C2NC(=O)c3cc4c(nc3)NCCC4)C(=O)O"                                                                                                                                
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QLU "SYSTEMATIC NAME" ACDLabs              12.01 "(1R,2R)-4-hydroxy-1-[(5,6,7,8-tetrahydro-1,8-naphthyridine-3-carbonyl)amino]-2,3-dihydro-1H-indene-2-carboxylic acid"          
+QLU "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{R},2~{R})-4-oxidanyl-1-(5,6,7,8-tetrahydro-1,8-naphthyridin-3-ylcarbonylamino)-2,3-dihydro-1~{H}-indene-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QLU "Create component" 2022-06-14 RCSB 
+QLU "Initial release"  2022-07-13 RCSB 
+# 

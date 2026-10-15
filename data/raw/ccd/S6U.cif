@@ -1,0 +1,153 @@
+data_S6U
+# 
+_chem_comp.id                                    S6U 
+_chem_comp.name                                  "2-(2-oxo-1,3-oxazolidin-3-yl)ethyl 7H-pyrrolo[2,3-d]pyrimidine-4-carboxylate" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C12 H12 N4 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        276.248 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     S6U 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SPT 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+S6U C18  C1  C 0 1 Y N N -48.558 -28.702 5.418  4.878  1.061  0.819  C18  S6U 1  
+S6U C16  C2  C 0 1 Y N N -46.500 -29.025 6.086  3.827  -0.809 0.164  C16  S6U 2  
+S6U C14  C3  C 0 1 Y N N -44.236 -29.399 6.183  2.174  -2.235 -0.551 C14  S6U 3  
+S6U C12  C4  C 0 1 Y N N -45.219 -29.260 4.119  1.572  -0.028 -0.257 C12  S6U 4  
+S6U C10  C5  C 0 1 N N N -44.568 -32.585 2.127  -3.338 -0.930 -0.164 C10  S6U 5  
+S6U C20  C6  C 0 1 Y N N -46.470 -29.059 4.725  2.890  0.252  0.137  C20  S6U 6  
+S6U C19  C7  C 0 1 Y N N -47.787 -28.833 4.284  3.611  1.441  0.571  C19  S6U 7  
+S6U C02  C8  C 0 1 N N N -45.071 -29.279 2.629  0.550  1.042  -0.304 C02  S6U 8  
+S6U C04  C9  C 0 1 N N N -43.416 -29.536 0.887  -1.659 1.852  -0.708 C04  S6U 9  
+S6U C05  C10 C 0 1 N N N -43.205 -31.030 0.608  -3.026 1.335  -1.162 C05  S6U 10 
+S6U C07  C11 C 0 1 N N N -45.545 -31.922 0.105  -4.383 0.747  0.989  C07  S6U 11 
+S6U C08  C12 C 0 1 N N N -46.561 -32.562 0.977  -4.641 -0.605 1.683  C08  S6U 12 
+S6U N06  N1  N 0 1 N N N -44.394 -31.802 0.912  -3.546 0.394  -0.167 N06  S6U 13 
+S6U N13  N2  N 0 1 Y N N -44.134 -29.443 4.868  1.265  -1.283 -0.583 N13  S6U 14 
+S6U N15  N3  N 0 1 Y N N -45.378 -29.209 6.797  3.423  -2.020 -0.190 N15  S6U 15 
+S6U N17  N4  N 0 1 Y N N -47.775 -28.825 6.482  5.020  -0.278 0.577  N17  S6U 16 
+S6U O01  O1  O 0 1 N N N -45.979 -29.228 1.876  0.847  2.179  0.000  O01  S6U 17 
+S6U O03  O2  O 0 1 N N N -43.748 -29.318 2.225  -0.709 0.753  -0.685 O03  S6U 18 
+S6U O09  O3  O 0 1 N N N -45.879 -33.138 2.084  -3.930 -1.568 0.853  O09  S6U 19 
+S6U O11  O4  O 0 1 N N N -43.781 -32.740 2.989  -2.677 -1.500 -1.009 O11  S6U 20 
+S6U H181 H1  H 0 0 N N N -49.624 -28.528 5.438  5.667  1.718  1.155  H181 S6U 21 
+S6U H141 H2  H 0 0 N N N -43.343 -29.525 6.777  1.883  -3.236 -0.833 H141 S6U 22 
+S6U H191 H3  H 0 0 N N N -48.126 -28.774 3.260  3.207  2.437  0.675  H191 S6U 23 
+S6U H042 H4  H 0 0 N N N -42.489 -28.992 0.653  -1.311 2.618  -1.401 H042 S6U 24 
+S6U H041 H5  H 0 0 N N N -44.231 -29.163 0.249  -1.745 2.279  0.291  H041 S6U 25 
+S6U H052 H6  H 0 0 N N N -42.955 -31.163 -0.455 -3.715 2.173  -1.265 H052 S6U 26 
+S6U H051 H7  H 0 0 N N N -42.374 -31.395 1.229  -2.922 0.829  -2.122 H051 S6U 27 
+S6U H072 H8  H 0 0 N N N -45.889 -30.931 -0.227 -5.323 1.191  0.661  H072 S6U 28 
+S6U H071 H9  H 0 0 N N N -45.338 -32.551 -0.773 -3.850 1.426  1.655  H071 S6U 29 
+S6U H082 H10 H 0 0 N N N -47.280 -31.808 1.331  -4.235 -0.599 2.694  H082 S6U 30 
+S6U H081 H11 H 0 0 N N N -47.095 -33.344 0.418  -5.708 -0.829 1.699  H081 S6U 31 
+S6U H171 H12 H 0 0 N N N -48.082 -28.777 7.432  5.845  -0.778 0.681  H171 S6U 32 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+S6U C07 N06  SING N N 1  
+S6U C07 C08  SING N N 2  
+S6U C05 C04  SING N N 3  
+S6U C05 N06  SING N N 4  
+S6U C04 O03  SING N N 5  
+S6U N06 C10  SING N N 6  
+S6U C08 O09  SING N N 7  
+S6U O01 C02  DOUB N N 8  
+S6U O09 C10  SING N N 9  
+S6U C10 O11  DOUB N N 10 
+S6U O03 C02  SING N N 11 
+S6U C02 C12  SING N N 12 
+S6U C12 C20  DOUB Y N 13 
+S6U C12 N13  SING Y N 14 
+S6U C19 C20  SING Y N 15 
+S6U C19 C18  DOUB Y N 16 
+S6U C20 C16  SING Y N 17 
+S6U N13 C14  DOUB Y N 18 
+S6U C18 N17  SING Y N 19 
+S6U C16 N17  SING Y N 20 
+S6U C16 N15  DOUB Y N 21 
+S6U C14 N15  SING Y N 22 
+S6U C18 H181 SING N N 23 
+S6U C14 H141 SING N N 24 
+S6U C19 H191 SING N N 25 
+S6U C04 H042 SING N N 26 
+S6U C04 H041 SING N N 27 
+S6U C05 H052 SING N N 28 
+S6U C05 H051 SING N N 29 
+S6U C07 H072 SING N N 30 
+S6U C07 H071 SING N N 31 
+S6U C08 H082 SING N N 32 
+S6U C08 H081 SING N N 33 
+S6U N17 H171 SING N N 34 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+S6U SMILES           ACDLabs              12.01 "O=C1OCCN1CCOC(=O)c1ncnc2[NH]ccc21"                                                                         
+S6U InChI            InChI                1.06  "InChI=1S/C12H12N4O4/c17-11(19-5-3-16-4-6-20-12(16)18)9-8-1-2-13-10(8)15-7-14-9/h1-2,7H,3-6H2,(H,13,14,15)" 
+S6U InChIKey         InChI                1.06  RHERHAVCXHCXQJ-UHFFFAOYSA-N                                                                                 
+S6U SMILES_CANONICAL CACTVS               3.385 "O=C1OCCN1CCOC(=O)c2ncnc3[nH]ccc23"                                                                         
+S6U SMILES           CACTVS               3.385 "O=C1OCCN1CCOC(=O)c2ncnc3[nH]ccc23"                                                                         
+S6U SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)C(=O)OCCN3CCOC3=O"                                                                       
+S6U SMILES           "OpenEye OEToolkits" 2.0.7 "c1c[nH]c2c1c(ncn2)C(=O)OCCN3CCOC3=O"                                                                       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+S6U "SYSTEMATIC NAME" ACDLabs              12.01 "2-(2-oxo-1,3-oxazolidin-3-yl)ethyl 7H-pyrrolo[2,3-d]pyrimidine-4-carboxylate"              
+S6U "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "2-(2-oxidanylidene-1,3-oxazolidin-3-yl)ethyl 7~{H}-pyrrolo[2,3-d]pyrimidine-4-carboxylate" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+S6U "Create component" 2022-06-23 RCSB 
+S6U "Initial release"  2022-07-13 RCSB 
+# 

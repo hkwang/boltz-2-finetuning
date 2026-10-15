@@ -1,0 +1,165 @@
+data_RKU
+# 
+_chem_comp.id                                    RKU 
+_chem_comp.name                                  "(3S)-3-(4-bromophenyl)-3-[(6-fluoro-1H-benzimidazole-4-carbonyl)amino]propanoic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C17 H13 Br F N3 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        406.206 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RKU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SS5 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RKU C17  C1  C  0 1 Y N N -46.444 -29.305 5.353  4.377  2.528  -2.269 C17  RKU 1  
+RKU C15  C2  C  0 1 Y N N -47.262 -29.309 3.352  3.463  1.273  -0.755 C15  RKU 2  
+RKU C14  C3  C  0 1 Y N N -47.562 -29.379 1.974  2.691  0.372  0.008  C14  RKU 3  
+RKU C13  C4  C  0 1 N N N -46.540 -29.841 0.937  1.589  -0.380 -0.621 C13  RKU 4  
+RKU C11  C5  C  0 1 Y N N -44.083 -32.782 -1.328 -2.451 -0.931 -1.323 C11  RKU 5  
+RKU C10  C6  C  0 1 Y N N -44.440 -33.965 -1.942 -3.576 -0.146 -1.154 C10  RKU 6  
+RKU C20  C7  C  0 1 Y N N -49.517 -28.564 3.786  4.769  1.794  1.212  C20  RKU 7  
+RKU C19  C8  C  0 1 Y N N -48.238 -28.895 4.243  4.504  1.983  -0.136 C19  RKU 8  
+RKU C02  C9  C  0 1 N N N -43.185 -31.997 2.420  0.637  -4.168 -0.098 C02  RKU 9  
+RKU C03  C10 C  0 1 N N N -43.062 -31.204 1.118  -0.525 -3.257 0.202  C03  RKU 10 
+RKU C04  C11 C  0 1 N N S -44.393 -31.011 0.405  -0.305 -1.906 -0.483 C04  RKU 11 
+RKU C05  C12 C  0 1 Y N N -44.812 -32.320 -0.246 -1.528 -1.045 -0.301 C05  RKU 12 
+RKU C06  C13 C  0 1 Y N N -45.899 -33.029 0.236  -1.727 -0.370 0.889  C06  RKU 13 
+RKU C07  C14 C  0 1 Y N N -46.257 -34.214 -0.373 -2.849 0.420  1.057  C07  RKU 14 
+RKU C08  C15 C  0 1 Y N N -45.529 -34.667 -1.453 -3.778 0.526  0.038  C08  RKU 15 
+RKU C21  C16 C  0 1 Y N N -49.798 -28.642 2.441  4.012  0.904  1.951  C21  RKU 16 
+RKU C23  C17 C  0 1 Y N N -48.829 -29.049 1.530  2.977  0.199  1.359  C23  RKU 17 
+RKU F22  F1  F  0 1 N N N -51.043 -28.313 2.014  4.278  0.727  3.264  F22  RKU 18 
+RKU N12  N1  N  0 1 N N N -45.371 -30.552 1.369  0.855  -1.239 0.113  N12  RKU 19 
+RKU N16  N2  N  0 1 Y N N -46.160 -29.554 4.084  3.438  1.653  -2.049 N16  RKU 20 
+RKU N18  N3  N  0 1 Y N N -47.696 -28.907 5.467  5.068  2.767  -1.124 N18  RKU 21 
+RKU O01  O1  O  0 1 N N N -42.850 -31.468 3.510  0.618  -5.442 0.324  O01  RKU 22 
+RKU O24  O2  O  0 1 N N N -46.709 -29.685 -0.222 1.343  -0.225 -1.801 O24  RKU 23 
+RKU O25  O3  O  0 1 N N N -43.633 -33.171 2.401  1.586  -3.751 -0.719 O25  RKU 24 
+RKU BR09 BR1 BR 0 0 N N N -46.068 -36.313 -2.285 -5.317 1.601  0.269  BR09 RKU 25 
+RKU H171 H1  H  0 0 N N N -45.751 -29.412 6.175  4.579  2.993  -3.223 H171 RKU 26 
+RKU H111 H2  H  0 0 N N N -43.237 -32.218 -1.691 -2.296 -1.459 -2.252 H111 RKU 27 
+RKU H101 H3  H  0 0 N N N -43.881 -34.336 -2.788 -4.298 -0.056 -1.953 H101 RKU 28 
+RKU H201 H4  H  0 0 N N N -50.279 -28.249 4.483  5.571  2.342  1.686  H201 RKU 29 
+RKU H032 H5  H  0 0 N N N -42.379 -31.742 0.444  -1.445 -3.707 -0.169 H032 RKU 30 
+RKU H031 H6  H  0 0 N N N -42.643 -30.214 1.350  -0.602 -3.109 1.280  H031 RKU 31 
+RKU H041 H7  H  0 0 N N N -44.264 -30.252 -0.381 -0.126 -2.063 -1.547 H041 RKU 32 
+RKU H061 H8  H  0 0 N N N -46.461 -32.658 1.080  -1.005 -0.460 1.688  H061 RKU 33 
+RKU H071 H9  H  0 0 N N N -47.100 -34.782 -0.007 -3.004 0.947  1.987  H071 RKU 34 
+RKU H231 H10 H  0 0 N N N -49.066 -29.107 0.478  2.390  -0.489 1.949  H231 RKU 35 
+RKU H121 H11 H  0 0 N N N -45.231 -30.732 2.343  1.095  -1.416 1.037  H121 RKU 36 
+RKU H181 H13 H  0 0 N N N -48.159 -28.658 6.318  5.818  3.375  -1.020 H181 RKU 37 
+RKU H2   H14 H  0 1 N N N -42.996 -32.083 4.219  1.386  -5.987 0.107  H2   RKU 38 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RKU BR09 C08  SING N N 1  
+RKU C10  C08  DOUB Y N 2  
+RKU C10  C11  SING Y N 3  
+RKU C08  C07  SING Y N 4  
+RKU C11  C05  DOUB Y N 5  
+RKU C07  C06  DOUB Y N 6  
+RKU C05  C06  SING Y N 7  
+RKU C05  C04  SING N N 8  
+RKU O24  C13  DOUB N N 9  
+RKU C04  C03  SING N N 10 
+RKU C04  N12  SING N N 11 
+RKU C13  N12  SING N N 12 
+RKU C13  C14  SING N N 13 
+RKU C03  C02  SING N N 14 
+RKU C23  C14  DOUB Y N 15 
+RKU C23  C21  SING Y N 16 
+RKU C14  C15  SING Y N 17 
+RKU F22  C21  SING N N 18 
+RKU O25  C02  DOUB N N 19 
+RKU C02  O01  SING N N 20 
+RKU C21  C20  DOUB Y N 21 
+RKU C15  N16  SING Y N 22 
+RKU C15  C19  DOUB Y N 23 
+RKU C20  C19  SING Y N 24 
+RKU N16  C17  DOUB Y N 25 
+RKU C19  N18  SING Y N 26 
+RKU C17  N18  SING Y N 27 
+RKU C17  H171 SING N N 28 
+RKU C11  H111 SING N N 29 
+RKU C10  H101 SING N N 30 
+RKU C20  H201 SING N N 31 
+RKU C03  H032 SING N N 32 
+RKU C03  H031 SING N N 33 
+RKU C04  H041 SING N N 34 
+RKU C06  H061 SING N N 35 
+RKU C07  H071 SING N N 36 
+RKU C23  H231 SING N N 37 
+RKU N12  H121 SING N N 38 
+RKU N18  H181 SING N N 39 
+RKU O01  H2   SING N N 40 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RKU SMILES           ACDLabs              12.01 "Brc1ccc(cc1)C(CC(=O)O)NC(=O)c1cc(F)cc2[NH]cnc12"                                                                                                          
+RKU InChI            InChI                1.06  "InChI=1S/C17H13BrFN3O3/c18-10-3-1-9(2-4-10)13(7-15(23)24)22-17(25)12-5-11(19)6-14-16(12)21-8-20-14/h1-6,8,13H,7H2,(H,20,21)(H,22,25)(H,23,24)/t13-/m0/s1" 
+RKU InChIKey         InChI                1.06  QCPOODMPJHYVRY-ZDUSSCGKSA-N                                                                                                                                
+RKU SMILES_CANONICAL CACTVS               3.385 "OC(=O)C[C@H](NC(=O)c1cc(F)cc2[nH]cnc12)c3ccc(Br)cc3"                                                                                                      
+RKU SMILES           CACTVS               3.385 "OC(=O)C[CH](NC(=O)c1cc(F)cc2[nH]cnc12)c3ccc(Br)cc3"                                                                                                       
+RKU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1[C@H](CC(=O)O)NC(=O)c2cc(cc3c2nc[nH]3)F)Br"                                                                                                      
+RKU SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1C(CC(=O)O)NC(=O)c2cc(cc3c2nc[nH]3)F)Br"                                                                                                          
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RKU "SYSTEMATIC NAME" ACDLabs              12.01 "(3S)-3-(4-bromophenyl)-3-[(6-fluoro-1H-benzimidazole-4-carbonyl)amino]propanoic acid"           
+RKU "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(3~{S})-3-(4-bromophenyl)-3-[(6-fluoranyl-1~{H}-benzimidazol-4-yl)carbonylamino]propanoic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RKU "Create component" 2022-06-23 RCSB 
+RKU "Initial release"  2022-07-06 RCSB 
+# 

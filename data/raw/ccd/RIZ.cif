@@ -1,0 +1,172 @@
+data_RIZ
+# 
+_chem_comp.id                                    RIZ 
+_chem_comp.name                                  "(1R,2S)-2-[(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)amino]cyclohexane-1-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C17 H17 F N4 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        328.341 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RIZ 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SRZ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RIZ C16  C1  C 0 1 Y N N -50.106 -28.960 3.579  -2.658 2.340  -0.273 C16  RIZ 1  
+RIZ C17  C2  C 0 1 Y N N -48.714 -29.017 3.522  -1.621 1.435  -0.216 C17  RIZ 2  
+RIZ C15  C3  C 0 1 Y N N -50.756 -28.988 4.807  -3.973 1.905  -0.167 C15  RIZ 3  
+RIZ C14  C4  C 0 1 Y N N -50.019 -29.061 5.976  -4.256 0.563  -0.009 C14  RIZ 4  
+RIZ C13  C5  C 0 1 Y N N -48.621 -29.116 5.917  -3.222 -0.365 0.045  C13  RIZ 5  
+RIZ C12  C6  C 0 1 Y N N -47.963 -29.099 4.701  -1.893 0.079  -0.051 C12  RIZ 6  
+RIZ C11  C7  C 0 1 Y N N -46.569 -29.171 5.022  -1.050 -1.123 0.048  C11  RIZ 7  
+RIZ C10  C8  C 0 1 Y N N -45.346 -29.219 4.318  0.329  -1.362 0.015  C10  RIZ 8  
+RIZ C20  C9  C 0 1 Y N N -46.494 -29.223 6.400  -1.921 -2.212 0.209  C20  RIZ 9  
+RIZ C02  C10 C 0 1 N N N -44.923 -32.381 2.210  3.017  1.033  1.668  C02  RIZ 10 
+RIZ C03  C11 C 0 1 N N R -44.819 -31.108 1.352  3.428  0.662  0.267  C03  RIZ 11 
+RIZ C04  C12 C 0 1 N N N -43.394 -30.547 1.325  3.104  1.817  -0.683 C04  RIZ 12 
+RIZ C05  C13 C 0 1 N N N -43.401 -29.154 0.683  3.521  1.440  -2.106 C05  RIZ 13 
+RIZ C06  C14 C 0 1 N N N -44.702 -28.872 -0.061 2.758  0.189  -2.546 C06  RIZ 14 
+RIZ C07  C15 C 0 1 N N N -46.035 -29.144 0.658  3.081  -0.966 -1.596 C07  RIZ 15 
+RIZ C08  C16 C 0 1 N N S -45.788 -30.035 1.864  2.664  -0.589 -0.173 C08  RIZ 16 
+RIZ C22  C17 C 0 1 Y N N -44.186 -29.319 6.309  -0.094 -3.613 0.287  C22  RIZ 17 
+RIZ F18  F1  F 0 1 N N N -52.117 -28.933 4.860  -4.982 2.802  -0.219 F18  RIZ 18 
+RIZ N09  N1  N 0 1 N N N -45.248 -29.127 2.875  1.225  -0.319 -0.141 N09  RIZ 19 
+RIZ N19  N2  N 0 1 Y N N -47.728 -29.191 6.907  -3.211 -1.741 0.194  N19  RIZ 20 
+RIZ N21  N3  N 0 1 Y N N -45.302 -29.299 6.997  -1.397 -3.432 0.323  N21  RIZ 21 
+RIZ N23  N4  N 0 1 Y N N -44.206 -29.270 4.991  0.758  -2.616 0.137  N23  RIZ 22 
+RIZ O01  O1  O 0 1 N N N -44.085 -32.609 3.121  3.561  2.105  2.265  O01  RIZ 23 
+RIZ O24  O2  O 0 1 N N N -45.857 -33.198 1.990  2.198  0.366  2.255  O24  RIZ 24 
+RIZ H161 H1  H 0 0 N N N -50.680 -28.894 2.667  -2.448 3.393  -0.397 H161 RIZ 25 
+RIZ H171 H2  H 0 0 N N N -48.213 -28.998 2.565  -0.600 1.776  -0.299 H171 RIZ 26 
+RIZ H141 H3  H 0 0 N N N -50.521 -29.076 6.932  -5.281 0.234  0.072  H141 RIZ 27 
+RIZ H031 H4  H 0 0 N N N -45.106 -31.366 0.322  4.499  0.461  0.243  H031 RIZ 28 
+RIZ H042 H5  H 0 0 N N N -42.748 -31.217 0.739  2.033  2.018  -0.659 H042 RIZ 29 
+RIZ H041 H6  H 0 0 N N N -43.010 -30.474 2.353  3.648  2.708  -0.369 H041 RIZ 30 
+RIZ H052 H7  H 0 0 N N N -42.564 -29.087 -0.028 3.290  2.263  -2.782 H052 RIZ 31 
+RIZ H051 H8  H 0 0 N N N -43.273 -28.399 1.473  4.592  1.239  -2.129 H051 RIZ 32 
+RIZ H061 H9  H 0 0 N N N -44.694 -29.487 -0.973 1.686  0.390  -2.522 H061 RIZ 33 
+RIZ H062 H10 H 0 0 N N N -44.694 -27.807 -0.337 3.055  -0.080 -3.560 H062 RIZ 34 
+RIZ H071 H11 H 0 0 N N N -46.474 -28.191 0.990  2.538  -1.857 -1.910 H071 RIZ 35 
+RIZ H072 H12 H 0 0 N N N -46.728 -29.646 -0.033 4.152  -1.167 -1.620 H072 RIZ 36 
+RIZ H081 H13 H 0 0 N N N -46.727 -30.498 2.201  2.895  -1.412 0.503  H081 RIZ 37 
+RIZ H221 H14 H 0 0 N N N -43.240 -29.376 6.827  0.294  -4.616 0.383  H221 RIZ 38 
+RIZ H091 H15 H 0 0 N N N -44.265 -29.104 2.692  0.900  0.590  -0.230 H091 RIZ 39 
+RIZ H191 H16 H 0 0 N N N -47.950 -29.219 7.882  -4.003 -2.294 0.290  H191 RIZ 40 
+RIZ H1   H17 H 0 1 N N N -44.295 -33.432 3.546  3.266  2.304  3.164  H1   RIZ 41 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RIZ C06 C07  SING N N 1  
+RIZ C06 C05  SING N N 2  
+RIZ C07 C08  SING N N 3  
+RIZ C05 C04  SING N N 4  
+RIZ C04 C03  SING N N 5  
+RIZ C03 C08  SING N N 6  
+RIZ C03 C02  SING N N 7  
+RIZ C08 N09  SING N N 8  
+RIZ O24 C02  DOUB N N 9  
+RIZ C02 O01  SING N N 10 
+RIZ N09 C10  SING N N 11 
+RIZ C17 C16  DOUB Y N 12 
+RIZ C17 C12  SING Y N 13 
+RIZ C16 C15  SING Y N 14 
+RIZ C10 N23  DOUB Y N 15 
+RIZ C10 C11  SING Y N 16 
+RIZ C12 C11  SING Y N 17 
+RIZ C12 C13  DOUB Y N 18 
+RIZ C15 F18  SING N N 19 
+RIZ C15 C14  DOUB Y N 20 
+RIZ N23 C22  SING Y N 21 
+RIZ C11 C20  DOUB Y N 22 
+RIZ C13 C14  SING Y N 23 
+RIZ C13 N19  SING Y N 24 
+RIZ C22 N21  DOUB Y N 25 
+RIZ C20 N19  SING Y N 26 
+RIZ C20 N21  SING Y N 27 
+RIZ C16 H161 SING N N 28 
+RIZ C17 H171 SING N N 29 
+RIZ C14 H141 SING N N 30 
+RIZ C03 H031 SING N N 31 
+RIZ C04 H042 SING N N 32 
+RIZ C04 H041 SING N N 33 
+RIZ C05 H052 SING N N 34 
+RIZ C05 H051 SING N N 35 
+RIZ C06 H061 SING N N 36 
+RIZ C06 H062 SING N N 37 
+RIZ C07 H071 SING N N 38 
+RIZ C07 H072 SING N N 39 
+RIZ C08 H081 SING N N 40 
+RIZ C22 H221 SING N N 41 
+RIZ N09 H091 SING N N 42 
+RIZ N19 H191 SING N N 43 
+RIZ O01 H1   SING N N 44 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RIZ SMILES           ACDLabs              12.01 "O=C(O)C1CCCCC1Nc1ncnc2[NH]c3cc(F)ccc3c12"                                                                                                                   
+RIZ InChI            InChI                1.06  "InChI=1S/C17H17FN4O2/c18-9-5-6-10-13(7-9)22-16-14(10)15(19-8-20-16)21-12-4-2-1-3-11(12)17(23)24/h5-8,11-12H,1-4H2,(H,23,24)(H2,19,20,21,22)/t11-,12+/m1/s1" 
+RIZ InChIKey         InChI                1.06  VLGDVQRYEOXYDY-NEPJUHHUSA-N                                                                                                                                  
+RIZ SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@@H]1CCCC[C@@H]1Nc2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                         
+RIZ SMILES           CACTVS               3.385 "OC(=O)[CH]1CCCC[CH]1Nc2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                             
+RIZ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N[C@H]4CCCC[C@H]4C(=O)O"                                                                                                         
+RIZ SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)NC4CCCCC4C(=O)O"                                                                                                                 
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RIZ "SYSTEMATIC NAME" ACDLabs              12.01 "(1R,2S)-2-[(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)amino]cyclohexane-1-carboxylic acid"             
+RIZ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{R},2~{S})-2-[(7-fluoranyl-9~{H}-pyrimido[4,5-b]indol-4-yl)amino]cyclohexane-1-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RIZ "Create component" 2022-06-23 RCSB 
+RIZ "Initial release"  2022-07-06 RCSB 
+# 

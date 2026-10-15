@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#PBS -N boltz2-dummy
+#PBS -A GenesisHackathonOct26
+#PBS -q R7728155
+#PBS -l select=1:ngpus=4
+#PBS -l walltime=00:05:00
+#PBS -l filesystems=home:eagle
+#PBS -j oe
+
+set -euo pipefail
+
+printf 'dummy job succeeded on %s\n' "${HOSTNAME:-localhost}"

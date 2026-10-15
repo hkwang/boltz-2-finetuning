@@ -1,0 +1,167 @@
+data_A1A50
+# 
+_chem_comp.id                                    A1A50 
+_chem_comp.name                                  "7-methyl-N-[6-(methylamino)pyridin-3-yl]-1-benzothiophene-2-sulfonamide" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C15 H15 N3 O2 S2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-09-10 
+_chem_comp.pdbx_modified_date                    2025-06-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        333.429 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1A50 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7HCQ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1A50 N2  N1  N 0 1 Y N N N N N 10.826 0.054  -2.140 3.345  0.432  0.972  N2  A1A50 1  
+A1A50 C3  C1  C 0 1 Y N N N N N 9.809  2.090  -1.325 3.241  1.059  -1.300 C3  A1A50 2  
+A1A50 C6  C2  C 0 1 Y N N N N N 14.369 0.043  0.868  -1.050 -1.209 0.110  C6  A1A50 3  
+A1A50 C9  C3  C 0 1 Y N N N N N 16.594 2.543  -0.717 -4.079 0.227  -1.448 C9  A1A50 4  
+A1A50 C12 C4  C 0 1 Y N N N N N 17.875 0.022  -0.840 -3.260 2.010  0.511  C12 A1A50 5  
+A1A50 C14 C5  C 0 1 Y N N N N N 16.609 0.173  -0.249 -2.527 0.837  0.304  C14 A1A50 6  
+A1A50 C1  C6  C 0 1 N N N N N N 9.876  0.498  -4.724 4.784  3.349  -0.760 C1  A1A50 7  
+A1A50 C10 C7  C 0 1 Y N N N N N 17.857 2.399  -1.313 -4.778 1.375  -1.229 C10 A1A50 8  
+A1A50 C11 C8  C 0 1 Y N N N N N 18.499 1.152  -1.370 -4.374 2.272  -0.250 C11 A1A50 9  
+A1A50 C13 C9  C 0 1 N N N N N N 18.586 -1.316 -0.925 -2.827 2.988  1.573  C13 A1A50 10 
+A1A50 C15 C10 C 0 1 Y N N N N N 11.380 -0.137 -0.924 2.623  -0.648 0.738  C15 A1A50 11 
+A1A50 C2  C11 C 0 1 Y N N N N N 10.052 1.141  -2.335 3.663  1.279  0.007  C2  A1A50 12 
+A1A50 C4  C12 C 0 1 Y N N N N N 10.399 1.888  -0.071 2.483  -0.063 -1.584 C4  A1A50 13 
+A1A50 C5  C13 C 0 1 Y N N N N N 11.189 0.745  0.162  2.168  -0.933 -0.541 C5  A1A50 14 
+A1A50 C7  C14 C 0 1 Y N N N N N 14.636 1.332  0.484  -2.049 -1.222 -0.749 C7  A1A50 15 
+A1A50 C8  C15 C 0 1 Y N N N N N 15.926 1.428  -0.169 -2.931 -0.068 -0.682 C8  A1A50 16 
+A1A50 N1  N2  N 0 1 N N N N N N 9.483  1.329  -3.597 4.428  2.405  0.303  N1  A1A50 17 
+A1A50 N3  N3  N 0 1 N N N N N N 11.763 0.527  1.351  1.403  -2.080 -0.782 N3  A1A50 18 
+A1A50 O1  O1  O 0 1 N N N N N N 13.305 -0.423 3.123  0.689  -2.397 1.559  O1  A1A50 19 
+A1A50 O2  O2  O 0 1 N N N N N N 12.721 -1.910 1.239  -0.430 -3.657 -0.286 O2  A1A50 20 
+A1A50 S1  S1  S 0 1 N N N N N N 12.922 -0.530 1.711  0.164  -2.479 0.242  S1  A1A50 21 
+A1A50 S2  S2  S 0 1 Y N N N N N 15.620 -1.073 0.469  -1.078 0.237  1.101  S2  A1A50 22 
+A1A50 H5  H1  H 0 1 N N N N N N 9.184  2.951  -1.512 3.503  1.754  -2.084 H5  A1A50 23 
+A1A50 H8  H2  H 0 1 N N N N N N 16.129 3.517  -0.678 -4.405 -0.462 -2.213 H8  A1A50 24 
+A1A50 H1  H3  H 0 1 N N N N N N 9.316  0.805  -5.620 5.379  4.160  -0.341 H1  A1A50 25 
+A1A50 H2  H4  H 0 1 N N N N N N 10.954 0.616  -4.908 5.362  2.832  -1.526 H2  A1A50 26 
+A1A50 H3  H5  H 0 1 N N N N N N 9.656  -0.556 -4.497 3.875  3.757  -1.203 H3  A1A50 27 
+A1A50 H9  H6  H 0 1 N N N N N N 18.344 3.265  -1.736 -5.655 1.589  -1.822 H9  A1A50 28 
+A1A50 H10 H7  H 0 1 N N N N N N 19.475 1.067  -1.824 -4.937 3.179  -0.086 H10 A1A50 29 
+A1A50 H12 H8  H 0 1 N N N N N N 19.208 -1.459 -0.029 -2.136 3.712  1.141  H12 A1A50 30 
+A1A50 H11 H9  H 0 1 N N N N N N 17.842 -2.123 -0.987 -3.701 3.508  1.965  H11 A1A50 31 
+A1A50 H13 H10 H 0 1 N N N N N N 19.224 -1.336 -1.821 -2.332 2.451  2.382  H13 A1A50 32 
+A1A50 H14 H11 H 0 1 N N N N N N 12.001 -1.008 -0.774 2.383  -1.317 1.551  H14 A1A50 33 
+A1A50 H6  H12 H 0 1 N N N N N N 10.248 2.609  0.718  2.143  -0.260 -2.590 H6  A1A50 34 
+A1A50 H7  H13 H 0 1 N N N N N N 13.971 2.167  0.647  -2.201 -2.029 -1.451 H7  A1A50 35 
+A1A50 H4  H14 H 0 1 N N N N N N 9.677  2.274  -3.859 4.724  2.565  1.212  H4  A1A50 36 
+A1A50 H15 H15 H 0 1 N N N N N N 12.138 1.415  1.618  1.599  -2.642 -1.548 H15 A1A50 37 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1A50 C1  N1  SING N N 1  
+A1A50 N1  C2  SING N N 2  
+A1A50 C2  N2  DOUB Y N 3  
+A1A50 C2  C3  SING Y N 4  
+A1A50 N2  C15 SING Y N 5  
+A1A50 C11 C10 DOUB Y N 6  
+A1A50 C11 C12 SING Y N 7  
+A1A50 C3  C4  DOUB Y N 8  
+A1A50 C10 C9  SING Y N 9  
+A1A50 C13 C12 SING N N 10 
+A1A50 C15 C5  DOUB Y N 11 
+A1A50 C12 C14 DOUB Y N 12 
+A1A50 C9  C8  DOUB Y N 13 
+A1A50 C14 C8  SING Y N 14 
+A1A50 C14 S2  SING Y N 15 
+A1A50 C8  C7  SING Y N 16 
+A1A50 C4  C5  SING Y N 17 
+A1A50 C5  N3  SING N N 18 
+A1A50 S2  C6  SING Y N 19 
+A1A50 C7  C6  DOUB Y N 20 
+A1A50 C6  S1  SING N N 21 
+A1A50 O2  S1  DOUB N N 22 
+A1A50 N3  S1  SING N N 23 
+A1A50 S1  O1  DOUB N N 24 
+A1A50 C3  H5  SING N N 25 
+A1A50 C9  H8  SING N N 26 
+A1A50 C1  H1  SING N N 27 
+A1A50 C1  H2  SING N N 28 
+A1A50 C1  H3  SING N N 29 
+A1A50 C10 H9  SING N N 30 
+A1A50 C11 H10 SING N N 31 
+A1A50 C13 H12 SING N N 32 
+A1A50 C13 H11 SING N N 33 
+A1A50 C13 H13 SING N N 34 
+A1A50 C15 H14 SING N N 35 
+A1A50 C4  H6  SING N N 36 
+A1A50 C7  H7  SING N N 37 
+A1A50 N1  H4  SING N N 38 
+A1A50 N3  H15 SING N N 39 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1A50 SMILES           ACDLabs              14.52   "CNc1ccc(cn1)NS(=O)(=O)c1cc2cccc(C)c2s1"                                                                            
+A1A50 InChI            InChI                1.06    "InChI=1S/C15H15N3O2S2/c1-10-4-3-5-11-8-14(21-15(10)11)22(19,20)18-12-6-7-13(16-2)17-9-12/h3-9,18H,1-2H3,(H,16,17)" 
+A1A50 InChIKey         InChI                1.06    YGNNZSHHLLSWRD-UHFFFAOYSA-N                                                                                         
+A1A50 SMILES_CANONICAL CACTVS               3.385   "CNc1ccc(N[S](=O)(=O)c2sc3c(C)cccc3c2)cn1"                                                                          
+A1A50 SMILES           CACTVS               3.385   "CNc1ccc(N[S](=O)(=O)c2sc3c(C)cccc3c2)cn1"                                                                          
+A1A50 SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "Cc1cccc2c1sc(c2)S(=O)(=O)Nc3ccc(nc3)NC"                                                                            
+A1A50 SMILES           "OpenEye OEToolkits" 3.1.0.0 "Cc1cccc2c1sc(c2)S(=O)(=O)Nc3ccc(nc3)NC"                                                                            
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1A50 "SYSTEMATIC NAME" ACDLabs              14.52   "7-methyl-N-[6-(methylamino)pyridin-3-yl]-1-benzothiophene-2-sulfonamide"    
+A1A50 "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "7-methyl-~{N}-[6-(methylamino)pyridin-3-yl]-1-benzothiophene-2-sulfonamide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1A50 "Create component" 2024-09-10 RCSB 
+A1A50 "Initial release"  2025-06-11 RCSB 
+# 

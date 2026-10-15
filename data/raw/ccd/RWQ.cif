@@ -1,0 +1,168 @@
+data_RWQ
+# 
+_chem_comp.id                                    RWQ 
+_chem_comp.name                                  "[(3R)-1-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)piperidin-3-yl]methanol" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C16 H17 F N4 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        300.331 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RWQ 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SOJ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RWQ C18  C1  C 0 1 Y N N -46.330 -29.212 6.312  1.768  2.124  -0.313 C18  RWQ 1  
+RWQ C15  C2  C 0 1 Y N N -48.648 -29.039 3.474  1.396  -1.494 0.268  C15  RWQ 2  
+RWQ C14  C3  C 0 1 Y N N -50.036 -28.976 3.547  2.403  -2.434 0.254  C14  RWQ 3  
+RWQ C13  C4  C 0 1 Y N N -50.676 -28.979 4.789  3.714  -2.049 0.003  C13  RWQ 4  
+RWQ C12  C5  C 0 1 Y N N -49.921 -29.038 5.953  4.023  -0.723 -0.225 C12  RWQ 5  
+RWQ C11  C6  C 0 1 Y N N -48.511 -29.100 5.885  3.018  0.238  -0.218 C11  RWQ 6  
+RWQ C10  C7  C 0 1 Y N N -47.880 -29.105 4.663  1.693  -0.154 0.030  C10  RWQ 7  
+RWQ C20  C8  C 0 1 Y N N -44.007 -29.317 6.124  -0.012 3.586  -0.263 C20  RWQ 8  
+RWQ C02  C9  C 0 1 N N N -44.808 -31.757 0.264  -4.344 -1.089 -1.462 C02  RWQ 9  
+RWQ C03  C10 C 0 1 N N R -45.816 -30.562 0.595  -3.285 -0.974 -0.364 C03  RWQ 10 
+RWQ C04  C11 C 0 1 N N N -45.309 -29.360 0.001  -3.972 -0.791 0.992  C04  RWQ 11 
+RWQ C05  C12 C 0 1 N N N -44.030 -28.960 0.505  -2.905 -0.616 2.076  C05  RWQ 12 
+RWQ C06  C13 C 0 1 N N N -43.963 -28.981 2.035  -2.020 0.582  1.726  C06  RWQ 13 
+RWQ C08  C14 C 0 1 Y N N -45.253 -29.213 4.189  -0.477 1.362  0.132  C08  RWQ 14 
+RWQ C09  C15 C 0 1 Y N N -46.449 -29.178 4.942  0.883  1.073  -0.028 C09  RWQ 15 
+RWQ C22  C16 C 0 1 N N N -45.991 -30.401 2.111  -2.389 0.235  -0.644 C22  RWQ 16 
+RWQ F16  F1  F 0 1 N N N -52.036 -28.919 4.859  4.695  -2.978 -0.008 F16  RWQ 17 
+RWQ N07  N1  N 0 1 N N N -45.298 -29.195 2.741  -1.385 0.359  0.421  N07  RWQ 18 
+RWQ N17  N2  N 0 1 Y N N -47.569 -29.166 6.857  3.035  1.607  -0.426 N17  RWQ 19 
+RWQ N19  N3  N 0 1 Y N N -45.094 -29.282 6.868  1.274  3.358  -0.423 N19  RWQ 20 
+RWQ N21  N4  N 0 1 Y N N -44.073 -29.284 4.798  -0.875 2.626  0.012  N21  RWQ 21 
+RWQ O01  O1  O 0 1 N N N -44.226 -32.258 1.434  -5.106 -2.282 -1.265 O01  RWQ 22 
+RWQ H151 H1  H 0 0 N N N -48.157 -29.038 2.512  0.377  -1.796 0.464  H151 RWQ 23 
+RWQ H141 H2  H 0 0 N N N -50.621 -28.925 2.640  2.173  -3.472 0.439  H141 RWQ 24 
+RWQ H121 H3  H 0 0 N N N -50.414 -29.036 6.914  5.045  -0.433 -0.419 H121 RWQ 25 
+RWQ H201 H4  H 0 0 N N N -43.041 -29.374 6.603  -0.375 4.598  -0.361 H201 RWQ 26 
+RWQ H021 H5  H 0 0 N N N -45.360 -32.565 -0.238 -5.006 -0.224 -1.421 H021 RWQ 27 
+RWQ H022 H6  H 0 0 N N N -44.015 -31.385 -0.402 -3.856 -1.127 -2.436 H022 RWQ 28 
+RWQ H031 H7  H 0 0 N N N -46.792 -30.814 0.155  -2.679 -1.880 -0.347 H031 RWQ 29 
+RWQ H042 H8  H 0 0 N N N -46.027 -28.549 0.194  -4.608 0.094  0.961  H042 RWQ 30 
+RWQ H041 H9  H 0 0 N N N -45.219 -29.520 -1.084 -4.577 -1.669 1.215  H041 RWQ 31 
+RWQ H051 H10 H 0 0 N N N -43.266 -29.646 0.110  -3.388 -0.443 3.038  H051 RWQ 32 
+RWQ H052 H11 H 0 0 N N N -43.819 -27.938 0.158  -2.293 -1.516 2.133  H052 RWQ 33 
+RWQ H062 H12 H 0 0 N N N -43.285 -29.794 2.335  -2.630 1.484  1.683  H062 RWQ 34 
+RWQ H061 H13 H 0 0 N N N -43.551 -28.018 2.371  -1.250 0.701  2.489  H061 RWQ 35 
+RWQ H222 H14 H 0 0 N N N -47.068 -30.316 2.318  -1.887 0.101  -1.602 H222 RWQ 36 
+RWQ H221 H15 H 0 0 N N N -45.595 -31.307 2.593  -2.997 1.139  -0.676 H221 RWQ 37 
+RWQ H171 H16 H 0 0 N N N -47.762 -29.179 7.838  3.830  2.127  -0.624 H171 RWQ 38 
+RWQ H011 H17 H 0 0 N N N -43.632 -32.966 1.215  -5.798 -2.420 -1.926 H011 RWQ 39 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RWQ C04 C05  SING N N 1  
+RWQ C04 C03  SING N N 2  
+RWQ C02 C03  SING N N 3  
+RWQ C02 O01  SING N N 4  
+RWQ C05 C06  SING N N 5  
+RWQ C03 C22  SING N N 6  
+RWQ C06 N07  SING N N 7  
+RWQ C22 N07  SING N N 8  
+RWQ N07 C08  SING N N 9  
+RWQ C15 C14  DOUB Y N 10 
+RWQ C15 C10  SING Y N 11 
+RWQ C14 C13  SING Y N 12 
+RWQ C08 N21  DOUB Y N 13 
+RWQ C08 C09  SING Y N 14 
+RWQ C10 C09  SING Y N 15 
+RWQ C10 C11  DOUB Y N 16 
+RWQ C13 F16  SING N N 17 
+RWQ C13 C12  DOUB Y N 18 
+RWQ N21 C20  SING Y N 19 
+RWQ C09 C18  DOUB Y N 20 
+RWQ C11 C12  SING Y N 21 
+RWQ C11 N17  SING Y N 22 
+RWQ C20 N19  DOUB Y N 23 
+RWQ C18 N17  SING Y N 24 
+RWQ C18 N19  SING Y N 25 
+RWQ C15 H151 SING N N 26 
+RWQ C14 H141 SING N N 27 
+RWQ C12 H121 SING N N 28 
+RWQ C20 H201 SING N N 29 
+RWQ C02 H021 SING N N 30 
+RWQ C02 H022 SING N N 31 
+RWQ C03 H031 SING N N 32 
+RWQ C04 H042 SING N N 33 
+RWQ C04 H041 SING N N 34 
+RWQ C05 H051 SING N N 35 
+RWQ C05 H052 SING N N 36 
+RWQ C06 H062 SING N N 37 
+RWQ C06 H061 SING N N 38 
+RWQ C22 H222 SING N N 39 
+RWQ C22 H221 SING N N 40 
+RWQ N17 H171 SING N N 41 
+RWQ O01 H011 SING N N 42 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RWQ SMILES           ACDLabs              12.01 "Fc1ccc2c3c(ncnc3[NH]c2c1)N1CCCC(CO)C1"                                                                                                         
+RWQ InChI            InChI                1.06  "InChI=1S/C16H17FN4O/c17-11-3-4-12-13(6-11)20-15-14(12)16(19-9-18-15)21-5-1-2-10(7-21)8-22/h3-4,6,9-10,22H,1-2,5,7-8H2,(H,18,19,20)/t10-/m1/s1" 
+RWQ InChIKey         InChI                1.06  LEHSMGCFXRLFLE-SNVBAGLBSA-N                                                                                                                     
+RWQ SMILES_CANONICAL CACTVS               3.385 "OC[C@@H]1CCCN(C1)c2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                    
+RWQ SMILES           CACTVS               3.385 "OC[CH]1CCCN(C1)c2ncnc3[nH]c4cc(F)ccc4c23"                                                                                                      
+RWQ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCC[C@H](C4)CO"                                                                                                   
+RWQ SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc2c(cc1F)[nH]c3c2c(ncn3)N4CCCC(C4)CO"                                                                                                       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RWQ "SYSTEMATIC NAME" ACDLabs              12.01 "[(3R)-1-(7-fluoro-9H-pyrimido[4,5-b]indol-4-yl)piperidin-3-yl]methanol"          
+RWQ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "[(3~{R})-1-(7-fluoranyl-9~{H}-pyrimido[4,5-b]indol-4-yl)piperidin-3-yl]methanol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RWQ "Create component" 2022-06-23 RCSB 
+RWQ "Initial release"  2022-07-13 RCSB 
+# 

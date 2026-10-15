@@ -1,0 +1,183 @@
+source,source_compound_id,pdb_id,smiles,nonpolymer_codes,ligand_codes,match,model_smiles,model_stereo_agrees_with_component,model_copies_consistent,in_boltz_ccd
+elife110475,AVI-0004094,13RI,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CC=CS1)N2,A1CXR,A1CXR,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cccs3)cc12,True,True,False
+elife110475,AVI-0004097,13RJ,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CC=CN1)N2,A1CXS,A1CXS,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3ccc[nH]3)cc12,True,True,False
+elife110475,AVI-0004052,13RK,CN1N=CC(C2=CC3=C(NN4C(=O)CCC4(C)C)N=CN=C3N2)=C1C#N,A1CXT,A1CXT,stereo,Cn1ncc(-c2cc3c(NN4C(=O)CCC4(C)C)ncnc3[nH]2)c1C#N,True,True,False
+elife110475,AVI-0004054,13RL,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=C(C#N)N(C)N=C1)N2,A1CXU CL,A1CXU,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cnn(C)c3C#N)cc12,True,True,False
+elife110475,AVI-0004100,13RM,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CC=NS1)N2,A1CXV CL,A1CXV,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3ccns3)cc12,True,True,False
+elife110475,AVI-0004214,13RN,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CN(C)N=C1)N2,A1CXW CL,A1CXW,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cnn(C)c3)cc12,True,True,False
+elife110475,AVI-0004268,13RO,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CNN=C1)N2,A1CXX CL,A1CXX,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cn[nH]c3)cc12,True,True,False
+elife110475,AVI-0004272,13RP,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CN=CN=C1)N2,A1CXY,A1CXY,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cncnc3)cc12,True,True,False
+elife110475,AVI-0004683,13RQ,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=C(C#N)SC=C1)N2,A1CXZ CL,A1CXZ,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3ccsc3C#N)cc12,True,True,False
+elife110475,AVI-0004678,13RR,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CC=CC=C1F)N2,A1CX0 CL,A1CX0,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3ccccc3F)cc12,True,True,False
+elife110475,AVI-0005707,13RS,CC(C)[C@H](CO)NC1=NC=NC2=C1C=C(C1=CN(C)N=C1C#N)N2,A1CX1 CL,A1CX1,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cn(C)nc3C#N)cc12,True,True,False
+elife110475,AVI-0003617,14AB,CC(C)[C@@H](NC1=NC=NC2=C1C=CN2)C1=CC=C2OCCOC2=C1,A1DBS,A1DBS,connectivity,CC(C)[C@H](Nc1ncnc2[nH]ccc12)c1ccc2c(c1)OCCO2,True,True,False
+elife110475,AVI-0005538,14AG,O=C(O)C[C@@H](NC(=O)C1=NC=NC2=C1C=CN2)C1=CC=CC=C1Cl,DMS A1DBV,A1DBV,stereo,O=C(O)C[C@@H](NC(=O)c1ncnc2[nH]ccc12)c1ccccc1Cl,True,True,False
+elife110475,AVI-0003765,7HC5,C[C@@H]1CCC(=O)N1NC1=NC=NC2=C1C1=CC=C(F)C=C1N2,A1A02 CL,A1A02,stereo,C[C@@H]1CCC(=O)N1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,False
+elife110475,AVI-0000694,7HC6,C[C@H]1CCC(=O)N1NC1=NC=NC2=C1C1=CC=C(F)C=C1N2,A1A01 CL,A1A01,stereo,C[C@H]1CCC(=O)N1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,False
+elife110475,AVI-0003764,7HC6,C[C@H]1CCC(=O)N1NC1=NC=NC2=C1C1=CC=C(F)C=C1N2,A1A01 CL,A1A01,stereo,C[C@H]1CCC(=O)N1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,False
+elife110475,AVI-0000664,7HC8,O=C1CC[C@@H](C2=CC=CC=C2)N1NC1=NC=NC2=C1C1=CC=C(F)C=C1N2,A1A0Z,A1A0Z,stereo,O=C1CC[C@@H](c2ccccc2)N1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,False
+elife110475,AVI-0004063,7HF7,C[C@H]1CC[C@H](CO)N(C2=NC=NC3=C2C=CN3)C1,DMS A1BAR CL,A1BAR,stereo,C[C@H]1CC[C@H](CO)N(c2ncnc3[nH]ccc23)C1,True,True,False
+elife110475,AVI-0005134,7IJ2,C[C@@H](C(=O)O)[C@@H](NC(=O)C1=NC=NC2=C1C=CN2)C1=CC=CC=C1,DMS A1CJX A1CJY,A1CJX A1CJY,connectivity,C[C@@H](C(=O)O)[C@H](NC(=O)c1ncnc2[nH]ccc12)c1ccccc1 C[C@H](C(=O)O)[C@@H](NC(=O)c1ncnc2[nH]ccc12)c1ccccc1,True,True,False
+elife110475,AVI-0005367,7IJ3,CC1=CC=CC([C@@H](CC(=O)O)NC(=O)C2=NC=NC3=C2C=CN3)=C1,A1CJZ,A1CJZ,stereo,Cc1cccc([C@@H](CC(=O)O)NC(=O)c2ncnc3[nH]ccc23)c1,True,True,False
+elife110475,AVI-0000607,9D6B,CC(C)(O)[C@H]1CCCN1C1=NC=NC2=C1C=CN2,A1A17 DMS CL,A1A17,stereo,CC(C)(O)[C@H]1CCCN1c1ncnc2[nH]ccc12,True,True,False
+elife110475,AVI-0001504,9D6H,CC(C)[C@H](CO)NC1=NC=NC2=C1C=CN2,A1AJW DMS CL,A1AJW,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]ccc12,True,True,True
+jmedchem,AVI-4052,13RK,CC1(CCC(=O)N1Nc2c3cc([nH]c3ncn2)c4cnn(c4C#N)C)C,A1CXT,A1CXT,stereo,Cn1ncc(-c2cc3c(NN4C(=O)CCC4(C)C)ncnc3[nH]2)c1C#N,True,True,False
+jmedchem,AVI-4054,13RL,CC(C)[C@H](CO)Nc1c2cc([nH]c2ncn1)c3cnn(c3C#N)C,A1CXU CL,A1CXU,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3cnn(C)c3C#N)cc12,True,True,False
+jmedchem,AVI-4683,13RQ,CC(C)[C@H](CO)Nc1c2cc([nH]c2ncn1)c3ccsc3C#N,A1CXZ CL,A1CXZ,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3ccsc3C#N)cc12,True,True,False
+jmedchem,AVI-4678,13RR,CC(C)[C@H](CO)Nc1c2cc([nH]c2ncn1)c3ccccc3F,A1CX0 CL,A1CX0,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]c(-c3ccccc3F)cc12,True,True,False
+jmedchem,AVI-6249,13RT,CC1(COC(=O)N1Nc2c3c4cccc(c4[nH]c3ncn2)NC(=O)C(F)F)C,A1CX2 CL,A1CX2,stereo,CC1(C)COC(=O)N1Nc1ncnc2[nH]c3c(NC(=O)C(F)F)cccc3c12,True,True,False
+jmedchem,AVI-6318,13RU,CC1(COC(=O)N1Nc2c3cc([nH]c3ncn2)c4cnn(c4C#N)C)C,A1CX3,A1CX3,stereo,Cn1ncc(-c2cc3c(NN4C(=O)OCC4(C)C)ncnc3[nH]2)c1C#N,True,True,False
+jmedchem,AVI-6319,13RV,Cn1c(c(cn1)c2cc3c([nH]2)ncnc3NN4C(=O)OCC45CCOCC5)C#N,A1CX4,A1CX4,stereo,Cn1ncc(-c2cc3c(NN4C(=O)OCC45CCOCC5)ncnc3[nH]2)c1C#N,True,True,False
+jmedchem,AVI-6354,13RW,CC1(CCC(=O)N1Nc2c3c4cccc(c4[nH]c3ncn2)C5CC5)C,A1CX5 CL,A1CX5,stereo,CC1(C)CCC(=O)N1Nc1ncnc2[nH]c3c(C4CC4)cccc3c12,True,True,False
+jmedchem,AVI-6344,13RX,Cn1c(c(cn1)c2cc3c([nH]2)ncnc3NN4C(=O)OCC45CCN(CC5)S(=O)(=O)C)C#N,A1CX6,A1CX6,stereo,Cn1ncc(-c2cc3c(NN4C(=O)OCC45CCN(S(C)(=O)=O)CC5)ncnc3[nH]2)c1C#N,True,True,False
+jmedchem,AVI-6372,13RY,CC1(COC(=O)N1Nc2c3c4cccc(c4[nH]c3ncn2)C(F)(F)F)C,A1CX7 CL,A1CX7,stereo,CC1(C)COC(=O)N1Nc1ncnc2[nH]c3c(C(F)(F)F)cccc3c12,True,True,False
+jmedchem,AVI-3367,7HC4,CCOC(=O)Nc1cccc2c1[nH]c3c2c(ncn3)NN4CCCC4=O,A1A03 CL,A1A03,stereo,CCOC(=O)Nc1cccc2c1[nH]c1ncnc(NN3CCCC3=O)c12,True,True,False
+jmedchem,AVI-4051,7HC7,c1cc2c3c([nH]c2c(c1)NC(=O)NC4CC4)ncnc3NN5CCCC5=O,A1A00 CL,A1A00,stereo,O=C(Nc1cccc2c1[nH]c1ncnc(NN3CCCC3=O)c12)NC1CC1,True,True,False
+jmedchem,AVI-1500,9CXY,CCNC(=O)Nc1cccc2c1[nH]c3c2c(ncn3)NN4CCCC4=O,A1A5Z CL,A1A5Z,stereo,CCNC(=O)Nc1cccc2c1[nH]c1ncnc(NN3CCCC3=O)c12,True,True,False
+jmedchem,AVI-1501,9CXZ,CC(=O)Nc1cccc2c1[nH]c3c2c(ncn3)NN4CCCC4=O,A1A54 CL,A1A54,stereo,CC(=O)Nc1cccc2c1[nH]c1ncnc(NN3CCCC3=O)c12,True,True,False
+jmedchem,AVI-4206,9CY0,CCNC(=O)Nc1cccc2c1[nH]c3c2c(ncn3)NN4C(=O)CCC4(C)C,A1A55,A1A55,stereo,CCNC(=O)Nc1cccc2c1[nH]c1ncnc(NN3C(=O)CCC3(C)C)c12,True,True,False
+jmedchem,AVI-1504,9D6H,CC(C)[C@H](CO)Nc1c2cc[nH]c2ncn1,A1AJW DMS CL,A1AJW,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]ccc12,True,True,True
+jmedchem,AVI-6451,9YKH,CC1(COC(=O)N1Nc2c3c4cc(cc(c4[nH]c3ncn2)C5CC5)F)C,A1CXQ,A1CXQ,stereo,CC1(C)COC(=O)N1Nc1ncnc2[nH]c3c(C4CC4)cc(F)cc3c12,True,True,False
+pnas,Z6511,5SOI,OC(=O)CCC1CCCN(C1)C=2N=CN=C3NC=CC23,WVG WYY,WVG WYY,connectivity,O=C(O)CC[C@H]1CCCN(c2ncnc3[nH]ccc23)C1 O=C(O)CC[C@@H]1CCCN(c2ncnc3[nH]ccc23)C1,True,True,True
+pnas,Z7873,5SOJ,OC[C@H]1CCCN(C1)C=2N=CN=C3NC=4C=C(F)C=CC4C23,RWQ,RWQ,connectivity,OC[C@@H]1CCCN(c2ncnc3[nH]c4cc(F)ccc4c23)C1,True,True,True
+pnas,Z5722,5SOL,CC(O)CNC=1C=C(N=CN1)N2CC3(CCC3)C(F)(C2)C(=O)O,WVM,WVM,connectivity,C[C@@H](O)CNc1cc(N2CC3(CCC3)[C@@](F)(C(=O)O)C2)ncn1,True,True,True
+pnas,Z4305,5SOP,O=S1(=O)CCC2(C1)CCCN(C2)C=3N=CN=C4NC=CC34,RYI,RYI,connectivity,O=S1(=O)CC[C@@]2(CCCN(c3ncnc4[nH]ccc34)C2)C1,True,True,True
+pnas,Z5531,5SOQ,CCC1=CNC=2N=CN=C(N3CCCC(CC4=NC(C)=NO4)C3)C12,WWJ,WWJ,connectivity,CCc1c[nH]c2ncnc(N3CCC[C@H](Cc4nc(C)no4)C3)c12,True,True,True
+pnas,Z7655,5SOU,O=C1NN=C(O1)C2CCCN(C2)C=3N=CN=C4NC=CC34,WX7 RZ9,WX7 RZ9,connectivity,O=c1[nH]nc([C@@H]2CCCN(c3ncnc4[nH]ccc34)C2)o1 O=c1[nH]nc([C@H]2CCCN(c3ncnc4[nH]ccc34)C2)o1,True,True,True
+pnas,Z1027,5SOV,CCC1=CNC=2N=CN=C(N3CCCC(C3)S(=O)(=O)C)C12,WXD WXA,WXD WXA,connectivity,CCc1c[nH]c2ncnc(N3CCC[C@H](S(C)(=O)=O)C3)c12 CCc1c[nH]c2ncnc(N3CCC[C@@H](S(C)(=O)=O)C3)c12,True,True,True
+pnas,Z9572,5SP2,OC(=O)CC1CN(CCO1)C=2N=CN=C3NC=CC23,WYG S3E,WYG S3E,connectivity,O=C(O)C[C@@H]1CN(c2ncnc3[nH]ccc23)CCO1 O=C(O)C[C@H]1CN(c2ncnc3[nH]ccc23)CCO1,True,True,True
+pnas,Z6923,5SP3,C[C@@H]1CN(C[C@@H](CO)O1)C=2N=CN=C3NC=4C=CC=CC4C23,WYJ,WYJ,stereo,C[C@@H]1CN(c2ncnc3[nH]c4ccccc4c23)C[C@@H](CO)O1,True,True,True
+pnas,Z8539_0030,5SP7,"OC(=O)[C@@H]1CCC=2C=CC=CC2[C@@H]1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3 |&1:3,12,r|",RVS,RVS,connectivity,O=C(Nc1ccc(C(=O)N[C@@H]2c3ccccc3CC[C@@H]2C(=O)O)cc1)NC1CC1,True,True,True
+pnas,Z8539_0041,5SPA,NC(=O)NC=1C=CC(=CC1)C(=O)NC2C(CC=3C2=CC=CC3O)C(=O)O,RY6 RYC,RY6 RYC,connectivity,NC(=O)Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cc1 NC(=O)Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cc1,True,True,True
+pnas,Z8539_0023,5SPB,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NC(=O)NC=4C=CC=CC4)=CC3,S09 S0T,S09 S0T,connectivity,O=C(Nc1ccccc1)Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cc1 O=C(Nc1ccccc1)Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cc1,True,True,True
+pnas,Z8539_0006,5SPC,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=NC=4NCCCC4C3,QLF QLU,QLF QLU,connectivity,O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1cnc2c(c1)CCCN2 O=C(N[C@H]1c2cccc(O)c2C[C@H]1C(=O)O)c1cnc2c(c1)CCCN2,True,True,True
+pnas,Z8515,5SPH,CNC(=O)NC=1C=CC(=CC1)C(=O)NC2C(CC=3C=CC=CC23)C(=O)O,RZR,RZR,connectivity,CNC(=O)Nc1ccc(C(=O)N[C@H]2c3ccccc3C[C@@H]2C(=O)O)cc1,True,True,True
+pnas,Z8207,5SPT,O=C(OCCN1CCOC1=O)C=2N=CN=C3NC=CC23,DMS S6U,S6U,stereo,O=C(OCCN1CCOC1=O)c1ncnc2[nH]ccc12,True,True,True
+pnas,F4769,5SPW,OC(=O)C1CC2CCC1CN(C2)C=3N=CN=C4N=CNC34,S5O,S5O,connectivity,O=C(O)[C@@H]1C[C@H]2CC[C@@H]1CN(c1ncnc3nc[nH]c13)C2,True,True,True
+pnas,R1104,5SPY,BrC=1C=NC=2NC=C(C(=O)CSC3=NN=NN3)C2C1,QJ0,QJ0,stereo,O=C(CSc1nnn[nH]1)c1c[nH]c2ncc(Br)cc12,True,True,True
+pnas,Z8539_0029,5SQ5,OC(=O)C1CC=2C=CC=CC2C1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,QKL QKX,QKL QKX,connectivity,O=C(Nc1ccc(C(=O)N[C@H]2c3ccccc3C[C@@H]2C(=O)O)cc1)NC1CC1 O=C(Nc1ccc(C(=O)N[C@@H]2c3ccccc3C[C@@H]2C(=O)O)cc1)NC1CC1,True,True,True
+pnas,Z8539_0027,5SQ6,OC(=O)C=1NC=2C=CC=CC2C1CNC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,QL6,QL6,stereo,O=C(Nc1ccc(C(=O)NCc2c(C(=O)O)[nH]c3ccccc23)cc1)NC1CC1,True,True,True
+pnas,Z8539_0026,5SQ7,OC(=O)C=1OC=2C=CC=CC2C1CNC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,QM6,QM6,stereo,O=C(Nc1ccc(C(=O)NCc2c(C(=O)O)oc3ccccc23)cc1)NC1CC1,True,True,True
+pnas,Z8539_0025,5SQ8,OC(=O)C=1SC=2C=CC=CC2C1CNC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,QMF,QMF,stereo,O=C(Nc1ccc(C(=O)NCc2c(C(=O)O)sc3ccccc23)cc1)NC1CC1,True,True,True
+pnas,Z8539_0046,5SQ9,CC(C)NC(=O)NC=1C=CC(=CC1)C(=O)NC2C(CC=3C2=CC=CC3O)C(=O)O,QMO QN0,QMO QN0,connectivity,CC(C)NC(=O)Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cc1 CC(C)NC(=O)Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cc1,True,True,True
+pnas,Z8539_0014,5SQA,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC=4NC(=O)COC4C3,QNF QNV,QNF QNV,connectivity,O=C1COc2cc(C(=O)N[C@H]3c4cccc(O)c4C[C@H]3C(=O)O)ccc2N1 O=C1COc2cc(C(=O)N[C@@H]3c4cccc(O)c4C[C@@H]3C(=O)O)ccc2N1,True,True,True
+pnas,Z8539_0009,5SQB,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NCC4CC4)=NC3,QO3 QOF,QO3 QOF,connectivity,O=C(N[C@H]1c2cccc(O)c2C[C@H]1C(=O)O)c1ccc(NCC2CC2)nc1 O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1ccc(NCC2CC2)nc1,True,True,True
+pnas,Z8539_0007,5SQC,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=NC(NC4CCOCC4)=CN3,QOR QP9,QOR QP9,connectivity,O=C(N[C@H]1c2cccc(O)c2C[C@H]1C(=O)O)c1cnc(NC2CCOCC2)cn1 O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1cnc(NC2CCOCC2)cn1,True,True,True
+pnas,Z8539_0011,5SQE,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NN4C=CN=C4)=CC3,QR0,QR0,connectivity,O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1ccc(Nn2ccnc2)cc1,True,True,True
+pnas,Z8539_0054,5SQG,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NC(=O)NC4CC4)=NC3,QQI QQR,QQI QQR,connectivity,O=C(Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cn1)NC1CC1 O=C(Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cn1)NC1CC1,True,True,True
+pnas,Z8539_0055,5SQH,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3Cl,QR6,QR6,connectivity,O=C(Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)c(Cl)c1)NC1CC1,True,True,True
+pnas,Z8539_0077,5SQI,CNC(=O)NC=1C=CC(=CC1)C(=O)NC2C(CC=3C2=CC=CC3O)C(=O)O,QRC QRI,QRC QRI,connectivity,CNC(=O)Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cc1 CNC(=O)Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cc1,True,True,True
+pnas,Z8601,5SQJ,OC(=O)[C@@H]1CC=2C(=CC=CC2O)[C@@H]1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,DMS QRU,QRU,stereo,O=C(Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cc1)NC1CC1,True,True,True
+pnas,LL1_0018,5SQN,OC(=O)CCC1CCCN(C1)C=2N=CN=C3NC=4C=C(F)C=CC4C23,QT6,QT6,connectivity,O=C(O)CC[C@@H]1CCCN(c2ncnc3[nH]c4cc(F)ccc4c23)C1,True,True,True
+pnas,LL1_0025,5SQP,OC(=O)C1(F)CN(CC21CCC2)C=3C=C(NC=4C=CC=CC4)N=CN3,QTO,QTO,connectivity,O=C(O)[C@@]1(F)CN(c2cc(Nc3ccccc3)ncn2)CC12CCC2,True,True,True
+pnas,R7335,5SQU,CN(C(=O)C=1C=NC=2NC=C(C)C2C1)C3=NN=NN3,DMS QVL,QVL,stereo,Cc1c[nH]c2ncc(C(=O)N(C)c3nnn[nH]3)cc12,True,True,True
+pnas,Z8539_0072,5SQW,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3O,QW3 QWC,QW3 QWC,connectivity,O=C(Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)c(O)c1)NC1CC1 O=C(Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)c(O)c1)NC1CC1,True,True,True
+pnas,Z8539_0059,5SQX,Cl.NC=1C=C(NC(=O)NC2CC2)C=CC1C(=O)NC3C(CC=4C3=CC=CC4O)C(=O)O,QWX QX5,QWX QX5,connectivity,Nc1cc(NC(=O)NC2CC2)ccc1C(=O)N[C@H]1c2cccc(O)c2C[C@H]1C(=O)O Nc1cc(NC(=O)NC2CC2)ccc1C(=O)N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O,True,True,True
+pnas,Z8539_0065,5SQY,Cl.OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC(NC(=O)NC4CC4)=C5N=CSC35,QWO,QWO,connectivity,O=C(Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)c2scnc12)NC1CC1,True,True,True
+pnas,SRH-0015,5SR0,O[C@H]1CCCC[C@H]1NC=2N=CN=C3NC=CC23,QXS QY0,QXS,stereo,O[C@H]1CCCC[C@H]1Nc1ncnc2[nH]ccc12,True,True,True
+pnas,E2160,5SR2,OC(=O)[C@@H]1CC=2C(=CC=CC2O)[C@H]1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,QYC,QYC,connectivity,O=C(Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cc1)NC1CC1,True,True,True
+pnas,Z9050,5SR3,OC(=O)[C@H]1CC=2C(=CC=CC2O)[C@H]1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,QYJ,QYJ,stereo,O=C(Nc1ccc(C(=O)N[C@@H]2c3cccc(O)c3C[C@@H]2C(=O)O)cc1)NC1CC1,True,True,True
+pnas,Z9020,5SR6,OC(=O)C1(F)CN(CC21CCC2)C=3N=CN=C4NC=5C=CC=CC5C34,QZF,QZF,connectivity,O=C(O)[C@]1(F)CN(c2ncnc3[nH]c4ccccc4c23)CC12CCC2,True,True,True
+pnas,LL114_0037,5SR7,"OC(=O)[C@@H]1[C@@H]2CCN(C[C@H]12)C=3N=CN=C4NC=5C=C(F)C=CC5C34 |&1:3,4,9,r|",QZO QZX,QZO QZX,connectivity,O=C(O)[C@H]1[C@@H]2CCN(c3ncnc4[nH]c5cc(F)ccc5c34)C[C@@H]21 O=C(O)[C@H]1[C@@H]2CN(c3ncnc4[nH]c5cc(F)ccc5c34)CC[C@@H]21,True,True,True
+pnas,LL114_0024,5SR8,OC(=O)CC1CN(CC2(CCC2)O1)C=3N=CN=C4NC=5C=C(F)C=CC5C34,R0A,R0A,connectivity,O=C(O)C[C@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)CC2(CCC2)O1,True,True,True
+pnas,LL114_0033,5SRA,Cl.OC(=O)C1CN(CCO1)C=2N=CN=C3NC=4C=C(F)C=CC4C23,R0L,R0L,connectivity,O=C(O)[C@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)CCO1,True,True,True
+pnas,LL123_0031,5SRB,OC(=O)C1(F)CN(CC21COC2)C=3N=CN=C4NC=5C=C(F)C=CC5C34,R0R R0W,R0R R0W,connectivity,O=C(O)[C@]1(F)CN(c2ncnc3[nH]c4cc(F)ccc4c23)CC12COC2 O=C(O)[C@@]1(F)CN(c2ncnc3[nH]c4cc(F)ccc4c23)CC12COC2,True,True,True
+pnas,LL114_0036,5SRC,OC(C1CCCN(C1)C=2N=CN=C3NC=4C=C(F)C=CC4C23)C(=O)O,QIO QIR,QIO QIR,connectivity,O=C(O)[C@H](O)[C@@H]1CCCN(c2ncnc3[nH]c4cc(F)ccc4c23)C1 O=C(O)[C@@H](O)[C@@H]1CCCN(c2ncnc3[nH]c4cc(F)ccc4c23)C1,True,True,True
+pnas,LL123_0036,5SRD,Cl.CS(=O)(=O)NC(=O)C1(F)CN(CC21CCC2)C=3N=CN=C4NC=5C=C(F)C=CC5C34,R8K,R8K,connectivity,CS(=O)(=O)NC(=O)[C@@]1(F)CN(c2ncnc3[nH]c4cc(F)ccc4c23)CC12CCC2,True,True,True
+pnas,LL123_0029,5SRE,OC(=O)C1CN(CCC21CCC2)C=3N=CN=C4NC=5C=C(F)C=CC5C34,R8R,R8R,connectivity,O=C(O)[C@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)CCC12CCC2,True,True,True
+pnas,LL114_0019,5SRK,Cl.CS(=O)(=O)NC(=O)C1CN(CCO1)C=2N=CN=C3NC=4C=C(F)C=CC4C23,R9U,R9U,connectivity,CS(=O)(=O)NC(=O)[C@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)CCO1,True,True,True
+pnas,LL114_0001,5SRL,"Cl.OC[C@@H]1CN(C[C@H](CC(=O)O)O1)C=2N=CN=C3NC=4C=C(F)C=CC4C23 |&1:3,7,r|",RA3,RA3,connectivity,O=C(O)C[C@@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)C[C@H](CO)O1,True,True,True
+pnas,Z2215,5SRM,CC1(C)CN(CC(CC(=O)O)O1)C=2N=CN=C3NC=4C=CC=CC4C23,RBB,RBB,connectivity,CC1(C)CN(c2ncnc3[nH]c4ccccc4c23)C[C@@H](CC(=O)O)O1,True,False,True
+pnas,Z9596,5SRN,OC(=O)CC1CN(CCO1)C=2N=CN=C3NC=4C=CC=CC4C23,RBO RC3,RBO RC3,connectivity,O=C(O)C[C@@H]1CN(c2ncnc3[nH]c4ccccc4c23)CCO1 O=C(O)C[C@H]1CN(c2ncnc3[nH]c4ccccc4c23)CCO1,True,True,True
+pnas,LL123_0006,5SRO,OC(=O)C1(F)CN(CC21CCC2)C=3N=CN=C4NC=5C=C(Br)C=CC5C34,RCR RD6,RCR RD6,connectivity,O=C(O)[C@]1(F)CN(c2ncnc3[nH]c4cc(Br)ccc4c23)CC12CCC2 O=C(O)[C@@]1(F)CN(c2ncnc3[nH]c4cc(Br)ccc4c23)CC12CCC2,True,True,True
+pnas,Z4706,5SRP,OC(=O)C1CN(CC21CCC2)C=3N=CN=C4NC=5C=CC=CC5C34.OC(=O)C(F)(F)F,RDN TFA,RDN,connectivity,O=C(O)[C@H]1CN(c2ncnc3[nH]c4ccccc4c23)CC12CCC2,True,True,True
+pnas,LL114_0008,5SRT,FC=1C=CC2=C(C1)NC=3N=CN=C(N4CCOC(C4)C5=NN=NN5)C23,RG5,RG5,connectivity,Fc1ccc2c(c1)[nH]c1ncnc(N3CCO[C@@H](c4nnn[nH]4)C3)c12,True,True,True
+pnas,LL123_0020,5SRU,OC(=O)C1CN(CC21CCC2)C=3N=CN=C4NC=5C=C(F)C=CC5C34,RGF,RGF,connectivity,O=C(O)[C@@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)CC12CCC2,True,True,True
+pnas,LL123_0032,5SRV,OC(=O)C1(F)CN(CC1C2CC2)C=3N=CN=C4NC=5C=C(F)C=CC5C34,RI3,RI3,connectivity,O=C(O)[C@]1(F)CN(c2ncnc3[nH]c4cc(F)ccc4c23)C[C@H]1C1CC1,True,True,True
+pnas,LL114_0041,5SRX,OC(=O)CCC1CN(CCO1)C=2N=CN=C3NC=4C=C(F)C=CC4C23,RIK,RIK,connectivity,O=C(O)CC[C@@H]1CN(c2ncnc3[nH]c4cc(F)ccc4c23)CCO1,True,True,True
+pnas,LRH-0003,5SRY,FC=1C=CC2=C(C1)NC=3N=CN=C(NN4CCCC4=O)C23,RIW,RIW,stereo,O=C1CCCN1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,True
+pnas,LRH-0021,5SRZ,"OC(=O)[C@@H]1CCCC[C@@H]1NC=2N=CN=C3NC=4C=C(F)C=CC4C23 |&1:3,8,r|",RIZ RJ9,RIZ,stereo,O=C(O)[C@@H]1CCCC[C@@H]1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,True
+pnas,Z0611,5SS3,CCC(=O)NC1=NC(C)=C(S1)S(=O)(=O)NC=2C=CC=C(C#N)C2,RK9,RK9,stereo,CCC(=O)Nc1nc(C)c(S(=O)(=O)Nc2cccc(C#N)c2)s1,True,True,True
+pnas,Z3722,5SS5,OC(=O)CC(NC(=O)C=1C=C(F)C=C2NC=NC12)C=3C=CC(Br)=CC3,RKU,RKU,connectivity,O=C(O)C[C@H](NC(=O)c1cc(F)cc2[nH]cnc12)c1ccc(Br)cc1,True,True,True
+pnas,Z3122,5SS9,OC(=O)CC(NC(=O)C=1N=CN=C2NC=CC12)C=3C=CC(Br)=CC3,RLU,RLU,connectivity,O=C(O)C[C@@H](NC(=O)c1ncnc2[nH]ccc12)c1ccc(Br)cc1,True,True,True
+pnas,Z6645,5SSK,OC(=O)C1CC(NC(=O)C=2N=CN=C3SC=CC23)C=C1,RQR,RQR,connectivity,O=C(N[C@H]1C=C[C@@H](C(=O)O)C1)c1ncnc2sccc12,True,True,True
+pnas,Z6742,5SSL,CN1N=CC=2N=CN=C(NS(=O)(=O)CC=3C=CC(CC#N)=CC3)C12,RR3,RR3,stereo,Cn1ncc2ncnc(NS(=O)(=O)Cc3ccc(CC#N)cc3)c21,True,True,True
+pnas,Z8539_2001,5SSM,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC=4NC=NC4C3,RRF RS0,RRF RS0,connectivity,O=C(N[C@H]1c2cccc(O)c2C[C@H]1C(=O)O)c1ccc2[nH]cnc2c1 O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1ccc2[nH]cnc2c1,True,True,True
+pnas,LL123_0016,5SSO,NC=1N=C(N2CC3(CCC3)C(F)(C2)C(=O)O)C=4C=5C=CC(F)=CC5NC4N1,RSR RT5,RSR RT5,connectivity,Nc1nc(N2CC3(CCC3)[C@](F)(C(=O)O)C2)c2c(n1)[nH]c1cc(F)ccc12 Nc1nc(N2CC3(CCC3)[C@@](F)(C(=O)O)C2)c2c(n1)[nH]c1cc(F)ccc12,True,True,True
+pnas,Z8539_2004,5SSP,OC(=O)C1CC=2C(=CC=CC2O)C1NC(=O)C=3C=CC=4NC=CC4C3,RTI RTU,RTI RTU,connectivity,O=C(N[C@@H]1c2cccc(O)c2C[C@@H]1C(=O)O)c1ccc2[nH]ccc2c1 O=C(N[C@H]1c2cccc(O)c2C[C@H]1C(=O)O)c1ccc2[nH]ccc2c1,True,True,True
+pnas,Z8539_2005,5SSQ,OC(=O)C=1NC=2C=CC=CC2C1CNC(=O)C=3C=CC=4NC=NC4C3,RV3,RV3,stereo,O=C(NCc1c(C(=O)O)[nH]c2ccccc12)c1ccc2[nH]cnc2c1,True,True,True
+pnas,Z8539_2006,5SSR,OC(=O)C=1NC=2C=CC=CC2C1CNC(=O)C=3C=CC=4NC(O)=NC4C3,RVF,RVF,stereo,O=C(NCc1c(C(=O)O)[nH]c2ccccc12)c1ccc2[nH]c(O)nc2c1,True,True,True
+pnas,Z8507,8ERS,NC=1C=CC(C(=O)OC2C(CC=3C=CC=CC23)C(=O)O)=C(O)C1,WQO,WQO,connectivity,Nc1ccc(C(=O)O[C@H]2c3ccccc3C[C@@H]2C(=O)O)c(O)c1,True,True,True
+schuller2021,ZINC000003888754,5RSC,CC1=C(C)C=2C(N)=NC=NC2N1CC3=CC=CO3,W5S,W5S,stereo,Cc1c(C)n(Cc2ccco2)c2ncnc(N)c12,True,True,True
+schuller2021,ZINC000000331945,5RSD,NC=1N=CN=C2C=CC=CC12,1LQ,1LQ,stereo,Nc1ncnc2ccccc12,True,True,True
+schuller2021,ZINC000336438345,5RSE,FC1CCCN(C1)C=2N=CN=C3NC=CC23,W5P,W5P,connectivity,F[C@@H]1CCCN(c2ncnc3[nH]ccc23)C1,True,True,True
+schuller2021,ZINC000026180281,5RSF,CN1C=NC=2C(N)=NC(N)=NC12,W5M,W5M,stereo,Cn1cnc2c(N)nc(N)nc21,True,True,True
+schuller2021,ZINC000263392672,5RSG,CN(CCC(=O)O)C=1N=CN=C2NC=CC12,W5J,W5J,stereo,CN(CCC(=O)O)c1ncnc2[nH]ccc12,True,True,True
+schuller2021,POB0135,5S3W,CC(C=CC=C1)=C1[C@H]2[C@@H](C(O)=O)COC2,W2S,W2S,stereo,Cc1ccccc1[C@@H]1COC[C@@H]1C(=O)O,True,True,True
+schuller2021,SF005,5S4G,Nc1nnc2ccccn12,W3S SO4,W3S,stereo,Nc1nnc2ccccn12,True,True,True
+schuller2021,SF048,5S4H,NC(=O)N1CCC(CC1)C(O)=O,W3V,W3V,stereo,NC(=O)N1CCC(C(=O)O)CC1,True,True,True
+scienceadv,AVI-92,5SQJ,OC(=O)[C@@H]1CC=2C(=CC=CC2O)[C@@H]1NC(=O)C=3C=CC(NC(=O)NC4CC4)=CC3,DMS QRU,QRU,stereo,O=C(Nc1ccc(C(=O)N[C@H]2c3cccc(O)c3C[C@H]2C(=O)O)cc1)NC1CC1,True,True,True
+scienceadv,AVI-219,5SRY,FC=1C=CC2=C(C1)NC=3N=CN=C(NN4CCCC4=O)C23,RIW,RIW,stereo,O=C1CCCN1Nc1ncnc2[nH]c3cc(F)ccc3c12,True,True,True
+scienceadv,AVI-313,7HCF,OCC(CC=1C=CC=CC1)NC=2N=CN=C3NC=CC23,A1A49 A1A5A CL,A1A49 A1A5A,connectivity,OC[C@H](Cc1ccccc1)Nc1ncnc2[nH]ccc12 OC[C@@H](Cc1ccccc1)Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-316,7HCG,OC(=O)C=1SC=CC1NC(=O)C=2C=CC=3OCOC3C2,A1A5B,A1A5B,stereo,O=C(Nc1ccsc1C(=O)O)c1ccc2c(c1)OCO2,True,True,False
+scienceadv,AVI-317,7HCH,CC=1SC=2N=CN=C(SC=3C=CC=CC3C(=O)O)C2C1C,A1A5C,A1A5C,stereo,Cc1sc2ncnc(Sc3ccccc3C(=O)O)c2c1C,True,True,False
+scienceadv,AVI-328,7HCJ,CC(CNC(=O)C=1C=CC=2NC(=O)CCC2C1)C(=O)O,A1A5D A1A5E,A1A5D A1A5E,connectivity,C[C@H](CNC(=O)c1ccc2c(c1)CCC(=O)N2)C(=O)O C[C@@H](CNC(=O)c1ccc2c(c1)CCC(=O)N2)C(=O)O,True,True,False
+scienceadv,AVI-288,7HCN,OC(=O)C(C=1C=CC=CC1)N2SC=3C=CC=CC3C2=O,A1A5W,A1A5W,connectivity,O=C(O)[C@H](c1ccccc1)n1sc2ccccc2c1=O,True,True,False
+scienceadv,AVI-291,7HCO,CC(C)N1N=NN=C1SCC2=C(SC=3C=CC=C(F)C23)C(=O)O,DMS A1A5X,A1A5X,stereo,CC(C)n1nnnc1SCc1c(C(=O)O)sc2cccc(F)c12,True,True,False
+scienceadv,AVI-338,7HCP,OC(=O)C1CCC2(CCCC2)N(C1)C(=O)C=3C=C4CCC(=O)NC4=CC3F,A1A5Y,A1A5Y,connectivity,O=C1CCc2cc(C(=O)N3C[C@H](C(=O)O)CCC34CCCC4)c(F)cc2N1,True,True,False
+scienceadv,AVI-610,7HCV,OC[C@@H]1C[C@@H](CN1C2=C3C=CNC3=NC=N2)O,DMS A1A6P CL,A1A6P,connectivity,OC[C@H]1C[C@@H](O)CN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-1444,7HCW,O[C@H]1COC[C@@H]1NC2=NC=NC3=C2C=CN3,A1A6Q,A1A6Q,stereo,O[C@H]1COC[C@@H]1Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3571,7HCX,OC1(CCC1)CNC2=C(C(C)=CN3)C3=NC=N2,A1A6V CL,A1A6V,stereo,Cc1c[nH]c2ncnc(NCC3(O)CCC3)c12,True,True,False
+scienceadv,AVI-3704,7HD1,CC1(C)C[C@@H](CO)N(C1)C=2N=CN=C3NC=CC23,A1A6Z,A1A6Z,stereo,CC1(C)C[C@@H](CO)N(c2ncnc3[nH]ccc23)C1,True,True,False
+scienceadv,AVI-3708,7HD4,OCC1CC2(CCCC2)CN1C=3N=CN=C4NC=CC34,A1A62,A1A62,connectivity,OC[C@@H]1CC2(CCCC2)CN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-1445,7HD6,CC(C)(O)[C@@H]1CCCN1C=2N=CN=C3NC=CC23,TFA A1A65,A1A65,stereo,CC(C)(O)[C@@H]1CCCN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3713,7HD9,OCC1C2CCC(C2)N1C=3N=CN=C4NC=CC34,A1A7W,A1A7W,connectivity,OC[C@@H]1[C@@H]2CC[C@@H](C2)N1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3720,7HDE,OC[C@@H]1C[C@@H]2CCC[C@@H]2N1C=3N=CN=C4NC=CC34,A1A76,A1A76,stereo,OC[C@@H]1C[C@@H]2CCC[C@@H]2N1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3731,7HDL,OC1(CC=2C=CC=CC2C1)[C@H]3CCCN3C=4N=CN=C5NC=CC45,TFA A1A8J,A1A8J,stereo,OC1([C@H]2CCCN2c2ncnc3[nH]ccc23)Cc2ccccc2C1,True,True,False
+scienceadv,AVI-3734,7HDN,OCCC(CO)NC=1N=CN=C2NC=CC12,DMS A1A8L CL,A1A8L,connectivity,OCC[C@H](CO)Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3651,7HDZ,OCC(NC=1N=CN=C2NC=CC12)C3CC3,TFA A1A89 CL,A1A89,connectivity,OC[C@@H](Nc1ncnc2[nH]ccc12)C1CC1,True,True,False
+scienceadv,AVI-3664,7HE8,"O[C@@H]1CC[C@H]2CCN([C@@H]12)C=3N=CN=C4NC=CC34 |&1:1,4,8,r|",TFA A1A9K,A1A9K,connectivity,O[C@H]1CC[C@@H]2CCN(c3ncnc4[nH]ccc34)[C@@H]21,True,True,False
+scienceadv,AVI-3666,7HEA,CCC(O)[C@H]1CCCN1C=2N=CN=C3NC=CC23,A1A9M CL,A1A9M,connectivity,CC[C@@H](O)[C@H]1CCCN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3669,7HEC,CC(C(CO)NC=1N=CN=C2NC=CC12)C=3C=CC=CC3,TFA A1A9O,A1A9O,connectivity,C[C@H](c1ccccc1)[C@@H](CO)Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3670,7HED,OCC1(CCC1)NC=2N=CN=C3NC=CC23,TFA A1A9T CL,A1A9T,stereo,OCC1(Nc2ncnc3[nH]ccc23)CCC1,True,True,False
+scienceadv,AVI-3692,7HES,OCC1(CCCC1)NC=2N=CN=C3NC=CC23,TFA A1A98,A1A98,stereo,OCC1(Nc2ncnc3[nH]ccc23)CCCC1,True,True,False
+scienceadv,AVI-3695,7HEU,CCC(CC)(CO)NC=1N=CN=C2NC=CC12,A1BAA,A1BAA,stereo,CCC(CC)(CO)Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3697,7HEW,CCC(C)(CO)NC=1N=CN=C2NC=CC12,A1A99 CL,A1A99,connectivity,CC[C@](C)(CO)Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3761,7HF1,CC1=CNC2=NC=NC(NCC3(CCCCC3)O)=C12,A1BAM CL,A1BAM,stereo,Cc1c[nH]c2ncnc(NCC3(O)CCCCC3)c12,True,True,False
+scienceadv,AVI-4062,7HF2,CC(O)C1CCCN1C=2N=CN=C3NC=CC23,A1BAN CL,A1BAN,connectivity,C[C@@H](O)[C@H]1CCCN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-4064,7HF3,"C[C@@H]1CCN([C@H](CO)C1)C=2N=CN=C3NC=CC23 |&1:1,5,r|",A1BAP A1BAQ,A1BAP,stereo,C[C@@H]1CCN(c2ncnc3[nH]ccc23)[C@H](CO)C1,True,True,False
+scienceadv,AVI-4066,7HF4,OC[C@H](CC=1C=CC(O)=CC1)NC=2N=CN=C3NC=CC23,TFA DMS A1BAO CL,A1BAO,stereo,OC[C@H](Cc1ccc(O)cc1)Nc1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3758,7HF5,CC1=CNC2=NC=NC(NCC(C)(O)C)=C12,A1BAS CL,A1BAS,stereo,Cc1c[nH]c2ncnc(NCC(C)(C)O)c12,True,True,False
+scienceadv,AVI-3760,7HF6,CC1=CNC2=NC=NC(NCC3(CCCC3)O)=C12,DMS A1BAT CL,A1BAT,stereo,Cc1c[nH]c2ncnc(NCC3(O)CCCC3)c12,True,True,False
+scienceadv,AVI-4063,7HF7,"C[C@@H]1CC[C@@H](CO)N(C1)C=2N=CN=C3NC=CC23 |&1:1,4,r|",DMS A1BAR CL,A1BAR,connectivity,C[C@H]1CC[C@H](CO)N(c2ncnc3[nH]ccc23)C1,True,True,False
+scienceadv,AVI-4329,7HF8,CC1=CNC=2N=CN=C(NCC3(O)CCC(O)CC3)C12,A1BAU CL,A1BAU,connectivity,Cc1c[nH]c2ncnc(NC[C@]3(O)CC[C@H](O)CC3)c12,True,True,False
+scienceadv,AVI-4194,7HF9,CC1=CNC2=NC=NC(NCC3(O)CCOCC3)=C21,A1BAV CL,A1BAV,stereo,Cc1c[nH]c2ncnc(NCC3(O)CCOCC3)c12,True,True,False
+scienceadv,AVI-4195,7HFA,CC1=CNC2=NC=NC(NCC3(O)CCSCC3)=C21,A1BAW CL,A1BAW,stereo,Cc1c[nH]c2ncnc(NCC3(O)CCSCC3)c12,True,True,False
+scienceadv,AVI-4331,7HFB,CC1CCC(O)(CNC=2N=CN=C3NC=C(C)C23)CC1,A1BAX,A1BAX,connectivity,Cc1c[nH]c2ncnc(NC[C@]3(O)CC[C@H](C)CC3)c12,True,True,False
+scienceadv,AVI-4126,7HFC,CC(C)(O)C1N(CCC1(C)C)C=2N=CN=C3NC=CC23,A1BAY A1BAZ,A1BAY A1BAZ,connectivity,CC(C)(O)[C@@H]1N(c2ncnc3[nH]ccc23)CCC1(C)C CC(C)(O)[C@H]1N(c2ncnc3[nH]ccc23)CCC1(C)C,True,True,False
+scienceadv,AVI-4127,7HFD,CC(C)(O)C1C2CCCCC2CN1C=3N=CN=C4NC=CC34,A1BA8 A1BA9,A1BA8 A1BA9,connectivity,CC(C)(O)[C@@H]1[C@H]2CCCC[C@H]2CN1c1ncnc2[nH]ccc12 CC(C)(O)[C@@H]1[C@@H]2CCCC[C@@H]2CN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-4128,7HFE,CC(C)(O)C1C2CCC2CN1C=3N=CN=C4NC=CC34,A1BA5,A1BA5,connectivity,CC(C)(O)[C@H]1[C@H]2CC[C@H]2CN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-4307,7HFF,CC1CCCC(O)(CNC=2N=CN=C3NC=CC23)C1,A1BA6 CL,A1BA6,connectivity,C[C@@H]1CCC[C@@](O)(CNc2ncnc3[nH]ccc23)C1,True,True,False
+scienceadv,AVI-4308,7HFG,OC1(CNC=2N=CN=C3NC=CC23)CCC(F)(F)CC1,A1BA7 CL,A1BA7,stereo,OC1(CNc2ncnc3[nH]ccc23)CCC(F)(F)CC1,True,True,False
+scienceadv,AVI-4311,7HFH,OC1(CNC=2N=CN=C3NC=CC23)CCCOC1,DMS A1BBI,A1BBI,connectivity,O[C@@]1(CNc2ncnc3[nH]ccc23)CCCOC1,True,True,False
+scienceadv,AVI-4312,7HFI,CC1CCC(O)(CNC=2N=CN=C3NC=CC23)CC1,DMS A1BBJ CL,A1BBJ,connectivity,C[C@H]1CC[C@@](O)(CNc2ncnc3[nH]ccc23)CC1,True,True,False
+scienceadv,AVI-4313,7HFJ,OC1(CNC=2N=CN=C3NC=CC23)COC4CC1C4,A1BBK CL,A1BBK,connectivity,O[C@@]1(CNc2ncnc3[nH]ccc23)CO[C@H]2C[C@@H]1C2,True,True,False
+scienceadv,AVI-4314,7HFK,OC1(CNC=2N=CN=C3NC=CC23)CCOCC1,A1BBL CL,A1BBL,stereo,OC1(CNc2ncnc3[nH]ccc23)CCOCC1,True,True,False
+scienceadv,AVI-4319,7HFL,OC1(CNC=2N=CN=C3NC=CC23)CCSCC1,A1BBM CL,A1BBM,stereo,OC1(CNc2ncnc3[nH]ccc23)CCSCC1,True,True,False
+scienceadv,AVI-4320,7HFM,OC1(CNC=2N=CN=C3NC=CC23)CC4CCC1CC4,A1BBN,A1BBN,connectivity,O[C@]1(CNc2ncnc3[nH]ccc23)C[C@H]2CC[C@@H]1CC2,True,True,False
+scienceadv,AVI-4322,7HFN,OC1(CNC=2N=CN=C3NC=CC23)CCCSC1,A1BBO CL,A1BBO,connectivity,O[C@@]1(CNc2ncnc3[nH]ccc23)CCCSC1,True,True,False
+scienceadv,AVI-4309,7HFO,OC1(CNC=2N=CN=C3NC=CC23)CCCC(C1)C(F)(F)F,A1BBP CL,A1BBP,connectivity,O[C@@]1(CNc2ncnc3[nH]ccc23)CCC[C@@H](C(F)(F)F)C1,True,True,False
+scienceadv,AVI-4318,7HFP,CN(CC1(O)CCOCC1)C=2N=CN=C3NC=CC23,DMS A1BBQ CL,A1BBQ,stereo,CN(CC1(O)CCOCC1)c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-5994,7HFQ,CC1(C)CCN(C(CO)C1)C=2N=CN=C3NC=CC23,A1BBR,A1BBR,connectivity,CC1(C)CCN(c2ncnc3[nH]ccc23)[C@H](CO)C1,True,True,False
+scienceadv,AVI-5997,7HFR,"O[C@@H]1CC[C@@H]2CCN([C@H]12)C=3N=CN=C4NC=CC34 |&1:1,4,8,r|",DMS A1BBS,A1BBS,connectivity,O[C@H]1CC[C@H]2CCN(c3ncnc4[nH]ccc34)[C@H]21,True,True,False
+scienceadv,AVI-5998,7HFS,OCC1C=CCCN1C=2N=CN=C3NC=CC23,A1BBT CL,A1BBT,connectivity,OC[C@@H]1C=CCCN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-6000,7HFT,CC(C)(C)C1CCCN1C=2N=CN=C3NC=CC23,A1BBU,A1BBU,connectivity,CC(C)(C)[C@H]1CCCN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-6002,7HFU,OCC1CC=CCN1C=2N=CN=C3NC=CC23,A1BBX,,none,,False,True,False
+scienceadv,AVI-5266,7HFX,OCC(NC=1N=CN=C2NC=CC12)C3CCOC3,A1BCC CL,,none,,False,True,False
+scienceadv,AVI-6217,7HFY,OC1(CNC=2N=CN=C3NC=CC23)CCCCC1,A1BCD CL,A1BCD,stereo,OC1(CNc2ncnc3[nH]ccc23)CCCCC1,True,True,False
+scienceadv,AVI-6220,7HFZ,OC1CCC(O)(CNC=2N=CN=C3NC=CC23)CC1,A1BCE CL,A1BCE,connectivity,O[C@H]1CC[C@@](O)(CNc2ncnc3[nH]ccc23)CC1,True,True,False
+scienceadv,ADP-ribose,7KQP,O[C@@H]1[C@H](O)[C@@H](COP([O-])(OP(OC[C@@H]2[C@@H](O)[C@@H](O)[C@H](O)O2)([O-])=O)=O)O[C@H]1N3C(N=CN=C4N)=C4N=C3,AR6,AR6,connectivity,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@H]2O[C@H](O)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O,True,True,True
+scienceadv,AVI-607,9D6B,CC(O)([C@H]1CCCN1C2=C3C=CNC3=NC=N2)C,A1A17 DMS CL,A1A17,stereo,CC(C)(O)[C@H]1CCCN1c1ncnc2[nH]ccc12,True,True,False
+scienceadv,AVI-3716,9D6G,"C[C@@H]1CCCN([C@@H]1CO)C=2N=CN=C3NC=CC23 |&1:1,6,r|",DMS A1A2F,A1A2F,connectivity,C[C@H]1CCCN(c2ncnc3[nH]ccc23)[C@H]1CO,True,True,False
+scienceadv,AVI-1504,9D6H,CC(C)[C@H](CO)NC=1N=CN=C2NC=CC12,A1AJW DMS CL,A1AJW,stereo,CC(C)[C@H](CO)Nc1ncnc2[nH]ccc12,True,True,True
+scienceadv,AVI-4317,9D6I,OC1(CNC=2N=CN=C3NC=CC23)CCCS(=O)(=O)C1,A1A2G CL DMS,A1A2G,connectivity,O=S1(=O)CCC[C@@](O)(CNc2ncnc3[nH]ccc23)C1,True,True,False

@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+#PBS -N boltz2-job
+#PBS -A GenesisHackathonOct26
+#PBS -q R7728155
+#PBS -l select=1:ngpus=4
+#PBS -l walltime=00:30:00
+#PBS -l filesystems=home:eagle
+#PBS -j oe
+
+set -euo pipefail
+
+# PBS starts jobs from the submission directory, but set this explicitly so
+# relative JOB_SCRIPT paths behave the same in local smoke checks.
+cd "${PBS_O_WORKDIR:-$PWD}"
+
+if [[ -n "${VENV_DIR:-}" ]]; then
+    module load cray-python/3.12.12
+    module load cuda/12.9
+    source "$VENV_DIR/bin/activate"
+    # Polaris sets CC=nvc, which rejects the -Wno-psabi flag Triton passes when
+    # JIT-compiling its CUDA helper for the cuEquivariance kernels.
+    export CC=gcc
+fi
+
+: "${JOB_SCRIPT:?Set JOB_SCRIPT to a project shell script with qsub -v}"
+if [[ ! -f "$JOB_SCRIPT" ]]; then
+    printf 'JOB_SCRIPT does not exist: %s\n' "$JOB_SCRIPT" >&2
+    exit 2
+fi
+
+if [[ -n "${PBS_JOBID:-}" && "${GPU_MONITOR_INTERVAL:-30}" != 0 ]] && command -v nvidia-smi > /dev/null; then
+    monitor_prefix="$PWD/gpu-monitor.${PBS_JOBID%%.*}"
+    bash jobs/polaris/gpu_monitor.sh "$monitor_prefix" &
+    monitor_pid=$!
+    trap 'kill "$monitor_pid" 2>/dev/null || true' EXIT
+fi
+
+bash "$JOB_SCRIPT"

@@ -1,0 +1,164 @@
+data_A1A5D
+# 
+_chem_comp.id                                    A1A5D 
+_chem_comp.name                                  "(2R)-2-methyl-3-[(2-oxo-1,2,3,4-tetrahydroquinoline-6-carbonyl)amino]propanoic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H16 N2 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-09-09 
+_chem_comp.pdbx_modified_date                    2025-06-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        276.288 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1A5D 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7HCJ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1A5D N2  N1  N 0 1 N N N N N N 15.439 5.560  4.463  -4.377 1.207  -0.298 N2  A1A5D 1  
+A1A5D C3  C1  C 0 1 N N N N N N 14.005 -0.953 0.279  3.294  -0.520 -0.022 C3  A1A5D 2  
+A1A5D C6  C2  C 0 1 Y N N N N N 15.177 2.856  1.917  -0.710 1.078  -0.231 C6  A1A5D 3  
+A1A5D C9  C3  C 0 1 N N N N N N 15.247 5.823  5.767  -5.419 0.463  0.118  C9  A1A5D 4  
+A1A5D C12 C4  C 0 1 Y N N N N N 15.375 3.118  4.713  -2.870 -0.667 -0.120 C12 A1A5D 5  
+A1A5D C14 C5  C 0 1 N N N N N N 12.093 -1.143 1.953  5.695  0.085  -0.149 C14 A1A5D 6  
+A1A5D C1  C6  C 0 1 N N N N N N 12.276 -2.832 0.070  4.140  1.525  1.138  C1  A1A5D 7  
+A1A5D C10 C7  C 0 1 N N N N N N 14.966 4.653  6.715  -5.206 -0.919 0.673  C10 A1A5D 8  
+A1A5D C11 C8  C 0 1 N N N N N N 15.488 3.292  6.218  -4.051 -1.602 -0.060 C11 A1A5D 9  
+A1A5D C13 C9  C 0 1 Y N N N N N 15.287 1.839  4.130  -1.590 -1.168 -0.058 C13 A1A5D 10 
+A1A5D C2  C10 C 0 1 N N R N N N 12.536 -1.378 0.496  4.293  0.636  -0.097 C2  A1A5D 11 
+A1A5D C4  C11 C 0 1 N N N N N N 15.087 0.322  2.120  0.877  -0.831 -0.043 C4  A1A5D 12 
+A1A5D C5  C12 C 0 1 Y N N N N N 15.192 1.694  2.726  -0.497 -0.298 -0.113 C5  A1A5D 13 
+A1A5D C7  C13 C 0 1 Y N N N N N 15.264 4.134  2.501  -1.992 1.569  -0.297 C7  A1A5D 14 
+A1A5D C8  C14 C 0 1 Y N N N N N 15.373 4.267  3.894  -3.079 0.702  -0.242 C8  A1A5D 15 
+A1A5D N1  N2  N 0 1 N N N N N N 14.295 0.255  1.041  1.929  0.009  -0.092 N1  A1A5D 16 
+A1A5D O1  O1  O 0 1 N N N N N N 15.663 -0.651 2.599  1.060  -2.029 0.059  O1  A1A5D 17 
+A1A5D O2  O2  O 0 1 N N N N N N 15.293 6.962  6.221  -6.543 0.913  0.044  O2  A1A5D 18 
+A1A5D O3  O3  O 0 1 N N N N N N 10.996 -0.575 2.151  5.876  -1.110 -0.127 O3  A1A5D 19 
+A1A5D O4  O4  O 0 1 N N N N N N 12.871 -1.534 2.854  6.743  0.921  -0.219 O4  A1A5D 20 
+A1A5D H10 H1  H 0 1 N N N N N N 15.642 6.328  3.856  -4.531 2.100  -0.644 H10 A1A5D 21 
+A1A5D H5  H2  H 0 1 N N N N N N 14.671 -1.762 0.613  3.462  -1.202 -0.855 H5  A1A5D 22 
+A1A5D H6  H3  H 0 1 N N N N N N 14.173 -0.758 -0.790 3.428  -1.055 0.918  H6  A1A5D 23 
+A1A5D H8  H4  H 0 1 N N N N N N 15.098 2.761  0.844  0.131  1.755  -0.274 H8  A1A5D 24 
+A1A5D H2  H5  H 0 1 N N N N N N 11.219 -3.082 0.245  4.332  0.936  2.035  H2  A1A5D 25 
+A1A5D H3  H6  H 0 1 N N N N N N 12.508 -2.948 -0.999 4.852  2.348  1.084  H3  A1A5D 26 
+A1A5D H4  H7  H 0 1 N N N N N N 12.915 -3.506 0.659  3.126  1.923  1.176  H4  A1A5D 27 
+A1A5D H12 H8  H 0 1 N N N N N N 15.442 4.872  7.682  -4.970 -0.850 1.735  H12 A1A5D 28 
+A1A5D H11 H9  H 0 1 N N N N N N 13.877 4.575  6.852  -6.114 -1.506 0.541  H11 A1A5D 29 
+A1A5D H13 H10 H 0 1 N N N N N N 14.907 2.496  6.706  -4.360 -1.860 -1.073 H13 A1A5D 30 
+A1A5D H14 H11 H 0 1 N N N N N N 16.547 3.199  6.502  -3.770 -2.508 0.477  H14 A1A5D 31 
+A1A5D H15 H12 H 0 1 N N N N N N 15.292 0.962  4.760  -1.429 -2.232 0.033  H15 A1A5D 32 
+A1A5D H1  H13 H 0 1 N N N N N N 11.913 -0.734 -0.142 4.101  1.224  -0.995 H1  A1A5D 33 
+A1A5D H9  H14 H 0 1 N N N N N N 15.247 5.014  1.876  -2.159 2.632  -0.388 H9  A1A5D 34 
+A1A5D H7  H15 H 0 1 N N N N N N 13.867 1.105  0.733  1.783  0.965  -0.173 H7  A1A5D 35 
+A1A5D H16 H16 H 0 1 N N N N N N 12.498 -1.332 3.704  7.623  0.521  -0.250 H16 A1A5D 36 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1A5D C1  C2  SING N N 1  
+A1A5D C3  C2  SING N N 2  
+A1A5D C3  N1  SING N N 3  
+A1A5D C2  C14 SING N N 4  
+A1A5D N1  C4  SING N N 5  
+A1A5D C6  C7  DOUB Y N 6  
+A1A5D C6  C5  SING Y N 7  
+A1A5D C14 O3  DOUB N N 8  
+A1A5D C14 O4  SING N N 9  
+A1A5D C4  O1  DOUB N N 10 
+A1A5D C4  C5  SING N N 11 
+A1A5D C7  C8  SING Y N 12 
+A1A5D C5  C13 DOUB Y N 13 
+A1A5D C8  N2  SING N N 14 
+A1A5D C8  C12 DOUB Y N 15 
+A1A5D C13 C12 SING Y N 16 
+A1A5D N2  C9  SING N N 17 
+A1A5D C12 C11 SING N N 18 
+A1A5D C9  O2  DOUB N N 19 
+A1A5D C9  C10 SING N N 20 
+A1A5D C11 C10 SING N N 21 
+A1A5D N2  H10 SING N N 22 
+A1A5D C3  H5  SING N N 23 
+A1A5D C3  H6  SING N N 24 
+A1A5D C6  H8  SING N N 25 
+A1A5D C1  H2  SING N N 26 
+A1A5D C1  H3  SING N N 27 
+A1A5D C1  H4  SING N N 28 
+A1A5D C10 H12 SING N N 29 
+A1A5D C10 H11 SING N N 30 
+A1A5D C11 H13 SING N N 31 
+A1A5D C11 H14 SING N N 32 
+A1A5D C13 H15 SING N N 33 
+A1A5D C2  H1  SING N N 34 
+A1A5D C7  H9  SING N N 35 
+A1A5D N1  H7  SING N N 36 
+A1A5D O4  H16 SING N N 37 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1A5D SMILES           ACDLabs              14.52   "O=C(O)C(C)CNC(=O)c1ccc2NC(=O)CCc2c1"                                                                                                       
+A1A5D InChI            InChI                1.06    "InChI=1S/C14H16N2O4/c1-8(14(19)20)7-15-13(18)10-2-4-11-9(6-10)3-5-12(17)16-11/h2,4,6,8H,3,5,7H2,1H3,(H,15,18)(H,16,17)(H,19,20)/t8-/m1/s1" 
+A1A5D InChIKey         InChI                1.06    KEZSUZCBIFWAEA-MRVPVSSYSA-N                                                                                                                 
+A1A5D SMILES_CANONICAL CACTVS               3.385   "C[C@H](CNC(=O)c1ccc2NC(=O)CCc2c1)C(O)=O"                                                                                                   
+A1A5D SMILES           CACTVS               3.385   "C[CH](CNC(=O)c1ccc2NC(=O)CCc2c1)C(O)=O"                                                                                                    
+A1A5D SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "C[C@H](CNC(=O)c1ccc2c(c1)CCC(=O)N2)C(=O)O"                                                                                                 
+A1A5D SMILES           "OpenEye OEToolkits" 3.1.0.0 "CC(CNC(=O)c1ccc2c(c1)CCC(=O)N2)C(=O)O"                                                                                                     
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1A5D "SYSTEMATIC NAME" ACDLabs              14.52   "(2R)-2-methyl-3-[(2-oxo-1,2,3,4-tetrahydroquinoline-6-carbonyl)amino]propanoic acid"               
+A1A5D "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "(2~{R})-2-methyl-3-[(2-oxidanylidene-3,4-dihydro-1~{H}-quinolin-6-yl)carbonylamino]propanoic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1A5D "Create component" 2024-09-09 RCSB 
+A1A5D "Initial release"  2025-06-11 RCSB 
+# 

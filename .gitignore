@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+core.*
+# PBS stdout/stderr and wrapper GPU monitor output
+*.o[0-9]*
+*.e[0-9]*
+gpu-monitor.*.csv
+# Run outputs (live on /eagle)
+experiments/results
+experiments/results/
+experiments/results.old/
+testing/results/
+# Large, rebuildable inputs; rebuild with experiments/build_mac1_boltz_inputs.py
+data/structures/
+data/processed/boltz_inputs/

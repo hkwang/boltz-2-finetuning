@@ -1,0 +1,170 @@
+data_RVF
+# 
+_chem_comp.id                                    RVF 
+_chem_comp.name                                  "3-{[(2-hydroxy-1H-benzimidazole-5-carbonyl)amino]methyl}-1H-indole-2-carboxylic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C18 H14 N4 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-23 
+_chem_comp.pdbx_modified_date                    2022-07-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        350.328 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     RVF 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5SSR 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RVF C18  C1  C 0 1 Y N N -47.677 -29.034 5.698  -1.963 0.306  0.875  C18  RVF 1  
+RVF C17  C2  C 0 1 Y N N -48.370 -29.465 4.574  -2.038 -0.070 -0.472 C17  RVF 2  
+RVF C15  C3  C 0 1 N N N -47.718 -29.482 3.200  -0.801 -0.329 -1.235 C15  RVF 3  
+RVF C13  C4  C 0 1 N N N -45.746 -30.013 1.747  1.628  -0.458 -1.392 C13  RVF 4  
+RVF C12  C5  C 0 1 Y N N -44.728 -28.898 1.590  2.822  -0.248 -0.497 C12  RVF 5  
+RVF C11  C6  C 0 1 Y N N -44.886 -27.753 0.799  3.519  0.969  -0.307 C11  RVF 6  
+RVF C10  C7  C 0 1 Y N N -45.919 -27.282 -0.021 3.359  2.260  -0.826 C10  RVF 7  
+RVF C20  C8  C 0 1 Y N N -49.632 -29.487 7.045  -4.345 0.426  0.985  C20  RVF 8  
+RVF C19  C9  C 0 1 Y N N -48.305 -29.040 6.936  -3.100 0.547  1.591  C19  RVF 9  
+RVF C02  C10 C 0 1 N N N -42.853 -29.833 3.130  3.005  -2.598 0.378  C02  RVF 10 
+RVF C04  C11 C 0 1 Y N N -43.474 -28.812 2.180  3.420  -1.193 0.276  C04  RVF 11 
+RVF C06  C12 C 0 1 Y N N -43.726 -27.028 0.950  4.559  0.709  0.607  C06  RVF 12 
+RVF C07  C13 C 0 1 Y N N -43.574 -25.809 0.277  5.415  1.741  0.981  C07  RVF 13 
+RVF C08  C14 C 0 1 Y N N -44.594 -25.342 -0.537 5.238  3.001  0.456  C08  RVF 14 
+RVF C09  C15 C 0 1 Y N N -45.766 -26.075 -0.686 4.211  3.256  -0.444 C09  RVF 15 
+RVF C22  C16 C 0 1 Y N N -51.612 -30.075 7.644  -6.469 0.336  0.372  C22  RVF 16 
+RVF C25  C17 C 0 1 Y N N -50.313 -29.918 5.929  -4.440 0.044  -0.365 C25  RVF 17 
+RVF C26  C18 C 0 1 Y N N -49.677 -29.911 4.685  -3.277 -0.202 -1.093 C26  RVF 18 
+RVF N05  N1  N 0 1 Y N N -42.910 -27.690 1.778  4.481  -0.620 0.952  N05  RVF 19 
+RVF N14  N2  N 0 1 N N N -46.366 -29.973 3.053  0.400  -0.202 -0.635 N14  RVF 20 
+RVF N21  N3  N 0 1 Y N N -50.464 -29.596 8.091  -5.643 0.596  1.426  N21  RVF 21 
+RVF N24  N4  N 0 1 Y N N -51.538 -30.275 6.342  -5.763 0.001  -0.676 N24  RVF 22 
+RVF O01  O1  O 0 1 N N N -43.590 -30.642 3.752  3.680  -3.444 1.183  O01  RVF 23 
+RVF O03  O2  O 0 1 N N N -41.606 -29.864 3.297  2.054  -2.999 -0.264 O03  RVF 24 
+RVF O16  O3  O 0 1 N N N -48.323 -29.110 2.256  -0.864 -0.656 -2.404 O16  RVF 25 
+RVF O23  O4  O 0 1 N N N -52.739 -30.336 8.431  -7.819 0.396  0.411  O23  RVF 26 
+RVF H181 H1  H 0 0 N N N -46.655 -28.696 5.609  -0.999 0.402  1.352  H181 RVF 27 
+RVF H131 H2  H 0 0 N N N -46.523 -29.901 0.977  1.683  0.227  -2.238 H131 RVF 28 
+RVF H132 H3  H 0 0 N N N -45.240 -30.982 1.619  1.622  -1.486 -1.756 H132 RVF 29 
+RVF H101 H4  H 0 0 N N N -46.828 -27.854 -0.134 2.564  2.467  -1.528 H101 RVF 30 
+RVF H191 H5  H 0 0 N N N -47.774 -28.702 7.814  -3.033 0.832  2.630  H191 RVF 31 
+RVF H071 H6  H 0 0 N N N -42.666 -25.236 0.392  6.216  1.554  1.681  H071 RVF 32 
+RVF H081 H7  H 0 0 N N N -44.478 -24.403 -1.058 5.903  3.801  0.748  H081 RVF 33 
+RVF H091 H8  H 0 0 N N N -46.558 -25.704 -1.320 4.086  4.250  -0.846 H091 RVF 34 
+RVF H261 H9  H 0 0 N N N -50.205 -30.254 3.808  -3.336 -0.491 -2.132 H261 RVF 35 
+RVF H051 H10 H 0 0 N N N -42.001 -27.378 2.053  5.073  -1.079 1.568  H051 RVF 36 
+RVF H141 H11 H 0 0 N N N -45.859 -30.286 3.856  0.451  0.059  0.298  H141 RVF 37 
+RVF H211 H12 H 0 0 N N N -50.254 -29.358 9.039  -5.916 0.854  2.321  H211 RVF 38 
+RVF H2   H14 H 0 1 N N N -43.054 -31.202 4.300  3.370  -4.359 1.217  H2   RVF 39 
+RVF H231 H15 H 0 0 N N N -53.436 -30.677 7.883  -8.181 1.265  0.187  H231 RVF 40 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RVF C09 C08  DOUB Y N 1  
+RVF C09 C10  SING Y N 2  
+RVF C08 C07  SING Y N 3  
+RVF C10 C11  DOUB Y N 4  
+RVF C07 C06  DOUB Y N 5  
+RVF C11 C06  SING Y N 6  
+RVF C11 C12  SING Y N 7  
+RVF C06 N05  SING Y N 8  
+RVF C12 C13  SING N N 9  
+RVF C12 C04  DOUB Y N 10 
+RVF C13 N14  SING N N 11 
+RVF N05 C04  SING Y N 12 
+RVF C04 C02  SING N N 13 
+RVF O16 C15  DOUB N N 14 
+RVF N14 C15  SING N N 15 
+RVF C02 O03  DOUB N N 16 
+RVF C02 O01  SING N N 17 
+RVF C15 C17  SING N N 18 
+RVF C17 C26  DOUB Y N 19 
+RVF C17 C18  SING Y N 20 
+RVF C26 C25  SING Y N 21 
+RVF C18 C19  DOUB Y N 22 
+RVF C25 N24  SING Y N 23 
+RVF C25 C20  DOUB Y N 24 
+RVF N24 C22  DOUB Y N 25 
+RVF C19 C20  SING Y N 26 
+RVF C20 N21  SING Y N 27 
+RVF C22 N21  SING Y N 28 
+RVF C22 O23  SING N N 29 
+RVF C18 H181 SING N N 30 
+RVF C13 H131 SING N N 31 
+RVF C13 H132 SING N N 32 
+RVF C10 H101 SING N N 33 
+RVF C19 H191 SING N N 34 
+RVF C07 H071 SING N N 35 
+RVF C08 H081 SING N N 36 
+RVF C09 H091 SING N N 37 
+RVF C26 H261 SING N N 38 
+RVF N05 H051 SING N N 39 
+RVF N14 H141 SING N N 40 
+RVF N21 H211 SING N N 41 
+RVF O01 H2   SING N N 42 
+RVF O23 H231 SING N N 43 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RVF SMILES           ACDLabs              12.01 "O=C(O)c1[NH]c2ccccc2c1CNC(=O)c1cc2nc(O)[NH]c2cc1"                                                                                                  
+RVF InChI            InChI                1.06  "InChI=1S/C18H14N4O4/c23-16(9-5-6-13-14(7-9)22-18(26)21-13)19-8-11-10-3-1-2-4-12(10)20-15(11)17(24)25/h1-7,20H,8H2,(H,19,23)(H,24,25)(H2,21,22,26)" 
+RVF InChIKey         InChI                1.06  XGVGMKBKRWQGTN-UHFFFAOYSA-N                                                                                                                         
+RVF SMILES_CANONICAL CACTVS               3.385 "OC(=O)c1[nH]c2ccccc2c1CNC(=O)c3ccc4[nH]c(O)nc4c3"                                                                                                  
+RVF SMILES           CACTVS               3.385 "OC(=O)c1[nH]c2ccccc2c1CNC(=O)c3ccc4[nH]c(O)nc4c3"                                                                                                  
+RVF SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc2c(c1)c(c([nH]2)C(=O)O)CNC(=O)c3ccc4c(c3)nc([nH]4)O"                                                                                          
+RVF SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc2c(c1)c(c([nH]2)C(=O)O)CNC(=O)c3ccc4c(c3)nc([nH]4)O"                                                                                          
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RVF "SYSTEMATIC NAME" ACDLabs              12.01 "3-{[(2-hydroxy-1H-benzimidazole-5-carbonyl)amino]methyl}-1H-indole-2-carboxylic acid"         
+RVF "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "3-[[(2-oxidanyl-1~{H}-benzimidazol-5-yl)carbonylamino]methyl]-1~{H}-indole-2-carboxylic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RVF "Create component" 2022-06-23 RCSB 
+RVF "Initial release"  2022-07-06 RCSB 
+# 
