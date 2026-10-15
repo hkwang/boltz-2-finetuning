@@ -7,11 +7,12 @@
 #PBS -l filesystems=home:eagle
 #PBS -j oe
 # One Codex agent with its own clone and its own 4xA100 node, run unsandboxed (full access) on /eagle.
-# Submit through experiments/spawn_agent.sh, which sets AGENT, BRIEF and the paths below.
+# Submit through experiments/spawn_agent.sh, which sets AGENT and the paths below and writes the brief to agents/<name>/brief.txt.
 # Compute nodes have no direct internet: the agent reaches the model provider (mag in ~/.codex/config.toml) through the ALCF proxy.
 set -euo pipefail
 
-: "${AGENT:?}" "${SWARM_ROOT:?}" "${BRIEF:?}"
+: "${AGENT:?}" "${SWARM_ROOT:?}"
+BRIEF="$(cat "$SWARM_ROOT/agents/$AGENT/brief.txt")"
 workdir="$SWARM_ROOT/agents/$AGENT/repo"
 cd "$workdir"
 
@@ -33,5 +34,5 @@ python experiments/board.py register --agent "$AGENT" --brief "$BRIEF" --deadlin
 prompt="You are agent '$AGENT'. Read $workdir/docs/swarm.md now and follow it exactly. Your brief: $BRIEF. Your hard deadline is $deadline; stop starting new training after $(date -u -d "+$(( ${AGENT_HOURS:-7} - 1 )) hours" +%H:%MZ) and make sure every finished candidate is posted to the board before the deadline."
 
 log="$SWARM_ROOT/agents/$AGENT/codex.log"
-exec codex exec -c model_provider=mag -c "model=${AGENT_MODEL:-gpt-6.1-sol}" -c model_reasoning_effort=high \
+codex exec -c model_provider=mag -c "model=${AGENT_MODEL:-gpt-6.1-sol}" -c model_reasoning_effort=high \
     --dangerously-bypass-approvals-and-sandbox --skip-git-repo-check -C "$workdir" "$prompt" 2>&1 | tee -a "$log"

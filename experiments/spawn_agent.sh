@@ -27,7 +27,8 @@ if [[ ! -d "$repo/.git" ]]; then
     mkdir -p "$agent_dir/results"
 fi
 
+printf %s "$brief" >"$agent_dir/brief.txt"
 hours="${AGENT_HOURS:-$(( ${walltime%%:*} - 1 ))}"
 TMPDIR=/tmp qsub -N "agent_$agent" -l walltime="$walltime" \
-    -v "AGENT=$agent,BRIEF=$brief,SWARM_ROOT=$swarm_root,VENV_DIR=$venv_dir,AGENT_HOURS=$hours,AGENT_MODEL=${AGENT_MODEL:-gpt-6.1-sol}" \
+    -v "AGENT=$agent,SWARM_ROOT=$swarm_root,VENV_DIR=$venv_dir,AGENT_HOURS=$hours,AGENT_MODEL=${AGENT_MODEL:-gpt-6.1-sol}" \
     -o "$agent_dir/pbs.out" "$repo/jobs/polaris/run_agent.pbs"
