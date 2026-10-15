@@ -20,6 +20,34 @@ Details: [`datasets.md`](datasets.md), [`data_schema.md`](data_schema.md).
 - **Held-out evaluation set:** 45 entries (21 val + 24 test) with an IC50 and a deposited pose, excluded from all training. 40 measured, 5 censored.
 - **Ligand matching** (`src/boltz2_finetuning/ligands.py`): table SMILES are checked against the component actually deposited in each mmCIF; pose scoring uses the deposited SMILES. 96 pairs use 5-character CCD codes missing from Boltz's cache, rebuilt in Boltz's format by `src/boltz2_finetuning/ccd.py`.
 
+### Structure sources
+
+All 603 structures are public RCSB X-ray entries (`data/structures/mac1/`), found by scanning the paper supplements in `data/raw/mac1/` for PDB IDs and keeping entries with at least a 100-residue exact match to the Mac1 sequence of 5SQW (`experiments/fetch_mac1_structures.py`). Each structure is counted under the paper given as the primary citation of its PDB entry; the 62 entries whose citation is still "To be published" are assigned to the earliest paper whose supplement lists them. Publication dates are from Crossref (online date where available). Per-structure assignments: `data/processed/mac1_structure_sources.csv`.
+
+| Published | Paper | DOI | Structures | Assigned via supplement | Diffusion train | Affinity train | Val | Test |
+|---|---|---|--:|--:|--:|--:|--:|--:|
+| 2020-07-17 | Michalska et al., *IUCrJ* | 10.1107/S2052252520009653 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2020-11-18 | Rack et al., *Open Biol.* | 10.1098/rsob.200237 | 2 | 0 | 2 | 0 | 0 | 0 |
+| 2021-03-16 | Ni et al., *ACS Med. Chem. Lett.* | 10.1021/acsmedchemlett.0c00684 | 4 | 0 | 4 | 0 | 0 | 0 |
+| 2021-04-16 | Schuller et al., *Sci. Adv.* (fragment screen) | 10.1126/sciadv.abf8711 | 234 | 0 | 234 | 184 | 0 | 0 |
+| 2021-08-01 | Brosey et al., *Prog. Biophys. Mol. Biol.* | 10.1016/j.pbiomolbio.2021.02.002 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2022-05-27 | Correy et al., *Sci. Adv.* | 10.1126/sciadv.abo5083 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2022-08-01 | Tsika et al., *J. Mol. Biol.* | 10.1016/j.jmb.2022.167720 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2023-01-04 | Gahbauer et al., *PNAS* | 10.1073/pnas.2212931120 | 154 | 1 | 154 | 70 | 0 | 0 |
+| 2023-02-15 | Schuller et al., *Pathogens* | 10.3390/pathogens12020324 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2023-05-01 | Anmangandla et al., *ACS Chem. Biol.* | 10.1021/acschembio.3c00092 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 2025-05-30 | Correy et al., *Sci. Adv.* | 10.1126/sciadv.ads7187 | 137 | 0 | 112 | 36 | 13 | 12 |
+| 2025-11-19 | Suryawanshi et al., *eLife* | 10.7554/eLife.103484 | 10 | 10 | 8 | 6 | 0 | 2 |
+| 2025-12-17 | Jaishankar et al., *J. Med. Chem.* | 10.1021/acs.jmedchem.5c02933 | 18 | 17 | 0 | 0 | 7 | 11 |
+| 2026-09-16 | Xu et al., *Nature* | 10.1038/s41586-026-11013-5 | 4 | 0 | 3 | 2 | 1 | 0 |
+| 2026-10-12 | Kim et al., *eLife* | 10.7554/eLife.110475 | 34 | 34 | 34 | 1 | 0 | 0 |
+| | **Total** | | **603** | **62** | **557** | **299** | **21** | **25** |
+
+- Diffusion train + val + test = structures: diffusion training uses every structure except val/test.
+- Affinity train counts structures whose predicted pose is an affinity-head training row: 124 IC50 pairs, 174 fragment hits and the apo structure 7KQO, which all 2,347 non-binder ligands share. All 299 are also in diffusion training.
+- Val/test is 46 structures (an earlier split, before the 8 Schuller 2021 IC50s were added, had 48). 7HFX is a test structure but is not scored, because its deposited ligand does not match the table compound, so the held-out evaluation set is 45.
+- Kim et al. *eLife* Supp. file 6 lists 420 of these structures, but most were first published by Schuller 2021, Gahbauer 2023 or Correy 2025, so it is credited with 34. The 17 J. Med. Chem. entries without a PDB citation are assigned through the paper's text and all sit in val/test.
+
 ## 3. Making it run on Polaris
 
 Details: [`boltz2_polaris_log.md`](boltz2_polaris_log.md), [`diffusion_finetuning_progress.md`](diffusion_finetuning_progress.md).
