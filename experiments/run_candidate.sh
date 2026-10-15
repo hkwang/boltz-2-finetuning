@@ -53,7 +53,7 @@ DMON_LOG="$runs/dmon_$name.log" CONFIG="${CONFIG:-configs/finetune_diffusion.yam
     bash experiments/run_finetune_diffusion.sh
 
 python experiments/make_finetuned_checkpoint.py "$run_dir/${WEIGHTS:-trainable_weights.pt}" "$run_dir/boltz_ckpt/final"
-eval_output="$(LABEL="$name" CKPT_DIR="$run_dir/boltz_ckpt/final" SEEDS="${SEEDS:-2026 1 2}" bash experiments/run_val_eval.sh | tee /dev/stderr)"
+eval_output="$(LABEL="$name" CKPT_DIR="$run_dir/boltz_ckpt/final" SEEDS="${SEEDS:-2026 1 2}" bash experiments/run_val_eval.sh | tee -a /dev/stderr)"
 eval_args="$(sed -n 's/^post-result args: //p' <<<"$eval_output")"
 if [[ -n "${SWARM_REMOTE:-}" ]]; then
     echo "CANDIDATE DONE $name: post it from the laptop with: swarm/iri.py post-result $name --job \$PBS_JOBID --method \"$method\""
