@@ -99,6 +99,9 @@ sh)
     cd "$repo" && timeout 120 bash -c "$(echo "$1" | base64 -d)"
     ;;
 board)
+    [[ -d "$repo/.git" ]] || git clone -q "$root/repo.git" "$repo"
+    git -C "$repo" fetch -q origin 2>/dev/null
+    [[ "$agent" == operator ]] && git -C "$repo" merge -q --ff-only origin/master 2>/dev/null
     cd "$repo" && SWARM_ROOT="$root" AGENT="$agent" "$venv/bin/python" experiments/board.py "${@}"
     ;;
 *)
