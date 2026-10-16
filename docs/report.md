@@ -152,6 +152,16 @@ Steps 400 and 800 fall in the same range. Learning rate, step count and method a
 
 Candidates: `full_lr1e-4` step 1400 and `lora_r16_lr3e-4` step 2000.
 
+To rerun the best pre-agent fine-tune by pooled 45-entry median best-of-5 (full 3e-4, step 1000; `docs/figures`), run this from the repo root on a Polaris login node. The original `qsub` line was not recorded. This one is reconstructed from the code and settings above: `configs/finetune_diffusion.yaml` (full fine-tuning, 4 GPUs) with the learning rate and step count overridden, and weights scored at steps 1000 and 2000. `run_job.pbs` defaults to the hackathon reservation, so pick a queue with `-q`. One-node jobs fit `debug` (1 h maximum) or `preemptable` (`-r y` resubmits, and training resumes from `last.ckpt`). Expect about 2 h of training plus about 8 min per evaluation. Set `OUT_ROOT` if you cannot write to the default `/eagle` directory.
+
+```bash
+TMPDIR=/tmp qsub -q preemptable -r y -l select=1:ngpus=4 -l walltime=03:30:00 -N ft-full3e-4 \
+  -v JOB_SCRIPT="$PWD/experiments/run_finetune_sweep.sh",VENV_DIR="$HOME/venvs/boltz2",NAME=full_lr3e-4,CONFIG=configs/finetune_diffusion.yaml,OVERRIDES="training_args.max_lr=3.0e-4 trainer.max_steps=2000",EVAL_STEPS="1000 2000" \
+  jobs/polaris/run_job.pbs
+```
+
+Check for `SWEEP DONE full_lr3e-4` in `logs/ft-full3e-4.o<jobid>`. To add predict seeds 1 and 2, run `experiments/run_eval_seeds.sh` with `SPECS="<label>:<run dir>/boltz_ckpt/step1000:1 <label>:<run dir>/boltz_ckpt/step1000:2"`.
+
 ### 5.4 Regression check on non-Mac1 complexes
 
 Details: [`regression_check.md`](regression_check.md). Abl-imatinib (1IEP), CDK2-staurosporine (1AQ1), streptavidin-biotin (3RY2), all likely seen in pretraining, so this measures retained accuracy, not generalisation.
