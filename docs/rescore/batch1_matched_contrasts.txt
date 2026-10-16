@@ -1,0 +1,49 @@
+EMA vs raw final weights (same schedule)                   mean   d=+0.001 [-0.001,+0.003]  n_train_seeds=2v2
+EMA vs raw final weights (same schedule)                   best   d=+0.001 [+0.000,+0.003]  n_train_seeds=2v2
+EMA vs raw final weights (same schedule)                   top1   d=-0.016 [-0.025,+0.004]  n_train_seeds=2v2
+training seed 1 vs seed 0 (cosine EMA, same recipe)        mean   d=-0.001 [-0.029,+0.011]  n_train_seeds=1v1
+training seed 1 vs seed 0 (cosine EMA, same recipe)        best   d=-0.009 [-0.039,+0.002]  n_train_seeds=1v1
++symmetry vs cosine EMA base (2 train seeds each)          mean   d=+0.002 [-0.001,+0.005]  n_train_seeds=2v2
++symmetry vs cosine EMA base (2 train seeds each)          best   d=+0.003 [-0.003,+0.010]  n_train_seeds=2v2
++conditioning grads (bridge) vs cosine EMA base (2 train seeds each) mean   d=-0.008 [-0.086,-0.001]  n_train_seeds=2v2
++conditioning grads (bridge) vs cosine EMA base (2 train seeds each) best   d=-0.010 [-0.028,-0.005]  n_train_seeds=2v2
++pocket-frame ligand loss w4 vs cosine EMA base (2 train seeds each) mean   d=+0.022 [+0.001,+0.047]  n_train_seeds=2v2
++pocket-frame ligand loss w4 vs cosine EMA base (2 train seeds each) best   d=-0.009 [-0.025,+0.025]  n_train_seeds=2v2
++contacts w1 vs base, seed 0 only                          mean   d=+0.022 [-0.019,+0.081]  n_train_seeds=1v1
++ligand weight 50 (1000 steps) vs base seed 0              mean   d=+0.004 [-0.023,+0.018]  n_train_seeds=1v1
++contacts w1 vs base, seed 0 only                          best   d=-0.029 [-0.041,+0.014]  n_train_seeds=1v1
++ligand weight 50 (1000 steps) vs base seed 0              best   d=-0.012 [-0.038,-0.005]  n_train_seeds=1v1
+highres<=1A 300 steps vs uniform-subset 300 steps? (r3 vs r20 unfiltered) mean   d=-0.016 [-0.079,-0.010]  n_train_seeds=2v1
+highres<=1A 300 steps vs uniform-subset 300 steps? (r3 vs r20 unfiltered) best   d=-0.017 [-0.052,-0.010]  n_train_seeds=2v1
+per-entry mean-RMSD change, cosine EMA base (2 train seeds x 3 predict seeds) minus stock:
+        stock  base  delta
+pdb_id                    
+7HCN     4.56  2.47  -2.09
+7HF9     2.90  1.68  -1.22
+7HCX     2.49  1.53  -0.96
+7HF6     1.89  1.27  -0.62
+7HF1     2.82  2.22  -0.60
+13RS     2.01  1.73  -0.28
+13RU     1.05  0.82  -0.23
+13RL     2.54  2.34  -0.19
+13RQ     1.94  1.75  -0.18
+13RN     1.35  1.19  -0.17
+7HFA     2.26  2.15  -0.12
+7HCJ     2.52  2.45  -0.07
+7HFC     1.07  1.01  -0.07
+7HFE     2.44  2.38  -0.06
+7HFD     3.73  3.71  -0.02
+13RK     0.67  0.66  -0.01
+7HF5     1.03  1.03   0.01
+13RV     0.69  0.73   0.04
+14AB     4.76  4.90   0.14
+7HCW     1.25  1.39   0.14
+7HCG     5.53  6.14   0.61
+entries improved >0.25A: 6  worsened >0.25A: 1  |d|<=0.25: 14
+unfiltered_step300 | equal-step control; all557 crystals; stock denoiser FT1e-5 300steps seed0; conditioning configured but effective audit pending
+uniform_step500_s0 | matched all557 uniform control;effective denoiser-only FT1e-5,500steps,seed0;conditioning checkpoint unchanged
+highres1A_step300 | resolution<=1.00A; 196/557 crystals; full FT 1e-5 300 steps seed0
+cosine_ema_s0 | full diffusion FT, cosine 3e-5 to 3e-6, EMA0.99, 1400 steps seed0
+globalnoise_step500 | matched higher-noise contrast Pmean0 Pstd0.6; denoiser FT1e-5 500steps seed0 all557
+localnoise_step500 | local refinement noise Pmean-1.4 Pstd0.6; full FT1e-5 500steps seed0 all557
+scaffold400_s0 | partial scaffold-balanced full FT; all557 crystals,396 groups,400steps LR1e-5 seed0

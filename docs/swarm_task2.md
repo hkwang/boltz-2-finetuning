@@ -4,13 +4,13 @@ Written 2026-10-16 for the second swarm batch. Read this together with `docs/swa
 
 ## What batch 1 found
 
-Batch 1 (9 agents, 95 candidates, board `r2`-`r96`) gives the starting point:
+Batch 1 (9 agents, 95 candidates, board `r2`-`r96`) was rescored over all five diffusion samples before this batch (`docs/rescore/README.md`, per-entry and per-candidate tables alongside). Read that file first. In short:
 
-- **Most of the top-1 gain came from picking the pose, not from training.** The leaders combine a fine-tuned model with an output-only pose ranker (agent7's contact scorer, agent3's ligand medoid). Training changes alone moved paired top-1 RMSD by about -0.02 to -0.09 A against stock, and many intervals touch zero.
-- **Best-of-5 is about 1.0-1.05 A for every EMA-based run.** The training changes improved the samples, but top-1 depends mostly on which of the five samples the ranking picks.
-- **Each idea was tried at one setting and one training seed.** Ligand weight 50, pocket weight 4, contact weight 1 and L2-SP 0.01 are each a single point. Only cosine+EMA was replicated across training seeds.
-- **Nothing tested whether gains stack.** Combinations were tried ad hoc, never as a designed comparison.
-- **Measurement noise is about as large as the effects.** A fresh rerun of unchanged stock (`r31`) scored 2.367 A against the board's 2.205 A.
+- **Training improves the sampled poses; ranking does not.** Most fine-tuned models cut the mean ligand RMSD over the 5 samples by 0.12-0.22 A against stock and raise the fraction of samples below 2 A from 49 % to about 61-66 %. Top-1 moves much less, and the top-1 leaders owe most of their lead to output-only pose rankers.
+- **Almost all of that gain is one recipe**: full diffusion fine-tuning at about 3e-5 for about 1400 steps (agent1's cosine+EMA). Against that matched base, every add-on tried (symmetry, conditioning gradients, pocket-frame ligand loss, contact loss, ligand weight 50, EMA itself) is within +/-0.02 A on mean RMSD. Leaderboard differences between these runs are mostly training-seed and selection noise.
+- **Each add-on was tried at one setting**, usually one training seed, so a dose-response is still open, but no add-on has yet shown an effect worth a sweep.
+- **The gain is concentrated in 6 of 21 entries** (7HCN, 7HF9, 7HCX, 7HF6, 7HF1, 13RS). 14AB, 7HCG and 7HFD are wrong in every sample for every model, which points to a binding-mode problem no recipe touched.
+- **Measurement noise is large.** A fresh rerun of unchanged stock (`r31`) scored 2.367 A top-1 against the board's 2.205 A; single-run leaderboard medians move 0.1-0.3 A with predict seed.
 
 ## The question for this batch
 
@@ -21,7 +21,8 @@ Is there a set of training-side changes, each with a measured, mechanistically e
 ### 1. Science first, metric second
 
 - **No reranking in this batch.** Pose selection is settled for now; do not build new rankers. Score your training change with the model's own ranking. If you also report a reranked number, report it next to the native one, never alone.
-- **Headline metric: median `rmsd_best`** (best-of-5, A) over the 21 validation entries, as in `docs/results_reporting.md`. It measures what training changes: the quality of the sampled poses. Always also report `rmsd_top1` and the median RMSD over all 5 samples when you have it, so the ranking effect stays visible.
+- **Headline metric: mean ligand RMSD over the 5 samples** per entry, summarised as the median over the 21 validation entries of the 3-seed mean, with `frac_samples_below_2A` alongside. It measures what training changes, the quality of the sampled poses, uses every sample, and does not depend on ranking. Compute it in the same job that scored your candidate, after validation: `mkdir -p rescore && for s in 2026 1 2; do python experiments/rescore_samples.py rescore/${AGENT}__val_<NAME>_seed$s.csv experiments/results/mac1_eval/val_<NAME>_seed$s; done && python experiments/summarize_rescore.py rescore rescore_<NAME>.csv` (about 8 s per seed). Stock and every batch-1 run are already in `docs/rescore/batch1_per_entry.csv` for the paired comparison. Also report `rmsd_best` and `rmsd_top1`, so the ranking effect stays visible. The board still scores top-1; put the headline numbers in your result's `--method`/notes and your final note.
+- **Compare with a matched base, not only with stock.** Same steps, learning rate, schedule and training seeds, differing only in your change. The cosine+EMA base already gains about 0.16 A over stock, so a gain against stock says little about an add-on.
 - **Each claim names a mechanism and a diagnostic.** The diagnostic should be measured on training data whenever possible (per-atom loss on ligand atoms, a filter's effect on the training loss, clash counts, ligand RMSD on held-out *training* clusters). Diagnostics do not use up validation looks; leaderboard posts do. Use them to decide; use the leaderboard to confirm.
 - **Validation looks are rationed.** Plan for at most 6 validation posts per agent. Report every look, including failures, so the number of comparisons is known.
 - **Your final note answers four questions:** what you changed, the effect size with a 95% interval, which mechanism it supports or rules out, and what remains uncertain.
@@ -50,7 +51,8 @@ Frame it as a suggestion, not a verdict. Keep doubts that are merely speculative
    - **Scale:** longer training, more diffusion samples per crystal (multiplicity), larger effective batch.
    - **More or different data:** related macrodomain complexes or other public protein-ligand complexes (these must not overlap the validation or test ligand clusters; check against `data/processed/mac1_splits.csv` and say how), and self-distillation on confident predicted poses of training ligands.
    - **Joint training** of the denoiser and confidence head, so the ranking keeps up with the improved sampler. This is a training change, not a reranker, and is allowed.
-2. **Dose-response for the batch-1 knobs that looked real.** At least 3 settings, log-spaced, of: native-contact loss weight (`r15`, `r70`), EMA decay (`r2`, `r5`, `r23`), conditioning learning rate (`r49`, `r88`), resolution cutoff (`r3`, `r27`, `r47`). Use short triage runs (300-500 steps, seed 2026 only, training-side diagnostics) and post only the setting(s) worth confirming.
+2. **Dose-response, only where batch 1 left a hint.** The matched contrasts say no add-on is established, so sweep only with a stated reason: the scale of the base itself (steps, learning rate, multiplicity), the resolution cutoff (high resolution gave -0.016 [-0.079, -0.010] at matched steps), and contact or ligand weight at more than one value if you can argue a mechanism. Use short runs (300-500 steps, seed 2026, training-side diagnostics) and confirm only what survives.
+   - **The always-wrong entries** (14AB, 7HCG, 7HFD, 7HCJ, 7HFE) are a cheap diagnostic: their ligands, occupancy, and nearest training chemotypes. A change that fixes a binding-mode failure there is worth more than another 0.02 A on the rest.
 3. **Stacking, last.** Once at least two changes have a confirmed effect, run a small factorial (2 or 3 factors, each on/off) to test whether the gains add up. Coordinate on the board so one agent runs each cell rather than everyone running the same cell.
 
 ### 4. Replication and compute
@@ -63,7 +65,7 @@ The reservation `R7728155` ends **Fri 2026-10-16 22:00 UTC**. One node per agent
 
 ## Before the batch starts (operator)
 
-**Rescore batch 1 on the new headline.** Median `rmsd_best` is already in every `eval_per_entry.csv` (`rmsd_best` column), so the leaderboard can be re-ranked without new predictions. The median over all 5 samples needs per-sample RMSDs, which `eval_per_entry.csv` does not store (only `rmsd_top1`, `rmsd_best`), so it needs a rescoring pass over the stored prediction outputs on `/eagle`. Post the re-ranked table as an operator `note` so agents start from it.
+Done 2026-10-16: batch 1 rescored over all 5 samples (`docs/rescore/README.md`), posted on the board as an operator note.
 
 Launch with:
 
