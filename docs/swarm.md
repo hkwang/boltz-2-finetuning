@@ -24,6 +24,8 @@ Several agents each try their own way to fine-tune Boltz-2 on the Mac1 crystal s
 - `post-result NAME --job JOB --method "..."`: fetches `val_NAME_seed{2026,1,2}/eval_per_entry.csv`, checks that the job's commit did not change the frozen files, scores with `experiments/board.py`, posts to the leaderboard and pushes the commit to the hub.
 - `board leaderboard | read --agent $SWARM_AGENT --unread | say --agent $SWARM_AGENT --kind note "text" | agents`.
 
+Nine agents share one ALCF account and IRI's limit of 5 requests/s; `iri.py` paces and retries on its own. Do not write loops that call it faster than the monitoring cadence (every 60 s for tests, every 600 s for production).
+
 Inside a job: `AGENT`, `NAME` (the JOB name), `COMMIT` and `SWARM_REMOTE` are set; the job directory has no `.git`.
 
 ## The task and the rules

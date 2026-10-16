@@ -21,6 +21,7 @@ import argparse
 import asyncio
 import json
 import os
+import random
 import subprocess
 import sys
 import tempfile
@@ -49,6 +50,33 @@ ACTIVE = {"queued", "active", "running", "held", "new"}
 client = ALCFIRIClient()
 client.token_provider = lambda: read_token("alcf")
 client.transfer_token_provider = lambda: read_value("GLOBUS_TRANSFER_TOKEN")
+
+
+def paced(method):
+    """IRI allows 5 requests/s per user, shared by every agent on this ALCF account. Space each process's calls by
+    MIN_INTERVAL and retry 429 and transient 5xx/connection errors with jittered exponential backoff (about 4 min in total)."""
+    async def call(*args, **kwargs):
+        for attempt in range(9):
+            wait = MIN_INTERVAL - (time.time() - paced.last)
+            if wait > 0:
+                await asyncio.sleep(wait)
+            paced.last = time.time()
+            try:
+                return await method(*args, **kwargs)
+            except Exception as exc:
+                text = str(exc)
+                transient = any(code in text for code in ("HTTP 429", "429 Too Many", "HTTP 502", "HTTP 503", "HTTP 504", " 502 ", " 503 ", " 504 ")) \
+                    or type(exc).__name__ in ("ConnectError", "ReadTimeout", "ConnectTimeout", "RemoteProtocolError")
+                if not transient or attempt == 8:
+                    raise
+                await asyncio.sleep(min(60.0, 2 ** attempt) * (0.5 + random.random()))
+    return call
+
+
+paced.last = 0.0
+MIN_INTERVAL = float(os.environ.get("IRI_MIN_INTERVAL", "1.0"))
+for _name in ("get_job_status", "submit_job", "cancel_job", "fs_ls", "fs_tail", "fs_view", "get_task", "globus_transfer", "globus_mkdir", "globus_get_task"):
+    setattr(client, _name, paced(getattr(client, _name)))
 
 
 def agent() -> str:
@@ -187,13 +215,13 @@ nvidia-smi -L || true
     print(f"submitted {job_id} ({args.name}, {args.minutes} min, commit {sha[:7]}); workdir {work}")
 
 
-async def record_final(record: dict, state: str) -> None:
+async def record_final(record: dict, state: str, code=None) -> None:
     if state in ACTIVE or state == "unknown":
         return
     records = job_records()
     for other in records:
         if other["job_id"] == record["job_id"]:
-            other["final_state"] = state
+            other["final_state"], other["exit_code"] = state, code
     jobs_file().write_text("".join(json.dumps(other) + "\n" for other in records))
 
 
@@ -202,8 +230,11 @@ async def cmd_status(args) -> None:
     if not records:
         print("no jobs yet")
     for record in records:
-        state, code = await job_state(record["job_id"])
-        await record_final(record, state)
+        if record.get("final_state"):
+            state, code = record["final_state"], record.get("exit_code")
+        else:
+            state, code = await job_state(record["job_id"])
+            await record_final(record, state, code)
         print(f"{record['job_id']}  {record['name']:28} {state:10} exit {code}  {record['minutes']} min  commit {record['commit'][:7]}  submitted {record['submitted']}")
 
 
@@ -214,7 +245,7 @@ async def cmd_wait(args) -> None:
         state, code = await job_state(record["job_id"])
         print(f"== {time.strftime('%H:%M:%S')} {record['name']} {state} exit {code}", flush=True)
         if state not in ACTIVE:
-            await record_final(record, state)
+            await record_final(record, state, code)
             print((await tail(record["stdout"], args.lines)).rstrip())
             err = (await tail(record["stderr"], 15)).rstrip()
             if err and "does not exist" not in err:
