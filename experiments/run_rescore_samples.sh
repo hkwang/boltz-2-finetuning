@@ -6,6 +6,6 @@ out="$SWARM_REMOTE/rescore"
 mkdir -p "$out"
 stock=/eagle/GenesisHackathonOct26/hkwang/boltz2-finetuning/experiments/results/mac1_eval
 { ls -d "$stock"/stock "$stock"/stock_seed1 "$stock"/stock_seed2; ls -d "$SWARM_REMOTE"/agents/agent*/results/mac1_eval/val_*_seed*; } \
-    | head -n "${LIMIT:-100000}" \
-    | xargs -P "${JOBS:-32}" -I{} bash -c 'dir="$1"; tag=$(echo "$dir" | sed "s#.*/agents/##; s#/results/mac1_eval/#__#; s#.*/mac1_eval/#operator__#"); [ -s "$2/$tag.csv" ] || python experiments/rescore_samples.py "$2/$tag.csv" "$dir" >/dev/null 2>"$2/$tag.err" || echo "failed $dir"' _ {} "$out"
+    | { if [ -n "${LIMIT:-}" ]; then sed -n "1p;4,$((LIMIT+2))p"; else cat; fi; } \
+    | xargs -P "${JOBS:-32}" -I{} bash -c 'dir="$1"; case "$dir" in */agents/*) tag=$(echo "${dir#*/agents/}" | sed "s#/results/mac1_eval/#__#");; *) tag="operator__$(basename "$dir")";; esac; [ -s "$2/$tag.csv" ] || python experiments/rescore_samples.py "$2/$tag.csv" "$dir" >/dev/null 2>"$2/$tag.err" || echo "failed $dir"' _ {} "$out"
 echo "RESCORE DONE: $(ls "$out"/*.csv | wc -l) tables"
