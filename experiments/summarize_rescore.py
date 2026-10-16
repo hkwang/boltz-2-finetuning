@@ -16,9 +16,10 @@ def main() -> None:
     rescore, out = Path(sys.argv[1]), Path(sys.argv[2])
     parts = []
     for path in sorted(rescore.glob("*.csv")):
-        if path.stat().st_size == 0:
+        try:
+            table = pd.read_csv(path)
+        except pd.errors.EmptyDataError:
             continue
-        table = pd.read_csv(path)
         if table.empty or "ligand_rmsd" not in table:
             continue
         agent, run = path.stem.split("__", 1)
